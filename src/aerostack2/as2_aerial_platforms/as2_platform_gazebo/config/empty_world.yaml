@@ -1,0 +1,54 @@
+world_name: "empty"
+drones:
+  - model_name: "drone0"
+    model_type: "quadrotor_base"
+    xyz:
+      - -2.0
+      - 0.0
+      - 0.3
+    rpy:
+      - 0
+      - 0
+      - 0.0
+    flight_time: 60
+    payload:
+      # - model_name: "hd_camera0"
+      #   model_type: "hd_camera"
+      - model_name: "gimbal0"
+        model_type: "gimbal_position"
+        payload:
+          model_name: "hd_camera1_d0"
+          model_type: "hd_camera"
+
+  - model_name: "drone1"
+    model_type: "quadrotor_base"
+    xyz:
+      - 2.0
+      - 0.0
+      - 0.3
+    rpy:
+      - 0
+      - 0
+      - 0.0
+    flight_time: 60
+    payload:
+      - model_name: "gimbal1"
+        model_type: "gimbal_speed"
+        payload:
+          model_name: "hd_camera1_d1"
+          model_type: "hd_camera"
+
+  - model_name: "drone2"
+    model_type: "quadrotor_base"
+    xyz:
+      - 0.0
+      - 0.0
+      - 0.3
+    rpy:
+      - 0
+      - 0
+      - 0.0
+    flight_time: 60
+    payload:
+      - model_name: "hd_camera2"
+        model_type: "hd_camera"
