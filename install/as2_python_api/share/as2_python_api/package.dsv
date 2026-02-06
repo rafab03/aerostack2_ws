@@ -1,0 +1,7 @@
+source;share/as2_python_api/hook/pythonpath.ps1
+source;share/as2_python_api/hook/pythonpath.dsv
+source;share/as2_python_api/hook/pythonpath.sh
+source;share/as2_python_api/hook/ament_prefix_path.ps1
+source;share/as2_python_api/hook/ament_prefix_path.dsv
+source;share/as2_python_api/hook/ament_prefix_path.sh
+source;share/as2_python_api/hooks/resource_paths.sh

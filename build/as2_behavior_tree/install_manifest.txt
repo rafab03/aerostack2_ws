@@ -1,0 +1,1 @@
+/root/aerostack2_ws/install/as2_behavior_tree/lib/libas2_behavior_tree.so

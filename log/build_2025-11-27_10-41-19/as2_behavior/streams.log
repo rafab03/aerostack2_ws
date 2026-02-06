@@ -1,0 +1,5 @@
+[0.022s] Invoking command in '/root/aerostack2_ws/build/as2_behavior': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_behavior -- -j8 -l8
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.097s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.100s] [ 25%] [32mBuilding CXX object CMakeFiles/as2_behavior.dir/src/behavior_server.cpp.o[0m
+[0.133s] [ 50%] Built target gtest_main

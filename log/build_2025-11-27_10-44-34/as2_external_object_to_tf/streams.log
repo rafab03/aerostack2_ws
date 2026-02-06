@@ -1,0 +1,41 @@
+[0.020s] Invoking command in '/root/aerostack2_ws/build/as2_external_object_to_tf': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_external_object_to_tf -- -j8 -l8
+[0.151s] [ 18%] Built target gtest_main
+[0.152s] [ 27%] [32mBuilding CXX object CMakeFiles/as2_external_object_to_tf.dir/src/as2_external_object_to_tf.cpp.o[0m
+[0.179s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.249s] [ 45%] [32mBuilding CXX object CMakeFiles/as2_external_object_to_tf_node.dir/src/as2_external_object_to_tf.cpp.o[0m
+[0.265s] [ 54%] [32mBuilding CXX object CMakeFiles/as2_external_object_to_tf_node.dir/src/as2_external_object_to_tf_node.cpp.o[0m
+[43.349s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[43.491s] [ 63%] Built target gtest
+[79.591s] [ 72%] [32m[1mLinking CXX static library libas2_external_object_to_tf.a[0m
+[79.779s] [ 72%] Built target as2_external_object_to_tf
+[82.436s] [ 81%] [32m[1mLinking CXX executable as2_external_object_to_tf_node[0m
+[82.954s] [ 81%] Built target as2_external_object_to_tf_node
+[83.001s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/as2_external_object_to_tf_as2_external_object_to_tf_gtest.dir/as2_external_object_to_tf_gtest.cpp.o[0m
+[90.559s] [100%] [32m[1mLinking CXX executable as2_external_object_to_tf_as2_external_object_to_tf_gtest[0m
+[91.216s] [100%] Built target as2_external_object_to_tf_as2_external_object_to_tf_gtest
+[91.242s] Invoked command in '/root/aerostack2_ws/build/as2_external_object_to_tf' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_external_object_to_tf -- -j8 -l8
+[91.243s] Invoking command in '/root/aerostack2_ws/build/as2_external_object_to_tf': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_external_object_to_tf
+[131.408s] -- Install configuration: "Release"
+[131.410s] -- Execute custom install script
+[131.410s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/include/as2_external_object_to_tf/as2_external_object_to_tf.hpp
+[131.410s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/launch/as2_external_object_to_tf_launch.py
+[131.410s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/config/external_objects.yaml
+[131.410s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/lib/as2_external_object_to_tf/as2_external_object_to_tf_node
+[131.410s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/ament_index/resource_index/package_run_dependencies/as2_external_object_to_tf
+[131.410s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/ament_index/resource_index/parent_prefix_path/as2_external_object_to_tf
+[131.410s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/environment/ament_prefix_path.sh
+[131.410s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/environment/ament_prefix_path.dsv
+[131.411s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/environment/path.sh
+[131.411s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/environment/path.dsv
+[131.411s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/local_setup.bash
+[131.411s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/local_setup.sh
+[131.411s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/local_setup.zsh
+[131.411s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/local_setup.dsv
+[131.411s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/package.dsv
+[131.411s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/ament_index/resource_index/packages/as2_external_object_to_tf
+[131.411s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/cmake/ament_cmake_export_dependencies-extras.cmake
+[131.411s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/cmake/as2_external_object_to_tfConfig.cmake
+[131.411s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/cmake/as2_external_object_to_tfConfig-version.cmake
+[131.412s] -- Symlinking: /root/aerostack2_ws/install/as2_external_object_to_tf/share/as2_external_object_to_tf/package.xml
+[131.412s] -- Installing: /root/aerostack2_ws/install/as2_external_object_to_tf/lib/libas2_external_object_to_tf.a
+[131.419s] Invoked command in '/root/aerostack2_ws/build/as2_external_object_to_tf' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_external_object_to_tf

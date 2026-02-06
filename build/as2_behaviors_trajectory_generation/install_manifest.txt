@@ -1,0 +1,10 @@
+/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/libtrajectory_generator_component.so
+/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/libdynamic_trajectory_generator.so
+/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/libmav_trajectory_generation.so
+/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/libnlopt.so.0.11.1
+/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/libnlopt.so.0
+/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/libnlopt.so
+/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptConfig.cmake
+/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/cmake/nlopt/NLoptConfigVersion.cmake

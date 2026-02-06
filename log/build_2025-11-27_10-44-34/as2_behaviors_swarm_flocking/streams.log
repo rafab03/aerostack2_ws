@@ -1,0 +1,430 @@
+[0.038s] Invoking command in '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_behaviors_swarm_flocking
+[0.352s] -- The C compiler identification is GNU 11.4.0
+[0.353s] -- The CXX compiler identification is GNU 11.4.0
+[0.361s] -- Detecting C compiler ABI info
+[0.486s] -- Detecting C compiler ABI info - done
+[0.514s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.515s] -- Detecting C compile features
+[0.519s] -- Detecting C compile features - done
+[0.527s] -- Detecting CXX compiler ABI info
+[0.724s] -- Detecting CXX compiler ABI info - done
+[0.741s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.742s] -- Detecting CXX compile features
+[0.743s] -- Detecting CXX compile features - done
+[0.766s] -- dynamic_trajectory_generator not found
+[12.242s] -- Could not locate glog.
+[16.765s] -- Looking for pthread.h
+[16.920s] -- Looking for pthread.h - found
+[16.920s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.059s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[17.061s] -- Found Threads: TRUE  
+[17.067s] -- Looking for gflags namespace
+[17.535s] -- Looking for gflags namespace - gflags
+[17.554s] -- Could NOT find Unwind (missing: Unwind_INCLUDE_DIR Unwind_LIBRARY Unwind_PLATFORM_LIBRARY) 
+[17.554s] -- Looking for C++ include unwind.h
+[17.675s] -- Looking for C++ include unwind.h - found
+[17.675s] -- Looking for _Unwind_Backtrace
+[17.814s] -- Looking for _Unwind_Backtrace - found
+[17.814s] -- Looking for C++ include dlfcn.h
+[17.939s] -- Looking for C++ include dlfcn.h - found
+[17.940s] -- Looking for C++ include execinfo.h
+[18.062s] -- Looking for C++ include execinfo.h - found
+[18.062s] -- Looking for C++ include glob.h
+[18.176s] -- Looking for C++ include glob.h - found
+[18.176s] -- Looking for C++ include inttypes.h
+[18.291s] -- Looking for C++ include inttypes.h - found
+[18.291s] -- Looking for C++ include memory.h
+[18.407s] -- Looking for C++ include memory.h - found
+[18.407s] -- Looking for C++ include pwd.h
+[18.523s] -- Looking for C++ include pwd.h - found
+[18.524s] -- Looking for C++ include stdint.h
+[18.643s] -- Looking for C++ include stdint.h - found
+[18.643s] -- Looking for C++ include strings.h
+[18.767s] -- Looking for C++ include strings.h - found
+[18.767s] -- Looking for C++ include sys/stat.h
+[18.891s] -- Looking for C++ include sys/stat.h - found
+[18.891s] -- Looking for C++ include sys/syscall.h
+[19.009s] -- Looking for C++ include sys/syscall.h - found
+[19.013s] -- Looking for C++ include sys/time.h
+[19.146s] -- Looking for C++ include sys/time.h - found
+[19.146s] -- Looking for C++ include sys/types.h
+[19.280s] -- Looking for C++ include sys/types.h - found
+[19.280s] -- Looking for C++ include sys/utsname.h
+[19.384s] -- Looking for C++ include sys/utsname.h - found
+[19.384s] -- Looking for C++ include sys/wait.h
+[19.504s] -- Looking for C++ include sys/wait.h - found
+[19.504s] -- Looking for C++ include syscall.h
+[19.615s] -- Looking for C++ include syscall.h - found
+[19.615s] -- Looking for C++ include syslog.h
+[19.736s] -- Looking for C++ include syslog.h - found
+[19.736s] -- Looking for C++ include ucontext.h
+[19.859s] -- Looking for C++ include ucontext.h - found
+[19.859s] -- Looking for C++ include unistd.h
+[19.980s] -- Looking for C++ include unistd.h - found
+[19.980s] -- Looking for C++ include ext/hash_map
+[20.568s] -- Looking for C++ include ext/hash_map - found
+[20.568s] -- Looking for C++ include ext/hash_set
+[21.007s] -- Looking for C++ include ext/hash_set - found
+[21.007s] -- Looking for C++ include ext/slist
+[21.341s] -- Looking for C++ include ext/slist - found
+[21.341s] -- Looking for C++ include tr1/unordered_map
+[21.608s] -- Looking for C++ include tr1/unordered_map - found
+[21.608s] -- Looking for C++ include tr1/unordered_set
+[21.830s] -- Looking for C++ include tr1/unordered_set - found
+[21.830s] -- Looking for C++ include unordered_map
+[22.123s] -- Looking for C++ include unordered_map - found
+[22.123s] -- Looking for C++ include unordered_set
+[22.406s] -- Looking for C++ include unordered_set - found
+[22.407s] -- Looking for C++ include stddef.h
+[22.526s] -- Looking for C++ include stddef.h - found
+[22.526s] -- Check size of unsigned __int16
+[22.572s] -- Check size of unsigned __int16 - failed
+[22.572s] -- Check size of u_int16_t
+[22.696s] -- Check size of u_int16_t - done
+[22.696s] -- Check size of uint16_t
+[22.818s] -- Check size of uint16_t - done
+[22.818s] -- Looking for dladdr
+[22.927s] -- Looking for dladdr - found
+[22.927s] -- Looking for fcntl
+[23.030s] -- Looking for fcntl - found
+[23.030s] -- Looking for pread
+[23.130s] -- Looking for pread - found
+[23.130s] -- Looking for pwrite
+[23.226s] -- Looking for pwrite - found
+[23.226s] -- Looking for sigaction
+[23.319s] -- Looking for sigaction - found
+[23.319s] -- Looking for sigaltstack
+[23.420s] -- Looking for sigaltstack - found
+[23.421s] -- Performing Test HAVE_NO_DEPRECATED
+[23.531s] -- Performing Test HAVE_NO_DEPRECATED - Success
+[23.532s] -- Performing Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS
+[23.592s] -- Performing Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed
+[23.592s] -- Looking for pthread_threadid_np
+[23.638s] -- Looking for pthread_threadid_np - not found
+[23.639s] -- Looking for snprintf
+[23.766s] -- Looking for snprintf - found
+[23.766s] -- Looking for UnDecorateSymbolName in dbghelp
+[23.851s] -- Looking for UnDecorateSymbolName in dbghelp - not found
+[23.851s] -- Performing Test HAVE___ATTRIBUTE__
+[23.976s] -- Performing Test HAVE___ATTRIBUTE__ - Success
+[23.977s] -- Performing Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT
+[24.101s] -- Performing Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT - Success
+[24.101s] -- Performing Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN
+[24.237s] -- Performing Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN - Success
+[24.237s] -- Performing Test HAVE___BUILTIN_EXPECT
+[24.369s] -- Performing Test HAVE___BUILTIN_EXPECT - Success
+[24.372s] -- Performing Test HAVE___SYNC_VAL_COMPARE_AND_SWAP
+[24.486s] -- Performing Test HAVE___SYNC_VAL_COMPARE_AND_SWAP - Success
+[24.487s] -- Performing Test HAVE_RWLOCK
+[24.621s] -- Performing Test HAVE_RWLOCK - Success
+[24.621s] -- Performing Test HAVE___DECLSPEC
+[24.672s] -- Performing Test HAVE___DECLSPEC - Failed
+[24.673s] -- Performing Test STL_NO_NAMESPACE
+[24.825s] -- Performing Test STL_NO_NAMESPACE - Failed
+[24.825s] -- Performing Test STL_STD_NAMESPACE
+[25.137s] -- Performing Test STL_STD_NAMESPACE - Success
+[25.138s] -- Performing Test HAVE_USING_OPERATOR
+[25.594s] -- Performing Test HAVE_USING_OPERATOR - Success
+[25.594s] -- Performing Test HAVE_NAMESPACES
+[25.713s] -- Performing Test HAVE_NAMESPACES - Success
+[25.713s] -- Performing Test HAVE_GCC_TLS
+[25.831s] -- Performing Test HAVE_GCC_TLS - Success
+[25.831s] -- Performing Test HAVE_MSVC_TLS
+[25.877s] -- Performing Test HAVE_MSVC_TLS - Failed
+[25.878s] -- Performing Test HAVE_CXX11_TLS
+[25.993s] -- Performing Test HAVE_CXX11_TLS - Success
+[25.993s] -- Performing Test HAVE_ALIGNED_STORAGE
+[26.134s] -- Performing Test HAVE_ALIGNED_STORAGE - Success
+[26.135s] -- Performing Test HAVE_CXX11_ATOMIC
+[26.322s] -- Performing Test HAVE_CXX11_ATOMIC - Success
+[26.326s] -- Performing Test HAVE_CXX11_CONSTEXPR
+[26.450s] -- Performing Test HAVE_CXX11_CONSTEXPR - Success
+[26.450s] -- Performing Test HAVE_CXX11_CHRONO
+[26.671s] -- Performing Test HAVE_CXX11_CHRONO - Success
+[26.672s] -- Performing Test HAVE_CXX11_NULLPTR_T
+[26.821s] -- Performing Test HAVE_CXX11_NULLPTR_T - Success
+[28.616s] -- Performing Test HAVE_LOCALTIME_R
+[28.752s] -- Performing Test HAVE_LOCALTIME_R - Success
+[28.758s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[28.854s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[28.856s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[28.964s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[28.966s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[29.072s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[29.100s] -- GLOG Used config file: 
+[29.118s] -- Could not locate NLopt.
+[35.680s] -- NLopt version 2.7.1
+[35.685s] -- Looking for getopt.h
+[35.793s] -- Looking for getopt.h - found
+[35.794s] -- Looking for time.h
+[35.928s] -- Looking for time.h - found
+[35.928s] -- Looking for getpid
+[36.060s] -- Looking for getpid - found
+[36.060s] -- Looking for syscall
+[36.147s] -- Looking for syscall - found
+[36.148s] -- Looking for isinf
+[36.252s] -- Looking for isinf - found
+[36.253s] -- Looking for isnan
+[36.384s] -- Looking for isnan - found
+[36.384s] -- Looking for gettimeofday
+[36.528s] -- Looking for gettimeofday - found
+[36.528s] -- Looking for qsort_r
+[36.627s] -- Looking for qsort_r - found
+[36.627s] -- Looking for time
+[36.733s] -- Looking for time - found
+[36.734s] -- Looking for copysign
+[36.881s] -- Looking for copysign - found
+[36.882s] -- Looking for getopt
+[37.018s] -- Looking for getopt - found
+[37.018s] -- Check size of uint32_t
+[37.109s] -- Check size of uint32_t - done
+[37.110s] -- Check size of unsigned int
+[37.215s] -- Check size of unsigned int - done
+[37.218s] -- Check size of unsigned long
+[37.325s] -- Check size of unsigned long - done
+[37.326s] -- Looking for sqrt in m
+[37.433s] -- Looking for sqrt in m - found
+[37.433s] -- Looking for fpclassify
+[37.549s] -- Looking for fpclassify - TRUE
+[37.549s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE
+[37.627s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE - Success
+[37.627s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE
+[37.653s] -- Performing Test HAVE_THREAD_LOCAL_STORAGE - Failed
+[37.654s] -- Looking for __cplusplus
+[37.741s] -- Looking for __cplusplus - found
+[37.741s] -- Performing Test SUPPORTS_STDCXX11
+[37.850s] -- Performing Test SUPPORTS_STDCXX11 - Success
+[37.886s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[37.892s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable exact version "3.10.12") 
+[38.096s] -- Found NumPy: /usr/lib/python3/dist-packages/numpy/core/include (found version "1.21.5") 
+[38.103s] -- Could NOT find Guile (missing: GUILE_EXECUTABLE GUILE_ROOT_DIR GUILE_INCLUDE_DIRS GUILE_LIBRARIES) 
+[38.105s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[38.114s] -- Could NOT find Octave (missing: OCTAVE_EXECUTABLE OCTAVE_ROOT_DIR OCTAVE_INCLUDE_DIRS OCTAVE_LIBRARIES) 
+[38.119s] -- Could NOT find Matlab (missing: Matlab_INCLUDE_DIRS Matlab_MEX_LIBRARY Matlab_MEX_EXTENSION Matlab_ROOT_DIR Matlab_MX_LIBRARY MX_LIBRARY MAIN_PROGRAM) (found version "NOTFOUND")
+[38.138s] -- Used config file: /usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake
+[38.138s] -- No yaml_cpp_catkin, using yaml-cpp system library instead.
+[38.142s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[38.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[38.481s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[38.530s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[38.544s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[38.606s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[38.615s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[38.630s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[38.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[38.680s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[38.758s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[38.763s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[38.903s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[38.944s] -- Found FastRTPS: /opt/ros/humble/include  
+[39.021s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[39.129s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[39.190s] -- Found as2_core: 1.1.3 (/root/aerostack2_ws/install/as2_core/share/as2_core/cmake)
+[39.191s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[39.194s] -- Created GeographicLib::GeographicLib target from legacy variables
+[39.402s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[39.404s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[39.404s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[39.542s] -- Found as2_behavior: 1.1.3 (/root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake)
+[39.544s] -- Found as2_motion_reference_handlers: 1.1.3 (/root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake)
+[39.575s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[39.606s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[39.702s] -- Added test 'copyright' to check source files copyright and LICENSE
+[39.704s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[39.706s] -- Configured cppcheck include dirs: /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking/include/as2_behaviors_swarm_flocking;$<BUILD_INTERFACE:/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking/include>
+[39.706s] -- Configured cppcheck exclude dirs and/or files: 
+[39.709s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[39.709s] -- Configured cpplint exclude dirs and/or files: 
+[39.709s] -- Added test 'flake8' to check Python code syntax and style conventions
+[39.709s] -- Added test 'lint_cmake' to check CMake code style
+[39.710s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[39.711s] -- Added test 'uncrustify' to check C / C++ code style
+[39.711s] -- Configured uncrustify additional arguments: 
+[39.712s] -- Added test 'xmllint' to check XML markup files
+[39.718s] -- Configuring done
+[39.842s] -- Generating done
+[39.881s] -- Build files have been written to: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking
+[39.900s] Invoked command in '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_behaviors_swarm_flocking
+[39.903s] Invoking command in '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_behaviors_swarm_flocking -- -j8 -l8
+[39.983s] [  1%] [34m[1mGenerating nlopt.hpp[0m
+[40.034s] [  1%] Built target generate-cpp
+[40.067s] [  2%] [34m[1mGenerating nlopt.f[0m
+[40.097s] [  2%] Built target generate-fortran
+[40.132s] [  3%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o[0m
+[40.363s] [  4%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/praxis/praxis.c.o[0m
+[41.328s] [  5%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/plis.c.o[0m
+[41.517s] [  6%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/plip.c.o[0m
+[41.710s] [  7%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/pnet.c.o[0m
+[41.962s] [  8%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/mssubs.c.o[0m
+[42.210s] [  9%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/luksan/pssubs.c.o[0m
+[42.429s] [ 10%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/crs/crs.c.o[0m
+[42.564s] [ 11%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mlsl/mlsl.c.o[0m
+[42.745s] [ 12%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mma/mma.c.o[0m
+[43.014s] [ 13%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/mma/ccsa_quadratic.c.o[0m
+[43.408s] [ 14%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cobyla/cobyla.c.o[0m
+[45.235s] [ 15%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/newuoa/newuoa.c.o[0m
+[47.252s] [ 16%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/neldermead/nldrmd.c.o[0m
+[47.525s] [ 17%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cdirect/hybrid.c.o[0m
+[47.737s] [ 18%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/neldermead/sbplx.c.o[0m
+[47.961s] [ 19%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/auglag/auglag.c.o[0m
+[48.232s] [ 20%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/bobyqa/bobyqa.c.o[0m
+[49.246s] [ 21%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/isres/isres.c.o[0m
+[49.517s] [ 22%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/cdirect/cdirect.c.o[0m
+[49.963s] [ 23%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/slsqp/slsqp.c.o[0m
+[50.847s] [ 24%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/esch/esch.c.o[0m
+[51.017s] [ 25%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/general.c.o[0m
+[51.118s] [ 26%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/options.c.o[0m
+[51.695s] [ 27%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/optimize.c.o[0m
+[52.042s] [ 28%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/deprecated.c.o[0m
+[52.092s] [ 29%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/api/f77api.c.o[0m
+[52.193s] [ 30%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/mt19937ar.c.o[0m
+[52.271s] [ 31%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/sobolseq.c.o[0m
+[52.281s] [ 32%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/timer.c.o[0m
+[52.332s] [ 33%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/stop.c.o[0m
+[52.502s] [ 34%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/redblack.c.o[0m
+[52.517s] [ 35%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/qsort_r.c.o[0m
+[52.647s] [ 36%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/util/rescale.c.o[0m
+[52.744s] [ 37%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/global.cc.o[0m
+[52.762s] [ 38%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/linalg.cc.o[0m
+[52.787s] [ 39%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/local.cc.o[0m
+[53.359s] [ 40%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/stogo.cc.o[0m
+[53.407s] [ 41%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/stogo/tools.cc.o[0m
+[54.028s] [ 42%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/evolvent.cc.o[0m
+[54.061s] [ 43%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/solver.cc.o[0m
+[54.085s] [ 44%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/local_optimizer.cc.o[0m
+[54.363s] [ 45%] [32mBuilding CXX object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/ags/ags.cc.o[0m
+[54.553s] [ 46%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRsubrout.c.o[0m
+[55.119s] [ 47%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/DIRserial.c.o[0m
+[55.197s] [ 48%] [32mBuilding C object _deps/nlopt-build/CMakeFiles/nlopt.dir/src/algs/direct/direct_wrap.c.o[0m
+[55.640s] [ 49%] [32m[1mLinking CXX shared library libnlopt.so[0m
+[55.799s] [ 51%] Built target nlopt
+[55.829s] [ 53%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/glogbase.dir/src/demangle.cc.o[0m
+[55.829s] [ 53%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/glogbase.dir/src/logging.cc.o[0m
+[56.854s] [ 54%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/glogbase.dir/src/signalhandler.cc.o[0m
+[57.835s] [ 55%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o[0m
+[58.631s] [ 56%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/glogbase.dir/src/utilities.cc.o[0m
+[58.754s] [ 57%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/glogbase.dir/src/symbolize.cc.o[0m
+[59.092s] [ 58%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/glogbase.dir/src/raw_logging.cc.o[0m
+[59.478s] [ 58%] Built target glogbase
+[59.500s] [ 59%] [32m[1mLinking CXX shared library libglog.so[0m
+[59.508s] [ 60%] [32m[1mLinking CXX static library libglogtest.a[0m
+[59.565s] [ 60%] Built target glogtest
+[59.600s] [ 61%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/logging_unittest.dir/src/logging_unittest.cc.o[0m
+[59.618s] [ 61%] Built target glog
+[59.649s] [ 62%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/signalhandler_unittest.dir/src/signalhandler_unittest.cc.o[0m
+[60.256s] [ 63%] [32m[1mLinking CXX executable signalhandler_unittest[0m
+[60.386s] [ 63%] Built target signalhandler_unittest
+[60.414s] [ 64%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/cleanup_immediately_unittest.dir/src/cleanup_immediately_unittest.cc.o[0m
+[60.425s] [ 65%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/utilities_unittest.dir/src/utilities_unittest.cc.o[0m
+[61.441s] [ 66%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/cleanup_with_absolute_prefix_unittest.dir/src/cleanup_with_absolute_prefix_unittest.cc.o[0m
+[61.842s] [ 67%] [32m[1mLinking CXX executable utilities_unittest[0m
+[61.869s] [ 68%] [32m[1mLinking CXX executable cleanup_immediately_unittest[0m
+[61.998s] [ 68%] Built target utilities_unittest
+[62.019s] [ 69%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/stacktrace_unittest.dir/src/stacktrace_unittest.cc.o[0m
+[62.026s] [ 69%] Built target cleanup_immediately_unittest
+[62.029s] [ 70%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o[0m
+[62.058s] [ 71%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/cleanup_with_relative_prefix_unittest.dir/src/cleanup_with_relative_prefix_unittest.cc.o[0m
+[62.722s] [ 72%] [32m[1mLinking CXX executable stacktrace_unittest[0m
+[62.844s] [ 72%] Built target stacktrace_unittest
+[62.878s] [ 73%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/polynomial.cpp.o[0m
+[62.885s] [ 74%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/motion_defines.cpp.o[0m
+[63.214s] [ 75%] [32m[1mLinking CXX executable cleanup_with_absolute_prefix_unittest[0m
+[63.344s] [ 76%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/segment.cpp.o[0m
+[63.428s] [ 76%] Built target cleanup_with_absolute_prefix_unittest
+[63.456s] [ 77%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/symbolize_unittest.dir/src/symbolize_unittest.cc.o[0m
+[63.801s] [ 78%] [32m[1mLinking CXX executable logging_unittest[0m
+[64.017s] [ 79%] [32m[1mLinking CXX executable cleanup_with_relative_prefix_unittest[0m
+[64.097s] [ 79%] Built target logging_unittest
+[64.232s] [ 79%] Built target cleanup_with_relative_prefix_unittest
+[64.845s] [ 80%] [32m[1mLinking CXX executable demangle_unittest[0m
+[65.070s] [ 80%] Built target demangle_unittest
+[65.780s] [ 81%] [32m[1mLinking CXX executable symbolize_unittest[0m
+[65.897s] [ 81%] Built target symbolize_unittest
+[67.070s] [ 82%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/rpoly/rpoly_ak1.cpp.o[0m
+[69.398s] [ 84%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/polynomial_timing_evaluation.cpp.o[0m
+[69.399s] [ 84%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/io.cpp.o[0m
+[82.021s] [ 85%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/trajectory_sampling.cpp.o[0m
+[82.025s] [ 86%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/vertex.cpp.o[0m
+[85.004s] [ 87%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/trajectory.cpp.o[0m
+[86.515s] [ 88%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/timing.cpp.o[0m
+[88.292s] [ 89%] [32m[1mLinking CXX shared library libmav_trajectory_generation.so[0m
+[88.431s] [ 89%] Built target mav_trajectory_generation
+[88.464s] [ 90%] [32mBuilding CXX object _deps/glog-build/CMakeFiles/stl_logging_unittest.dir/src/stl_logging_unittest.cc.o[0m
+[88.466s] [ 91%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/CMakeFiles/dynamic_trajectory_generator.dir/src/dynamic_trajectory.cpp.o[0m
+[88.480s] [ 92%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/CMakeFiles/dynamic_trajectory_generator.dir/src/dynamic_waypoint.cpp.o[0m
+[92.027s] [ 93%] [32m[1mLinking CXX executable stl_logging_unittest[0m
+[92.166s] [ 93%] Built target stl_logging_unittest
+[92.195s] [ 94%] [32mBuilding CXX object _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/test_polynomial.dir/test/test_polynomial.cpp.o[0m
+[94.654s] [ 95%] [32m[1mLinking CXX executable test_polynomial[0m
+[94.784s] [ 95%] Built target test_polynomial
+[107.913s] [ 96%] [32m[1mLinking CXX shared library libdynamic_trajectory_generator.so[0m
+[108.008s] [ 96%] Built target dynamic_trajectory_generator
+[108.032s] [ 97%] [32mBuilding CXX object CMakeFiles/as2_behaviors_swarm_flocking.dir/src/drone_swarm.cpp.o[0m
+[108.032s] [ 97%] [32mBuilding CXX object CMakeFiles/as2_behaviors_swarm_flocking.dir/src/swarm_flocking_behavior.cpp.o[0m
+[126.947s] [ 98%] [32m[1mLinking CXX shared library libas2_behaviors_swarm_flocking.so[0m
+[127.279s] [ 98%] Built target as2_behaviors_swarm_flocking
+[127.304s] [ 99%] [32mBuilding CXX object CMakeFiles/swarm_flocking_behavior_node.dir/src/swarm_flocking_behavior_node.cpp.o[0m
+[132.149s] [100%] [32m[1mLinking CXX executable swarm_flocking_behavior_node[0m
+[132.322s] [100%] Built target swarm_flocking_behavior_node
+[132.333s] Invoked command in '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_behaviors_swarm_flocking -- -j8 -l8
+[132.335s] Invoking command in '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_behaviors_swarm_flocking
+[132.342s] -- Install configuration: "Release"
+[132.342s] -- Execute custom install script
+[132.342s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/as2_behaviors_swarm_flocking/drone_swarm.hpp
+[132.350s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/as2_behaviors_swarm_flocking/swarm_flocking_behavior.hpp
+[132.358s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/config/config_default.yaml
+[132.366s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/launch/swarm_flocking_behavior.launch.py
+[132.374s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node
+[132.382s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_swarm_flocking
+[132.390s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_swarm_flocking
+[132.399s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/ament_prefix_path.sh
+[132.407s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/ament_prefix_path.dsv
+[132.416s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/path.sh
+[132.424s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/environment/path.dsv
+[132.433s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.bash
+[132.441s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.sh
+[132.448s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.zsh
+[132.457s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/local_setup.dsv
+[132.465s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/package.dsv
+[132.473s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/ament_index/resource_index/packages/as2_behaviors_swarm_flocking
+[132.481s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/ament_cmake_export_dependencies-extras.cmake
+[132.490s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/ament_cmake_export_include_directories-extras.cmake
+[132.498s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/as2_behaviors_swarm_flockingConfig.cmake
+[132.507s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/cmake/as2_behaviors_swarm_flockingConfig-version.cmake
+[132.515s] -- Symlinking: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/as2_behaviors_swarm_flocking/package.xml
+[132.523s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/libdynamic_trajectory_generator.so
+[132.524s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/libdynamic_trajectory_generator.so" to ""
+[132.524s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/libas2_behaviors_swarm_flocking.so
+[132.526s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/libas2_behaviors_swarm_flocking.so" to ""
+[132.527s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/libglog.so.0.6.0
+[132.527s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/libglog.so.1
+[132.527s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/libglog.so
+[132.527s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/glog/export.h
+[132.527s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/glog/logging.h
+[132.528s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/glog/raw_logging.h
+[132.528s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/glog/stl_logging.h
+[132.528s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/glog/vlog_is_on.h
+[132.528s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/glog/log_severity.h
+[132.528s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/glog/platform.h
+[132.528s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/pkgconfig/libglog.pc
+[132.528s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/glog/glog-modules.cmake
+[132.528s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/glog/glog-config.cmake
+[132.529s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/glog/glog-config-version.cmake
+[132.529s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/glog/glog-targets.cmake
+[132.529s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/glog/glog-targets-release.cmake
+[132.529s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/pkgconfig/nlopt.pc
+[132.529s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.h
+[132.529s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.hpp
+[132.529s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/include/nlopt.f
+[132.530s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so.0.11.1
+[132.530s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so.0
+[132.530s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so.0.11.1" to "/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib"
+[132.531s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/libnlopt.so
+[132.531s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+[132.531s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+[132.531s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptConfig.cmake
+[132.531s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib/cmake/nlopt/NLoptConfigVersion.cmake
+[132.531s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt.3
+[132.531s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt_minimize.3
+[132.531s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_swarm_flocking/share/man/man3/nlopt_minimize_constrained.3
+[132.534s] Invoked command in '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_behaviors_swarm_flocking

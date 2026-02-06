@@ -1,0 +1,28 @@
+[ 15%] Built target arm_behavior
+[ 46%] Built target gtest_main
+[ 61%] Built target as2_behaviors_platform
+[ 76%] Built target gtest
+[ 84%] Built target offboard_behavior
+[100%] Built target as2_behaviors_platform_as2_behaviors_platform_gtest
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/lib/as2_behaviors_platform/arm_behavior
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/lib/as2_behaviors_platform/offboard_behavior
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/launch/as2_platform_behaviors_launch.py
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/launch/test.launch.py
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_platform
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_platform
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/path.sh
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/environment/path.dsv
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.bash
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.sh
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.zsh
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/local_setup.dsv
+-- Symlinking: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/package.dsv
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/ament_index/resource_index/packages/as2_behaviors_platform
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/cmake/as2_behaviors_platformConfig.cmake
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/cmake/as2_behaviors_platformConfig-version.cmake
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_platform/share/as2_behaviors_platform/package.xml
+-- Up-to-date: /root/aerostack2_ws/install/as2_behaviors_platform/lib/libas2_behaviors_platform.a

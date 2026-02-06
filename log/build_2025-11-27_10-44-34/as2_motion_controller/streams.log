@@ -1,0 +1,157 @@
+[0.029s] Invoking command in '/root/aerostack2_ws/build/as2_motion_controller': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_motion_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_motion_controller
+[4.322s] -- The C compiler identification is GNU 11.4.0
+[4.322s] -- The CXX compiler identification is GNU 11.4.0
+[4.322s] -- Detecting C compiler ABI info
+[4.322s] -- Detecting C compiler ABI info - done
+[4.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.322s] -- Detecting C compile features
+[4.322s] -- Detecting C compile features - done
+[4.322s] -- Detecting CXX compiler ABI info
+[4.322s] -- Detecting CXX compiler ABI info - done
+[4.323s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.323s] -- Detecting CXX compile features
+[4.323s] -- Detecting CXX compile features - done
+[4.323s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.323s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.323s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.323s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[4.323s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.323s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.323s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.323s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.324s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.324s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.324s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.324s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.324s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.324s] -- Looking for pthread.h
+[4.324s] -- Looking for pthread.h - found
+[4.324s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.324s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.324s] -- Found Threads: TRUE  
+[4.324s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[4.325s] -- Found as2_core: 1.1.3 (/root/aerostack2_ws/install/as2_core/share/as2_core/cmake)
+[4.325s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[4.325s] -- Created GeographicLib::GeographicLib target from legacy variables
+[4.325s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.325s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.325s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.325s] -- Found as2_motion_reference_handlers: 1.1.3 (/root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake)
+[4.326s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.326s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.326s] -- pid_controller not found
+[8.098s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+[8.105s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[8.107s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.117s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.255s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.269s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.273s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.274s] -- Configured cppcheck include dirs: /root/aerostack2_ws/src/aerostack2/as2_motion_controller/include;/root/aerostack2_ws/src/aerostack2/as2_motion_controller/include/as2_motion_controller;$<BUILD_INTERFACE:/root/aerostack2_ws/src/aerostack2/as2_motion_controller/include>
+[8.275s] -- Configured cppcheck exclude dirs and/or files: 
+[8.278s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.278s] -- Configured cpplint exclude dirs and/or files: 
+[8.280s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.281s] -- Added test 'lint_cmake' to check CMake code style
+[8.282s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.286s] -- Added test 'uncrustify' to check C / C++ code style
+[8.286s] -- Configured uncrustify additional arguments: 
+[8.288s] -- Added test 'xmllint' to check XML markup files
+[8.292s] -- Configuring done
+[8.461s] -- Generating done
+[8.519s] -- Build files have been written to: /root/aerostack2_ws/build/as2_motion_controller
+[8.547s] Invoked command in '/root/aerostack2_ws/build/as2_motion_controller' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_motion_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_motion_controller
+[8.549s] Invoking command in '/root/aerostack2_ws/build/as2_motion_controller': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_motion_controller -- -j8 -l8
+[12.884s] [  3%] [32m[1mLinking CXX shared library libas2_motion_controller_plugin_base.so[0m
+[12.884s] [  3%] Built target as2_motion_controller_plugin_base
+[12.884s] [  6%] [32m[1mLinking CXX shared library libpid_controller.so[0m
+[12.884s] [  6%] Built target pid_controller
+[12.884s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[18.549s] [ 13%] [32m[1mLinking CXX static library libgtest.a[0m
+[18.608s] [ 13%] Built target gtest
+[18.638s] [ 17%] [32mBuilding CXX object _deps/pid_controller-build/tests/CMakeFiles/pid_controller_saturate_output_gtest.dir/pid_test/saturate_output_gtest.cpp.o[0m
+[21.524s] [ 20%] [32m[1mLinking CXX executable pid_controller_saturate_output_gtest[0m
+[21.673s] [ 20%] Built target pid_controller_saturate_output_gtest
+[21.696s] [ 24%] [32mBuilding CXX object _deps/pid_controller-build/tests/CMakeFiles/pid_controller_pid_gtest.dir/pid_test/pid_gtest.cpp.o[0m
+[26.279s] [ 27%] [32m[1mLinking CXX executable pid_controller_pid_gtest[0m
+[26.371s] [ 27%] Built target pid_controller_pid_gtest
+[26.390s] [ 31%] [32mBuilding CXX object _deps/pid_controller-build/tests/CMakeFiles/pid_controller_pid_1d_gtest.dir/pid_1d_test/pid_1d_gtest.cpp.o[0m
+[28.640s] [ 34%] [32m[1mLinking CXX executable pid_controller_pid_1d_gtest[0m
+[28.738s] [ 34%] Built target pid_controller_pid_1d_gtest
+[28.757s] [ 37%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[29.616s] [ 41%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[29.647s] [ 41%] Built target gtest_main
+[29.667s] [ 44%] [32mBuilding CXX object CMakeFiles/as2_motion_controller.dir/src/controller_handler.cpp.o[0m
+[72.896s] [ 48%] [32mBuilding CXX object CMakeFiles/as2_motion_controller.dir/src/controller_manager.cpp.o[0m
+[90.847s] [ 51%] [32m[1mLinking CXX shared library libas2_motion_controller.so[0m
+[91.350s] [ 51%] Built target as2_motion_controller
+[91.382s] [ 55%] [32mBuilding CXX object CMakeFiles/as2_motion_controller_node.dir/src/controller_manager_node.cpp.o[0m
+[98.010s] [ 58%] [32m[1mLinking CXX executable as2_motion_controller_node[0m
+[98.213s] [ 58%] Built target as2_motion_controller_node
+[98.235s] [ 62%] [32mBuilding CXX object tests/CMakeFiles/as2_motion_controller_as2_motion_controller_gtest.dir/as2_motion_controller_gtest.cpp.o[0m
+[105.341s] [ 65%] [32m[1mLinking CXX executable as2_motion_controller_as2_motion_controller_gtest[0m
+[105.663s] [ 65%] Built target as2_motion_controller_as2_motion_controller_gtest
+[105.688s] [ 68%] [32mBuilding CXX object tests/CMakeFiles/as2_motion_controller_find_mode_match_test.dir/find_mode_match_test.cpp.o[0m
+[107.780s] [ 72%] [32m[1mLinking CXX executable as2_motion_controller_find_mode_match_test[0m
+[107.952s] [ 72%] Built target as2_motion_controller_find_mode_match_test
+[107.983s] [ 75%] [32mBuilding CXX object plugins/pid_speed_controller/CMakeFiles/pid_speed_controller.dir/src/pid_speed_controller.cpp.o[0m
+[115.871s] [ 79%] [32m[1mLinking CXX shared library libpid_speed_controller.so[0m
+[116.166s] [ 79%] Built target pid_speed_controller
+[116.200s] [ 82%] [32mBuilding CXX object plugins/differential_flatness_controller/CMakeFiles/differential_flatness_controller.dir/src/differential_flatness_controller.cpp.o[0m
+[116.200s] [ 86%] [32mBuilding CXX object plugins/pid_speed_controller/tests/CMakeFiles/as2_motion_controller_pid_speed_controller_gtest.dir/pid_speed_controller_gtest.cpp.o[0m
+[124.065s] [ 89%] [32m[1mLinking CXX shared library libdifferential_flatness_controller.so[0m
+[124.316s] [ 89%] Built target differential_flatness_controller
+[124.347s] [ 93%] [32mBuilding CXX object plugins/differential_flatness_controller/tests/CMakeFiles/as2_motion_controller_differential_flatness_controller_gtest.dir/differential_flatness_controller_gtest.cpp.o[0m
+[126.584s] [ 96%] [32m[1mLinking CXX executable as2_motion_controller_pid_speed_controller_gtest[0m
+[126.934s] [ 96%] Built target as2_motion_controller_pid_speed_controller_gtest
+[134.582s] [100%] [32m[1mLinking CXX executable as2_motion_controller_differential_flatness_controller_gtest[0m
+[134.912s] [100%] Built target as2_motion_controller_differential_flatness_controller_gtest
+[134.929s] Invoked command in '/root/aerostack2_ws/build/as2_motion_controller' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_motion_controller -- -j8 -l8
+[134.930s] Invoking command in '/root/aerostack2_ws/build/as2_motion_controller': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_motion_controller
+[134.938s] -- Install configuration: "Release"
+[134.939s] -- Execute custom install script
+[134.939s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/lib/as2_motion_controller/as2_motion_controller_node
+[134.952s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/include/as2_motion_controller/controller_base.hpp
+[134.965s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/include/as2_motion_controller/controller_handler.hpp
+[134.977s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/include/as2_motion_controller/controller_manager.hpp
+[134.989s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/library_path.sh
+[135.002s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/library_path.dsv
+[135.015s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/include/differential_flatness_controller/differential_flatness_controller.hpp
+[135.028s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/include/pid_speed_controller/pid_speed_controller.hpp
+[135.039s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller//plugins.xml
+[135.052s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/plugins/differential_flatness_controller/config/available_modes.yaml
+[135.065s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/plugins/differential_flatness_controller/config/controller_default.yaml
+[135.078s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/plugins/pid_speed_controller/config/available_modes.yaml
+[135.090s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/plugins/pid_speed_controller/config/controller_default.yaml
+[135.103s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/launch/controller_launch.py
+[135.115s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/launch/differential_flatness_controller.launch.py
+[135.127s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/launch/pid_speed_controller.launch.py
+[135.140s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/config/motion_controller_default.yaml
+[135.153s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/ament_index/resource_index/package_run_dependencies/as2_motion_controller
+[135.165s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/ament_index/resource_index/parent_prefix_path/as2_motion_controller
+[135.177s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/ament_prefix_path.sh
+[135.189s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/ament_prefix_path.dsv
+[135.202s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/path.sh
+[135.213s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/environment/path.dsv
+[135.225s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/local_setup.bash
+[135.237s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/local_setup.sh
+[135.249s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/local_setup.zsh
+[135.260s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/local_setup.dsv
+[135.272s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/package.dsv
+[135.283s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/ament_index/resource_index/packages/as2_motion_controller
+[135.295s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/ament_index/resource_index/as2_motion_controller__pluginlib__plugin/as2_motion_controller
+[135.306s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[135.318s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[135.330s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/cmake/as2_motion_controllerConfig.cmake
+[135.342s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/cmake/as2_motion_controllerConfig-version.cmake
+[135.354s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_controller/share/as2_motion_controller/package.xml
+[135.366s] -- Installing: /root/aerostack2_ws/install/as2_motion_controller/lib/libas2_motion_controller.so
+[135.371s] -- Set runtime path of "/root/aerostack2_ws/install/as2_motion_controller/lib/libas2_motion_controller.so" to ""
+[135.372s] -- Installing: /root/aerostack2_ws/install/as2_motion_controller/lib/libas2_motion_controller_plugin_base.so
+[135.373s] -- Set runtime path of "/root/aerostack2_ws/install/as2_motion_controller/lib/libas2_motion_controller_plugin_base.so" to ""
+[135.374s] -- Installing: /root/aerostack2_ws/install/as2_motion_controller/lib/libdifferential_flatness_controller.so
+[135.375s] -- Set runtime path of "/root/aerostack2_ws/install/as2_motion_controller/lib/libdifferential_flatness_controller.so" to ""
+[135.376s] -- Installing: /root/aerostack2_ws/install/as2_motion_controller/lib/libpid_speed_controller.so
+[135.377s] -- Set runtime path of "/root/aerostack2_ws/install/as2_motion_controller/lib/libpid_speed_controller.so" to ""
+[135.381s] Invoked command in '/root/aerostack2_ws/build/as2_motion_controller' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_motion_controller

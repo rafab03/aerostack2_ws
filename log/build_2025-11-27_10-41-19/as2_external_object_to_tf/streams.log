@@ -1,0 +1,7 @@
+[0.023s] Invoking command in '/root/aerostack2_ws/build/as2_external_object_to_tf': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_external_object_to_tf -- -j8 -l8
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.093s] [  9%] [32mBuilding CXX object CMakeFiles/as2_external_object_to_tf_node.dir/src/as2_external_object_to_tf.cpp.o[0m
+[0.099s] [ 18%] [32mBuilding CXX object CMakeFiles/as2_external_object_to_tf_node.dir/src/as2_external_object_to_tf_node.cpp.o[0m
+[0.169s] [ 36%] Built target gtest_main
+[0.203s] [ 45%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.226s] [ 54%] [32mBuilding CXX object CMakeFiles/as2_external_object_to_tf.dir/src/as2_external_object_to_tf.cpp.o[0m

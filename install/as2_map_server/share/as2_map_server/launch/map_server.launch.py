@@ -1,0 +1,1 @@
+/root/aerostack2_ws/src/aerostack2/as2_map_server/launch/map_server.launch.py

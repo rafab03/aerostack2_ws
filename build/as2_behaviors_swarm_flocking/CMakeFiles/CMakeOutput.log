@@ -1,0 +1,1770 @@
+The system is: Linux - 6.8.0-87-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6ebb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6ebb5.dir/build.make CMakeFiles/cmTC_6ebb5.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6ebb5.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6ebb5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmTSgaR.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6ebb5.dir/'
+ as -v --64 -o CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o /tmp/ccmTSgaR.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_6ebb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ebb5.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o -o cmTC_6ebb5 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ebb5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6ebb5.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoYK8ga.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6ebb5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ebb5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6ebb5.'
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6ebb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6ebb5.dir/build.make CMakeFiles/cmTC_6ebb5.dir/build]
+  ignore line: [gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6ebb5.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6ebb5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmTSgaR.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6ebb5.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o /tmp/ccmTSgaR.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_6ebb5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ebb5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o -o cmTC_6ebb5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ebb5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6ebb5.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoYK8ga.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6ebb5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccoYK8ga.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6ebb5] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_6ebb5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5213a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5213a.dir/build.make CMakeFiles/cmTC_5213a.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5213a.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5213a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccE4LyO8.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5213a.dir/'
+ as -v --64 -o CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccE4LyO8.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_5213a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5213a.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5213a 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5213a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5213a.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNU0LYg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5213a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5213a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5213a.'
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5213a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5213a.dir/build.make CMakeFiles/cmTC_5213a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5213a.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5213a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccE4LyO8.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5213a.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccE4LyO8.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_5213a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5213a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5213a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5213a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5213a.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNU0LYg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5213a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNU0LYg.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5213a] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_5213a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4357/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a4357.dir/build.make CMakeFiles/cmTC_a4357.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4357.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a4357.dir/CheckIncludeFile.c.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a4357
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4357.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a4357.dir/CheckIncludeFile.c.o -o cmTC_a4357 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_70414/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_70414.dir/build.make CMakeFiles/cmTC_70414.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70414.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_70414.dir/src.c.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_70414
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70414.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_70414.dir/src.c.o -o cmTC_70414 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining the gflags namespace passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b464/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b464.dir/build.make CMakeFiles/cmTC_2b464.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b464.dir/DetermineGflagsNamespace.cxx.o
+/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGLOG_GFLAGS_NAMESPACE=gflags  -O3 -DNDEBUG -fPIE -o CMakeFiles/cmTC_2b464.dir/DetermineGflagsNamespace.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/DetermineGflagsNamespace.cxx
+Linking CXX executable cmTC_2b464
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b464.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_2b464.dir/DetermineGflagsNamespace.cxx.o -o cmTC_2b464  /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2 -lpthread 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unwind.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64dd0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_64dd0.dir/build.make CMakeFiles/cmTC_64dd0.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64dd0.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_64dd0.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_64dd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64dd0.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_64dd0.dir/CheckIncludeFile.cxx.o -o cmTC_64dd0 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_70abf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_70abf.dir/build.make CMakeFiles/cmTC_70abf.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70abf.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_70abf.dir/CheckSymbolExists.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_70abf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70abf.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_70abf.dir/CheckSymbolExists.cxx.o -o cmTC_70abf 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+File /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_587d2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_587d2.dir/build.make CMakeFiles/cmTC_587d2.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_587d2.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_587d2.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_587d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_587d2.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_587d2.dir/CheckIncludeFile.cxx.o -o cmTC_587d2 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc139/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc139.dir/build.make CMakeFiles/cmTC_dc139.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc139.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_dc139.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_dc139
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc139.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_dc139.dir/CheckIncludeFile.cxx.o -o cmTC_dc139 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ed024/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ed024.dir/build.make CMakeFiles/cmTC_ed024.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed024.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_ed024.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_ed024
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed024.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_ed024.dir/CheckIncludeFile.cxx.o -o cmTC_ed024 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_545a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_545a6.dir/build.make CMakeFiles/cmTC_545a6.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_545a6.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_545a6.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_545a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_545a6.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_545a6.dir/CheckIncludeFile.cxx.o -o cmTC_545a6 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97560/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97560.dir/build.make CMakeFiles/cmTC_97560.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_97560.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_97560.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_97560
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97560.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_97560.dir/CheckIncludeFile.cxx.o -o cmTC_97560 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_234a1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_234a1.dir/build.make CMakeFiles/cmTC_234a1.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_234a1.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_234a1.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_234a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_234a1.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_234a1.dir/CheckIncludeFile.cxx.o -o cmTC_234a1 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_090c4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_090c4.dir/build.make CMakeFiles/cmTC_090c4.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_090c4.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_090c4.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_090c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_090c4.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_090c4.dir/CheckIncludeFile.cxx.o -o cmTC_090c4 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6e7c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e7c7.dir/build.make CMakeFiles/cmTC_6e7c7.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6e7c7.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_6e7c7.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_6e7c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e7c7.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_6e7c7.dir/CheckIncludeFile.cxx.o -o cmTC_6e7c7 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90fbe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90fbe.dir/build.make CMakeFiles/cmTC_90fbe.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_90fbe.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_90fbe.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_90fbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90fbe.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_90fbe.dir/CheckIncludeFile.cxx.o -o cmTC_90fbe 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2cf5e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2cf5e.dir/build.make CMakeFiles/cmTC_2cf5e.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2cf5e.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_2cf5e.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2cf5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cf5e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_2cf5e.dir/CheckIncludeFile.cxx.o -o cmTC_2cf5e 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_248e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_248e1.dir/build.make CMakeFiles/cmTC_248e1.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_248e1.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_248e1.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_248e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_248e1.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_248e1.dir/CheckIncludeFile.cxx.o -o cmTC_248e1 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_58fad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58fad.dir/build.make CMakeFiles/cmTC_58fad.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58fad.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_58fad.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_58fad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58fad.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_58fad.dir/CheckIncludeFile.cxx.o -o cmTC_58fad 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0ad8f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0ad8f.dir/build.make CMakeFiles/cmTC_0ad8f.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0ad8f.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_0ad8f.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0ad8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ad8f.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0ad8f.dir/CheckIncludeFile.cxx.o -o cmTC_0ad8f 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a920c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a920c.dir/build.make CMakeFiles/cmTC_a920c.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a920c.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_a920c.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_a920c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a920c.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_a920c.dir/CheckIncludeFile.cxx.o -o cmTC_a920c 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_59cbf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_59cbf.dir/build.make CMakeFiles/cmTC_59cbf.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_59cbf.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_59cbf.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_59cbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59cbf.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_59cbf.dir/CheckIncludeFile.cxx.o -o cmTC_59cbf 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26ef9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26ef9.dir/build.make CMakeFiles/cmTC_26ef9.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26ef9.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_26ef9.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_26ef9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26ef9.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_26ef9.dir/CheckIncludeFile.cxx.o -o cmTC_26ef9 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ucontext.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0776e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0776e.dir/build.make CMakeFiles/cmTC_0776e.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0776e.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_0776e.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0776e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0776e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0776e.dir/CheckIncludeFile.cxx.o -o cmTC_0776e 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2d7ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d7ff.dir/build.make CMakeFiles/cmTC_2d7ff.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d7ff.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_2d7ff.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2d7ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d7ff.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_2d7ff.dir/CheckIncludeFile.cxx.o -o cmTC_2d7ff 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0d2a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0d2a0.dir/build.make CMakeFiles/cmTC_0d2a0.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d2a0.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_0d2a0.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/11/ext/hash_map:60,
+                 from /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/11/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_0d2a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d2a0.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0d2a0.dir/CheckIncludeFile.cxx.o -o cmTC_0d2a0 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/hash_set exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2cc33/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2cc33.dir/build.make CMakeFiles/cmTC_2cc33.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2cc33.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_2cc33.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/11/ext/hash_set:60,
+                 from /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/11/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_2cc33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cc33.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_2cc33.dir/CheckIncludeFile.cxx.o -o cmTC_2cc33 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/slist exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_433d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_433d8.dir/build.make CMakeFiles/cmTC_433d8.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_433d8.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_433d8.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_433d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_433d8.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_433d8.dir/CheckIncludeFile.cxx.o -o cmTC_433d8 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5505f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5505f.dir/build.make CMakeFiles/cmTC_5505f.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5505f.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_5505f.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_5505f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5505f.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_5505f.dir/CheckIncludeFile.cxx.o -o cmTC_5505f 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bcbed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bcbed.dir/build.make CMakeFiles/cmTC_bcbed.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bcbed.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_bcbed.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_bcbed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcbed.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_bcbed.dir/CheckIncludeFile.cxx.o -o cmTC_bcbed 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_57c13/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57c13.dir/build.make CMakeFiles/cmTC_57c13.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_57c13.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_57c13.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_57c13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57c13.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_57c13.dir/CheckIncludeFile.cxx.o -o cmTC_57c13 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0fd82/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0fd82.dir/build.make CMakeFiles/cmTC_0fd82.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0fd82.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_0fd82.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0fd82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fd82.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0fd82.dir/CheckIncludeFile.cxx.o -o cmTC_0fd82 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bdcca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bdcca.dir/build.make CMakeFiles/cmTC_bdcca.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bdcca.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_bdcca.dir/CheckIncludeFile.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_bdcca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdcca.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_bdcca.dir/CheckIncludeFile.cxx.o -o cmTC_bdcca 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e7a5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e7a5.dir/build.make CMakeFiles/cmTC_1e7a5.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e7a5.dir/HAVE_U_INT16_T.cpp.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_1e7a5.dir/HAVE_U_INT16_T.cpp.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.cpp
+Linking CXX executable cmTC_1e7a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e7a5.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_1e7a5.dir/HAVE_U_INT16_T.cpp.o -o cmTC_1e7a5 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b05dd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b05dd.dir/build.make CMakeFiles/cmTC_b05dd.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b05dd.dir/HAVE_UINT16_T.cpp.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_b05dd.dir/HAVE_UINT16_T.cpp.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.cpp
+Linking CXX executable cmTC_b05dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b05dd.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_b05dd.dir/HAVE_UINT16_T.cpp.o -o cmTC_b05dd 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dladdr exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ed90c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ed90c.dir/build.make CMakeFiles/cmTC_ed90c.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed90c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dladdr -fPIE -o CMakeFiles/cmTC_ed90c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ed90c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed90c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dladdr CMakeFiles/cmTC_ed90c.dir/CheckFunctionExists.c.o -o cmTC_ed90c 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_037e4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_037e4.dir/build.make CMakeFiles/cmTC_037e4.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_037e4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl -fPIE -o CMakeFiles/cmTC_037e4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_037e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_037e4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl CMakeFiles/cmTC_037e4.dir/CheckFunctionExists.c.o -o cmTC_037e4 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_70b80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_70b80.dir/build.make CMakeFiles/cmTC_70b80.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70b80.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pread -fPIE -o CMakeFiles/cmTC_70b80.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_70b80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70b80.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pread CMakeFiles/cmTC_70b80.dir/CheckFunctionExists.c.o -o cmTC_70b80 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_825ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_825ab.dir/build.make CMakeFiles/cmTC_825ab.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_825ab.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pwrite -fPIE -o CMakeFiles/cmTC_825ab.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_825ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_825ab.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pwrite CMakeFiles/cmTC_825ab.dir/CheckFunctionExists.c.o -o cmTC_825ab 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_007b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_007b9.dir/build.make CMakeFiles/cmTC_007b9.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_007b9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction -fPIE -o CMakeFiles/cmTC_007b9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_007b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_007b9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction CMakeFiles/cmTC_007b9.dir/CheckFunctionExists.c.o -o cmTC_007b9 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaltstack exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6eeff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6eeff.dir/build.make CMakeFiles/cmTC_6eeff.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6eeff.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaltstack -fPIE -o CMakeFiles/cmTC_6eeff.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6eeff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eeff.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaltstack CMakeFiles/cmTC_6eeff.dir/CheckFunctionExists.c.o -o cmTC_6eeff 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0ecf1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0ecf1.dir/build.make CMakeFiles/cmTC_0ecf1.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0ecf1.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NO_DEPRECATED  -fPIE   -Wdeprecated -o CMakeFiles/cmTC_0ecf1.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0ecf1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ecf1.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0ecf1.dir/src.cxx.o -o cmTC_0ecf1 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the snprintf exist passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9702c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9702c.dir/build.make CMakeFiles/cmTC_9702c.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9702c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_9702c.dir/CheckSymbolExists.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_9702c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9702c.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_9702c.dir/CheckSymbolExists.cxx.o -o cmTC_9702c 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+File /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdio>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4a177/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4a177.dir/build.make CMakeFiles/cmTC_4a177.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a177.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___ATTRIBUTE__  -fPIE -o CMakeFiles/cmTC_4a177.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4a177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a177.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_4a177.dir/src.cxx.o -o cmTC_4a177 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((unused));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4868a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4868a.dir/build.make CMakeFiles/cmTC_4868a.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4868a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT  -fPIE -o CMakeFiles/cmTC_4868a.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx:3:61: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("default")));
+      |                                                             ^
+Linking CXX executable cmTC_4868a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4868a.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_4868a.dir/src.cxx.o -o cmTC_4868a 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((visibility("default")));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81e4a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81e4a.dir/build.make CMakeFiles/cmTC_81e4a.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81e4a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN  -fPIE -o CMakeFiles/cmTC_81e4a.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx:3:60: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("hidden")));
+      |                                                            ^
+Linking CXX executable cmTC_81e4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81e4a.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_81e4a.dir/src.cxx.o -o cmTC_81e4a 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((visibility("hidden")));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11482/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11482.dir/build.make CMakeFiles/cmTC_11482.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11482.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___BUILTIN_EXPECT  -fPIE -o CMakeFiles/cmTC_11482.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_11482
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11482.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_11482.dir/src.cxx.o -o cmTC_11482 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f26a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f26a.dir/build.make CMakeFiles/cmTC_1f26a.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1f26a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___SYNC_VAL_COMPARE_AND_SWAP  -fPIE -o CMakeFiles/cmTC_1f26a.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1f26a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f26a.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_1f26a.dir/src.cxx.o -o cmTC_1f26a 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(void)
+{
+  int a; if (__sync_val_compare_and_swap(&a, 0, 1)) return 1; return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_RWLOCK succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3516/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3516.dir/build.make CMakeFiles/cmTC_e3516.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e3516.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_RWLOCK  -fPIE -o CMakeFiles/cmTC_e3516.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e3516
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3516.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_e3516.dir/src.cxx.o -o cmTC_e3516 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3df09/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3df09.dir/build.make CMakeFiles/cmTC_3df09.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3df09.dir/src.cxx.o
+/usr/bin/c++ -DSTL_STD_NAMESPACE  -fPIE -o CMakeFiles/cmTC_3df09.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3df09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3df09.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_3df09.dir/src.cxx.o -o cmTC_3df09 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3729/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3729.dir/build.make CMakeFiles/cmTC_a3729.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a3729.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_USING_OPERATOR  -fPIE -o CMakeFiles/cmTC_a3729.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a3729
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3729.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_a3729.dir/src.cxx.o -o cmTC_a3729 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26980/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26980.dir/build.make CMakeFiles/cmTC_26980.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26980.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NAMESPACES  -fPIE -o CMakeFiles/cmTC_26980.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_26980
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26980.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_26980.dir/src.cxx.o -o cmTC_26980 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+
+Performing C++ SOURCE FILE Test HAVE_GCC_TLS succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_23cec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_23cec.dir/build.make CMakeFiles/cmTC_23cec.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23cec.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_GCC_TLS  -fPIE -o CMakeFiles/cmTC_23cec.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_23cec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23cec.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_23cec.dir/src.cxx.o -o cmTC_23cec 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+__thread int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_TLS succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d8f4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d8f4.dir/build.make CMakeFiles/cmTC_9d8f4.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d8f4.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX11_TLS  -fPIE -o CMakeFiles/cmTC_9d8f4.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d8f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d8f4.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_9d8f4.dir/src.cxx.o -o cmTC_9d8f4 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+thread_local int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNED_STORAGE succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e511a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e511a.dir/build.make CMakeFiles/cmTC_e511a.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e511a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ALIGNED_STORAGE  -fPIE -o CMakeFiles/cmTC_e511a.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e511a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e511a.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_e511a.dir/src.cxx.o -o cmTC_e511a 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+std::aligned_storage<sizeof(char), alignof(char)>::type data;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_ATOMIC succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_911d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_911d4.dir/build.make CMakeFiles/cmTC_911d4.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_911d4.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX11_ATOMIC  -fPIE -o CMakeFiles/cmTC_911d4.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_911d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_911d4.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_911d4.dir/src.cxx.o -o cmTC_911d4 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> i;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_CONSTEXPR succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_76778/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76778.dir/build.make CMakeFiles/cmTC_76778.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_76778.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX11_CONSTEXPR  -fPIE -o CMakeFiles/cmTC_76778.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_76778
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76778.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_76778.dir/src.cxx.o -o cmTC_76778 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+constexpr int x = 0;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_CHRONO succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eed70/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eed70.dir/build.make CMakeFiles/cmTC_eed70.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eed70.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX11_CHRONO  -fPIE -o CMakeFiles/cmTC_eed70.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eed70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eed70.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_eed70.dir/src.cxx.o -o cmTC_eed70 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <chrono>
+std::chrono::seconds s;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_NULLPTR_T succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_58952/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58952.dir/build.make CMakeFiles/cmTC_58952.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58952.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX11_NULLPTR_T  -fPIE -o CMakeFiles/cmTC_58952.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_58952
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58952.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_58952.dir/src.cxx.o -o cmTC_58952 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstddef>
+void foo(std::nullptr_t) {}
+int main(void) { foo(nullptr); }
+
+Performing C++ SOURCE FILE Test HAVE_LOCALTIME_R succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e385/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e385.dir/build.make CMakeFiles/cmTC_4e385.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e385.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_LOCALTIME_R  -fPIE -o CMakeFiles/cmTC_4e385.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4e385
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e385.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_4e385.dir/src.cxx.o -o cmTC_4e385 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstdlib>
+#include <ctime>
+int main()
+{
+    time_t timep;
+    struct tm result;
+    localtime_r(&timep, &result);
+    return EXIT_SUCCESS;
+}
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7454/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7454.dir/build.make CMakeFiles/cmTC_b7454.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b7454.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_b7454.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b7454
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7454.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_b7454.dir/src.cxx.o -o cmTC_b7454 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df036/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df036.dir/build.make CMakeFiles/cmTC_df036.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df036.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_df036.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_df036
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df036.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_df036.dir/src.cxx.o -o cmTC_df036 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_984da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_984da.dir/build.make CMakeFiles/cmTC_984da.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_984da.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -fPIE -o CMakeFiles/cmTC_984da.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                         ~~~~~~~~^~
+/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+Linking CXX executable cmTC_984da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_984da.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_984da.dir/src.cxx.o -o cmTC_984da 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+Determining if the include file getopt.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b39b3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b39b3.dir/build.make CMakeFiles/cmTC_b39b3.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b39b3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_b39b3.dir/CheckIncludeFile.c.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b39b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b39b3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b39b3.dir/CheckIncludeFile.c.o -o cmTC_b39b3 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a04f6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a04f6.dir/build.make CMakeFiles/cmTC_a04f6.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a04f6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a04f6.dir/CheckIncludeFile.c.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a04f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a04f6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a04f6.dir/CheckIncludeFile.c.o -o cmTC_a04f6 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c9438/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9438.dir/build.make CMakeFiles/cmTC_c9438.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9438.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpid -fPIE -o CMakeFiles/cmTC_c9438.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c9438
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9438.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpid CMakeFiles/cmTC_c9438.dir/CheckFunctionExists.c.o -o cmTC_c9438 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function syscall exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4f5f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4f5f7.dir/build.make CMakeFiles/cmTC_4f5f7.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f5f7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=syscall -fPIE -o CMakeFiles/cmTC_4f5f7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4f5f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f5f7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=syscall CMakeFiles/cmTC_4f5f7.dir/CheckFunctionExists.c.o -o cmTC_4f5f7 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function isinf exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f7e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f7e1.dir/build.make CMakeFiles/cmTC_0f7e1.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f7e1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=isinf -fPIE -o CMakeFiles/cmTC_0f7e1.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘isinf’; expected ‘int()’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘isinf’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_0f7e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f7e1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=isinf CMakeFiles/cmTC_0f7e1.dir/CheckFunctionExists.c.o -o cmTC_0f7e1 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function isnan exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_214c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_214c7.dir/build.make CMakeFiles/cmTC_214c7.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_214c7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=isnan -fPIE -o CMakeFiles/cmTC_214c7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘isnan’; expected ‘int()’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘isnan’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_214c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_214c7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=isnan CMakeFiles/cmTC_214c7.dir/CheckFunctionExists.c.o -o cmTC_214c7 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bae65/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bae65.dir/build.make CMakeFiles/cmTC_bae65.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bae65.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday -fPIE -o CMakeFiles/cmTC_bae65.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bae65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bae65.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettimeofday CMakeFiles/cmTC_bae65.dir/CheckFunctionExists.c.o -o cmTC_bae65 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function qsort_r exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad68d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad68d.dir/build.make CMakeFiles/cmTC_ad68d.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad68d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=qsort_r -fPIE -o CMakeFiles/cmTC_ad68d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ad68d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad68d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=qsort_r CMakeFiles/cmTC_ad68d.dir/CheckFunctionExists.c.o -o cmTC_ad68d 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function time exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7aa55/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7aa55.dir/build.make CMakeFiles/cmTC_7aa55.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7aa55.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=time -fPIE -o CMakeFiles/cmTC_7aa55.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7aa55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aa55.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=time CMakeFiles/cmTC_7aa55.dir/CheckFunctionExists.c.o -o cmTC_7aa55 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cf1a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cf1a0.dir/build.make CMakeFiles/cmTC_cf1a0.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf1a0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=copysign -fPIE -o CMakeFiles/cmTC_cf1a0.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘copysign’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘copysign’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_cf1a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf1a0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=copysign CMakeFiles/cmTC_cf1a0.dir/CheckFunctionExists.c.o -o cmTC_cf1a0 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7896/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7896.dir/build.make CMakeFiles/cmTC_f7896.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7896.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getopt -fPIE -o CMakeFiles/cmTC_f7896.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7896
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7896.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getopt CMakeFiles/cmTC_f7896.dir/CheckFunctionExists.c.o -o cmTC_f7896 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9cddf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9cddf.dir/build.make CMakeFiles/cmTC_9cddf.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cddf.dir/SIZEOF_UINT32_T.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_9cddf.dir/SIZEOF_UINT32_T.c.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CheckTypeSize/SIZEOF_UINT32_T.c
+Linking C executable cmTC_9cddf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cddf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9cddf.dir/SIZEOF_UINT32_T.c.o -o cmTC_9cddf 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_79fba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79fba.dir/build.make CMakeFiles/cmTC_79fba.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79fba.dir/SIZEOF_UNSIGNED_INT.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_79fba.dir/SIZEOF_UNSIGNED_INT.c.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_79fba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79fba.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_79fba.dir/SIZEOF_UNSIGNED_INT.c.o -o cmTC_79fba 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cfe7f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cfe7f.dir/build.make CMakeFiles/cmTC_cfe7f.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfe7f.dir/SIZEOF_UNSIGNED_LONG.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_cfe7f.dir/SIZEOF_UNSIGNED_LONG.c.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_cfe7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfe7f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cfe7f.dir/SIZEOF_UNSIGNED_LONG.c.o -o cmTC_cfe7f 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sqrt exists in the m passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9083d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9083d.dir/build.make CMakeFiles/cmTC_9083d.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9083d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sqrt -fPIE -o CMakeFiles/cmTC_9083d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘sqrt’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘sqrt’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_9083d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9083d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sqrt CMakeFiles/cmTC_9083d.dir/CheckFunctionExists.c.o -o cmTC_9083d  -lm 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_THREAD_LOCAL_STORAGE succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b53da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b53da.dir/build.make CMakeFiles/cmTC_b53da.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b53da.dir/src.c.o
+/usr/bin/cc -DHAVE_THREAD_LOCAL_STORAGE  -fPIE -o CMakeFiles/cmTC_b53da.dir/src.c.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b53da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b53da.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b53da.dir/src.c.o -o cmTC_b53da 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    __thread int tls;
+
+    int main(void) {
+        return 0;
+    }
+Determining if the __cplusplus exist passed with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_417b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_417b0.dir/build.make CMakeFiles/cmTC_417b0.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_417b0.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_417b0.dir/CheckSymbolExists.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_417b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_417b0.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_417b0.dir/CheckSymbolExists.cxx.o -o cmTC_417b0 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+File /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <ciso646>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __cplusplus
+  return ((int*)(&__cplusplus))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test SUPPORTS_STDCXX11 succeeded with the following output:
+Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b22a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b22a.dir/build.make CMakeFiles/cmTC_5b22a.dir/build
+gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5b22a.dir/src.cxx.o
+/usr/bin/c++ -DSUPPORTS_STDCXX11  -fPIE   -std=c++11 -o CMakeFiles/cmTC_5b22a.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5b22a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b22a.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_5b22a.dir/src.cxx.o -o cmTC_5b22a 
+gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

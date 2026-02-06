@@ -1,0 +1,1 @@
+/root/aerostack2_ws/install/as2_behaviors_platform/lib/libas2_behaviors_platform.a

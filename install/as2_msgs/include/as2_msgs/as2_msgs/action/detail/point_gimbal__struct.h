@@ -1,0 +1,1 @@
+/root/aerostack2_ws/build/as2_msgs/rosidl_generator_c/as2_msgs/action/detail/point_gimbal__struct.h

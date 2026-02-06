@@ -1,0 +1,3 @@
+/root/aerostack2_ws/install/as2_behavior/lib/libas2_behavior.so
+/root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake/export_as2_behaviorExport.cmake
+/root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake/export_as2_behaviorExport-release.cmake

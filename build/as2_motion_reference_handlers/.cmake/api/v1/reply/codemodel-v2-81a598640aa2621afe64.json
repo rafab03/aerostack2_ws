@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4608ef61de0d0e3d6512.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "as2_motion_reference_handlers",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_as2_motion_reference_handlers_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_as2_motion_reference_handlers_egg-Release-911dff5f8e274a9a2921.json",
+					"name" : "ament_cmake_python_build_as2_motion_reference_handlers_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_as2_motion_reference_handlers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_as2_motion_reference_handlers-Release-32776fa60f85670d0cd7.json",
+					"name" : "ament_cmake_python_symlink_as2_motion_reference_handlers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_motion_reference_handlers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_motion_reference_handlers-Release-d8254b2f0bf16c2dc1f0.json",
+					"name" : "as2_motion_reference_handlers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_motion_reference_handlers_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_motion_reference_handlers_uninstall-Release-3e86966c106035da675f.json",
+					"name" : "as2_motion_reference_handlers_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c76669f486d19f75b894.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/aerostack2_ws/build/as2_motion_reference_handlers",
+		"source" : "/root/aerostack2_ws/src/aerostack2/as2_motion_reference_handlers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,233 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_cmake_lint_cmake: 0.12.14 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_xmllint: 0.12.14 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/aerostack2_ws/build/as2_msgs
+[35m[1mConsolidate compiler generated dependencies of target as2_msgs__rosidl_generator_c[0m
+[  0%] Built target as2_msgs__cpp
+[  0%] Built target ament_cmake_python_symlink_as2_msgs
+[  0%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/acro__functions.c.o[0m
+[  0%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/control_mode__functions.c.o[0m
+[  1%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/behavior_status__functions.c.o[0m
+[  1%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/alert_event__functions.c.o[0m
+[35m[1mConsolidate compiler generated dependencies of target as2_msgs__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target as2_msgs__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target as2_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[  2%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/acro__type_support.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/acro__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/acro__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/alert_event__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/alert_event__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/behavior_status__type_support.cpp.o[0m
+[  4%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/controller_info__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/follow_target_info__functions.c.o[0m
+running egg_info
+writing as2_msgs.egg-info/PKG-INFO
+writing dependency_links to as2_msgs.egg-info/dependency_links.txt
+writing top-level names to as2_msgs.egg-info/top_level.txt
+reading manifest file 'as2_msgs.egg-info/SOURCES.txt'
+writing manifest file 'as2_msgs.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_as2_msgs_egg
+[  4%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/alert_event__type_support.cpp.o[0m
+[  5%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/geozone__functions.c.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/control_mode__type_support.cpp.o[0m
+[  5%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/gimbal_control__functions.c.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/behavior_status__type_support.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/behavior_status__type_support.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/control_mode__type_support.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/controller_info__type_support.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/follow_target_info__type_support.cpp.o[0m
+[  6%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/mission_event__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/mission_update__functions.c.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/geozone__type_support.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/controller_info__type_support.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/control_mode__type_support.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/follow_target_info__type_support.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/geozone__type_support.cpp.o[0m
+[  8%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/node_status__functions.c.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/gimbal_control__type_support.cpp.o[0m
+[  8%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/platform_info__functions.c.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/controller_info__type_support.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/gimbal_control__type_support.cpp.o[0m
+[  8%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/platform_state_machine_event__functions.c.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/mission_event__type_support.cpp.o[0m
+[  8%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/platform_status__functions.c.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/mission_event__type_support.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/follow_target_info__type_support.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/mission_update__type_support.cpp.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/polygon_list__functions.c.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/mission_update__type_support.cpp.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/pose_stamped_with_id__functions.c.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/node_status__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/node_status__type_support.cpp.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/pose_stamped_with_id_array__functions.c.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/platform_info__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/geozone__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/platform_info__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/platform_state_machine_event__type_support.cpp.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/pose_with_id__functions.c.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/gimbal_control__type_support.cpp.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/pose_with_id_array__functions.c.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/platform_state_machine_event__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/platform_status__type_support.cpp.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/speed__functions.c.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/platform_status__type_support.cpp.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/thrust__functions.c.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/mission_event__type_support.cpp.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/traj_gen_info__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/trajectory_point__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/trajectory_setpoints__functions.c.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/polygon_list__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/mission_update__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/pose_stamped_with_id__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/pose_stamped_with_id_array__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/pose_with_id__type_support.cpp.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/u_int16_multi_array_stamped__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/msg/detail/yaw_mode__functions.c.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/polygon_list__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/node_status__type_support.cpp.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/add_static_transform__functions.c.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/pose_stamped_with_id__type_support.cpp.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/add_static_transform_gps__functions.c.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/pose_with_id_array__type_support.cpp.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/dynamic_follower__functions.c.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/speed__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/thrust__type_support.cpp.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/dynamic_land__functions.c.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/traj_gen_info__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/platform_info__type_support.cpp.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/geopath_to_path__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/get_geozone__functions.c.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/trajectory_point__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/pose_stamped_with_id_array__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/trajectory_setpoints__type_support.cpp.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/get_origin__functions.c.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/u_int16_multi_array_stamped__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/platform_state_machine_event__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/pose_with_id__type_support.cpp.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/list_control_modes__functions.c.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/msg/yaw_mode__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/pose_with_id_array__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/platform_status__type_support.cpp.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/modify_swarm__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/package_pick_up__functions.c.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/add_static_transform__type_support.cpp.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/package_un_pick__functions.c.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/speed__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/add_static_transform_gps__type_support.cpp.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/path_to_geopath__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/set_control_mode__functions.c.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/polygon_list__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/pose_stamped_with_id__type_support.cpp.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/set_geozone__functions.c.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/thrust__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/pose_stamped_with_id_array__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/pose_with_id__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/dynamic_follower__type_support.cpp.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/set_origin__functions.c.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/pose_with_id_array__type_support.cpp.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/set_platform_state_machine_event__functions.c.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/dynamic_land__type_support.cpp.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/srv/detail/set_speed__functions.c.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/geopath_to_path__type_support.cpp.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/detect_aruco_markers__functions.c.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/traj_gen_info__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/get_geozone__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/trajectory_point__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/trajectory_setpoints__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/get_origin__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/speed__type_support.cpp.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/follow_path__functions.c.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/thrust__type_support.cpp.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/follow_reference__functions.c.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/list_control_modes__type_support.cpp.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/generate_polynomial_trajectory__functions.c.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/traj_gen_info__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/u_int16_multi_array_stamped__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/modify_swarm__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/trajectory_point__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/msg/detail/yaw_mode__type_support.cpp.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/go_to_waypoint__functions.c.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/package_pick_up__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/add_static_transform__type_support.cpp.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/land__functions.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/navigate_to_point__functions.c.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/trajectory_setpoints__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/package_un_pick__type_support.cpp.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/point_gimbal__functions.c.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/u_int16_multi_array_stamped__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/path_to_geopath__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/set_control_mode__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/add_static_transform_gps__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/set_geozone__type_support.cpp.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/set_arming_state__functions.c.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/dynamic_follower__type_support.cpp.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/set_offboard_mode__functions.c.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/set_origin__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/msg/detail/dds_fastrtps/yaw_mode__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/dynamic_land__type_support.cpp.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/swarm_flocking__functions.c.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/set_platform_state_machine_event__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/geopath_to_path__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/srv/detail/dds_fastrtps/add_static_transform__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/srv/detail/dds_fastrtps/add_static_transform_gps__type_support.cpp.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_generator_c.dir/rosidl_generator_c/as2_msgs/action/detail/takeoff__functions.c.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/srv/set_speed__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/action/detect_aruco_markers__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/get_geozone__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/get_origin__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/list_control_modes__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/action/follow_path__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/modify_swarm__type_support.cpp.o[0m
+[ 36%] [32m[1mLinking C shared library libas2_msgs__rosidl_generator_c.so[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/srv/detail/dds_fastrtps/dynamic_follower__type_support.cpp.o[0m
+[ 37%] Built target as2_msgs__rosidl_generator_c
+[ 37%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/action/follow_reference__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/package_pick_up__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/action/generate_polynomial_trajectory__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/action/go_to_waypoint__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/srv/detail/dds_fastrtps/dynamic_land__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/srv/detail/dds_fastrtps/geopath_to_path__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/package_un_pick__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target as2_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/as2_msgs/msg/detail/acro__type_support_c.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target as2_msgs__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target as2_msgs__rosidl_typesupport_c[0m
+[ 38%] [32mBuilding C object CMakeFiles/as2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/as2_msgs/msg/detail/acro__type_support.c.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/as2_msgs/msg/acro__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/as2_msgs/msg/detail/alert_event__type_support_c.cpp.o[0m
+gmake[2]: *** Deleting file 'CMakeFiles/as2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/as2_msgs/msg/detail/acro__type_support.c.o'
+gmake[2]: *** [CMakeFiles/as2_msgs__rosidl_typesupport_introspection_c.dir/build.make:596: CMakeFiles/as2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/as2_msgs/msg/detail/acro__type_support.c.o] Interrupt
+gmake[2]: *** [CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:1100: CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_msgs/srv/detail/package_un_pick__type_support.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/as2_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/build.make:1087: CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_msgs/action/go_to_waypoint__type_support.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/as2_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/as2_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:596: CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/as2_msgs/msg/detail/acro__type_support_c.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:1002: CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/srv/detail/dds_fastrtps/dynamic_land__type_support.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:610: CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/as2_msgs/msg/detail/alert_event__type_support_c.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/as2_msgs__rosidl_typesupport_c.dir/build.make:429: CMakeFiles/as2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/as2_msgs/msg/acro__type_support.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/as2_msgs__rosidl_typesupport_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:1016: CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_msgs/srv/detail/dds_fastrtps/geopath_to_path__type_support.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/as2_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

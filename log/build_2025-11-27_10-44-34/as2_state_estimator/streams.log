@@ -1,0 +1,158 @@
+[0.017s] Invoking command in '/root/aerostack2_ws/build/as2_state_estimator': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_state_estimator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_state_estimator
+[4.661s] -- The C compiler identification is GNU 11.4.0
+[4.661s] -- The CXX compiler identification is GNU 11.4.0
+[4.661s] -- Detecting C compiler ABI info
+[4.661s] -- Detecting C compiler ABI info - done
+[4.661s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.661s] -- Detecting C compile features
+[4.661s] -- Detecting C compile features - done
+[4.661s] -- Detecting CXX compiler ABI info
+[4.661s] -- Detecting CXX compiler ABI info - done
+[4.661s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.662s] -- Detecting CXX compile features
+[4.662s] -- Detecting CXX compile features - done
+[4.662s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.662s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.662s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.662s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[4.663s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.663s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.663s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.663s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.663s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.663s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.663s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.663s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.664s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.664s] -- Looking for pthread.h
+[4.664s] -- Looking for pthread.h - found
+[4.664s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.664s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.664s] -- Found Threads: TRUE  
+[4.664s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[4.664s] -- Found as2_core: 1.1.3 (/root/aerostack2_ws/install/as2_core/share/as2_core/cmake)
+[4.664s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[4.664s] -- Created GeographicLib::GeographicLib target from legacy variables
+[4.664s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.664s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.665s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.665s] -- Found mocap4r2_msgs: 0.0.5 (/opt/ros/humble/share/mocap4r2_msgs/cmake)
+[4.665s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.665s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.665s] -- Found mocap4r2_msgs: 0.0.5 (/opt/ros/humble/share/mocap4r2_msgs/cmake)
+[4.665s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.665s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.665s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.665s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.665s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.665s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.666s] -- Configured cppcheck include dirs: /root/aerostack2_ws/src/aerostack2/as2_state_estimator/include;/root/aerostack2_ws/src/aerostack2/as2_state_estimator/include/as2_state_estimator;$<BUILD_INTERFACE:/root/aerostack2_ws/src/aerostack2/as2_state_estimator/include>
+[4.666s] -- Configured cppcheck exclude dirs and/or files: 
+[4.666s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.666s] -- Configured cpplint exclude dirs and/or files: 
+[4.667s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.668s] -- Added test 'lint_cmake' to check CMake code style
+[4.668s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.668s] -- Added test 'uncrustify' to check C / C++ code style
+[4.668s] -- Configured uncrustify additional arguments: 
+[4.668s] -- Added test 'xmllint' to check XML markup files
+[4.668s] -- Configuring done
+[4.668s] -- Generating done
+[4.668s] -- Build files have been written to: /root/aerostack2_ws/build/as2_state_estimator
+[4.689s] Invoked command in '/root/aerostack2_ws/build/as2_state_estimator' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_state_estimator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_state_estimator
+[4.690s] Invoking command in '/root/aerostack2_ws/build/as2_state_estimator': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_state_estimator -- -j8 -l8
+[13.085s] [  4%] [32m[1mLinking CXX shared library libas2_state_estimator_plugin_base.so[0m
+[13.086s] [  4%] Built target as2_state_estimator_plugin_base
+[13.087s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[16.945s] [ 13%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.980s] [ 13%] Built target gtest
+[16.999s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[18.381s] [ 21%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[18.427s] [ 21%] Built target gtest_main
+[18.458s] [ 26%] [32mBuilding CXX object CMakeFiles/as2_state_estimator.dir/src/as2_state_estimator.cpp.o[0m
+[36.643s] [ 30%] [32m[1mLinking CXX shared library libas2_state_estimator.so[0m
+[36.856s] [ 30%] Built target as2_state_estimator
+[36.882s] [ 34%] [32mBuilding CXX object CMakeFiles/as2_state_estimator_node.dir/src/as2_state_estimator_node.cpp.o[0m
+[44.532s] [ 39%] [32m[1mLinking CXX executable as2_state_estimator_node[0m
+[44.766s] [ 39%] Built target as2_state_estimator_node
+[44.786s] [ 43%] [32mBuilding CXX object tests/CMakeFiles/as2_state_estimator_as2_state_estimator_gtest.dir/as2_state_estimator_gtest.cpp.o[0m
+[53.184s] [ 47%] [32m[1mLinking CXX executable as2_state_estimator_as2_state_estimator_gtest[0m
+[53.484s] [ 47%] Built target as2_state_estimator_as2_state_estimator_gtest
+[53.512s] [ 52%] [32mBuilding CXX object plugins/ground_truth_odometry_fuse/CMakeFiles/ground_truth_odometry_fuse.dir/src/ground_truth_odometry_fuse.cpp.o[0m
+[82.541s] [ 56%] [32m[1mLinking CXX shared library libground_truth_odometry_fuse.so[0m
+[82.988s] [ 56%] Built target ground_truth_odometry_fuse
+[83.018s] [ 60%] [32mBuilding CXX object plugins/mocap_pose/CMakeFiles/mocap_pose.dir/src/mocap_pose.cpp.o[0m
+[100.149s] [ 65%] [32m[1mLinking CXX shared library libmocap_pose.so[0m
+[100.467s] [ 65%] Built target mocap_pose
+[100.493s] [ 69%] [32mBuilding CXX object plugins/ground_truth_odometry_fuse/tests/CMakeFiles/as2_state_estimator_ground_truth_odometry_fuse_gtest.dir/ground_truth_odometry_fuse_gtest.cpp.o[0m
+[118.921s] [ 73%] [32m[1mLinking CXX executable as2_state_estimator_ground_truth_odometry_fuse_gtest[0m
+[119.262s] [ 73%] Built target as2_state_estimator_ground_truth_odometry_fuse_gtest
+[119.293s] [ 78%] [32mBuilding CXX object plugins/mocap_pose/tests/CMakeFiles/as2_state_estimator_mocap_gtest.dir/mocap_gtest.cpp.o[0m
+[134.261s] [ 82%] [32m[1mLinking CXX executable as2_state_estimator_mocap_gtest[0m
+[134.649s] [ 82%] Built target as2_state_estimator_mocap_gtest
+[134.692s] [ 86%] [32mBuilding CXX object plugins/ground_truth/CMakeFiles/ground_truth.dir/src/ground_truth.cpp.o[0m
+[161.427s] [ 91%] [32m[1mLinking CXX shared library libground_truth.so[0m
+[161.868s] [ 91%] Built target ground_truth
+[161.895s] [ 95%] [32mBuilding CXX object plugins/raw_odometry/CMakeFiles/raw_odometry.dir/src/raw_odometry.cpp.o[0m
+[185.324s] [100%] [32m[1mLinking CXX shared library libraw_odometry.so[0m
+[185.750s] [100%] Built target raw_odometry
+[185.792s] Invoked command in '/root/aerostack2_ws/build/as2_state_estimator' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_state_estimator -- -j8 -l8
+[185.797s] Invoking command in '/root/aerostack2_ws/build/as2_state_estimator': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_state_estimator
+[192.241s] -- Install configuration: "Release"
+[192.242s] -- Execute custom install script
+[192.243s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/lib/as2_state_estimator/as2_state_estimator_node
+[192.243s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/include/as2_state_estimator/as2_state_estimator.hpp
+[192.243s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/include/as2_state_estimator/plugin_base.hpp
+[192.243s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/include/raw_odometry.hpp
+[192.243s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.sh
+[192.244s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.dsv
+[192.245s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/include/ground_truth.hpp
+[192.245s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.sh
+[192.245s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.dsv
+[192.245s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/include/mocap_pose.hpp
+[192.245s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.sh
+[192.245s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.dsv
+[192.245s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/include/ground_truth_odometry_fuse.hpp
+[192.245s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.sh
+[192.245s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.dsv
+[192.245s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator//plugins.xml
+[192.245s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/raw_odometry/config/plugin_default.yaml
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/ground_truth/config/plugin_default.yaml
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/mocap_pose/config/plugin_default.yaml
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/ground_truth_odometry_fuse/config/plugin_default.yaml
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/launch/ground_truth_odometry_fuse_state_estimator.launch.py
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/launch/ground_truth_state_estimator.launch.py
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/launch/mocap_pose_state_estimator.launch.py
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/launch/raw_odometry_state_estimator.launch.py
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/launch/state_estimator_launch.py
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/config/state_estimator_default.yaml
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/ament_index/resource_index/package_run_dependencies/as2_state_estimator
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/ament_index/resource_index/parent_prefix_path/as2_state_estimator
+[192.246s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/ament_prefix_path.sh
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/ament_prefix_path.dsv
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/path.sh
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/environment/path.dsv
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.bash
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.sh
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.zsh
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.dsv
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/package.dsv
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/ament_index/resource_index/packages/as2_state_estimator
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/ament_index/resource_index/as2_state_estimator__pluginlib__plugin/as2_state_estimator
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/cmake/as2_state_estimatorConfig.cmake
+[192.247s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/cmake/as2_state_estimatorConfig-version.cmake
+[192.248s] -- Symlinking: /root/aerostack2_ws/install/as2_state_estimator/share/as2_state_estimator/package.xml
+[192.248s] -- Installing: /root/aerostack2_ws/install/as2_state_estimator/lib/libas2_state_estimator.so
+[192.248s] -- Set runtime path of "/root/aerostack2_ws/install/as2_state_estimator/lib/libas2_state_estimator.so" to ""
+[192.248s] -- Installing: /root/aerostack2_ws/install/as2_state_estimator/lib/libas2_state_estimator_plugin_base.so
+[192.251s] -- Set runtime path of "/root/aerostack2_ws/install/as2_state_estimator/lib/libas2_state_estimator_plugin_base.so" to ""
+[192.251s] -- Installing: /root/aerostack2_ws/install/as2_state_estimator/lib/libraw_odometry.so
+[192.251s] -- Set runtime path of "/root/aerostack2_ws/install/as2_state_estimator/lib/libraw_odometry.so" to ""
+[192.251s] -- Installing: /root/aerostack2_ws/install/as2_state_estimator/lib/libground_truth.so
+[192.251s] -- Set runtime path of "/root/aerostack2_ws/install/as2_state_estimator/lib/libground_truth.so" to ""
+[192.251s] -- Installing: /root/aerostack2_ws/install/as2_state_estimator/lib/libmocap_pose.so
+[192.251s] -- Set runtime path of "/root/aerostack2_ws/install/as2_state_estimator/lib/libmocap_pose.so" to ""
+[192.252s] -- Installing: /root/aerostack2_ws/install/as2_state_estimator/lib/libground_truth_odometry_fuse.so
+[192.252s] -- Set runtime path of "/root/aerostack2_ws/install/as2_state_estimator/lib/libground_truth_odometry_fuse.so" to ""
+[192.270s] Invoked command in '/root/aerostack2_ws/build/as2_state_estimator' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_state_estimator

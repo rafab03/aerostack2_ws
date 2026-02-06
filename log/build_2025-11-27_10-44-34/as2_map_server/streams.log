@@ -1,0 +1,69 @@
+[0.026s] Invoking command in '/root/aerostack2_ws/build/as2_map_server': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_map_server -- -j8 -l8
+[61.212s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[61.213s] [ 21%] Built target gtest_main
+[61.213s] [ 28%] Built target as2_map_server_base
+[61.213s] [ 35%] [32mBuilding CXX object CMakeFiles/as2_map_server.dir/src/map_server_node.cpp.o[0m
+[61.213s] [ 42%] [32mBuilding CXX object CMakeFiles/as2_map_server.dir/src/map_server.cpp.o[0m
+[61.213s] [ 50%] [32mBuilding CXX object plugins/scan2occ_grid/CMakeFiles/scan2occ_grid.dir/src/scan2occ_grid.cpp.o[0m
+[61.214s] [ 57%] [32m[1mLinking CXX static library libgtest.a[0m
+[61.214s] [ 57%] Built target gtest
+[61.214s] [ 64%] [32m[1mLinking CXX shared library libas2_map_server.so[0m
+[61.214s] [ 64%] Built target as2_map_server
+[62.942s] [ 71%] [32m[1mLinking CXX shared library libscan2occ_grid.so[0m
+[63.760s] [ 71%] Built target scan2occ_grid
+[63.813s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/as2_map_server_map_server_gtest.dir/map_server_gtest.cpp.o[0m
+[71.852s] [ 85%] [32m[1mLinking CXX executable as2_map_server_map_server_gtest[0m
+[72.120s] [ 85%] Built target as2_map_server_map_server_gtest
+[72.153s] [ 92%] [32mBuilding CXX object CMakeFiles/as2_map_server_node.dir/src/map_server_node.cpp.o[0m
+[77.938s] [100%] [32m[1mLinking CXX executable as2_map_server_node[0m
+[78.088s] [100%] Built target as2_map_server_node
+[78.113s] Invoked command in '/root/aerostack2_ws/build/as2_map_server' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_map_server -- -j8 -l8
+[78.116s] Invoking command in '/root/aerostack2_ws/build/as2_map_server': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_map_server
+[78.121s] -- Install configuration: "Release"
+[78.122s] -- Execute custom install script
+[78.122s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/include/as2_map_server/map_server.hpp
+[78.143s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/include/as2_map_server/plugin_base.hpp
+[78.161s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/environment/library_path.sh
+[78.175s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/environment/library_path.dsv
+[78.192s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_map_server/include/as2_map_server/map_server.hpp
+[78.194s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_map_server/include/as2_map_server/plugin_base.hpp
+[78.194s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/lib/as2_map_server/as2_map_server_node
+[78.209s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/include/scan2occ_grid.hpp
+[78.221s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server//plugins.xml
+[78.238s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/launch/map_server.launch.py
+[78.254s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/launch/scan2occ_grid-map_server.launch.py
+[78.265s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/plugins/scan2occ_grid/config/plugin_default.yaml
+[78.277s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/launch/depth2occ_grid-map_server.launch.py
+[78.292s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/plugins/depth2occ_grid/config/plugin_default.yaml
+[78.307s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/launch/point_cloud2occ_grid-map_server.launch.py
+[78.321s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/plugins/point_cloud2occ_grid/config/plugin_default.yaml
+[78.337s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/ament_index/resource_index/package_run_dependencies/as2_map_server
+[78.348s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/ament_index/resource_index/parent_prefix_path/as2_map_server
+[78.361s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/environment/ament_prefix_path.sh
+[78.372s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/environment/ament_prefix_path.dsv
+[78.387s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/environment/path.sh
+[78.401s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/environment/path.dsv
+[78.416s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/local_setup.bash
+[78.428s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/local_setup.sh
+[78.440s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/local_setup.zsh
+[78.454s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/local_setup.dsv
+[78.467s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/package.dsv
+[78.479s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/ament_index/resource_index/packages/as2_map_server
+[78.492s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/ament_index/resource_index/as2_map_server__pluginlib__plugin/as2_map_server
+[78.504s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[78.516s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/cmake/ament_cmake_export_targets-extras.cmake
+[78.531s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[78.539s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/cmake/as2_map_serverConfig.cmake
+[78.551s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/cmake/as2_map_serverConfig-version.cmake
+[78.563s] -- Symlinking: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/package.xml
+[78.576s] -- Installing: /root/aerostack2_ws/install/as2_map_server/lib/libas2_map_server_base.so
+[78.578s] -- Set runtime path of "/root/aerostack2_ws/install/as2_map_server/lib/libas2_map_server_base.so" to ""
+[78.578s] -- Installing: /root/aerostack2_ws/install/as2_map_server/lib/libas2_map_server.so
+[78.579s] -- Set runtime path of "/root/aerostack2_ws/install/as2_map_server/lib/libas2_map_server.so" to ""
+[78.579s] -- Installing: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_server_baseExport.cmake
+[78.582s] -- Installing: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_server_baseExport-release.cmake
+[78.583s] -- Installing: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_serverExport.cmake
+[78.583s] -- Installing: /root/aerostack2_ws/install/as2_map_server/share/as2_map_server/cmake/export_as2_map_serverExport-release.cmake
+[78.583s] -- Installing: /root/aerostack2_ws/install/as2_map_server/lib/libscan2occ_grid.so
+[78.585s] -- Set runtime path of "/root/aerostack2_ws/install/as2_map_server/lib/libscan2occ_grid.so" to ""
+[78.597s] Invoked command in '/root/aerostack2_ws/build/as2_map_server' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_map_server

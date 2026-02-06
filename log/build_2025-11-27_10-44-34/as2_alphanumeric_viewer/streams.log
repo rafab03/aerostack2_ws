@@ -1,0 +1,27 @@
+[0.020s] Invoking command in '/root/aerostack2_ws/build/as2_alphanumeric_viewer': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_alphanumeric_viewer -- -j8 -l8
+[0.154s] [ 33%] [32mBuilding CXX object CMakeFiles/as2_alphanumeric_viewer_node.dir/src/alphanumeric_viewer_node.cpp.o[0m
+[0.198s] [ 66%] [32mBuilding CXX object CMakeFiles/as2_alphanumeric_viewer_node.dir/src/alphanumeric_viewer.cpp.o[0m
+[94.173s] [100%] [32m[1mLinking CXX executable as2_alphanumeric_viewer_node[0m
+[94.849s] [100%] Built target as2_alphanumeric_viewer_node
+[94.866s] Invoked command in '/root/aerostack2_ws/build/as2_alphanumeric_viewer' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_alphanumeric_viewer -- -j8 -l8
+[94.867s] Invoking command in '/root/aerostack2_ws/build/as2_alphanumeric_viewer': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_alphanumeric_viewer
+[131.416s] -- Install configuration: "Release"
+[131.416s] -- Execute custom install script
+[131.416s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/launch/alphanumeric_viewer_launch.py
+[131.416s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/lib/as2_alphanumeric_viewer/as2_alphanumeric_viewer_node
+[131.416s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/ament_index/resource_index/package_run_dependencies/as2_alphanumeric_viewer
+[131.416s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/ament_index/resource_index/parent_prefix_path/as2_alphanumeric_viewer
+[131.416s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/environment/ament_prefix_path.sh
+[131.416s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/environment/ament_prefix_path.dsv
+[131.416s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/environment/path.sh
+[131.416s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/environment/path.dsv
+[131.417s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/local_setup.bash
+[131.417s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/local_setup.sh
+[131.417s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/local_setup.zsh
+[131.417s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/local_setup.dsv
+[131.417s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/package.dsv
+[131.421s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/ament_index/resource_index/packages/as2_alphanumeric_viewer
+[131.422s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/cmake/as2_alphanumeric_viewerConfig.cmake
+[131.422s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/cmake/as2_alphanumeric_viewerConfig-version.cmake
+[131.423s] -- Symlinking: /root/aerostack2_ws/install/as2_alphanumeric_viewer/share/as2_alphanumeric_viewer/package.xml
+[131.436s] Invoked command in '/root/aerostack2_ws/build/as2_alphanumeric_viewer' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_alphanumeric_viewer

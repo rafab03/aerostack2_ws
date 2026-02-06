@@ -1,0 +1,1 @@
+/root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface/launch/as2_usb_camera_interface_launch.py

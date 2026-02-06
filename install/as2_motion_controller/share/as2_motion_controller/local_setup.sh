@@ -1,0 +1,1 @@
+/root/aerostack2_ws/build/as2_motion_controller/ament_cmake_environment_hooks/local_setup.sh

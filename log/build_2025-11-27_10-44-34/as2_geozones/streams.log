@@ -1,0 +1,42 @@
+[0.025s] Invoking command in '/root/aerostack2_ws/build/as2_geozones': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_geozones -- -j8 -l8
+[32.520s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[32.525s] [ 18%] [32mBuilding CXX object CMakeFiles/as2_geozones.dir/src/as2_geozones.cpp.o[0m
+[32.526s] [ 27%] [32mBuilding CXX object CMakeFiles/as2_geozones_node.dir/src/as2_geozones_node.cpp.o[0m
+[32.526s] [ 36%] [32mBuilding CXX object CMakeFiles/as2_geozones_node.dir/src/as2_geozones.cpp.o[0m
+[32.526s] [ 54%] Built target gtest_main
+[44.484s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[44.629s] [ 63%] Built target gtest
+[61.398s] [ 72%] [32m[1mLinking CXX static library libas2_geozones.a[0m
+[61.574s] [ 72%] Built target as2_geozones
+[65.111s] [ 81%] [32m[1mLinking CXX executable as2_geozones_node[0m
+[65.595s] [ 81%] Built target as2_geozones_node
+[65.643s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/as2_geozones_as2_geozones_gtest.dir/as2_geozones_gtest.cpp.o[0m
+[72.883s] [100%] [32m[1mLinking CXX executable as2_geozones_as2_geozones_gtest[0m
+[73.270s] [100%] Built target as2_geozones_as2_geozones_gtest
+[73.290s] Invoked command in '/root/aerostack2_ws/build/as2_geozones' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_geozones -- -j8 -l8
+[73.322s] Invoking command in '/root/aerostack2_ws/build/as2_geozones': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_geozones
+[73.347s] -- Install configuration: "Release"
+[73.347s] -- Execute custom install script
+[73.347s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/include/as2_geozones/as2_geozones.hpp
+[73.347s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/include/as2_geozones/pnpoly.hpp
+[73.347s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/launch/as2_geozones_launch.py
+[73.351s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/config/geozones.yaml
+[73.364s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/lib/as2_geozones/as2_geozones_node
+[73.374s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/ament_index/resource_index/package_run_dependencies/as2_geozones
+[73.387s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/ament_index/resource_index/parent_prefix_path/as2_geozones
+[73.407s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/environment/ament_prefix_path.sh
+[73.421s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/environment/ament_prefix_path.dsv
+[73.439s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/environment/path.sh
+[73.462s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/environment/path.dsv
+[73.477s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/local_setup.bash
+[73.490s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/local_setup.sh
+[73.504s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/local_setup.zsh
+[73.517s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/local_setup.dsv
+[73.530s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/package.dsv
+[73.543s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/ament_index/resource_index/packages/as2_geozones
+[73.556s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.569s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/cmake/as2_geozonesConfig.cmake
+[73.587s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/cmake/as2_geozonesConfig-version.cmake
+[73.598s] -- Symlinking: /root/aerostack2_ws/install/as2_geozones/share/as2_geozones/package.xml
+[73.612s] -- Installing: /root/aerostack2_ws/install/as2_geozones/lib/libas2_geozones.a
+[74.209s] Invoked command in '/root/aerostack2_ws/build/as2_geozones' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_geozones

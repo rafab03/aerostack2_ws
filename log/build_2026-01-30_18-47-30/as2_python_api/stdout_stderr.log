@@ -1,0 +1,194 @@
+running develop
+Removing /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2-python-api.egg-link (link to .)
+running egg_info
+writing ../../../build/as2_python_api/as2_python_api.egg-info/PKG-INFO
+writing dependency_links to ../../../build/as2_python_api/as2_python_api.egg-info/dependency_links.txt
+writing entry points to ../../../build/as2_python_api/as2_python_api.egg-info/entry_points.txt
+writing requirements to ../../../build/as2_python_api/as2_python_api.egg-info/requires.txt
+writing top-level names to ../../../build/as2_python_api/as2_python_api.egg-info/top_level.txt
+reading manifest file '../../../build/as2_python_api/as2_python_api.egg-info/SOURCES.txt'
+writing manifest file '../../../build/as2_python_api/as2_python_api.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/aerostack2_ws/build/as2_python_api/build
+creating /root/aerostack2_ws/build/as2_python_api/build/lib
+creating /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api
+copying as2_python_api/__init__.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api
+copying as2_python_api/drone_interface_gps.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api
+copying as2_python_api/drone_interface_teleop.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api
+copying as2_python_api/drone_interface_base.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api
+copying as2_python_api/drone_interface.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api
+creating /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/mission_interpreter
+copying as2_python_api/mission_interpreter/ros2_adapter.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/mission_interpreter
+copying as2_python_api/mission_interpreter/__init__.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/mission_interpreter
+copying as2_python_api/mission_interpreter/mission_stack.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/mission_interpreter
+copying as2_python_api/mission_interpreter/mission_interpreter.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/mission_interpreter
+copying as2_python_api/mission_interpreter/mission.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/mission_interpreter
+creating /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/tools
+copying as2_python_api/tools/__init__.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/tools
+copying as2_python_api/tools/utils.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/tools
+creating /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_manager
+copying as2_python_api/behavior_manager/behavior_manager.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_manager
+copying as2_python_api/behavior_manager/__init__.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_manager
+creating /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/service_clients
+copying as2_python_api/service_clients/arming.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/service_clients
+copying as2_python_api/service_clients/service_handler.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/service_clients
+copying as2_python_api/service_clients/__init__.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/service_clients
+copying as2_python_api/service_clients/offboard.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/service_clients
+creating /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions
+copying as2_python_api/behavior_actions/behavior_handler.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions
+copying as2_python_api/behavior_actions/__init__.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions
+copying as2_python_api/behavior_actions/takeoff_behavior.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions
+copying as2_python_api/behavior_actions/go_to_behavior.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions
+copying as2_python_api/behavior_actions/land_behavior.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions
+copying as2_python_api/behavior_actions/point_gimbal_behavior.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions
+copying as2_python_api/behavior_actions/trajectory_generation_behavior.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions
+copying as2_python_api/behavior_actions/follow_reference_behavior.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions
+copying as2_python_api/behavior_actions/followpath_behavior.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions
+copying as2_python_api/behavior_actions/navigate_to_behavior.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions
+creating /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data
+copying as2_python_api/shared_data/pose_data.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data
+copying as2_python_api/shared_data/platform_info_data.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data
+copying as2_python_api/shared_data/gps_data.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data
+copying as2_python_api/shared_data/__init__.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data
+copying as2_python_api/shared_data/position_data.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data
+copying as2_python_api/shared_data/twist_data.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data
+copying as2_python_api/shared_data/orientation_data.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data
+creating /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/follow_path_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/takeoff_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/dummy_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/follow_path_gps_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/__init__.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/point_gimbal_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/land_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/go_to_gps_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/go_to_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/motion_reference_handler_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/rtl_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/follow_reference_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/gps_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/navigate_to_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/trajectory_generation_module.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+copying as2_python_api/modules/module_base.py -> /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules
+running install
+running install_lib
+creating /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api
+creating /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/mission_interpreter
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/mission_interpreter/ros2_adapter.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/mission_interpreter
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/mission_interpreter/__init__.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/mission_interpreter
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/mission_interpreter/mission_stack.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/mission_interpreter
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/mission_interpreter/mission_interpreter.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/mission_interpreter
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/mission_interpreter/mission.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/mission_interpreter
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/__init__.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api
+creating /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/tools
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/tools/__init__.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/tools
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/tools/utils.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/tools
+creating /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_manager
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_manager/behavior_manager.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_manager
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_manager/__init__.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_manager
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/drone_interface_gps.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api
+creating /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/service_clients
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/service_clients/arming.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/service_clients
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/service_clients/service_handler.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/service_clients
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/service_clients/__init__.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/service_clients
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/service_clients/offboard.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/service_clients
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/drone_interface_teleop.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/drone_interface_base.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api
+creating /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions/behavior_handler.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions/__init__.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions/takeoff_behavior.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions/go_to_behavior.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions/land_behavior.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions/point_gimbal_behavior.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions/trajectory_generation_behavior.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions/follow_reference_behavior.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions/followpath_behavior.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/behavior_actions/navigate_to_behavior.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/drone_interface.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api
+creating /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data/pose_data.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data/platform_info_data.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data/gps_data.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data/__init__.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data/position_data.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data/twist_data.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/shared_data/orientation_data.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data
+creating /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/follow_path_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/takeoff_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/dummy_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/follow_path_gps_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/__init__.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/point_gimbal_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/land_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/go_to_gps_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/go_to_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/motion_reference_handler_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/rtl_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/follow_reference_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/gps_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/navigate_to_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/trajectory_generation_module.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+copying /root/aerostack2_ws/build/as2_python_api/build/lib/as2_python_api/modules/module_base.py -> /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/mission_interpreter/ros2_adapter.py to ros2_adapter.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/mission_interpreter/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/mission_interpreter/mission_stack.py to mission_stack.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/mission_interpreter/mission_interpreter.py to mission_interpreter.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/mission_interpreter/mission.py to mission.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/tools/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/tools/utils.py to utils.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_manager/behavior_manager.py to behavior_manager.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_manager/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/drone_interface_gps.py to drone_interface_gps.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/service_clients/arming.py to arming.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/service_clients/service_handler.py to service_handler.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/service_clients/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/service_clients/offboard.py to offboard.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/drone_interface_teleop.py to drone_interface_teleop.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/drone_interface_base.py to drone_interface_base.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions/behavior_handler.py to behavior_handler.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions/takeoff_behavior.py to takeoff_behavior.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions/go_to_behavior.py to go_to_behavior.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions/land_behavior.py to land_behavior.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions/point_gimbal_behavior.py to point_gimbal_behavior.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions/trajectory_generation_behavior.py to trajectory_generation_behavior.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions/follow_reference_behavior.py to follow_reference_behavior.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions/followpath_behavior.py to followpath_behavior.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/behavior_actions/navigate_to_behavior.py to navigate_to_behavior.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/drone_interface.py to drone_interface.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data/pose_data.py to pose_data.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data/platform_info_data.py to platform_info_data.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data/gps_data.py to gps_data.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data/position_data.py to position_data.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data/twist_data.py to twist_data.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/shared_data/orientation_data.py to orientation_data.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/follow_path_module.py to follow_path_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/takeoff_module.py to takeoff_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/dummy_module.py to dummy_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/follow_path_gps_module.py to follow_path_gps_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/point_gimbal_module.py to point_gimbal_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/land_module.py to land_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/go_to_gps_module.py to go_to_gps_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/go_to_module.py to go_to_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/motion_reference_handler_module.py to motion_reference_handler_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/rtl_module.py to rtl_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/follow_reference_module.py to follow_reference_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/gps_module.py to gps_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/navigate_to_module.py to navigate_to_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/trajectory_generation_module.py to trajectory_generation_module.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api/modules/module_base.py to module_base.cpython-310.pyc
+running install_data
+copying resource/as2_python_api -> /root/aerostack2_ws/install/as2_python_api/share/ament_index/resource_index/packages
+copying hooks/resource_paths.sh -> /root/aerostack2_ws/install/as2_python_api/share/as2_python_api/hooks
+copying package.xml -> /root/aerostack2_ws/install/as2_python_api/share/as2_python_api
+running install_egg_info
+Copying ../../../build/as2_python_api/as2_python_api.egg-info to /root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages/as2_python_api-1.1.3-py3.10.egg-info
+running install_scripts
+Installing mission_executor script to /root/aerostack2_ws/install/as2_python_api/lib/as2_python_api
+writing list of installed files to '/root/aerostack2_ws/build/as2_python_api/install.log'

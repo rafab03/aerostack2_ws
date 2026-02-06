@@ -1,0 +1,75 @@
+[0.019s] Invoking command in '/root/aerostack2_ws/build/as2_motion_reference_handlers': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_motion_reference_handlers -- -j8 -l8
+[0.119s] [  0%] Built target ament_cmake_python_symlink_as2_motion_reference_handlers
+[0.120s] [ 12%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/acro_motion.cpp.o[0m
+[0.123s] [ 25%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/speed_in_a_plane_motion.cpp.o[0m
+[0.132s] [ 37%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/basic_motion_references.cpp.o[0m
+[0.159s] [ 50%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/hover_motion.cpp.o[0m
+[0.159s] [ 62%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/trajectory_motion.cpp.o[0m
+[0.159s] [ 75%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/position_motion.cpp.o[0m
+[0.162s] [ 87%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/speed_motion.cpp.o[0m
+[1.888s] running egg_info
+[1.889s] writing as2_motion_reference_handlers.egg-info/PKG-INFO
+[1.889s] writing dependency_links to as2_motion_reference_handlers.egg-info/dependency_links.txt
+[1.926s] writing top-level names to as2_motion_reference_handlers.egg-info/top_level.txt
+[1.927s] reading manifest file 'as2_motion_reference_handlers.egg-info/SOURCES.txt'
+[1.956s] writing manifest file 'as2_motion_reference_handlers.egg-info/SOURCES.txt'
+[2.182s] [ 87%] Built target ament_cmake_python_build_as2_motion_reference_handlers_egg
+[61.022s] [100%] [32m[1mLinking CXX static library libas2_motion_reference_handlers.a[0m
+[61.183s] [100%] Built target as2_motion_reference_handlers
+[61.231s] Invoked command in '/root/aerostack2_ws/build/as2_motion_reference_handlers' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_motion_reference_handlers -- -j8 -l8
+[61.241s] Invoking command in '/root/aerostack2_ws/build/as2_motion_reference_handlers': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_motion_reference_handlers
+[73.306s] -- Install configuration: "Release"
+[73.309s] -- Execute custom install script
+[73.309s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/library_path.sh
+[73.309s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/library_path.dsv
+[73.309s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/acro_motion.hpp
+[73.309s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/basic_motion_references.hpp
+[73.309s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/hover_motion.hpp
+[73.309s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/position_motion.hpp
+[73.309s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/speed_in_a_plane_motion.hpp
+[73.309s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/speed_motion.hpp
+[73.309s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/include/as2_motion_reference_handlers/trajectory_motion.hpp
+[73.309s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/pythonpath.sh
+[73.310s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/pythonpath.dsv
+[73.310s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers-1.1.3-py3.10.egg-info/PKG-INFO
+[73.310s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers-1.1.3-py3.10.egg-info/SOURCES.txt
+[73.310s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers-1.1.3-py3.10.egg-info/dependency_links.txt
+[73.310s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers-1.1.3-py3.10.egg-info/top_level.txt
+[73.310s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/__init__.py
+[73.315s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/basic_motion_references.py
+[73.315s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/hover_motion.py
+[73.316s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/position_motion.py
+[73.316s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/speed_in_a_plane.py
+[73.316s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/speed_motion.py
+[73.316s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/utils.py
+[73.316s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/ament_index/resource_index/package_run_dependencies/as2_motion_reference_handlers
+[73.316s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/ament_index/resource_index/parent_prefix_path/as2_motion_reference_handlers
+[73.316s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/ament_prefix_path.sh
+[73.316s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/ament_prefix_path.dsv
+[73.316s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/path.sh
+[73.325s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/environment/path.dsv
+[73.325s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/local_setup.bash
+[73.325s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/local_setup.sh
+[73.325s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/local_setup.zsh
+[73.325s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/local_setup.dsv
+[73.325s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/package.dsv
+[73.325s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/ament_index/resource_index/packages/as2_motion_reference_handlers
+[73.326s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.326s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/ament_cmake_export_targets-extras.cmake
+[73.326s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.326s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/ament_cmake_export_libraries-extras.cmake
+[73.326s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/as2_motion_reference_handlersConfig.cmake
+[73.326s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/as2_motion_reference_handlersConfig-version.cmake
+[73.326s] -- Symlinking: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/package.xml
+[73.326s] -- Installing: /root/aerostack2_ws/install/as2_motion_reference_handlers/lib/libas2_motion_reference_handlers.a
+[73.326s] Listing '/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers'...
+[73.326s] Compiling '/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/__init__.py'...
+[73.326s] Compiling '/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/basic_motion_references.py'...
+[73.327s] Compiling '/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/hover_motion.py'...
+[73.327s] Compiling '/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/position_motion.py'...
+[73.327s] Compiling '/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/speed_in_a_plane.py'...
+[73.327s] Compiling '/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/speed_motion.py'...
+[73.327s] Compiling '/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages/as2_motion_reference_handlers/utils.py'...
+[73.327s] -- Installing: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/export_as2_motion_reference_handlersExport.cmake
+[73.327s] -- Installing: /root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake/export_as2_motion_reference_handlersExport-release.cmake
+[73.375s] Invoked command in '/root/aerostack2_ws/build/as2_motion_reference_handlers' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_motion_reference_handlers

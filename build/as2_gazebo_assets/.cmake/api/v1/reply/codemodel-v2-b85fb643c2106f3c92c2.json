@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-e451c02ae8ac35af80bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "as2_gazebo_assets",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MulticopterINDIControl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MulticopterINDIControl-Release-c4bb4de2bb273e9c2882.json",
+					"name" : "MulticopterINDIControl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acro_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acro_bridge-Release-8ab2f4f978ffb911cd2f.json",
+					"name" : "acro_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_as2_gazebo_assets_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_as2_gazebo_assets_egg-Release-6e434275e91dbc3eb1c3.json",
+					"name" : "ament_cmake_python_build_as2_gazebo_assets_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_as2_gazebo_assets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_as2_gazebo_assets-Release-9f5146a6a5a7b76fc089.json",
+					"name" : "ament_cmake_python_symlink_as2_gazebo_assets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_gazebo_assets_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_gazebo_assets_uninstall-Release-cd1dc302a03e95757bd9.json",
+					"name" : "as2_gazebo_assets_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "azimuth_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-azimuth_bridge-Release-1217c044a5a6fc915b49.json",
+					"name" : "azimuth_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gimbal_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gimbal_bridge-Release-486e57877c154285aee7.json",
+					"name" : "gimbal_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_bridge-Release-48f248ba6a8821720bae.json",
+					"name" : "gps_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ground_truth_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ground_truth_bridge-Release-b6aa8754bdaafd989339.json",
+					"name" : "ground_truth_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_tf_broadcaster-Release-d00e93aab7202f59c6c8.json",
+					"name" : "object_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set_entity_pose_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_entity_pose_bridge-Release-1ae4654a7076da71e35a.json",
+					"name" : "set_entity_pose_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-85649c69066f90cd675f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/aerostack2_ws/build/as2_gazebo_assets",
+		"source" : "/root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

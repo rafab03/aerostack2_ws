@@ -1,0 +1,135 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found as2_core: 1.1.3 (/root/aerostack2_ws/install/as2_core/share/as2_core/cmake)
+-- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+-- Created GeographicLib::GeographicLib target from legacy variables
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found as2_behavior: 1.1.3 (/root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake)
+-- Found as2_motion_reference_handlers: 1.1.3 (/root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_path_behavior/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_path_behavior/include/as2_behaviors_motion;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/go_to_behavior/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/go_to_behavior/include/as2_behaviors_motion;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/land_behavior/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/land_behavior/include/as2_behaviors_motion;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/takeoff_behavior/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/takeoff_behavior/include/as2_behaviors_motion;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_reference_behavior/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_reference_behavior/include/as2_behaviors_motion;$<BUILD_INTERFACE:/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/aerostack2_ws/build/as2_behaviors_motion
+[35m[1mConsolidate compiler generated dependencies of target land_behavior_node[0m
+[35m[1mConsolidate compiler generated dependencies of target takeoff_behavior_node[0m
+[35m[1mConsolidate compiler generated dependencies of target takeoff_component[0m
+[35m[1mConsolidate compiler generated dependencies of target follow_path_behavior_node[0m
+[35m[1mConsolidate compiler generated dependencies of target land_component[0m
+[35m[1mConsolidate compiler generated dependencies of target go_to_behavior_node[0m
+[35m[1mConsolidate compiler generated dependencies of target follow_reference_behavior_node[0m
+[35m[1mConsolidate compiler generated dependencies of target as2_behaviors_motion[0m
+[  2%] [32m[1mLinking CXX shared library libtakeoff_component.so[0m
+[  5%] [32m[1mLinking CXX executable land_behavior_node[0m
+[  8%] [32m[1mLinking CXX shared library libland_component.so[0m
+[ 10%] [32m[1mLinking CXX executable follow_path_behavior_node[0m
+[ 13%] [32m[1mLinking CXX executable takeoff_behavior_node[0m
+[ 16%] [32m[1mLinking CXX executable follow_reference_behavior_node[0m
+[ 18%] [32m[1mLinking CXX executable go_to_behavior_node[0m
+[ 21%] [32m[1mLinking CXX shared library libas2_behaviors_motion.so[0m
+[ 51%] Built target as2_behaviors_motion
+[35m[1mConsolidate compiler generated dependencies of target go_to_component[0m
+[ 56%] Built target takeoff_behavior_node
+[35m[1mConsolidate compiler generated dependencies of target follow_path_component[0m
+[ 59%] [32m[1mLinking CXX shared library libgo_to_component.so[0m
+[ 62%] [32m[1mLinking CXX shared library libfollow_path_component.so[0m
+[ 67%] Built target follow_path_behavior_node
+[35m[1mConsolidate compiler generated dependencies of target follow_reference_component[0m
+[ 70%] [32m[1mLinking CXX shared library libfollow_reference_component.so[0m
+[ 75%] Built target go_to_behavior_node
+[ 81%] Built target follow_reference_behavior_node
+[ 83%] Built target land_component
+[ 86%] Built target follow_path_component
+[ 89%] Built target takeoff_component
+[ 91%] Built target go_to_component
+[ 97%] Built target land_behavior_node
+[100%] Built target follow_reference_component
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion//plugins.xml
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/library_path.sh
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/library_path.dsv
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/follow_path_behavior_node
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/include/follow_path_behavior/follow_path_base.hpp
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/include/follow_path_behavior/follow_path_behavior.hpp
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/follow_path_behavior/config//config_default.yaml
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/go_to_behavior_node
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/include/go_to_behavior/go_to_base.hpp
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/include/go_to_behavior/go_to_behavior.hpp
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/go_to_behavior/config//config_default.yaml
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/land_behavior_node
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/include/land_behavior/land_base.hpp
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/include/land_behavior/land_behavior.hpp
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/land_behavior/config//config_default.yaml
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/takeoff_behavior_node
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/include/takeoff_behavior/takeoff_base.hpp
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/include/takeoff_behavior/takeoff_behavior.hpp
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/takeoff_behavior/config//config_default.yaml
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/follow_reference_behavior_node
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/include/follow_reference_behavior/follow_reference_behavior.hpp
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/follow_reference_behavior/config//config_default.yaml
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libtakeoff_component.so
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libland_component.so
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libgo_to_component.so
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libfollow_path_component.so
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libfollow_reference_component.so
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/composable_follow_reference.launch.py
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/composable_motion_behaviors.launch.py
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/follow_path_behavior_launch.py
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/follow_reference_behavior_launch.py
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/go_to_behavior_launch.py
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/land_behavior_launch.py
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/motion_behaviors_launch.py
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/takeoff_behavior_launch.py
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_motion
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_motion
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/path.sh
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/path.dsv
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.bash
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.sh
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.zsh
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.dsv
+-- Symlinking: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/package.dsv
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/packages/as2_behaviors_motion
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/as2_behaviors_motion__pluginlib__plugin/as2_behaviors_motion
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/rclcpp_components/as2_behaviors_motion
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/as2_behaviors_motionConfig.cmake
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/as2_behaviors_motionConfig-version.cmake
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/package.xml
+-- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libas2_behaviors_motion.so
+-- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/libas2_behaviors_motion.so" to ""
+-- Up-to-date: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/export_as2_behaviors_motionExport.cmake
+-- Up-to-date: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/export_as2_behaviors_motionExport-release.cmake

@@ -1,0 +1,16 @@
+[0.022s] Invoking command in '/root/aerostack2_ws/build/as2_motion_reference_handlers': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_motion_reference_handlers -- -j8 -l8
+[0.089s] [ 12%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/hover_motion.cpp.o[0m
+[0.089s] [ 25%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/trajectory_motion.cpp.o[0m
+[0.090s] [ 37%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/basic_motion_references.cpp.o[0m
+[0.096s] [ 37%] Built target ament_cmake_python_symlink_as2_motion_reference_handlers
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/position_motion.cpp.o[0m
+[0.154s] [ 62%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/speed_motion.cpp.o[0m
+[0.157s] [ 75%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/acro_motion.cpp.o[0m
+[0.179s] [ 87%] [32mBuilding CXX object CMakeFiles/as2_motion_reference_handlers.dir/src/speed_in_a_plane_motion.cpp.o[0m
+[2.187s] running egg_info
+[2.206s] writing as2_motion_reference_handlers.egg-info/PKG-INFO
+[2.206s] writing dependency_links to as2_motion_reference_handlers.egg-info/dependency_links.txt
+[2.206s] writing top-level names to as2_motion_reference_handlers.egg-info/top_level.txt
+[2.235s] reading manifest file 'as2_motion_reference_handlers.egg-info/SOURCES.txt'
+[2.235s] writing manifest file 'as2_motion_reference_handlers.egg-info/SOURCES.txt'
+[2.341s] [ 87%] Built target ament_cmake_python_build_as2_motion_reference_handlers_egg

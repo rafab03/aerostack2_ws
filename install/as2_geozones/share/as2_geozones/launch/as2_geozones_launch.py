@@ -1,0 +1,1 @@
+/root/aerostack2_ws/src/aerostack2/as2_utilities/as2_geozones/launch/as2_geozones_launch.py

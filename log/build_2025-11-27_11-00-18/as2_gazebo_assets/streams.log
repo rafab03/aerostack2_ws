@@ -1,0 +1,538 @@
+[0.031s] Invoking command in '/root/aerostack2_ws/build/as2_gazebo_assets': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_gazebo_assets
+[0.085s] [0mUsing GAZEBO version: fortress[0m
+[0.085s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[0.101s] -- Searching for dependencies of ignition-gazebo6
+[0.102s] -- Looking for sdformat12 -- found version 12.8.0
+[0.102s] -- Searching for dependencies of sdformat12
+[0.118s] -- Checking for module 'tinyxml2'
+[0.151s] --   Found tinyxml2, version 9.0.0
+[0.209s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.210s] -- Searching for dependencies of ignition-math6
+[0.212s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.213s] -- Searching for dependencies of ignition-utils1
+[0.221s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.221s] -- Searching for dependencies of ignition-plugin1
+[0.222s] -- Searching for <ignition-plugin1> component [loader]
+[0.224s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[0.224s] -- Searching for dependencies of ignition-plugin1-loader
+[0.229s] -- Searching for <ignition-plugin1> component [register]
+[0.230s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[0.231s] -- Searching for dependencies of ignition-plugin1-register
+[0.233s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.233s] -- Searching for dependencies of ignition-transport11
+[0.343s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.359s] -- Checking for module 'libzmq >= 4'
+[0.401s] --   Found libzmq , version 4.3.4
+[0.477s] -- Checking for module 'uuid'
+[0.501s] --   Found uuid, version 2.37.2
+[0.542s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.542s] -- Searching for dependencies of ignition-utils1
+[0.543s] -- Searching for <ignition-utils1> component [cli]
+[0.545s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[0.545s] -- Searching for dependencies of ignition-utils1-cli
+[0.546s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.546s] -- Searching for dependencies of ignition-msgs8
+[0.587s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.588s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.619s] -- Searching for <ignition-transport11> component [log]
+[0.620s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[0.620s] -- Searching for dependencies of ignition-transport11-log
+[0.621s] -- Searching for <ignition-transport11> component [parameters]
+[0.622s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[0.623s] -- Searching for dependencies of ignition-transport11-parameters
+[0.627s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.628s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.628s] -- Searching for dependencies of ignition-common4
+[0.629s] -- Looking for dlfcn.h - found
+[0.629s] -- Looking for libdl - found
+[0.650s] -- Searching for <ignition-common4> component [profiler]
+[0.654s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[0.655s] -- Searching for dependencies of ignition-common4-profiler
+[0.656s] -- Searching for <ignition-common4> component [events]
+[0.657s] -- Looking for ignition-common4-events -- found version 4.7.0
+[0.658s] -- Searching for dependencies of ignition-common4-events
+[0.658s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.661s] -- Searching for <ignition-common4> component [av]
+[0.662s] -- Looking for ignition-common4-av -- found version 4.7.0
+[0.663s] -- Searching for dependencies of ignition-common4-av
+[0.678s] -- Checking for module 'libswscale'
+[0.720s] --   Found libswscale, version 5.9.100
+[0.819s] -- Checking for module 'libavdevice >= 56.4.100'
+[0.856s] --   Found libavdevice , version 58.13.100
+[0.977s] -- Checking for module 'libavformat'
+[1.023s] --   Found libavformat, version 58.76.100
+[1.103s] -- Checking for module 'libavcodec'
+[1.140s] --   Found libavcodec, version 58.134.100
+[1.202s] -- Checking for module 'libavutil'
+[1.227s] --   Found libavutil, version 56.70.100
+[1.283s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[1.284s] -- Searching for dependencies of ignition-fuel_tools7
+[1.368s] -- Checking for module 'jsoncpp'
+[1.391s] --   Found jsoncpp, version 1.9.5
+[1.468s] -- Checking for module 'libzip'
+[1.498s] --   Found libzip, version 1.7.3
+[1.584s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.586s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.592s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.606s] -- Looking for ignition-gui6 -- found version 6.8.0
+[1.606s] -- Searching for dependencies of ignition-gui6
+[1.695s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.701s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.701s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.701s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.704s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.704s] -- Searching for dependencies of ignition-rendering6
+[1.704s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.709s] -- Searching for dependencies of ignition-math6
+[1.709s] -- Searching for <ignition-math6> component [eigen3]
+[1.710s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[1.711s] -- Searching for dependencies of ignition-math6-eigen3
+[1.718s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.718s] -- Searching for dependencies of ignition-common4
+[1.718s] -- Looking for dlfcn.h - found
+[1.718s] -- Looking for libdl - found
+[1.745s] -- Searching for <ignition-common4> component [graphics]
+[1.748s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[1.749s] -- Searching for dependencies of ignition-common4-graphics
+[1.749s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.750s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.756s] -- Searching for <ignition-common4> component [events]
+[1.761s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.761s] -- Searching for dependencies of ignition-plugin1
+[1.761s] -- Searching for <ignition-plugin1> component [all]
+[1.762s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[1.763s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.772s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.823s] -- Looking for ignition-physics5 -- found version 5.3.2
+[1.824s] -- Searching for dependencies of ignition-physics5
+[1.824s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.827s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.829s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.834s] -- Searching for <ignition-physics5> component [heightmap]
+[1.835s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[1.835s] -- Searching for dependencies of ignition-physics5-heightmap
+[1.836s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.837s] -- Searching for <ignition-physics5> component [mesh]
+[1.841s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[1.842s] -- Searching for dependencies of ignition-physics5-mesh
+[1.843s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.843s] -- Searching for <ignition-physics5> component [sdf]
+[1.845s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[1.848s] -- Searching for dependencies of ignition-physics5-sdf
+[1.848s] -- Looking for sdformat12 -- found version 12.8.0
+[1.851s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.856s] -- Searching for dependencies of ignition-sensors6
+[1.935s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.936s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.940s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.942s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.943s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.943s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.943s] -- Looking for sdformat12 -- found version 12.8.0
+[1.953s] -- Searching for <ignition-sensors6> component [air_pressure]
+[1.955s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+[1.955s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[1.955s] -- Searching for <ignition-sensors6> component [altimeter]
+[1.968s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+[1.969s] -- Searching for dependencies of ignition-sensors6-altimeter
+[1.969s] -- Searching for <ignition-sensors6> component [imu]
+[1.970s] -- Looking for ignition-sensors6-imu -- found version 6.8.1
+[1.986s] -- Searching for dependencies of ignition-sensors6-imu
+[1.986s] -- Searching for <ignition-sensors6> component [force_torque]
+[1.989s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+[1.989s] -- Searching for dependencies of ignition-sensors6-force_torque
+[1.994s] -- Searching for <ignition-sensors6> component [logical_camera]
+[1.999s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+[1.999s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[2.000s] -- Searching for <ignition-sensors6> component [magnetometer]
+[2.001s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+[2.001s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[2.009s] -- Searching for <ignition-sensors6> component [navsat]
+[2.010s] -- Looking for ignition-sensors6-navsat -- found version 6.8.1
+[2.011s] -- Searching for dependencies of ignition-sensors6-navsat
+[2.011s] -- Searching for <ignition-sensors6> component [rendering]
+[2.021s] -- Looking for ignition-sensors6-rendering -- found version 6.8.1
+[2.031s] -- Searching for dependencies of ignition-sensors6-rendering
+[2.032s] -- Searching for <ignition-sensors6> component [lidar]
+[2.033s] -- Looking for ignition-sensors6-lidar -- found version 6.8.1
+[2.033s] -- Searching for dependencies of ignition-sensors6-lidar
+[2.048s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.048s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[2.048s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+[2.048s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[2.050s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.051s] -- Searching for <ignition-sensors6> component [camera]
+[2.054s] -- Looking for ignition-sensors6-camera -- found version 6.8.1
+[2.057s] -- Searching for dependencies of ignition-sensors6-camera
+[2.057s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.064s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[2.064s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+[2.064s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[2.064s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[2.065s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+[2.070s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[2.070s] -- Searching for <ignition-sensors6> component [depth_camera]
+[2.070s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+[2.072s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[2.074s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.078s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[2.078s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+[2.082s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[2.083s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.088s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[2.089s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+[2.089s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[2.089s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.095s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.095s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.100s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.216s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.218s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.224s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.225s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.225s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.226s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.235s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.664s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.691s] -- Found ros_gz_sim: 0.244.20 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[2.759s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.771s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.779s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.815s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.864s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.870s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.081s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.126s] -- Found ros_gz_bridge: 0.244.20 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[3.320s] -- Found as2_core: 1.1.3 (/root/aerostack2_ws/install/as2_core/share/as2_core/cmake)
+[3.320s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[3.321s] -- Created GeographicLib::GeographicLib target from legacy variables
+[3.421s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.427s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.774s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.910s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[8.381s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.425s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.425s] -- Configured cppcheck include dirs: /root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/include;/root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/include/as2_gazebo_assets
+[8.429s] -- Configured cppcheck exclude dirs and/or files: 
+[8.451s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.451s] -- Configured cpplint exclude dirs and/or files: 
+[8.451s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.457s] -- Added test 'lint_cmake' to check CMake code style
+[8.463s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.479s] -- Added test 'uncrustify' to check C / C++ code style
+[8.479s] -- Configured uncrustify additional arguments: 
+[8.482s] -- Added test 'xmllint' to check XML markup files
+[8.487s] -- Configuring done
+[8.647s] -- Generating done
+[8.701s] -- Build files have been written to: /root/aerostack2_ws/build/as2_gazebo_assets
+[8.753s] Invoked command in '/root/aerostack2_ws/build/as2_gazebo_assets' returned '0': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_gazebo_assets
+[8.754s] Invoking command in '/root/aerostack2_ws/build/as2_gazebo_assets': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/aerostack2_ws/build/as2_gazebo_assets -- -j8 -l8
+[8.843s] [35m[1mConsolidate compiler generated dependencies of target gps_bridge[0m
+[8.870s] [35m[1mConsolidate compiler generated dependencies of target ground_truth_bridge[0m
+[8.873s] [35m[1mConsolidate compiler generated dependencies of target azimuth_bridge[0m
+[8.873s] [35m[1mConsolidate compiler generated dependencies of target object_tf_broadcaster[0m
+[8.880s] [35m[1mConsolidate compiler generated dependencies of target gimbal_bridge[0m
+[8.882s] [35m[1mConsolidate compiler generated dependencies of target acro_bridge[0m
+[8.904s] [35m[1mConsolidate compiler generated dependencies of target MulticopterINDIControl[0m
+[8.904s] [35m[1mConsolidate compiler generated dependencies of target set_entity_pose_bridge[0m
+[8.954s] [  4%] [32mBuilding CXX object CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge.cpp.o[0m
+[8.989s] [  8%] [32mBuilding CXX object CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge.cpp.o[0m
+[8.997s] [ 12%] [32mBuilding CXX object CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge.cpp.o[0m
+[9.003s] [ 16%] [32mBuilding CXX object CMakeFiles/ground_truth_bridge.dir/src/ground_truth_bridge/ground_truth_bridge.cpp.o[0m
+[9.007s] [ 20%] [32mBuilding CXX object CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose_bridge.cpp.o[0m
+[9.014s] [ 25%] [32mBuilding CXX object CMakeFiles/object_tf_broadcaster.dir/src/object_tf_broadcaster/object_tf_broadcaster.cpp.o[0m
+[9.015s] [ 29%] [32mBuilding CXX object CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge.cpp.o[0m
+[9.026s] [ 33%] [32mBuilding CXX object CMakeFiles/MulticopterINDIControl.dir/plugins/indi-control_ign/INDIControlPlugin.cpp.o[0m
+[51.075s] [ 37%] [32mBuilding CXX object CMakeFiles/object_tf_broadcaster.dir/src/object_tf_broadcaster/object_tf_broadcaster_node.cpp.o[0m
+[53.603s] [ 41%] [32mBuilding CXX object CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o[0m
+[53.889s] [ 45%] [32mBuilding CXX object CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose_bridge_node.cpp.o[0m
+[58.642s] [ 50%] [32mBuilding CXX object CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o[0m
+[59.627s] [ 54%] [32mBuilding CXX object CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o[0m
+[62.879s] [ 58%] [32mBuilding CXX object CMakeFiles/ground_truth_bridge.dir/src/ground_truth_bridge/ground_truth_bridge_node.cpp.o[0m
+[63.521s] [ 62%] [32mBuilding CXX object CMakeFiles/MulticopterINDIControl.dir/plugins/indi-control_ign/Common.cpp.o[0m
+[68.740s] [ 66%] [32mBuilding CXX object CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o[0m
+[73.781s] [ 70%] [32m[1mLinking CXX executable object_tf_broadcaster[0m
+[75.018s] [ 75%] [32m[1mLinking CXX executable gps_bridge[0m
+[75.573s] [ 75%] Built target object_tf_broadcaster
+[76.262s] [ 75%] Built target gps_bridge
+[76.331s] [ 79%] [32m[1mLinking CXX executable set_entity_pose_bridge[0m
+[76.842s] [ 79%] Built target set_entity_pose_bridge
+[78.150s] [ 83%] [32m[1mLinking CXX executable azimuth_bridge[0m
+[78.574s] [ 83%] Built target azimuth_bridge
+[79.484s] [ 87%] [32m[1mLinking CXX executable acro_bridge[0m
+[79.966s] [ 87%] Built target acro_bridge
+[80.259s] [ 91%] [32m[1mLinking CXX executable ground_truth_bridge[0m
+[81.138s] [ 91%] Built target ground_truth_bridge
+[83.948s] [ 95%] [32m[1mLinking CXX shared library libMulticopterINDIControl.so[0m
+[84.236s] [ 95%] Built target MulticopterINDIControl
+[85.226s] [100%] [32m[1mLinking CXX executable gimbal_bridge[0m
+[85.535s] [100%] Built target gimbal_bridge
+[85.567s] [100%] Built target ament_cmake_python_symlink_as2_gazebo_assets
+[85.994s] running egg_info
+[85.995s] writing as2_gazebo_assets.egg-info/PKG-INFO
+[85.996s] writing dependency_links to as2_gazebo_assets.egg-info/dependency_links.txt
+[85.996s] writing top-level names to as2_gazebo_assets.egg-info/top_level.txt
+[85.999s] reading manifest file 'as2_gazebo_assets.egg-info/SOURCES.txt'
+[86.000s] writing manifest file 'as2_gazebo_assets.egg-info/SOURCES.txt'
+[86.026s] [100%] Built target ament_cmake_python_build_as2_gazebo_assets_egg
+[86.039s] Invoked command in '/root/aerostack2_ws/build/as2_gazebo_assets' returned '0': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/aerostack2_ws/build/as2_gazebo_assets -- -j8 -l8
+[86.041s] Invoking command in '/root/aerostack2_ws/build/as2_gazebo_assets': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/aerostack2_ws/build/as2_gazebo_assets
+[86.050s] -- Install configuration: "Release"
+[86.050s] -- Execute custom install script
+[86.051s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/resource_paths.dsv
+[86.052s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/resource_paths.sh
+[86.052s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/azimuth_bridge
+[86.052s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/gps_bridge
+[86.052s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/ground_truth_bridge
+[86.053s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/object_tf_broadcaster
+[86.053s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/gimbal_bridge
+[86.053s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/acro_bridge
+[86.053s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/set_entity_pose_bridge
+[86.054s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/lib/libMulticopterINDIControl.so
+[86.055s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/pythonpath.sh
+[86.055s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/pythonpath.dsv
+[86.055s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.3-py3.10.egg-info/PKG-INFO
+[86.056s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.3-py3.10.egg-info/SOURCES.txt
+[86.056s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.3-py3.10.egg-info/dependency_links.txt
+[86.056s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.3-py3.10.egg-info/top_level.txt
+[86.057s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/__init__.py
+[86.058s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/__init__.py
+[86.058s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridge.py
+[86.058s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridges.py
+[86.058s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/custom_bridges.py
+[86.059s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/__init__.py
+[86.059s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/drone.py
+[86.059s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/entity.py
+[86.059s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/object.py
+[86.060s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/payload.py
+[86.060s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests/test_models.py
+[86.060s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils/launch_exception.py
+[86.060s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/world.py
+[86.061s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/acro_bridge.hpp
+[86.061s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/azimuth_bridge.hpp
+[86.062s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/gimbal_bridge.hpp
+[86.062s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/gps_bridge.hpp
+[86.062s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/ground_truth_bridge.hpp
+[86.063s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/object_tf_broadcaster.hpp
+[86.063s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/set_entity_pose_bridge.hpp
+[86.064s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/drone_bridges.py
+[86.064s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/launch_simulation.py
+[86.064s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/monitor_sim.py
+[86.065s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/object_bridges.py
+[86.065s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/world_bridges.py
+[86.066s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/empty.sdf.jinja
+[86.066s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/grass.sdf.jinja
+[86.066s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/test_gripper.sdf
+[86.077s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/3d_lidar/3d_lidar.sdf
+[86.077s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/3d_lidar/model.config
+[86.078s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/air_pressure/air_pressure.sdf
+[86.078s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/air_pressure/model.config
+[86.078s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/aruco.sdf
+[86.078s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/scripts/aruco.material
+[86.079s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker1.png
+[86.079s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker2.png
+[86.079s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker3.png
+[86.079s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker4.png
+[86.079s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker5.png
+[86.079s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/meshes/checkerboard_plane.dae
+[86.079s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/model.config
+[86.080s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/aruco_gate_1.sdf
+[86.080s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/background.stl
+[86.080s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/base.stl
+[86.080s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/base_2.stl
+[86.080s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/hoop.stl
+[86.080s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/hoop_2.stl
+[86.081s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/model.config
+[86.081s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_2/aruco_gate_2.sdf
+[86.081s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_2/model.config
+[86.081s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/crazyflie.sdf
+[86.081s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/crazyflie.sdf.jinja
+[86.081s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/ccw_prop.dae
+[86.082s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/cf2_assembly.dae
+[86.082s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/cw_prop.dae
+[86.082s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/model.config
+[86.082s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/f330/f330.sdf
+[86.082s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/f330/f330.sdf.jinja
+[86.082s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/f330/meshes/model.dae
+[86.083s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/f330/model.config
+[86.083s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/gate.sdf
+[86.083s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/meshes/gate.dae
+[86.083s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/meshes/gate_color.png
+[86.085s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/model.config
+[86.085s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/model.config
+[86.085s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/position_gimbal.sdf
+[86.086s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/position_gimbal.sdf.jinja
+[86.086s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/speed_gimbal.sdf.jinja
+[86.086s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gps/gps.sdf
+[86.087s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gps/model.config
+[86.087s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/materials/textures/grass_dry.png
+[86.087s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/model.config
+[86.088s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/model.sdf
+[86.088s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/thumbnails/grasspatch.jpg
+[86.088s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscaled_camera/grayscaled_camera.sdf
+[86.089s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscaled_camera/grayscaled_camera.sdf.jinja
+[86.089s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscaled_camera/model.config
+[86.089s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/ground_plane/ground_plane.sdf
+[86.090s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/ground_plane/model.config
+[86.090s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/hd_camera.sdf
+[86.091s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/hd_camera.sdf.jinja
+[86.091s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/model.config
+[86.091s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/hexrotor_base.sdf
+[86.091s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/hexrotor_base.sdf.jinja
+[86.092s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/materials/textures/led.jpg
+[86.092s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/hexrotor.dae
+[86.093s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/hexrotor.jpg
+[86.093s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/led.dae
+[86.093s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/led_lamp.dae
+[86.093s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/neo11_propeller_ccw.dae
+[86.094s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/neo11_propeller_cw.dae
+[86.094s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/model.config
+[86.094s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/lidar_3d/lidar_3d.sdf
+[86.095s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/lidar_3d/model.config
+[86.095s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/magnetometer/magnetometer.sdf
+[86.095s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/magnetometer/model.config
+[86.096s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/planar_lidar/model.config
+[86.096s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/planar_lidar/planar_lidar.sdf
+[86.096s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/point_lidar/model.config
+[86.097s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/point_lidar/point_lidar.sdf
+[86.097s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/body.dae
+[86.097s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/iris_prop_ccw.dae
+[86.098s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/iris_prop_cw.dae
+[86.098s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/model.config
+[86.098s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/px4vision.sdf
+[86.098s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/px4vision.sdf.jinja
+[86.098s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4_vision_front.png
+[86.099s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4_vision_top.png
+[86.099s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4vision_diagonal.png
+[86.099s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/materials/textures/led.jpg
+[86.100s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/led.dae
+[86.100s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/led_lamp.dae
+[86.100s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/propeller_ccw.dae
+[86.101s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/propeller_cw.dae
+[86.101s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/quadrotor.dae
+[86.101s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/quadrotor.jpg
+[86.101s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/model.config
+[86.102s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/quadrotor_base.sdf
+[86.102s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/quadrotor_base.sdf.jinja
+[86.102s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/model.config
+[86.103s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/rgbd_camera.sdf
+[86.103s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/rgbd_camera.sdf.jinja
+[86.103s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/model.config
+[86.104s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/semantic_camera.sdf
+[86.104s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/semantic_camera.sdf.jinja
+[86.104s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/suction_gripper/model.config
+[86.104s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/suction_gripper/suction_gripper.sdf
+[86.105s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/base_color.png
+[86.105s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/base_normals.png
+[86.106s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/elbow_flex_color.png
+[86.106s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/elbow_flex_normals.png
+[86.106s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/finger_H_Color_100430.png
+[86.106s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/fingertip_H_Color_100430.png
+[86.106s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/float_H_Color_100430.png
+[86.107s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/forearm.png
+[86.107s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/forearm_color.png
+[86.107s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/forearm_normals.png
+[86.108s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/gripper_palm_color.png
+[86.108s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/gripper_palm_normals.png
+[86.108s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_pan_color.png
+[86.108s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_pan_normals.png
+[86.109s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_tilt_color.png
+[86.109s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_tilt_color_red.png
+[86.109s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_tilt_color_yellow.png
+[86.109s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_tilt_green.png
+[86.110s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/head_tilt_normals.png
+[86.110s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_finger_color.png
+[86.110s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_finger_normals.png
+[86.111s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_finger_tip_color.png
+[86.111s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_finger_tip_normals.png
+[86.111s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_float_color.png
+[86.111s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/l_float_normals.png
+[86.112s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/palm_H_Color_100430.png
+[86.112s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/shoulder_lift_color.png
+[86.112s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/shoulder_lift_normals.png
+[86.113s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/shoulder_pan_color.png
+[86.113s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/shoulder_pan_normals.png
+[86.113s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/tilting_hokuyo_color.png
+[86.113s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/tilting_hokuyo_normals.png
+[86.114s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/torso_lift_color.png
+[86.114s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/torso_lift_normals.png
+[86.114s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/upper_arm.png
+[86.115s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/upper_arm_color.png
+[86.115s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/upper_arm_normals.png
+[86.115s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/upper_arm_roll_color.png
+[86.115s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/upper_arm_roll_normals.png
+[86.116s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/wheel_color.png
+[86.116s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/wheel_h_color.png
+[86.116s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/wheel_normals.png
+[86.117s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/wrist_color.png
+[86.117s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/materials/textures/wrist_normals.png
+[86.117s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/forearm_v0/wrist_roll.stl
+[86.117s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/forearm_v0/wrist_roll_L.stl
+[86.118s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/float_H_UV_100430.dae
+[86.118s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/gripper_palm.dae
+[86.118s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/gripper_palm.stl
+[86.119s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_finger.dae
+[86.119s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_finger.stl
+[86.119s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_finger_tip.dae
+[86.119s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_finger_tip.stl
+[86.120s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_float.dae
+[86.120s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/l_floating.stl
+[86.120s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/palm_H_UV_100430.dae
+[86.121s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/upper_finger_l.stl
+[86.121s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/meshes/gripper_v0/upper_finger_r.stl
+[86.121s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/model.config
+[86.121s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/thumbnails/1.png
+[86.122s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/thumbnails/2.png
+[86.122s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/thumbnails/3.png
+[86.122s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/thumbnails/4.png
+[86.122s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/thumbnails/5.png
+[86.122s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/two_fingers_gripper/two_fingers_gripper.sdf
+[86.123s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/model.config
+[86.123s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/vga_camera.sdf
+[86.123s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/vga_camera.sdf.jinja
+[86.124s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/Plastic010_1K_Displacement.jpg
+[86.124s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/blades.dae
+[86.124s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/rotor.dae
+[86.125s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/tower.dae
+[86.125s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/model.config
+[86.125s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/windmill.sdf
+[86.126s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/CF.png
+[86.126s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/nxp.png
+[86.127s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/rd.png
+[86.127s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/1345_prop_ccw.stl
+[86.127s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/1345_prop_cw.stl
+[86.128s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/5010Base.dae
+[86.128s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/5010Bell.dae
+[86.128s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/CF.png
+[86.128s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/NXP-HGD-CF.dae
+[86.129s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/model.config
+[86.129s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/1.png
+[86.129s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/2.png
+[86.130s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/3.png
+[86.130s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/4.png
+[86.130s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/5.png
+[86.131s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/x500.sdf
+[86.131s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/x500.sdf.jinja
+[86.132s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/scripts/jinja_gen.py
+[86.133s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/ament_index/resource_index/package_run_dependencies/as2_gazebo_assets
+[86.133s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/ament_index/resource_index/parent_prefix_path/as2_gazebo_assets
+[86.134s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/ament_prefix_path.sh
+[86.134s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/ament_prefix_path.dsv
+[86.134s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/path.sh
+[86.135s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/path.dsv
+[86.135s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.bash
+[86.135s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.sh
+[86.135s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.zsh
+[86.136s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.dsv
+[86.136s] -- Symlinking: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/package.dsv
+[86.146s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/ament_index/resource_index/packages/as2_gazebo_assets
+[86.146s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/cmake/as2_gazebo_assetsConfig.cmake
+[86.146s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/cmake/as2_gazebo_assetsConfig-version.cmake
+[86.147s] -- Up-to-date symlink: /root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/package.xml
+[86.186s] Listing '/root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets'...
+[86.186s] Listing '/root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges'...
+[86.187s] Listing '/root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models'...
+[86.187s] Listing '/root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests'...
+[86.187s] Listing '/root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils'...
+[86.193s] Invoked command in '/root/aerostack2_ws/build/as2_gazebo_assets' returned '0': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/aerostack2_ws/build/as2_gazebo_assets

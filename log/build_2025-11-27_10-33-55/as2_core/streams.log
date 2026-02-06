@@ -1,0 +1,197 @@
+[0.006s] Invoking command in '/root/aerostack2_ws/build/as2_core': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_core
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.078s] -- The CXX compiler identification is GNU 11.4.0
+[0.083s] -- Detecting C compiler ABI info
+[0.127s] -- Detecting C compiler ABI info - done
+[0.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.132s] -- Detecting C compile features
+[0.132s] -- Detecting C compile features - done
+[0.134s] -- Detecting CXX compiler ABI info
+[0.189s] -- Detecting CXX compiler ABI info - done
+[0.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.194s] -- Detecting CXX compile features
+[0.194s] -- Detecting CXX compile features - done
+[0.195s] -- Detected ROS_DISTRO: humble
+[0.196s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.342s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.367s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.398s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.402s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.409s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.432s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.467s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.470s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.539s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.563s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.600s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.607s] -- Looking for pthread.h
+[0.660s] -- Looking for pthread.h - found
+[0.660s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.710s] -- Found Threads: TRUE  
+[0.745s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.766s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.778s] -- Found as2_msgs: 1.1.3 (/root/aerostack2_ws/install/as2_msgs/share/as2_msgs/cmake)
+[0.828s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.835s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.849s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.850s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.850s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.910s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.925s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[0.946s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.956s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[0.957s] -- Created GeographicLib::GeographicLib target from legacy variables
+[1.071s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[1.106s] -- Performing Test HAS_FLTO
+[1.211s] -- Performing Test HAS_FLTO - Success
+[1.211s] -- Found pybind11: /usr/include (found version "2.9.1")
+[1.287s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.346s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.399s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.402s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.403s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/aerostack2_ws/src/aerostack2/as2_core/include>;/root/aerostack2_ws/src/aerostack2/as2_core/include/as2_core;/root/aerostack2_ws/src/aerostack2/as2_core/include
+[1.403s] -- Configured cppcheck exclude dirs and/or files: 
+[1.405s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.405s] -- Configured cpplint exclude dirs and/or files: 
+[1.406s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.407s] -- Added test 'lint_cmake' to check CMake code style
+[1.408s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.410s] -- Added test 'uncrustify' to check C / C++ code style
+[1.410s] -- Configured uncrustify additional arguments: 
+[1.411s] -- Added test 'xmllint' to check XML markup files
+[1.413s] -- Configuring done
+[1.453s] -- Generating done
+[1.468s] -- Build files have been written to: /root/aerostack2_ws/build/as2_core
+[1.478s] Invoked command in '/root/aerostack2_ws/build/as2_core' returned '0': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_core
+[1.478s] Invoking command in '/root/aerostack2_ws/build/as2_core': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/aerostack2_ws/build/as2_core -- -j8 -l8
+[1.519s] [  6%] [32mBuilding CXX object CMakeFiles/as2_names.dir/src/_as2_core_pybind11.cpp.o[0m
+[1.519s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.521s] [ 12%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/sensor.cpp.o[0m
+[1.521s] [ 16%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/aerial_platform.cpp.o[0m
+[1.521s] [ 19%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/node.cpp.o[0m
+[1.521s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.521s] [ 22%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/platform_state_machine.cpp.o[0m
+[1.529s] [ 22%] Built target ament_cmake_python_symlink_as2_core
+[1.538s] [ 25%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/rate.cpp.o[0m
+[2.343s] [ 29%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/core_functions.cpp.o[0m
+[2.789s] [ 32%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.838s] [ 32%] Built target gtest_main
+[2.851s] [ 35%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/control_mode_utils.cpp.o[0m
+[5.264s] running egg_info
+[5.265s] creating as2_core.egg-info
+[5.266s] writing as2_core.egg-info/PKG-INFO
+[5.267s] writing dependency_links to as2_core.egg-info/dependency_links.txt
+[5.267s] writing top-level names to as2_core.egg-info/top_level.txt
+[5.267s] writing manifest file 'as2_core.egg-info/SOURCES.txt'
+[5.270s] reading manifest file 'as2_core.egg-info/SOURCES.txt'
+[5.271s] writing manifest file 'as2_core.egg-info/SOURCES.txt'
+[5.310s] [ 35%] Built target ament_cmake_python_build_as2_core_egg
+[5.326s] [ 38%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/tf_utils.cpp.o[0m
+[5.632s] [ 41%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/yaml_utils.cpp.o[0m
+[6.667s] [ 45%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/frame_utils.cpp.o[0m
+[7.381s] [ 48%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/gps_utils.cpp.o[0m
+[8.199s] [ 51%] [32m[1mLinking CXX shared module as2_names.cpython-310-x86_64-linux-gnu.so[0m
+[8.386s] lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+[11.185s] [ 51%] Built target as2_names
+[11.883s] [ 54%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.925s] [ 54%] Built target gtest
+[27.146s] [ 58%] [32m[1mLinking CXX static library libas2_core.a[0m
+[27.205s] [ 58%] Built target as2_core
+[27.229s] [ 67%] [32mBuilding CXX object CMakeFiles/mocks.dir/tests/mocks/aerial_platform/mock_aerial_platform.cpp.o[0m
+[27.229s] [ 67%] [32mBuilding CXX object tests/CMakeFiles/platform_state_machine_test.dir/platform_state_machine_test.cpp.o[0m
+[27.229s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/sensor_test.dir/sensor_test.cpp.o[0m
+[27.229s] [ 74%] [32mBuilding CXX object tests/CMakeFiles/tf2_namespace_test.dir/tf2_namespace_test.cpp.o[0m
+[27.229s] [ 74%] [32mBuilding CXX object tests/CMakeFiles/frame_test.dir/frame_test.cpp.o[0m
+[27.230s] [ 77%] [32mBuilding CXX object CMakeFiles/mocks.dir/tests/mocks/executor_thread_util/executor_thread_util.cpp.o[0m
+[27.236s] [ 80%] [32mBuilding CXX object tests/CMakeFiles/tf_utils_gtest.dir/tf_utils_gtest.cpp.o[0m
+[31.415s] [ 83%] [32m[1mLinking CXX executable platform_state_machine_test[0m
+[31.665s] [ 83%] Built target platform_state_machine_test
+[32.696s] [ 87%] [32m[1mLinking CXX executable frame_test[0m
+[32.871s] [ 87%] Built target frame_test
+[33.109s] [ 90%] [32m[1mLinking CXX executable tf2_namespace_test[0m
+[33.290s] [ 90%] Built target tf2_namespace_test
+[35.195s] [ 93%] [32m[1mLinking CXX executable tf_utils_gtest[0m
+[35.373s] [ 93%] Built target tf_utils_gtest
+[37.585s] [ 96%] [32m[1mLinking CXX executable sensor_test[0m
+[37.944s] [ 96%] Built target sensor_test
+[51.426s] [100%] [32m[1mLinking CXX shared library libmocks.so[0m
+[51.618s] [100%] Built target mocks
+[51.625s] Invoked command in '/root/aerostack2_ws/build/as2_core' returned '0': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/aerostack2_ws/build/as2_core -- -j8 -l8
+[51.626s] Invoking command in '/root/aerostack2_ws/build/as2_core': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/aerostack2_ws/build/as2_core
+[51.631s] -- Install configuration: "Release"
+[51.631s] -- Execute custom install script
+[51.631s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/environment/pythonpath.sh
+[51.636s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/environment/pythonpath.dsv
+[51.642s] -- Symlinking: /root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.3-py3.10.egg-info/PKG-INFO
+[51.647s] -- Symlinking: /root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.3-py3.10.egg-info/SOURCES.txt
+[51.652s] -- Symlinking: /root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.3-py3.10.egg-info/dependency_links.txt
+[51.657s] -- Symlinking: /root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.3-py3.10.egg-info/top_level.txt
+[51.663s] -- Symlinking: /root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/__init__.py
+[51.668s] -- Symlinking: /root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/declare_launch_arguments_from_config_file.py
+[51.673s] -- Symlinking: /root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_configuration_from_config_file.py
+[51.678s] -- Symlinking: /root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_param_utils.py
+[51.684s] -- Symlinking: /root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_plugin_utils.py
+[51.689s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/environment/library_path.sh
+[51.694s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/environment/library_path.dsv
+[51.699s] -- Symlinking: /root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/as2_names.cpython-310-x86_64-linux-gnu.so
+[51.704s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/aerial_platform.hpp
+[51.709s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/as2_basic_behavior.hpp
+[51.715s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/core_functions.hpp
+[51.720s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/custom/cv_bridge.hpp
+[51.724s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/custom/cv_bridge.hpp.in
+[51.729s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/custom/tf2_geometry_msgs.hpp
+[51.734s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/custom/tf2_geometry_msgs.hpp.in
+[51.739s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/names/actions.hpp
+[51.745s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/names/services.hpp
+[51.752s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/names/topics.hpp
+[51.758s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/node.hpp
+[51.763s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/platform_state_machine.hpp
+[51.768s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/rate.hpp
+[51.773s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/sensor.hpp
+[51.778s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/synchronous_service_client.hpp
+[51.783s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/utils/control_mode_utils.hpp
+[51.788s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/utils/frame_utils.hpp
+[51.794s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/utils/gps_utils.hpp
+[51.799s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/utils/tf_utils.hpp
+[51.804s] -- Symlinking: /root/aerostack2_ws/install/as2_core/include/as2_core/utils/yaml_utils.hpp
+[51.809s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/ament_index/resource_index/package_run_dependencies/as2_core
+[51.815s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/ament_index/resource_index/parent_prefix_path/as2_core
+[51.820s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/environment/ament_prefix_path.sh
+[51.825s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/environment/ament_prefix_path.dsv
+[51.830s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/environment/path.sh
+[51.835s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/environment/path.dsv
+[51.840s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/local_setup.bash
+[51.845s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/local_setup.sh
+[51.851s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/local_setup.zsh
+[51.857s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/local_setup.dsv
+[51.863s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/package.dsv
+[51.867s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/ament_index/resource_index/packages/as2_core
+[51.872s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/cmake/yaml-cpp-extras.cmake
+[51.877s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/cmake/GeographicLib-extras.cmake
+[51.882s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/cmake/ament_cmake_export_targets-extras.cmake
+[51.887s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.892s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.897s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/cmake/ament_cmake_export_libraries-extras.cmake
+[51.903s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/cmake/as2_coreConfig.cmake
+[51.908s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/cmake/as2_coreConfig-version.cmake
+[51.912s] -- Symlinking: /root/aerostack2_ws/install/as2_core/share/as2_core/package.xml
+[51.942s] Listing '/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core'...
+[51.942s] Compiling '/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/__init__.py'...
+[51.942s] Compiling '/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/declare_launch_arguments_from_config_file.py'...
+[51.942s] Compiling '/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_configuration_from_config_file.py'...
+[51.942s] Compiling '/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_param_utils.py'...
+[51.942s] Compiling '/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_plugin_utils.py'...
+[51.945s] -- Installing: /root/aerostack2_ws/install/as2_core/include/as2_core/mocks/
+[51.945s] -- Installing: /root/aerostack2_ws/install/as2_core/include/as2_core/mocks//executor_thread_util
+[51.945s] -- Installing: /root/aerostack2_ws/install/as2_core/include/as2_core/mocks//executor_thread_util/executor_thread_util.hpp
+[51.945s] -- Installing: /root/aerostack2_ws/install/as2_core/include/as2_core/mocks//aerial_platform
+[51.945s] -- Installing: /root/aerostack2_ws/install/as2_core/include/as2_core/mocks//aerial_platform/mock_aerial_platform.hpp
+[51.945s] -- Installing: /root/aerostack2_ws/install/as2_core/lib/libas2_core.a
+[51.949s] -- Installing: /root/aerostack2_ws/install/as2_core/lib/libmocks.so
+[51.952s] -- Set runtime path of "/root/aerostack2_ws/install/as2_core/lib/libmocks.so" to ""
+[51.952s] -- Installing: /root/aerostack2_ws/install/as2_core/share/as2_core/cmake/export_as2_coreExport.cmake
+[51.952s] -- Installing: /root/aerostack2_ws/install/as2_core/share/as2_core/cmake/export_as2_coreExport-release.cmake
+[51.954s] Invoked command in '/root/aerostack2_ws/build/as2_core' returned '0': CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_cli:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_msgs/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/aerostack2_ws/build/as2_core

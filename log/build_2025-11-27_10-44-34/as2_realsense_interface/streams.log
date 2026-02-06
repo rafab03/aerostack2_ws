@@ -1,0 +1,104 @@
+[0.062s] Invoking command in '/root/aerostack2_ws/build/as2_realsense_interface': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_realsense_interface
+[3.864s] -- The C compiler identification is GNU 11.4.0
+[3.864s] -- The CXX compiler identification is GNU 11.4.0
+[3.865s] -- Detecting C compiler ABI info
+[3.865s] -- Detecting C compiler ABI info - done
+[3.865s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.866s] -- Detecting C compile features
+[3.866s] -- Detecting C compile features - done
+[3.866s] -- Detecting CXX compiler ABI info
+[3.866s] -- Detecting CXX compiler ABI info - done
+[3.866s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.866s] -- Detecting CXX compile features
+[3.867s] -- Detecting CXX compile features - done
+[3.867s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.868s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.868s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.868s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.868s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.868s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.868s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.868s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.868s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.868s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.868s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.868s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.869s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.869s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.869s] -- Looking for pthread.h
+[3.869s] -- Looking for pthread.h - found
+[3.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.869s] -- Found Threads: TRUE  
+[3.869s] -- Found as2_core: 1.1.3 (/root/aerostack2_ws/install/as2_core/share/as2_core/cmake)
+[3.869s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[3.869s] -- Created GeographicLib::GeographicLib target from legacy variables
+[3.869s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.869s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.870s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.870s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.870s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.870s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.870s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.870s] -- Configured cppcheck include dirs: /root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface/include;/root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface/include/as2_realsense_interface
+[3.870s] -- Configured cppcheck exclude dirs and/or files: 
+[3.870s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.870s] -- Configured cpplint exclude dirs and/or files: 
+[3.870s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.870s] -- Added test 'lint_cmake' to check CMake code style
+[3.871s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.871s] -- Added test 'uncrustify' to check C / C++ code style
+[3.871s] -- Configured uncrustify additional arguments: 
+[3.871s] -- Added test 'xmllint' to check XML markup files
+[3.871s] -- Configuring done
+[3.871s] -- Generating done
+[3.871s] -- Build files have been written to: /root/aerostack2_ws/build/as2_realsense_interface
+[3.880s] Invoked command in '/root/aerostack2_ws/build/as2_realsense_interface' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_realsense_interface
+[3.881s] Invoking command in '/root/aerostack2_ws/build/as2_realsense_interface': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_realsense_interface -- -j8 -l8
+[4.362s] [  9%] [32mBuilding CXX object CMakeFiles/as2_realsense_interface_node.dir/src/as2_realsense_interface_node.cpp.o[0m
+[12.385s] [ 18%] [32mBuilding CXX object CMakeFiles/as2_realsense_interface_node.dir/src/as2_realsense_interface.cpp.o[0m
+[28.686s] [ 27%] [32m[1mLinking CXX executable as2_realsense_interface_node[0m
+[29.255s] [ 27%] Built target as2_realsense_interface_node
+[29.288s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[38.625s] [ 45%] [32m[1mLinking CXX static library libgtest.a[0m
+[38.684s] [ 45%] Built target gtest
+[38.715s] [ 54%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[40.127s] [ 63%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[40.173s] [ 63%] Built target gtest_main
+[40.206s] [ 72%] [32mBuilding CXX object CMakeFiles/as2_realsense_interface.dir/src/as2_realsense_interface.cpp.o[0m
+[53.273s] [ 81%] [32m[1mLinking CXX static library libas2_realsense_interface.a[0m
+[53.310s] [ 81%] Built target as2_realsense_interface
+[53.330s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/as2_realsense_interface_as2_realsense_interface_gtest.dir/as2_realsense_interface_gtest.cpp.o[0m
+[63.496s] [100%] [32m[1mLinking CXX executable as2_realsense_interface_as2_realsense_interface_gtest[0m
+[64.262s] [100%] Built target as2_realsense_interface_as2_realsense_interface_gtest
+[64.289s] Invoked command in '/root/aerostack2_ws/build/as2_realsense_interface' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_realsense_interface -- -j8 -l8
+[64.293s] Invoking command in '/root/aerostack2_ws/build/as2_realsense_interface': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_realsense_interface
+[176.356s] -- Install configuration: "Release"
+[176.357s] -- Execute custom install script
+[176.357s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/include/as2_realsense_interface/as2_realsense_interface.hpp
+[176.357s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/lib/as2_realsense_interface/as2_realsense_interface_node
+[176.357s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/launch/as2_realsense_interface_launch.py
+[176.357s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/launch/as2_realsense_interface_t265_launch.py
+[176.357s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/d435i/params.yaml
+[176.357s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/d435i/tf_sensors.yaml
+[176.357s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/t265/params.yaml
+[176.361s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/realsense_interface/t265/tf_sensors.yaml
+[176.361s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/tf_device/d435i.yaml
+[176.362s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/config/tf_device/t265.yaml
+[176.362s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/ament_index/resource_index/package_run_dependencies/as2_realsense_interface
+[176.362s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/ament_index/resource_index/parent_prefix_path/as2_realsense_interface
+[176.362s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/ament_prefix_path.sh
+[176.362s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/ament_prefix_path.dsv
+[176.362s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/path.sh
+[176.362s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/environment/path.dsv
+[176.362s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.bash
+[176.362s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.sh
+[176.362s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.zsh
+[176.362s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/local_setup.dsv
+[176.363s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/package.dsv
+[176.363s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/ament_index/resource_index/packages/as2_realsense_interface
+[176.363s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/cmake/as2_realsense_interfaceConfig.cmake
+[176.363s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/cmake/as2_realsense_interfaceConfig-version.cmake
+[176.363s] -- Symlinking: /root/aerostack2_ws/install/as2_realsense_interface/share/as2_realsense_interface/package.xml
+[176.363s] -- Installing: /root/aerostack2_ws/install/as2_realsense_interface/lib/libas2_realsense_interface.a
+[176.376s] Invoked command in '/root/aerostack2_ws/build/as2_realsense_interface' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_realsense_interface

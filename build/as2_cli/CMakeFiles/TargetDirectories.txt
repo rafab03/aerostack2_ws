@@ -1,0 +1,9 @@
+/root/aerostack2_ws/build/as2_cli/CMakeFiles/uninstall.dir
+/root/aerostack2_ws/build/as2_cli/CMakeFiles/as2_cli_uninstall.dir
+/root/aerostack2_ws/build/as2_cli/CMakeFiles/test.dir
+/root/aerostack2_ws/build/as2_cli/CMakeFiles/edit_cache.dir
+/root/aerostack2_ws/build/as2_cli/CMakeFiles/rebuild_cache.dir
+/root/aerostack2_ws/build/as2_cli/CMakeFiles/list_install_components.dir
+/root/aerostack2_ws/build/as2_cli/CMakeFiles/install.dir
+/root/aerostack2_ws/build/as2_cli/CMakeFiles/install/local.dir
+/root/aerostack2_ws/build/as2_cli/CMakeFiles/install/strip.dir

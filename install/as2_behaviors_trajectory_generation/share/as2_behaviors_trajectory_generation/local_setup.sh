@@ -1,0 +1,1 @@
+/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/ament_cmake_environment_hooks/local_setup.sh
