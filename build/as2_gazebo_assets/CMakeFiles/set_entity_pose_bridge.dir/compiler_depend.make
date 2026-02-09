@@ -60,7 +60,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -68,9 +67,7 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -144,7 +141,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -203,8 +199,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -239,8 +233,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/x86_64-linux-gnu/sys/param.h \
   /usr/include/signal.h \
   /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -266,7 +258,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -690,7 +681,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -1530,7 +1520,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1538,9 +1527,7 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -1614,7 +1601,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -1673,8 +1659,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1709,8 +1693,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/x86_64-linux-gnu/sys/param.h \
   /usr/include/signal.h \
   /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -1736,7 +1718,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -2160,7 +2141,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -3256,6 +3236,8 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__traits.hpp:
 
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.hpp:
 
 /usr/include/ignition/msgs8/gz/msgs/world_control.pb.h:
@@ -3394,15 +3376,9 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
+/usr/include/ignition/msgs8/ignition/msgs/fluid_pressure.pb.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+/usr/include/ignition/msgs8/ignition/msgs/rest_post.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/link.pb.h:
 
@@ -3538,10 +3514,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /opt/ros/humble/include/ros_gz_bridge/ros_gz_bridge/convert/geometry_msgs.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/camera_cmd.pb.h:
-
 /usr/include/c++/11/unordered_map:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
@@ -3573,6 +3545,12 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/c++/11/bits/regex_error.h:
 
 /usr/include/c++/11/atomic:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/11/bits/regex_constants.h:
 
 /usr/include/c++/11/deque:
 
@@ -3613,6 +3591,10 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/ignition/msgs8/ignition/msgs/axis_aligned_box.pb.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/altimeter.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/float_v.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/wrench.pb.h:
 
@@ -3682,6 +3664,8 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/c++/11/ctime:
 
+/usr/include/ignition/msgs8/ignition/msgs/entity_wrench.pb.h:
+
 /usr/include/c++/11/ratio:
 
 /usr/include/ignition/msgs8/ignition/msgs/gui.pb.h:
@@ -3744,10 +3728,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/wchar.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
-
-/usr/include/byteswap.h:
-
 /usr/include/google/protobuf/stubs/platform_macros.h:
 
 /usr/include/c++/11/stdlib.h:
@@ -3785,6 +3765,10 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/c++/11/bits/regex_scanner.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/physics.pb.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/fog.pb.h:
 
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.hpp:
 
@@ -3902,27 +3886,11 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+/usr/include/c++/11/bits/functional_hash.h:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
-/usr/include/ignition/msgs8/ignition/msgs/twist_with_covariance.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/camera_info.pb.h:
-
-/usr/include/x86_64-linux-gnu/sys/socket.h:
+/usr/include/c++/11/backward/binders.h:
 
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.hpp:
 
@@ -3965,10 +3933,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/ignition/msgs8/ignition/msgs/fluid.pb.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
 
@@ -4036,6 +4000,14 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/x86_64-linux-gnu/sys/param.h:
 
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/contacts.pb.h:
+
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /usr/include/ignition/msgs8/ignition/msgs/heightmapgeom.pb.h:
@@ -4058,15 +4030,19 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/c++/11/bits/specfun.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
 
 /usr/include/ignition/msgs8/ignition/msgs/annotated_axis_aligned_2d_box_v.pb.h:
 
 /usr/include/alloca.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/spherical_coordinates.pb.h:
 
 /usr/include/c++/11/ext/new_allocator.h:
 
@@ -4087,6 +4063,10 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/ignition/msgs8/gz/msgs/int32.pb.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/c++/11/bits/functexcept.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
@@ -4156,10 +4136,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/contacts.pb.h:
-
-/usr/include/c++/11/bits/stl_function.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/c++/11/cwchar:
@@ -4188,27 +4164,9 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/ellipsoidgeom.pb.h:
-
-/usr/include/ignition/math6/ignition/math/Pose3.hh:
-
-/usr/include/stdc-predef.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
 /usr/include/ignition/msgs8/ignition/msgs/joint_trajectory_point.pb.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/google/protobuf/arenastring.h:
 
@@ -4218,11 +4176,17 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
 
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/ignition/msgs8/ignition/msgs/twist_with_covariance.pb.h:
+
 /usr/include/c++/11/tr1/ell_integral.tcc:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
-
-/usr/include/c++/11/ios:
 
 /usr/include/c++/11/utility:
 
@@ -4282,10 +4246,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/socket_type.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
@@ -4299,6 +4259,16 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/ignition/math6/ignition/math/Pose3.hh:
+
+/usr/include/ignition/math6/gz/math/Line3.hh:
+
+/usr/include/ignition/msgs8/ignition/msgs/entity_plugin_v.pb.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/c++/11/cmath:
 
@@ -4394,15 +4364,13 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/c++/11/bits/shared_ptr.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/ignition/math6/gz/math/Line3.hh:
-
-/usr/include/ignition/msgs8/ignition/msgs/entity_plugin_v.pb.h:
-
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/boxgeom.pb.h:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/int32.hpp:
 
@@ -4455,8 +4423,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
@@ -4518,13 +4484,9 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/google/protobuf/extension_set.h:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/c++/11/backward/binders.h:
-
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/ignition/msgs8/gz/msgs/fluid_pressure.pb.h:
 
@@ -4541,14 +4503,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.hpp:
-
-/usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/particle_emitter_v.pb.h:
 
@@ -4610,6 +4564,8 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/c++/11/bits/list.tcc:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
@@ -4637,18 +4593,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/google/protobuf/implicit_weak_message.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__builder.hpp:
-
-/usr/include/stdlib.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/plugin.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/google/protobuf/stubs/stl_util.h:
-
-/usr/include/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -4716,8 +4660,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
 /usr/include/c++/11/cstdint:
 
 /usr/include/c++/11/bits/regex.tcc:
@@ -4760,14 +4702,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
 
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/boxgeom.pb.h:
-
 /usr/include/c++/11/cstdlib:
 
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
@@ -4778,9 +4712,11 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/stdio.h:
 
-/usr/include/c++/11/bits/regex_constants.h:
-
 /usr/include/c++/11/cerrno:
+
+/usr/include/google/protobuf/stubs/stl_util.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/c++/11/bits/algorithmfwd.h:
 
@@ -4791,12 +4727,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__builder.hpp:
 
 /usr/include/ignition/msgs8/ignition/msgs/track_visual.pb.h:
-
-/usr/include/google/protobuf/stubs/fastmem.h:
-
-/usr/include/string.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/any.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/link_data.pb.h:
 
@@ -4834,11 +4764,15 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
 
+/usr/include/google/protobuf/stubs/fastmem.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/any.pb.h:
+
+/usr/include/string.h:
+
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
 
@@ -4851,10 +4785,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/shadows.pb.h:
-
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/spherical_coordinates.pb.h:
 
 /usr/include/c++/11/bits/ios_base.h:
 
@@ -4874,17 +4804,35 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/rest_post.pb.h:
+/usr/include/ignition/msgs8/ignition/msgs/camera_info.pb.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/entity_wrench.pb.h:
+/usr/include/x86_64-linux-gnu/sys/socket.h:
 
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/altimeter.hpp:
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/float_v.pb.h:
+/usr/include/ignition/msgs8/ignition/msgs/ellipsoidgeom.pb.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/fluid_pressure.pb.h:
+/usr/include/c++/11/bits/exception_defines.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/fog.pb.h:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__builder.hpp:
+
+/usr/include/stdlib.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/plugin.pb.h:
+
+/usr/include/time.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/fuel_metadata.pb.h:
 
@@ -4897,6 +4845,8 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/google/protobuf/map_entry.h:
 
 /usr/include/google/protobuf/reflection_ops.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
 
 /usr/include/google/protobuf/map_field_inl.h:
 
@@ -5084,8 +5034,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/src/set_entity_pose_bridge/set_entity_pose_bridge_node.cpp:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
 /usr/include/ignition/msgs8/ignition/msgs/sonar.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/statistic.pb.h:
@@ -5109,8 +5057,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/ignition/msgs8/ignition/msgs/user_cmd.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/world_control.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/world_reset.pb.h:
 
@@ -5179,10 +5125,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
 /usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket2.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
 
 /usr/include/netinet/in.h:
 
@@ -5544,6 +5486,8 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
+
 /usr/include/ctype.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
@@ -5553,8 +5497,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
 
@@ -5728,6 +5670,8 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
 /usr/include/ignition/msgs8/ignition/msgs/atmosphere.pb.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
@@ -5810,14 +5754,6 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/joy.pb.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
@@ -5877,3 +5813,27 @@ CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose
 /usr/include/ignition/msgs8/ignition/msgs/float.pb.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
+
+/usr/include/byteswap.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/camera_cmd.pb.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/c++/11/ios:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/joy.pb.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:

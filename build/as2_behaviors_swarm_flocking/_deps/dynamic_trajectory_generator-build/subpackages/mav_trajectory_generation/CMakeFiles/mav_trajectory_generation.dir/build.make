@@ -236,7 +236,7 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/l
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so: _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/rpoly/rpoly_ak1.cpp.o
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so: _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/polynomial_timing_evaluation.cpp.o
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so: _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/build.make
-_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so: /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/libglog.so.0.6.0
+_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so: _deps/glog-build/libglog.so.0.6.0
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so: _deps/nlopt-build/libnlopt.so.0.11.1
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2

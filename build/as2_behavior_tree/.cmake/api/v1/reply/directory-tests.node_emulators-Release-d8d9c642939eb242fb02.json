@@ -1,0 +1,133 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"tests/node_emulators/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/as2_behavior_tree",
+			"paths" : 
+			[
+				"tests/node_emulators/launch"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/as2_behavior_tree",
+			"paths" : 
+			[
+				"tests/node_emulators/platform_emulator"
+			],
+			"targetId" : "platform_emulator::@efbda9cc1e99d4eb2b8b",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/as2_behavior_tree",
+			"paths" : 
+			[
+				"tests/node_emulators/takeoff_emulator"
+			],
+			"targetId" : "takeoff_emulator::@efbda9cc1e99d4eb2b8b",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/as2_behavior_tree",
+			"paths" : 
+			[
+				"tests/node_emulators/land_emulator"
+			],
+			"targetId" : "land_emulator::@efbda9cc1e99d4eb2b8b",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/as2_behavior_tree",
+			"paths" : 
+			[
+				"tests/node_emulators/go_to_emulator"
+			],
+			"targetId" : "go_to_emulator::@efbda9cc1e99d4eb2b8b",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/as2_behavior_tree",
+			"paths" : 
+			[
+				"tests/node_emulators/follow_path_emulator"
+			],
+			"targetId" : "follow_path_emulator::@efbda9cc1e99d4eb2b8b",
+			"targetIndex" : 5,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tests/node_emulators",
+		"source" : "tests/node_emulators"
+	}
+}

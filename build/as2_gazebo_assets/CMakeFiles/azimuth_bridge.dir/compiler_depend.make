@@ -60,7 +60,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge.cpp.o: /root/aer
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -68,9 +67,7 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge.cpp.o: /root/aer
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -116,7 +113,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge.cpp.o: /root/aer
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -183,8 +179,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge.cpp.o: /root/aer
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -266,8 +260,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge.cpp.o: /root/aer
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/allocator.h \
   /opt/ros/humble/include/rcutils/rcutils/macros.h \
   /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
@@ -515,7 +507,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge.cpp.o: /root/aer
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -1057,7 +1048,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge.cpp.o: /root/aer
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -1526,7 +1516,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1534,9 +1523,7 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -1582,7 +1569,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -1649,8 +1635,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1732,8 +1716,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/allocator.h \
   /opt/ros/humble/include/rcutils/rcutils/macros.h \
   /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
@@ -1981,7 +1963,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -2523,7 +2504,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -3242,6 +3222,8 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__traits.hpp:
 
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.hpp:
 
 /usr/include/ignition/msgs8/gz/msgs/world_control.pb.h:
@@ -3382,13 +3364,13 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
+/usr/include/google/protobuf/generated_message_reflection.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+/usr/include/ignition/msgs8/ignition/msgs/inertial.pb.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
 
@@ -3423,8 +3405,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
@@ -3479,6 +3459,8 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/world_reset.pb.h:
 
 /usr/include/c++/11/bits/regex.tcc:
 
@@ -3571,6 +3553,10 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /usr/include/c++/11/tuple:
 
 /usr/include/ignition/msgs8/ignition/msgs/visual_v.pb.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
+
+/usr/include/ignition/msgs8/gz/msgs/actuators.pb.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
 
@@ -3696,6 +3682,8 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
+
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -3719,8 +3707,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/geometry.pb.h:
-
-/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
 
 /opt/ros/humble/include/rmw/rmw/event_callback_type.h:
 
@@ -3751,10 +3737,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /opt/ros/humble/include/rcl/rcl/time.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
 
@@ -3862,6 +3844,10 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
 
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
+
+/usr/include/ignition/transport11/gz/transport/TopicStorage.hh:
+
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
@@ -3872,35 +3858,7 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/ignition/math6/gz/math/Vector2.hh:
 
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
-
-/usr/include/ignition/msgs8/gz/msgs/actuators.pb.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/world_reset.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
-
-/usr/include/c++/11/stdlib.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
-
-/opt/ros/humble/include/rcutils/rcutils/error_handling.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/road.pb.h:
-
-/opt/ros/humble/include/rcutils/rcutils/types/hash_map.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/float64.hpp:
-
-/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
-
-/opt/ros/humble/include/rcl/rcl/error_handling.h:
-
-/usr/include/c++/11/tr1/exp_integral.tcc:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/ignition/math6/gz/math/Matrix3.hh:
 
@@ -3936,6 +3894,10 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/google/protobuf/generated_message_util.h:
+
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/version.pb.h:
@@ -3951,6 +3913,20 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /usr/include/ignition/msgs8/gz/msgs/entity.pb.h:
 
 /usr/include/c++/11/bits/nested_exception.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types/hash_map.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/float64.hpp:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
+
+/opt/ros/humble/include/rcl/rcl/error_handling.h:
+
+/usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/c++/11/cwchar:
 
 /usr/include/unistd.h:
 
@@ -3970,6 +3946,8 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/ignition/math6/ignition/math/Plane.hh:
 
+/usr/include/c++/11/cstdint:
+
 /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
@@ -3985,6 +3963,10 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
 
 /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h:
 
@@ -4019,12 +4001,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
 /usr/include/ignition/msgs8/ignition/msgs.hh:
-
-/usr/include/c++/11/bits/sstream.tcc:
-
-/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/time.pb.h:
 
 /root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/include/as2_gazebo_assets/azimuth_bridge.hpp:
 
@@ -4076,6 +4052,12 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/time.pb.h:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
 /usr/include/c++/11/ext/new_allocator.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
@@ -4092,11 +4074,9 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
 
-/usr/include/google/protobuf/generated_message_util.h:
-
-/usr/include/c++/11/cwchar:
+/usr/include/c++/11/bits/stl_list.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
@@ -4121,6 +4101,12 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/linux/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
@@ -4150,10 +4136,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/c++/11/csignal:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
-
-/usr/include/byteswap.h:
-
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp:
@@ -4182,17 +4164,11 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /opt/ros/humble/include/std_msgs/std_msgs/msg/int32.hpp:
 
 /usr/include/c++/11/bits/basic_string.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
@@ -4212,19 +4188,17 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
 
+/opt/ros/humble/include/rcutils/rcutils/error_handling.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/road.pb.h:
+
 /usr/include/pthread.h:
 
 /usr/include/c++/11/iostream:
 
-/usr/include/ignition/msgs8/gz/msgs/navsat.pb.h:
-
-/usr/include/c++/11/cwctype:
-
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/socket2.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
@@ -4266,17 +4240,11 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
 /root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/src/azimuth_bridge/azimuth_bridge.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/c++/11/pstl/pstl_config.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/float.pb.h:
 
 /usr/include/google/protobuf/map_type_handler.h:
 
@@ -4323,10 +4291,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.hpp:
 
 /usr/include/zmq.hpp:
-
-/usr/include/c++/11/typeindex:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/c++/11/ext/numeric_traits.h:
 
@@ -4454,8 +4418,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
 
 /usr/include/locale.h:
@@ -4474,13 +4436,13 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
+/usr/include/c++/11/typeindex:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/linux/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
@@ -4497,10 +4459,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/camera_cmd.pb.h:
 
 /usr/include/c++/11/locale:
 
@@ -4688,16 +4646,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/stdio.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/PointCloudPackedUtils.hh:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
-
-/opt/ros/humble/include/rmw/rmw/event.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
 /opt/ros/humble/include/rcl/rcl/arguments.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
@@ -4705,8 +4653,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /usr/include/c++/11/cerrno:
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
 
@@ -4736,10 +4682,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/google/protobuf/port_undef.inc:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
-
-/usr/include/c++/11/ios:
-
 /usr/include/c++/11/utility:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
@@ -4758,6 +4700,10 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
+/usr/include/ignition/msgs8/gz/msgs/navsat.pb.h:
+
+/usr/include/c++/11/cwctype:
+
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/c++/11/exception:
@@ -4767,6 +4713,14 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
+
+/opt/ros/humble/include/rmw/rmw/event.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp:
 
@@ -4778,6 +4732,8 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/c++/11/bits/istream.tcc:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+
 /usr/include/c++/11/cmath:
 
 /usr/include/google/protobuf/generated_enum_reflection.h:
@@ -4787,10 +4743,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
 
 /opt/ros/humble/include/rmw/rmw/serialized_message.h:
-
-/usr/include/c++/11/cstdint:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/ignition/msgs8/gz/msgs/fluid_pressure.pb.h:
 
@@ -4880,6 +4832,12 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/c++/11/bits/erase_if.h:
 
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
+
+/usr/include/ignition/transport11/gz/transport/Uuid.hh:
+
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/model_configuration.pb.h:
@@ -4910,33 +4868,11 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/c++/11/sstream:
 
-/usr/include/c++/11/bits/stl_list.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
+/opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
-
-/usr/include/ignition/transport11/gz/transport/TopicStorage.hh:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/inertial.pb.h:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
-
-/usr/include/ignition/transport11/gz/transport/Uuid.hh:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
-
-/usr/include/google/protobuf/generated_message_reflection.h:
+/usr/include/c++/11/stdlib.h:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
 
@@ -5058,6 +4994,8 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
 /usr/include/ignition/msgs8/ignition/msgs/contact.pb.h:
@@ -5141,14 +5079,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/joy.pb.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
@@ -5340,6 +5270,8 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/ignition/msgs8/ignition/msgs/Filesystem.hh:
 
+/usr/include/ignition/msgs8/ignition/msgs/PointCloudPackedUtils.hh:
+
 /usr/include/ignition/msgs8/gz/msgs/imu.pb.h:
 
 /usr/include/ignition/math6/ignition/math/AxisAlignedBox.hh:
@@ -5440,9 +5372,9 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/ignition/msgs8/ignition/msgs/vector2d.pb.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
 
 /usr/include/ignition/msgs8/ignition/msgs/annotated_axis_aligned_2d_box_v.pb.h:
 
@@ -5596,6 +5528,8 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/google/protobuf/reflection_ops.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
+
 /usr/include/google/protobuf/map_field_inl.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp:
@@ -5730,8 +5664,6 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 
 /usr/include/ignition/msgs8/ignition/msgs/server_control.pb.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
 /usr/include/ignition/msgs8/ignition/msgs/sonar.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/statistic.pb.h:
@@ -5861,3 +5793,31 @@ CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o: /roo
 /usr/include/ignition/msgs8/gz/msgs/twist_with_covariance.pb.h:
 
 /usr/include/ignition/msgs8/gz/msgs/wrench.pb.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/float.pb.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
+
+/usr/include/byteswap.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/camera_cmd.pb.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/c++/11/ios:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/joy.pb.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:

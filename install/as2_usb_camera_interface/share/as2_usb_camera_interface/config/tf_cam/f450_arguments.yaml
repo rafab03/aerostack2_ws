@@ -1,1 +1,10 @@
-/root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface/config/tf_cam/f450_arguments.yaml
+/**:
+  ros__parameters:
+    camera_transform:
+      parent_frame: 'base_link'
+      x: 0.12 # meters
+      y: 0.03 # meters
+      z: -0.04 # meters
+      roll: -3.141592 # rad
+      pitch: 0.0 # rad
+      yaw: -3.141592 # rad

@@ -1,1 +1,1 @@
-/root/aerostack2_ws/build/as2_usb_camera_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/as2_usb_camera_interface
+rclcpp;as2_core;as2_msgs;std_msgs;std_srvs;sensor_msgs;cv_bridge;ament_lint_common;ament_lint_auto;ament_cmake_gtest;ament_index_cpp

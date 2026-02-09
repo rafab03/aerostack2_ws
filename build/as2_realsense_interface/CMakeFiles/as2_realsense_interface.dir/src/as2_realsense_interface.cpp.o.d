@@ -652,8 +652,8 @@ CMakeFiles/as2_realsense_interface.dir/src/as2_realsense_interface.cpp.o: \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
- /root/aerostack2_ws/install/as2_core/include/as2_core/node.hpp \
- /root/aerostack2_ws/install/as2_core/include/as2_core/rate.hpp \
+ /opt/ros/humble/include/as2_core/node.hpp \
+ /opt/ros/humble/include/as2_core/rate.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
@@ -684,27 +684,21 @@ CMakeFiles/as2_realsense_interface.dir/src/as2_realsense_interface.cpp.o: \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
- /root/aerostack2_ws/install/as2_core/include/as2_core/sensor.hpp \
- /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h \
- /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.hpp \
- /opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp \
+ /opt/ros/humble/include/as2_core/sensor.hpp \
+ /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp \
- /opt/ros/humble/include/image_transport/image_transport/single_subscriber_publisher.hpp \
- /opt/ros/humble/include/image_transport/image_transport/visibility_control.hpp \
- /usr/include/opencv4/opencv2/opencv.hpp \
- /usr/include/opencv4/opencv2/opencv_modules.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
+ /usr/include/opencv4/opencv2/core/core.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
  /usr/include/opencv4/opencv2/core/version.hpp \
@@ -715,7 +709,9 @@ CMakeFiles/as2_realsense_interface.dir/src/as2_realsense_interface.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
- /usr/include/opencv4/opencv2/core/base.hpp /usr/include/c++/11/climits \
+ /usr/include/opencv4/opencv2/core/base.hpp \
+ /usr/include/opencv4/opencv2/opencv_modules.hpp \
+ /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -746,6 +742,26 @@ CMakeFiles/as2_realsense_interface.dir/src/as2_realsense_interface.cpp.o: \
  /usr/include/opencv4/opencv2/core/optim.hpp \
  /usr/include/opencv4/opencv2/core/ovx.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
+ /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+ /usr/include/opencv4/opencv2/imgproc.hpp \
+ /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+ /usr/include/opencv4/opencv2/imgproc/types_c.h \
+ /usr/include/opencv4/opencv2/core/core_c.h \
+ /usr/include/opencv4/opencv2/core/types_c.h \
+ /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge_export.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.hpp \
+ /opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp \
+ /opt/ros/humble/include/image_transport/image_transport/single_subscriber_publisher.hpp \
+ /opt/ros/humble/include/image_transport/image_transport/visibility_control.hpp \
+ /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/calib3d.hpp \
  /usr/include/opencv4/opencv2/features2d.hpp \
  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
@@ -795,8 +811,6 @@ CMakeFiles/as2_realsense_interface.dir/src/as2_realsense_interface.cpp.o: \
  /usr/include/opencv4/opencv2/highgui.hpp \
  /usr/include/opencv4/opencv2/imgcodecs.hpp \
  /usr/include/opencv4/opencv2/videoio.hpp \
- /usr/include/opencv4/opencv2/imgproc.hpp \
- /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
  /usr/include/opencv4/opencv2/ml.hpp \
  /usr/include/opencv4/opencv2/ml/ml.inl.hpp \
  /usr/include/opencv4/opencv2/objdetect.hpp \
@@ -902,21 +916,7 @@ CMakeFiles/as2_realsense_interface.dir/src/as2_realsense_interface.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp \
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.hpp \
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /root/aerostack2_ws/install/as2_core/include/as2_core/custom/cv_bridge.hpp \
- /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
- /usr/include/opencv4/opencv2/core/core.hpp \
- /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
- /usr/include/opencv4/opencv2/imgproc/types_c.h \
- /usr/include/opencv4/opencv2/core/core_c.h \
- /usr/include/opencv4/opencv2/core/types_c.h \
- /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge_export.h \
- /root/aerostack2_ws/install/as2_core/include/as2_core/custom/tf2_geometry_msgs.hpp \
+ /opt/ros/humble/include/as2_core/custom/tf2_geometry_msgs.hpp \
  /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
@@ -994,8 +994,8 @@ CMakeFiles/as2_realsense_interface.dir/src/as2_realsense_interface.cpp.o: \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.hpp \
- /root/aerostack2_ws/install/as2_core/include/as2_core/names/topics.hpp \
- /root/aerostack2_ws/install/as2_core/include/as2_core/utils/tf_utils.hpp \
+ /opt/ros/humble/include/as2_core/names/topics.hpp \
+ /opt/ros/humble/include/as2_core/utils/tf_utils.hpp \
  /opt/ros/humble/include/tf2/tf2/convert.h \
  /opt/ros/humble/include/tf2/tf2/time.h \
  /opt/ros/humble/include/tf2_ros/tf2_ros/create_timer_ros.h \

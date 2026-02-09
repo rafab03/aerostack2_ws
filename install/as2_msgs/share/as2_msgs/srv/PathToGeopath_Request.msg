@@ -1,1 +1,5 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/PathToGeopath_Request.msg
+# SERVICE TYPE: PathToGeopath
+# ------------------------------------------------------------------------------
+# This service receives a path in LatLon and returns it transformed into local
+
+nav_msgs/Path path                  # Path (m)

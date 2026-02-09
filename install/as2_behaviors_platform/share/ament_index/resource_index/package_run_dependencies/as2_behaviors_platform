@@ -1,1 +1,1 @@
-/root/aerostack2_ws/build/as2_behaviors_platform/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_platform
+rclcpp;rclcpp_action;as2_core;as2_behavior;as2_msgs;ament_lint_common;ament_lint_auto;ament_cmake_gtest

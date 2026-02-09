@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_platform/include -I/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_platform/include/as2_behaviors_platform -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include
 
-CXX_FLAGS = -O3 -DNDEBUG
+CXX_FLAGS = 
 

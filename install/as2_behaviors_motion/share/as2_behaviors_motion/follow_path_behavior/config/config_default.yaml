@@ -1,1 +1,5 @@
-/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_path_behavior/config/config_default.yaml
+/**:
+  ros__parameters:
+    follow_path_speed: 0.5 # Default follow_path speed
+    follow_path_threshold: 0.2 # Default follow_path threshold
+    tf_timeout_threshold: 0.05 # Default tf timeout (50ms)

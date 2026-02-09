@@ -1,1 +1,8 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/ModifySwarm_Request.msg
+# SERVICE TYPE: NumSwarmFormation
+# ------------------------------------------------------------------------------
+# This service modifies the number of drones in the swarm
+bool detach_drone                               # Detach the drone reference from the swarm
+bool new_drone                                  # Add new drone reference to the swarm
+bool new_virtual_centroid_ref                   # New reference to follow
+geometry_msgs/PoseStamped  virtual_centroid     # Offset of the virtual centroid to the following frame
+as2_msgs/PoseWithID[] swarm_formation           # Topics to modify the flocking

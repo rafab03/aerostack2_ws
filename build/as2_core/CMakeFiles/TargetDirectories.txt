@@ -1,6 +1,6 @@
 /root/aerostack2_ws/build/as2_core/CMakeFiles/uninstall.dir
 /root/aerostack2_ws/build/as2_core/CMakeFiles/as2_core_uninstall.dir
-/root/aerostack2_ws/build/as2_core/CMakeFiles/ament_cmake_python_symlink_as2_core.dir
+/root/aerostack2_ws/build/as2_core/CMakeFiles/ament_cmake_python_copy_as2_core.dir
 /root/aerostack2_ws/build/as2_core/CMakeFiles/ament_cmake_python_build_as2_core_egg.dir
 /root/aerostack2_ws/build/as2_core/CMakeFiles/as2_core.dir
 /root/aerostack2_ws/build/as2_core/CMakeFiles/mocks.dir

@@ -1,1 +1,10 @@
-/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/glog-build/libglog.pc
+prefix=/root/aerostack2_ws/install/as2_behaviors_trajectory_generation
+exec_prefix=/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/bin
+libdir=/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib
+includedir=/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.6.0
+Libs: -L${libdir} -lglog
+Cflags: -I${includedir}

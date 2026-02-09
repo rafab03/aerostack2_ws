@@ -1,1 +1,6 @@
-/root/aerostack2_ws/src/aerostack2/as2_state_estimator/config/state_estimator_default.yaml
+/**:
+  ros__parameters:
+    base_frame: "base_link"  # Base frame of the robot
+    global_ref_frame: "earth"  # Global reference frame
+    odom_frame: "odom"  # Odometry frame of the robot
+    map_frame: "map"  # Map frame

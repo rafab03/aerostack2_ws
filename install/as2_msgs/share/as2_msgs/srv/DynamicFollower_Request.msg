@@ -1,1 +1,6 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/DynamicFollower_Request.msg
+# SERVICE TYPE: DynamicFollower
+# ------------------------------------------------------------------------------
+# This service send command to start dynamic follower
+
+bool enable                         # Flag to enable follower
+geometry_msgs/Twist speed_limit     # Speed limit (m/s)

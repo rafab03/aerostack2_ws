@@ -1,10 +1,10 @@
 Determining size of unsigned __int16 failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ebc97/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ebc97.dir/build.make CMakeFiles/cmTC_ebc97.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_49b0a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_49b0a.dir/build.make CMakeFiles/cmTC_49b0a.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ebc97.dir/HAVE___UINT16.cpp.o
-/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_ebc97.dir/HAVE___UINT16.cpp.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp
+Building CXX object CMakeFiles/cmTC_49b0a.dir/HAVE___UINT16.cpp.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_49b0a.dir/HAVE___UINT16.cpp.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp
 /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:22: error: expected primary-expression before ‘unsigned’
    27 | #define SIZE (sizeof(unsigned __int16))
       |                      ^~~~~~~~
@@ -48,9 +48,9 @@ Building CXX object CMakeFiles/cmTC_ebc97.dir/HAVE___UINT16.cpp.o
 /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:29:3: note: to match this ‘(’
    29 |   ('0' + ((SIZE / 10000)%10)),
       |   ^
-gmake[1]: *** [CMakeFiles/cmTC_ebc97.dir/build.make:78: CMakeFiles/cmTC_ebc97.dir/HAVE___UINT16.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_49b0a.dir/build.make:78: CMakeFiles/cmTC_49b0a.dir/HAVE___UINT16.cpp.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_ebc97/fast] Error 2
+gmake: *** [Makefile:127: cmTC_49b0a/fast] Error 2
 
 
 /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:
@@ -109,14 +109,14 @@ int main(int argc, char *argv[])
 Performing C++ SOURCE FILE Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_93f45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_93f45.dir/build.make CMakeFiles/cmTC_93f45.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a9b30/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a9b30.dir/build.make CMakeFiles/cmTC_a9b30.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_93f45.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS  -fPIE   -Wunnamed-type-template-args -o CMakeFiles/cmTC_93f45.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_a9b30.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS  -fPIE   -Wunnamed-type-template-args -o CMakeFiles/cmTC_a9b30.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command-line option '-Wunnamed-type-template-args'
-gmake[1]: *** [CMakeFiles/cmTC_93f45.dir/build.make:78: CMakeFiles/cmTC_93f45.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_a9b30.dir/build.make:78: CMakeFiles/cmTC_a9b30.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_93f45/fast] Error 2
+gmake: *** [Makefile:127: cmTC_a9b30/fast] Error 2
 
 
 Source file was:
@@ -124,18 +124,18 @@ int main() { return 0; }
 Determining if the pthread_threadid_np exist failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_030f8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_030f8.dir/build.make CMakeFiles/cmTC_030f8.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bfca0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bfca0.dir/build.make CMakeFiles/cmTC_bfca0.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_030f8.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_030f8.dir/CheckSymbolExists.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_bfca0.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_bfca0.dir/CheckSymbolExists.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
 /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘pthread_threadid_np’ was not declared in this scope; did you mean ‘pthread_tryjoin_np’?
     8 |   return ((int*)(&pthread_threadid_np))[argc];
       |                   ^~~~~~~~~~~~~~~~~~~
       |                   pthread_tryjoin_np
-gmake[1]: *** [CMakeFiles/cmTC_030f8.dir/build.make:78: CMakeFiles/cmTC_030f8.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_bfca0.dir/build.make:78: CMakeFiles/cmTC_bfca0.dir/CheckSymbolExists.cxx.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_030f8/fast] Error 2
+gmake: *** [Makefile:127: cmTC_bfca0/fast] Error 2
 
 
 File /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
@@ -155,34 +155,34 @@ int main(int argc, char** argv)
 Determining if the function UnDecorateSymbolName exists in the dbghelp failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a7073/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a7073.dir/build.make CMakeFiles/cmTC_a7073.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35609/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35609.dir/build.make CMakeFiles/cmTC_35609.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a7073.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -fPIE -o CMakeFiles/cmTC_a7073.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a7073
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7073.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName CMakeFiles/cmTC_a7073.dir/CheckFunctionExists.c.o -o cmTC_a7073  -ldbghelp 
+Building C object CMakeFiles/cmTC_35609.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -fPIE -o CMakeFiles/cmTC_35609.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_35609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35609.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName CMakeFiles/cmTC_35609.dir/CheckFunctionExists.c.o -o cmTC_35609  -ldbghelp 
 /usr/bin/ld: cannot find -ldbghelp: No such file or directory
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_a7073.dir/build.make:99: cmTC_a7073] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_35609.dir/build.make:99: cmTC_35609] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_a7073/fast] Error 2
+gmake: *** [Makefile:127: cmTC_35609/fast] Error 2
 
 
 
 Performing C++ SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b805b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b805b.dir/build.make CMakeFiles/cmTC_b805b.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_740ea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_740ea.dir/build.make CMakeFiles/cmTC_740ea.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b805b.dir/src.cxx.o
-/usr/bin/c++ -DHAVE___DECLSPEC  -fPIE -o CMakeFiles/cmTC_b805b.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_740ea.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___DECLSPEC  -fPIE -o CMakeFiles/cmTC_740ea.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
 /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
     2 | __declspec(selectany) int a;
       |           ^
-gmake[1]: *** [CMakeFiles/cmTC_b805b.dir/build.make:78: CMakeFiles/cmTC_b805b.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_740ea.dir/build.make:78: CMakeFiles/cmTC_740ea.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_b805b/fast] Error 2
+gmake: *** [Makefile:127: cmTC_740ea/fast] Error 2
 
 
 Source file was:
@@ -193,16 +193,16 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef2c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef2c0.dir/build.make CMakeFiles/cmTC_ef2c0.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_997e7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_997e7.dir/build.make CMakeFiles/cmTC_997e7.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ef2c0.dir/src.cxx.o
-/usr/bin/c++ -DSTL_NO_NAMESPACE  -fPIE -o CMakeFiles/cmTC_ef2c0.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_997e7.dir/src.cxx.o
+/usr/bin/c++ -DSTL_NO_NAMESPACE  -fPIE -o CMakeFiles/cmTC_997e7.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
 /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx:3:1: error: ‘vector’ does not name a type
     3 | vector<int> t; int main() { }
       | ^~~~~~
-gmake[1]: *** [CMakeFiles/cmTC_ef2c0.dir/build.make:78: CMakeFiles/cmTC_ef2c0.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_997e7.dir/build.make:78: CMakeFiles/cmTC_997e7.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_ef2c0/fast] Error 2
+gmake: *** [Makefile:127: cmTC_997e7/fast] Error 2
 
 
 Source file was:
@@ -213,16 +213,16 @@ vector<int> t; int main() { }
 Performing C++ SOURCE FILE Test HAVE_MSVC_TLS failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_62217/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62217.dir/build.make CMakeFiles/cmTC_62217.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4c488/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4c488.dir/build.make CMakeFiles/cmTC_4c488.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_62217.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_MSVC_TLS  -fPIE -o CMakeFiles/cmTC_62217.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_4c488.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_MSVC_TLS  -fPIE -o CMakeFiles/cmTC_4c488.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx
 /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
     2 | __declspec(thread) int tls;
       |           ^
-gmake[1]: *** [CMakeFiles/cmTC_62217.dir/build.make:78: CMakeFiles/cmTC_62217.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_4c488.dir/build.make:78: CMakeFiles/cmTC_4c488.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_62217/fast] Error 2
+gmake: *** [Makefile:127: cmTC_4c488/fast] Error 2
 
 
 Source file was:
@@ -233,10 +233,10 @@ int main() { }
 Performing C SOURCE FILE Test HAVE_THREAD_LOCAL_STORAGE failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fa25a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa25a.dir/build.make CMakeFiles/cmTC_fa25a.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6335/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6335.dir/build.make CMakeFiles/cmTC_f6335.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fa25a.dir/src.c.o
-/usr/bin/cc -DHAVE_THREAD_LOCAL_STORAGE  -fPIE -o CMakeFiles/cmTC_fa25a.dir/src.c.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_f6335.dir/src.c.o
+/usr/bin/cc -DHAVE_THREAD_LOCAL_STORAGE  -fPIE -o CMakeFiles/cmTC_f6335.dir/src.c.o -c /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c
 /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c:2:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
     2 |     __declspec(thread) int tls;
       |     ^~~~~~~~~~
@@ -251,9 +251,9 @@ Building C object CMakeFiles/cmTC_fa25a.dir/src.c.o
     2 |     __declspec(thread) int tls;
       |                            ^~~
 /root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp/src.c:7: error: expected ‘{’ at end of input
-gmake[1]: *** [CMakeFiles/cmTC_fa25a.dir/build.make:78: CMakeFiles/cmTC_fa25a.dir/src.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_f6335.dir/build.make:78: CMakeFiles/cmTC_f6335.dir/src.c.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_fa25a/fast] Error 2
+gmake: *** [Makefile:127: cmTC_f6335/fast] Error 2
 
 
 Source file was:

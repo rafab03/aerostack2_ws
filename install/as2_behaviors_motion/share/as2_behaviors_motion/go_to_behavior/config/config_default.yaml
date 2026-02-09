@@ -1,1 +1,5 @@
-/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/go_to_behavior/config/config_default.yaml
+/**:
+  ros__parameters:
+    go_to_speed: 0.5 # Default go_to speed
+    go_to_threshold: 0.2 # Default go_to threshold
+    tf_timeout_threshold: 0.05 # Default tf timeout (50ms)

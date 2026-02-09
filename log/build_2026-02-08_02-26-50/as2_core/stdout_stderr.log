@@ -1,0 +1,18 @@
+[  6%] Built target gtest_main
+[  6%] Built target ament_cmake_python_copy_as2_core
+[ 12%] Built target as2_names
+[ 19%] Built target gtest
+[ 58%] Built target as2_core
+[ 67%] Built target mocks
+[ 77%] Built target tf2_namespace_test
+[ 80%] Built target frame_test
+[ 87%] Built target platform_state_machine_test
+[ 93%] Built target sensor_test
+[100%] Built target tf_utils_gtest
+running egg_info
+writing as2_core.egg-info/PKG-INFO
+writing dependency_links to as2_core.egg-info/dependency_links.txt
+writing top-level names to as2_core.egg-info/top_level.txt
+reading manifest file 'as2_core.egg-info/SOURCES.txt'
+writing manifest file 'as2_core.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_as2_core_egg

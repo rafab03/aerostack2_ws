@@ -42,3 +42,31 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_perception/detect_aruco_markers_behavior" TYPE DIRECTORY FILES "/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_perception/detect_aruco_markers_behavior/config")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_perception" TYPE DIRECTORY FILES "/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_perception/detect_aruco_markers_behavior/launch")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_perception/detect_aruco_markers_behavior_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_perception/detect_aruco_markers_behavior_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_perception/detect_aruco_markers_behavior_node"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_perception" TYPE EXECUTABLE FILES "/root/aerostack2_ws/build/as2_behaviors_perception/detect_aruco_markers_behavior/detect_aruco_markers_behavior_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_perception/detect_aruco_markers_behavior_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_perception/detect_aruco_markers_behavior_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_perception/detect_aruco_markers_behavior_node"
+         OLD_RPATH "/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/root/aerostack2_ws/install/as2_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_perception/detect_aruco_markers_behavior_node")
+    endif()
+  endif()
+endif()
+

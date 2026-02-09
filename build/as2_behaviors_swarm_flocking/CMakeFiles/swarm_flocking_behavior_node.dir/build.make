@@ -286,7 +286,7 @@ swarm_flocking_behavior_node: /opt/ros/humble/lib/librcpputils.so
 swarm_flocking_behavior_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 swarm_flocking_behavior_node: /opt/ros/humble/lib/librcutils.so
 swarm_flocking_behavior_node: _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so
-swarm_flocking_behavior_node: /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/libglog.so.0.6.0
+swarm_flocking_behavior_node: _deps/glog-build/libglog.so.0.6.0
 swarm_flocking_behavior_node: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 swarm_flocking_behavior_node: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 swarm_flocking_behavior_node: _deps/nlopt-build/libnlopt.so.0.11.1

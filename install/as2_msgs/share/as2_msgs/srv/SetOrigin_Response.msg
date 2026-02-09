@@ -1,1 +1,3 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/SetOrigin_Response.msg
+
+bool success                        # whether the origin has been set or not
+# ------------------------------------------------------------------------------

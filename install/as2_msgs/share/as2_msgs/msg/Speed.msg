@@ -1,1 +1,5 @@
-/root/aerostack2_ws/src/aerostack2/as2_msgs/msg/Speed.msg
+# Speed message
+
+std_msgs/Header header      # Message header
+
+float32 speed               # speed (m/s)

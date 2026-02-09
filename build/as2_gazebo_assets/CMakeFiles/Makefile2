@@ -89,7 +89,7 @@ clean: CMakeFiles/gimbal_bridge.dir/clean
 clean: CMakeFiles/acro_bridge.dir/clean
 clean: CMakeFiles/set_entity_pose_bridge.dir/clean
 clean: CMakeFiles/MulticopterINDIControl.dir/clean
-clean: CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/clean
+clean: CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_as2_gazebo_assets_egg.dir/clean
 .PHONY : clean
 
@@ -354,36 +354,36 @@ CMakeFiles/MulticopterINDIControl.dir/clean:
 .PHONY : CMakeFiles/MulticopterINDIControl.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir
+# Target rules for target CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/build.make CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/build.make CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles --progress-num= "Built target ament_cmake_python_symlink_as2_gazebo_assets"
-.PHONY : CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/all
+CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/build.make CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/build.make CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_as2_gazebo_assets"
+.PHONY : CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/rule: cmake_check_build_system
+CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles 0
-.PHONY : CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/rule
+.PHONY : CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/rule
 
 # Convenience name for target.
-ament_cmake_python_symlink_as2_gazebo_assets: CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/rule
-.PHONY : ament_cmake_python_symlink_as2_gazebo_assets
+ament_cmake_python_copy_as2_gazebo_assets: CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/rule
+.PHONY : ament_cmake_python_copy_as2_gazebo_assets
 
 # clean rule for target.
-CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/build.make CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/clean
-.PHONY : CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/clean
+CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/build.make CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_build_as2_gazebo_assets_egg.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_build_as2_gazebo_assets_egg.dir/all: CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/all
+CMakeFiles/ament_cmake_python_build_as2_gazebo_assets_egg.dir/all: CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_as2_gazebo_assets_egg.dir/build.make CMakeFiles/ament_cmake_python_build_as2_gazebo_assets_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_as2_gazebo_assets_egg.dir/build.make CMakeFiles/ament_cmake_python_build_as2_gazebo_assets_egg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles --progress-num= "Built target ament_cmake_python_build_as2_gazebo_assets_egg"

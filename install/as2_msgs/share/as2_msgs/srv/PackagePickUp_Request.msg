@@ -1,1 +1,6 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/PackagePickUp_Request.msg
+# SERVICE TYPE: PackagePickUp
+# ------------------------------------------------------------------------------
+# This service send command to start package pickup
+
+bool enable                             # Flag to enable pickup
+geometry_msgs/Twist speed_limit         # speed limit (m/s)

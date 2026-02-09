@@ -1,0 +1,124 @@
+[0.032s] Invoking command in '/root/aerostack2_ws/build/rmf_demos_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/root/aerostack2_ws/install/as2_perception:/opt/ros/humble /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/rmf_demos/rmf_demos_assets -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/rmf_demos_assets
+[0.562s] -- The C compiler identification is GNU 11.4.0
+[0.562s] -- The CXX compiler identification is GNU 11.4.0
+[0.562s] -- Detecting C compiler ABI info
+[0.562s] -- Detecting C compiler ABI info - done
+[0.562s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.562s] -- Detecting C compile features
+[0.562s] -- Detecting C compile features - done
+[0.562s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.562s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.562s] -- Detecting CXX compile features
+[0.562s] -- Detecting CXX compile features - done
+[0.562s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.563s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.682s] -- Configuring done
+[0.684s] -- Generating done
+[0.685s] -- Build files have been written to: /root/aerostack2_ws/build/rmf_demos_assets
+[0.808s] Invoked command in '/root/aerostack2_ws/build/rmf_demos_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/root/aerostack2_ws/install/as2_perception:/opt/ros/humble /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/rmf_demos/rmf_demos_assets -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/rmf_demos_assets
+[0.815s] Invoking command in '/root/aerostack2_ws/build/rmf_demos_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/root/aerostack2_ws/install/as2_perception:/opt/ros/humble /usr/bin/cmake --build /root/aerostack2_ws/build/rmf_demos_assets -- -j8 -l8
+[0.986s] Invoked command in '/root/aerostack2_ws/build/rmf_demos_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/root/aerostack2_ws/install/as2_perception:/opt/ros/humble /usr/bin/cmake --build /root/aerostack2_ws/build/rmf_demos_assets -- -j8 -l8
+[0.987s] Invoking command in '/root/aerostack2_ws/build/rmf_demos_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/root/aerostack2_ws/install/as2_perception:/opt/ros/humble /usr/bin/cmake --install /root/aerostack2_ws/build/rmf_demos_assets
+[1.001s] -- Install configuration: ""
+[1.001s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models
+[1.001s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot
+[1.001s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes
+[1.002s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/HospitalRobot.mtl
+[1.002s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/HospitalRobot_Diffuse.png
+[1.003s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/FatWheel.mtl
+[1.003s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/HospitalRobot.obj
+[1.003s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/SmallWheel.mtl
+[1.004s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/SmallWheel.obj
+[1.004s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/FatWheel.obj
+[1.004s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails
+[1.004s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails/1.png
+[1.004s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails/4.png
+[1.005s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails/2.png
+[1.005s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails/3.png
+[1.005s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails/5.png
+[1.006s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/model.sdf
+[1.006s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/model.config
+[1.006s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy
+[1.006s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/meshes
+[1.009s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/meshes/polaris.dae
+[1.009s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials
+[1.009s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/scripts
+[1.009s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/scripts/polaris.material
+[1.009s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/textures
+[1.009s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/textures/Ranger_Diffuse.png
+[1.010s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/textures/Ranger_Spec.png
+[1.010s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/textures/FNR_switch_F.png
+[1.010s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/textures/FNR_switch_R.png
+[1.010s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/model-1_4.sdf
+[1.011s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/model-1_3.sdf
+[1.011s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/model.sdf
+[1.012s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/model.config
+[1.012s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/RobotPlaceholder
+[1.012s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/RobotPlaceholder/model.sdf
+[1.014s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/RobotPlaceholder/model.config
+[1.015s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE
+[1.015s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes
+[1.015s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE_Wheel.obj
+[1.015s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE_Col.mtl
+[1.015s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE_Col.obj
+[1.015s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE.obj
+[1.015s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE_Diffuse.png
+[1.015s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE.mtl
+[1.015s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE_Wheel.mtl
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/model.sdf
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/model.config
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/WheelMain.obj
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/body.obj
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/body.mtl
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/WheelSide.obj
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/WheelSide.mtl
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/WheelMain.mtl
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/DeliveryRobot_Diffuse.png
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/model.sdf
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/model.config
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportIngestor
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportIngestor/model.sdf
+[1.016s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportIngestor/model.config
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/caster_wheel.dae
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/tinyRobot_body.dae
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/front_wheel.dae
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/sensors
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/sensors/sonar_hc-sr04.dae
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/sensors/raspi_camera.dae
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/model.sdf
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/model.config
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA_WheelFront.obj
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA_WheelBack.obj
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA.obj
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA_WheelBack.mtl
+[1.017s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA_Diffuse.png
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA.mtl
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA_WheelFront.mtl
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/model.sdf
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/model.config
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportDispenser
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportDispenser/model.sdf
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportDispenser/model.config
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/ament_index/resource_index/package_run_dependencies/rmf_demos_assets
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/ament_index/resource_index/parent_prefix_path/rmf_demos_assets
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/environment/ament_prefix_path.sh
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/environment/ament_prefix_path.dsv
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/environment/path.sh
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/environment/path.dsv
+[1.018s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/local_setup.bash
+[1.023s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/local_setup.sh
+[1.023s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/local_setup.zsh
+[1.023s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/local_setup.dsv
+[1.023s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/package.dsv
+[1.023s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/ament_index/resource_index/packages/rmf_demos_assets
+[1.023s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/cmake/rmf_demos_assetsConfig.cmake
+[1.023s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/cmake/rmf_demos_assetsConfig-version.cmake
+[1.023s] -- Installing: /root/aerostack2_ws/install/rmf_demos_assets/share/rmf_demos_assets/package.xml
+[3.220s] Invoked command in '/root/aerostack2_ws/build/rmf_demos_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/root/aerostack2_ws/install/as2_perception:/opt/ros/humble /usr/bin/cmake --install /root/aerostack2_ws/build/rmf_demos_assets

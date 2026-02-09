@@ -1,1 +1,5 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/SetGeozone_Request.msg
+# SERVICE TYPE: SetGeostructure
+# ------------------------------------------------------------------------------
+# This service creates a geoStructure (lat, lon, alt) to set in geozones node
+
+as2_msgs/Geozone geozone  # geostructure to set

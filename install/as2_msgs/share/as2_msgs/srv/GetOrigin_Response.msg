@@ -1,1 +1,4 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/GetOrigin_Response.msg
+
+bool success                        # whether the origin has been set or not
+geographic_msgs/GeoPoint origin     # origin 
+# ------------------------------------------------------------------------------

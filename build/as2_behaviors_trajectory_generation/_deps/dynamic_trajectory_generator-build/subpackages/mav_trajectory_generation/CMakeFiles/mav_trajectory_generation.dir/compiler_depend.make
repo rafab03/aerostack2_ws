@@ -304,7 +304,7 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/yaml-cpp/node/parse.h \
   /usr/include/yaml-cpp/node/emit.h \
   _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/segment.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/logging.h \
+  _deps/glog-build/glog/logging.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/ctime \
@@ -323,14 +323,14 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/platform.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/export.h \
+  _deps/glog-src/src/glog/platform.h \
+  _deps/glog-build/glog/export.h \
   /usr/include/inttypes.h \
   /usr/include/gflags/gflags.h \
   /usr/include/gflags/gflags_declare.h \
   /usr/include/gflags/gflags_gflags.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/log_severity.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/vlog_is_on.h \
+  _deps/glog-src/src/glog/log_severity.h \
+  _deps/glog-build/glog/vlog_is_on.h \
   /usr/include/eigen3/Eigen/Core \
   /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
   /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -796,7 +796,7 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/polynomial.cpp.o: _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/src/polynomial.cpp \
   /usr/include/stdc-predef.h \
   _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/polynomial.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/logging.h \
+  _deps/glog-build/glog/logging.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/type_traits \
@@ -1007,8 +1007,8 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/platform.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/export.h \
+  _deps/glog-src/src/glog/platform.h \
+  _deps/glog-build/glog/export.h \
   /usr/include/inttypes.h \
   /usr/include/gflags/gflags.h \
   /usr/include/gflags/gflags_declare.h \
@@ -1016,8 +1016,8 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/log_severity.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/vlog_is_on.h \
+  _deps/glog-src/src/glog/log_severity.h \
+  _deps/glog-build/glog/vlog_is_on.h \
   /usr/include/eigen3/Eigen/Eigen \
   /usr/include/eigen3/Eigen/Dense \
   /usr/include/eigen3/Eigen/Core \
@@ -1591,7 +1591,7 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
   _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/polynomial_optimization_linear.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/logging.h \
+  _deps/glog-build/glog/logging.h \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
@@ -1609,8 +1609,8 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/platform.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/export.h \
+  _deps/glog-src/src/glog/platform.h \
+  _deps/glog-build/glog/export.h \
   /usr/include/inttypes.h \
   /usr/include/gflags/gflags.h \
   /usr/include/gflags/gflags_declare.h \
@@ -1618,8 +1618,8 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/log_severity.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/vlog_is_on.h \
+  _deps/glog-src/src/glog/log_severity.h \
+  _deps/glog-build/glog/vlog_is_on.h \
   /usr/include/eigen3/Eigen/Sparse \
   /usr/include/eigen3/Eigen/SparseCore \
   /usr/include/eigen3/Eigen/Core \
@@ -2503,7 +2503,7 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/mav_trajectory_generation.dir/src/segment.cpp.o: _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/src/segment.cpp \
   /usr/include/stdc-predef.h \
   _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/segment.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/logging.h \
+  _deps/glog-build/glog/logging.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/type_traits \
@@ -2714,8 +2714,8 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/platform.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/export.h \
+  _deps/glog-src/src/glog/platform.h \
+  _deps/glog-build/glog/export.h \
   /usr/include/inttypes.h \
   /usr/include/gflags/gflags.h \
   /usr/include/gflags/gflags_declare.h \
@@ -2723,8 +2723,8 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/log_severity.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/vlog_is_on.h \
+  _deps/glog-src/src/glog/log_severity.h \
+  _deps/glog-build/glog/vlog_is_on.h \
   /usr/include/eigen3/Eigen/Core \
   /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
   /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -3513,7 +3513,7 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/segment.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/logging.h \
+  _deps/glog-build/glog/logging.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/limits \
@@ -3541,8 +3541,8 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/platform.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/export.h \
+  _deps/glog-src/src/glog/platform.h \
+  _deps/glog-build/glog/export.h \
   /usr/include/inttypes.h \
   /usr/include/gflags/gflags.h \
   /usr/include/gflags/gflags_declare.h \
@@ -3550,8 +3550,8 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/log_severity.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/vlog_is_on.h \
+  _deps/glog-src/src/glog/log_severity.h \
+  _deps/glog-build/glog/vlog_is_on.h \
   /usr/include/eigen3/Eigen/Core \
   /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
   /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -4453,7 +4453,7 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/trajectory.h \
   _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/extremum.h \
   _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/segment.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/logging.h \
+  _deps/glog-build/glog/logging.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/ctime \
@@ -4467,14 +4467,14 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/platform.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/export.h \
+  _deps/glog-src/src/glog/platform.h \
+  _deps/glog-build/glog/export.h \
   /usr/include/inttypes.h \
   /usr/include/gflags/gflags.h \
   /usr/include/gflags/gflags_declare.h \
   /usr/include/gflags/gflags_gflags.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/log_severity.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/vlog_is_on.h \
+  _deps/glog-src/src/glog/log_severity.h \
+  _deps/glog-build/glog/vlog_is_on.h \
   /usr/include/eigen3/Eigen/Core \
   _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/motion_defines.h \
   _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/polynomial.h \
@@ -4679,7 +4679,7 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
   _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/vertex.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/logging.h \
+  _deps/glog-build/glog/logging.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/ctime \
@@ -4729,8 +4729,8 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/platform.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/export.h \
+  _deps/glog-src/src/glog/platform.h \
+  _deps/glog-build/glog/export.h \
   /usr/include/inttypes.h \
   /usr/include/gflags/gflags.h \
   /usr/include/gflags/gflags_declare.h \
@@ -4738,8 +4738,8 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/C
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/log_severity.h \
-  /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/vlog_is_on.h \
+  _deps/glog-src/src/glog/log_severity.h \
+  _deps/glog-build/glog/vlog_is_on.h \
   /usr/include/eigen3/Eigen/Core \
   /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
   /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -5283,8 +5283,6 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/src
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
-/usr/include/yaml-cpp/noexcept.h:
-
 /usr/include/string.h:
 
 /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h:
@@ -5531,6 +5529,8 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/inc
 
 /usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
 
+_deps/glog-src/src/glog/platform.h:
+
 /usr/include/c++/11/bits/random.tcc:
 
 /usr/include/c++/11/bits/atomic_base.h:
@@ -5550,6 +5550,8 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/inc
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
+
+_deps/glog-build/glog/logging.h:
 
 _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/io.h:
 
@@ -5623,6 +5625,10 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/inc
 
 /usr/include/c++/11/type_traits:
 
+/usr/include/yaml-cpp/noexcept.h:
+
+_deps/glog-src/src/glog/log_severity.h:
+
 /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
 
 /usr/include/c++/11/bits/allocator.h:
@@ -5634,8 +5640,6 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/inc
 /usr/include/eigen3/Eigen/src/LU/FullPivLU.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
-
-/usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/yaml-cpp/yaml.h:
 
@@ -5684,8 +5688,6 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/inc
 /usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:
 
 /usr/include/yaml-cpp/node/detail/node_iterator.h:
-
-/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/export.h:
 
 /usr/include/eigen3/Eigen/src/Core/Solve.h:
 
@@ -5788,8 +5790,6 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/inc
 /usr/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h:
 
 /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
-
-/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/logging.h:
 
 /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h:
 
@@ -5947,8 +5947,6 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/inc
 
 /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
 
-/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/vlog_is_on.h:
-
 /usr/include/c++/11/ratio:
 
 /usr/include/c++/11/ctime:
@@ -5995,21 +5993,17 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/src
 
 /usr/include/linux/close_range.h:
 
-/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/platform.h:
-
 /usr/include/inttypes.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
 
-/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/include/glog/log_severity.h:
+/usr/include/c++/11/bits/stringfwd.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
+_deps/glog-build/glog/vlog_is_on.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
-
-_deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/motion_defines.h:
+/usr/include/eigen3/Eigen/src/Householder/Householder.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -6024,6 +6018,12 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/inc
 /usr/include/c++/11/list:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
+
+_deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/include/mav_trajectory_generation/motion_defines.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
 
@@ -6189,6 +6189,8 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/src
 
 /usr/include/eigen3/Eigen/src/Core/Transpose.h:
 
+_deps/glog-build/glog/export.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/eigen3/Eigen/src/Core/Fuzzy.h:
@@ -6272,8 +6274,6 @@ _deps/dynamic_trajectory_generator-src/subpackages/mav_trajectory_generation/inc
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
 /usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
-
-/usr/include/eigen3/Eigen/src/Householder/Householder.h:
 
 /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
 

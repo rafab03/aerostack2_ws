@@ -1,1 +1,5 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/SetControlMode_Request.msg
+# SERVICE TYPE: SetPlatformControlMode
+# ------------------------------------------------------------------------------
+# This service sets a platform control mode
+
+as2_msgs/ControlMode control_mode       # Control mode to set

@@ -1,0 +1,49 @@
+[0.008s] Invoking command in '/root/aerostack2_ws/build/as2_behavior': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_behavior -- -j8 -l8
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.042s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.042s] [ 25%] [32mBuilding CXX object CMakeFiles/as2_behavior.dir/src/behavior_server.cpp.o[0m
+[0.044s] [ 50%] Built target gtest_main
+[2.228s] [ 62%] [32m[1mLinking CXX shared library libas2_behavior.so[0m
+[2.710s] [ 62%] Built target as2_behavior
+[5.382s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.406s] [ 75%] Built target gtest
+[5.418s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/as2_behavior_as2_behavior_gtest.dir/as2_behavior_gtest.cpp.o[0m
+[11.741s] [100%] [32m[1mLinking CXX executable as2_behavior_as2_behavior_gtest[0m
+[11.871s] [100%] Built target as2_behavior_as2_behavior_gtest
+[11.877s] Invoked command in '/root/aerostack2_ws/build/as2_behavior' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_behavior -- -j8 -l8
+[11.879s] Invoking command in '/root/aerostack2_ws/build/as2_behavior': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_behavior
+[11.883s] -- Install configuration: "Release"
+[11.883s] -- Installing: /root/aerostack2_ws/install/as2_behavior/include
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/include/as2_behavior
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/include/as2_behavior/__detail
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/include/as2_behavior/__detail/behavior_server__class.hpp
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/include/as2_behavior/behavior_server.hpp
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/include/as2_behavior/__impl
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/include/as2_behavior/__impl/behavior_server__impl.hpp
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/include/as2_behavior/as2_basic_behavior.hpp
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/include/as2_behavior/behavior_utils.hpp
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/lib/libas2_behavior.so
+[11.884s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behavior/lib/libas2_behavior.so" to ""
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/environment/library_path.sh
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/environment/library_path.dsv
+[11.884s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/ament_index/resource_index/package_run_dependencies/as2_behavior
+[11.885s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/ament_index/resource_index/parent_prefix_path/as2_behavior
+[11.885s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/environment/ament_prefix_path.sh
+[11.885s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/environment/ament_prefix_path.dsv
+[11.885s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/environment/path.sh
+[11.885s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/environment/path.dsv
+[11.885s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/local_setup.bash
+[11.886s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/local_setup.sh
+[11.886s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/local_setup.zsh
+[11.886s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/local_setup.dsv
+[11.886s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/package.dsv
+[11.886s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/ament_index/resource_index/packages/as2_behavior
+[11.886s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake/export_as2_behaviorExport.cmake
+[11.886s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake/export_as2_behaviorExport-release.cmake
+[11.886s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake/ament_cmake_export_libraries-extras.cmake
+[11.886s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake/ament_cmake_export_targets-extras.cmake
+[11.886s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.886s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake/as2_behaviorConfig.cmake
+[11.887s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake/as2_behaviorConfig-version.cmake
+[11.887s] -- Installing: /root/aerostack2_ws/install/as2_behavior/share/as2_behavior/package.xml
+[11.888s] Invoked command in '/root/aerostack2_ws/build/as2_behavior' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_behavior

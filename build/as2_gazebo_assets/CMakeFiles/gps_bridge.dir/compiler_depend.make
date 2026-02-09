@@ -38,7 +38,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge.cpp.o: /root/aerostack2_ws/s
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -144,11 +143,8 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge.cpp.o: /root/aerostack2_ws/s
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -157,8 +153,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge.cpp.o: /root/aerostack2_ws/s
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -240,7 +234,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge.cpp.o: /root/aerostack2_ws/s
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -324,8 +317,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge.cpp.o: /root/aerostack2_ws/s
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -1056,7 +1047,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge.cpp.o: /root/aerostack2_ws/s
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -1503,7 +1493,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -1609,11 +1598,8 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1622,8 +1608,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1705,7 +1689,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -1789,8 +1772,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -2521,7 +2502,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -3238,6 +3218,8 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__traits.hpp:
 
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.hpp:
 
 /usr/include/ignition/msgs8/gz/msgs/world_control.pb.h:
@@ -3378,15 +3360,17 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+/opt/ros/humble/include/ros_gz_bridge/ros_gz_bridge/convert/geometry_msgs.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+/usr/include/x86_64-linux-gnu/bits/param.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+/usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp:
 
@@ -3417,6 +3401,8 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/world_reset.pb.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
 
@@ -3540,6 +3526,10 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
+
+/usr/include/ignition/msgs8/gz/msgs/actuators.pb.h:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__traits.hpp:
 
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
@@ -3572,9 +3562,9 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/ignition/msgs8/ignition/msgs/diagnostics.pb.h:
 
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+/usr/include/ignition/msgs8/ignition/msgs/heightmapgeom.pb.h:
 
-/usr/include/x86_64-linux-gnu/bits/param.h:
+/usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /usr/include/netinet/in.h:
 
@@ -3664,6 +3654,10 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /opt/ros/humble/include/rcl/rcl/service.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
+
+/opt/ros/humble/include/rcl/rcl/domain_id.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
 
 /usr/include/ignition/msgs8/ignition/msgs/navsat_sensor.pb.h:
@@ -3681,10 +3675,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /opt/ros/humble/include/rcl/rcl/client.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
@@ -3736,27 +3726,27 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/ignition/msgs8/ignition/msgs/navsat.pb.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.hpp:
 
 /opt/ros/humble/include/ros_gz_bridge/ros_gz_bridge/convert/gps_msgs.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/float64.hpp:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:
+
+/opt/ros/humble/include/rcl/rcl/error_handling.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/float64.hpp:
-
-/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
-
-/opt/ros/humble/include/rcl/rcl/error_handling.h:
-
-/usr/include/c++/11/tr1/exp_integral.tcc:
 
 /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h:
 
@@ -3773,14 +3763,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /opt/ros/humble/include/rcutils/rcutils/snprintf.h:
 
 /usr/include/google/protobuf/stubs/mutex.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
-
-/usr/include/ignition/msgs8/gz/msgs/actuators.pb.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/world_reset.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
@@ -3864,10 +3846,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/camera_cmd.pb.h:
-
 /usr/include/c++/11/vector:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
@@ -3886,19 +3864,27 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
 
-/usr/include/c++/11/bits/stl_tree.h:
+/usr/include/ignition/msgs8/ignition/msgs/fluid.pb.h:
 
 /usr/include/c++/11/set:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
-/usr/include/c++/11/atomic:
+/usr/include/c++/11/backward/binders.h:
 
-/usr/include/ignition/msgs8/gz/msgs/laserscan.pb.h:
+/opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp:
 
-/usr/include/c++/11/bits/regex_error.h:
+/usr/include/c++/11/bits/stl_multiset.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/fluid.pb.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/config.hh:
+
+/usr/include/c++/11/iostream:
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
@@ -3955,6 +3941,30 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /opt/ros/humble/include/gps_msgs/gps_msgs/msg/detail/gps_status__traits.hpp:
 
 /usr/include/ignition/transport11/gz/transport/Publisher.hh:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
+
+/usr/include/ignition/transport11/gz/transport/Uuid.hh:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.hpp:
+
+/usr/include/ignition/math6/ignition/math/Color.hh:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/model_configuration.pb.h:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/parameter.pb.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/wrench.pb.h:
 
 /opt/ros/humble/include/rcl/rcl/types.h:
 
@@ -4022,14 +4032,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
-/usr/include/ignition/msgs8/gz/msgs/empty.pb.h:
-
-/usr/include/c++/11/bits/codecvt.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
-
-/usr/include/linux/close_range.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/google/protobuf/generated_message_util.h:
@@ -4041,10 +4043,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /usr/include/google/protobuf/stubs/strutil.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
-
-/usr/include/byteswap.h:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp:
 
@@ -4066,19 +4064,13 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/c++/11/tuple:
 
+/usr/include/c++/11/bits/stl_tree.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/c++/11/debug/assertions.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
 
-/opt/ros/humble/include/tracetools/tracetools/config.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
-
-/usr/include/google/protobuf/map_entry_lite.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
@@ -4102,11 +4094,11 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/11/bits/postypes.h:
+
+/usr/include/c++/11/cstdint:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
 
@@ -4115,6 +4107,10 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
 
 /usr/include/c++/11/functional:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
 
 /usr/include/linux/errno.h:
 
@@ -4142,43 +4138,23 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/c++/11/typeindex:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp:
-
-/usr/include/c++/11/bits/stl_multiset.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/c++/11/bits/node_handle.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/config.hh:
-
-/usr/include/c++/11/iostream:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/wrench.pb.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/bits/stl_function.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/contacts.pb.h:
+
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -4234,6 +4210,12 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/c++/11/ctime:
 
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
+/opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
+
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/c++/11/exception:
@@ -4260,6 +4242,12 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
 /opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/clock.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
@@ -4284,6 +4272,26 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/opt/ros/humble/include/tracetools/tracetools/config.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
+
+/usr/include/google/protobuf/map_entry_lite.h:
+
+/usr/include/ignition/msgs8/gz/msgs/empty.pb.h:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
+
+/usr/include/linux/close_range.h:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.hpp:
 
 /usr/include/ignition/msgs8/gz/msgs/entity_wrench.pb.h:
@@ -4296,9 +4304,15 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/usr/include/ignition/math6/gz/math/Line3.hh:
+
+/usr/include/ignition/msgs8/ignition/msgs/entity_plugin_v.pb.h:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/c++/11/cwchar:
 
 /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
 
@@ -4384,6 +4398,12 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
 
+/usr/include/c++/11/atomic:
+
+/usr/include/ignition/msgs8/gz/msgs/laserscan.pb.h:
+
+/usr/include/c++/11/bits/regex_error.h:
+
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
@@ -4416,6 +4436,12 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
 
+/opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
+
 /root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/include/as2_gazebo_assets/gps_bridge.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
@@ -4435,16 +4461,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /usr/include/ctype.h:
 
 /usr/include/google/protobuf/map_field_lite.h:
-
-/usr/include/c++/11/bits/stream_iterator.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
 
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.hpp:
 
@@ -4514,6 +4530,12 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/stdint.h:
 
+/usr/include/endian.h:
+
+/usr/include/c++/11/bits/stream_iterator.h:
+
+/usr/include/c++/11/bits/cpp_type_traits.h:
+
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/c++/11/bits/shared_ptr.h:
@@ -4526,43 +4548,7 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
-/usr/include/c++/11/cwchar:
-
-/opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
-
-/usr/include/ignition/transport11/gz/transport/Uuid.hh:
-
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.hpp:
-
-/usr/include/ignition/math6/ignition/math/Color.hh:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/model_configuration.pb.h:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/parameter.pb.h:
-
-/usr/include/ignition/msgs8/gz/msgs/navsat.pb.h:
-
-/usr/include/c++/11/cwctype:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
 
@@ -4587,28 +4573,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /usr/include/stdio.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/PointCloudPackedUtils.hh:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
-
-/opt/ros/humble/include/rmw/rmw/event.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/c++/11/codecvt:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
-
-/usr/include/asm-generic/socket.h:
-
-/usr/include/c++/11/future:
-
-/usr/include/google/protobuf/generated_enum_util.h:
 
 /opt/ros/humble/include/rcl/rcl/arguments.h:
 
@@ -4656,13 +4620,7 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/google/protobuf/port_undef.inc:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
-
-/usr/include/c++/11/ios:
-
 /usr/include/c++/11/utility:
-
-/usr/include/c++/11/tr1/ell_integral.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
 
@@ -4675,6 +4633,10 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
 /usr/include/c++/11/stdexcept:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
@@ -4694,9 +4656,33 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/ignition/msgs8/ignition/msgs/pose_trajectory.pb.h:
 
+/usr/include/ignition/msgs8/gz/msgs/navsat.pb.h:
+
+/usr/include/c++/11/cwctype:
+
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
+
+/opt/ros/humble/include/rmw/rmw/event.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/c++/11/codecvt:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/c++/11/future:
+
+/usr/include/google/protobuf/generated_enum_util.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
 
@@ -4724,11 +4710,9 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/c++/11/bits/istream.tcc:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+
 /opt/ros/humble/include/rmw/rmw/serialized_message.h:
-
-/usr/include/c++/11/cstdint:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/ignition/msgs8/gz/msgs/fluid_pressure.pb.h:
 
@@ -4764,6 +4748,10 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/11/array:
+
 /usr/include/c++/11/bits/refwrap.h:
 
 /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h:
@@ -4795,8 +4783,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
 
@@ -4858,14 +4844,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/google/protobuf/stubs/stl_util.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
-
-/opt/ros/humble/include/rcl/rcl/domain_id.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
-
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
@@ -4889,42 +4867,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /usr/include/ignition/msgs8/ignition/msgs/gui.pb.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/heightmapgeom.pb.h:
-
-/usr/include/c++/11/tr1/hypergeometric.tcc:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/c++/11/tr1/legendre_function.tcc:
-
-/usr/include/c++/11/bits/ostream.tcc:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
-
-/usr/include/c++/11/tr1/modified_bessel_func.tcc:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/c++/11/array:
-
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/entity_plugin_v.pb.h:
-
-/usr/include/ignition/math6/gz/math/Line3.hh:
-
-/opt/ros/humble/include/ros_gz_bridge/ros_gz_bridge/convert/geometry_msgs.hpp:
 
 /usr/include/ignition/math6/gz/math/Pose3.hh:
 
@@ -4961,8 +4903,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/socket2.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:
 
@@ -5050,6 +4990,8 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
 /usr/include/ignition/msgs8/ignition/msgs/contact.pb.h:
@@ -5133,14 +5075,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/joy.pb.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
@@ -5332,6 +5266,8 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/ignition/msgs8/ignition/msgs/Filesystem.hh:
 
+/usr/include/ignition/msgs8/ignition/msgs/PointCloudPackedUtils.hh:
+
 /usr/include/ignition/msgs8/gz/msgs/imu.pb.h:
 
 /usr/include/ignition/math6/ignition/math/AxisAlignedBox.hh:
@@ -5432,9 +5368,9 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/ignition/msgs8/ignition/msgs/vector2d.pb.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
 
 /usr/include/ignition/msgs8/ignition/msgs/annotated_axis_aligned_2d_box_v.pb.h:
 
@@ -5588,6 +5524,8 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/google/protobuf/reflection_ops.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
+
 /usr/include/google/protobuf/map_field_inl.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp:
@@ -5722,8 +5660,6 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/ignition/msgs8/ignition/msgs/server_control.pb.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
 /usr/include/ignition/msgs8/ignition/msgs/sonar.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/statistic.pb.h:
@@ -5760,9 +5696,9 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 
 /usr/include/ignition/transport11/gz/transport/CIface.h:
 
-/opt/ros/humble/include/rcl/rcl/init_options.h:
-
 /opt/ros/humble/include/rcutils/rcutils/allocator.h:
+
+/opt/ros/humble/include/rcl/rcl/init_options.h:
 
 /usr/include/ignition/transport11/gz/transport/NetUtils.hh:
 
@@ -5857,3 +5793,27 @@ CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o: /root/aerostack2
 /usr/include/ignition/msgs8/ignition/msgs/float.pb.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
+
+/usr/include/byteswap.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/camera_cmd.pb.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/c++/11/ios:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/joy.pb.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:

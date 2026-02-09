@@ -1,1 +1,6 @@
-/root/aerostack2_ws/src/aerostack2/as2_msgs/msg/Thrust.msg
+# Message for encoding the desired thrust value
+
+std_msgs/Header header          # Message header
+
+float32 thrust                  # Thrust (N)
+float32 thrust_normalized       # Thrust normalized [0,1] 

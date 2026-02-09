@@ -1,0 +1,69 @@
+[0.521s] Invoking command in '/root/aerostack2_ws/src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs GZ_SIM_RESOURCE_PATH=/root/aerostack2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/worlds:/root/aerostack2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/models:${GZ_SIM_RESOURCE_PATH} GZ_SIM_SYSTEM_PLUGIN_PATH=/root/aerostack2_ws/install/as2_gazebo_assets/lib:${GZ_SIM_SYSTEM_PLUGIN_PATH} GZ_VERSION=@GZ_VERSION@ LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/build/as2_visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/as2_visualization build --build-base /root/aerostack2_ws/build/as2_visualization/build install --record /root/aerostack2_ws/build/as2_visualization/install.log --single-version-externally-managed install_data
+[0.701s] running egg_info
+[0.701s] creating ../../../../../build/as2_visualization/as2_visualization.egg-info
+[0.701s] writing ../../../../../build/as2_visualization/as2_visualization.egg-info/PKG-INFO
+[0.702s] writing dependency_links to ../../../../../build/as2_visualization/as2_visualization.egg-info/dependency_links.txt
+[0.702s] writing entry points to ../../../../../build/as2_visualization/as2_visualization.egg-info/entry_points.txt
+[0.702s] writing requirements to ../../../../../build/as2_visualization/as2_visualization.egg-info/requires.txt
+[0.702s] writing top-level names to ../../../../../build/as2_visualization/as2_visualization.egg-info/top_level.txt
+[0.702s] writing manifest file '../../../../../build/as2_visualization/as2_visualization.egg-info/SOURCES.txt'
+[0.703s] reading manifest file '../../../../../build/as2_visualization/as2_visualization.egg-info/SOURCES.txt'
+[0.704s] writing manifest file '../../../../../build/as2_visualization/as2_visualization.egg-info/SOURCES.txt'
+[0.704s] running build
+[0.704s] running build_py
+[0.704s] creating /root/aerostack2_ws/build/as2_visualization/build
+[0.704s] creating /root/aerostack2_ws/build/as2_visualization/build/lib
+[0.704s] creating /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization
+[0.704s] copying as2_visualization/__init__.py -> /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization
+[0.704s] copying as2_visualization/viz_params.py -> /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization
+[0.706s] copying as2_visualization/viz_parsing.py -> /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization
+[0.708s] copying as2_visualization/drone_viz.py -> /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization
+[0.708s] copying as2_visualization/geozones_marker_publisher.py -> /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization
+[0.708s] copying as2_visualization/launch_viz_nodes.py -> /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization
+[0.708s] copying as2_visualization/generate_rviz_config.py -> /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization
+[0.708s] copying as2_visualization/rviz_adapter.py -> /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization
+[0.709s] copying as2_visualization/gate_publisher.py -> /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization
+[0.709s] copying as2_visualization/marker_publisher.py -> /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization
+[0.709s] running install
+[0.709s] running install_lib
+[0.710s] creating /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[0.710s] copying /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization/__init__.py -> /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[0.710s] copying /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization/viz_params.py -> /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[0.710s] copying /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization/viz_parsing.py -> /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[0.710s] copying /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization/drone_viz.py -> /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[0.710s] copying /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization/geozones_marker_publisher.py -> /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[0.710s] copying /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization/launch_viz_nodes.py -> /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[0.710s] copying /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization/generate_rviz_config.py -> /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[0.710s] copying /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization/rviz_adapter.py -> /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[0.710s] copying /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization/gate_publisher.py -> /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[0.710s] copying /root/aerostack2_ws/build/as2_visualization/build/lib/as2_visualization/marker_publisher.py -> /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[0.711s] byte-compiling /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/__init__.py to __init__.cpython-310.pyc
+[0.711s] byte-compiling /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/viz_params.py to viz_params.cpython-310.pyc
+[0.712s] byte-compiling /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/viz_parsing.py to viz_parsing.cpython-310.pyc
+[0.713s] byte-compiling /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/drone_viz.py to drone_viz.cpython-310.pyc
+[0.714s] byte-compiling /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/geozones_marker_publisher.py to geozones_marker_publisher.cpython-310.pyc
+[0.714s] byte-compiling /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/launch_viz_nodes.py to launch_viz_nodes.cpython-310.pyc
+[0.714s] byte-compiling /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/generate_rviz_config.py to generate_rviz_config.cpython-310.pyc
+[0.715s] byte-compiling /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/rviz_adapter.py to rviz_adapter.cpython-310.pyc
+[0.715s] byte-compiling /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/gate_publisher.py to gate_publisher.cpython-310.pyc
+[0.716s] byte-compiling /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/marker_publisher.py to marker_publisher.cpython-310.pyc
+[0.716s] running install_data
+[0.717s] creating /root/aerostack2_ws/install/as2_visualization/share/ament_index
+[0.717s] creating /root/aerostack2_ws/install/as2_visualization/share/ament_index/resource_index
+[0.717s] creating /root/aerostack2_ws/install/as2_visualization/share/ament_index/resource_index/packages
+[0.717s] copying resource/as2_visualization -> /root/aerostack2_ws/install/as2_visualization/share/ament_index/resource_index/packages
+[0.717s] copying package.xml -> /root/aerostack2_ws/install/as2_visualization/share/as2_visualization
+[0.717s] creating /root/aerostack2_ws/install/as2_visualization/share/as2_visualization/launch
+[0.717s] copying launch/swarm_viz.launch.py -> /root/aerostack2_ws/install/as2_visualization/share/as2_visualization/launch
+[0.717s] copying launch/as2_visualization.launch.py -> /root/aerostack2_ws/install/as2_visualization/share/as2_visualization/launch
+[0.717s] creating /root/aerostack2_ws/install/as2_visualization/share/as2_visualization/config
+[0.717s] copying config/as2_default.rviz -> /root/aerostack2_ws/install/as2_visualization/share/as2_visualization/config
+[0.717s] running install_egg_info
+[0.719s] Copying ../../../../../build/as2_visualization/as2_visualization.egg-info to /root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization-1.1.3-py3.10.egg-info
+[0.719s] running install_scripts
+[0.734s] Installing cfg_generator script to /root/aerostack2_ws/install/as2_visualization/lib/as2_visualization
+[0.735s] Installing gate_publisher script to /root/aerostack2_ws/install/as2_visualization/lib/as2_visualization
+[0.735s] Installing marker_publisher script to /root/aerostack2_ws/install/as2_visualization/lib/as2_visualization
+[0.735s] Installing viz_launcher script to /root/aerostack2_ws/install/as2_visualization/lib/as2_visualization
+[0.735s] writing list of installed files to '/root/aerostack2_ws/build/as2_visualization/install.log'
+[0.753s] Invoked command in '/root/aerostack2_ws/src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs GZ_SIM_RESOURCE_PATH=/root/aerostack2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/worlds:/root/aerostack2_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/models:${GZ_SIM_RESOURCE_PATH} GZ_SIM_SYSTEM_PLUGIN_PATH=/root/aerostack2_ws/install/as2_gazebo_assets/lib:${GZ_SIM_SYSTEM_PLUGIN_PATH} GZ_VERSION=@GZ_VERSION@ LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/build/as2_visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/as2_visualization build --build-base /root/aerostack2_ws/build/as2_visualization/build install --record /root/aerostack2_ws/build/as2_visualization/install.log --single-version-externally-managed install_data

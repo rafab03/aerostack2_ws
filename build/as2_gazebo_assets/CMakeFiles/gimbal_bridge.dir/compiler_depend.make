@@ -60,7 +60,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge.cpp.o: /root/aerost
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -68,9 +67,7 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge.cpp.o: /root/aerost
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -116,7 +113,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge.cpp.o: /root/aerost
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -183,8 +179,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge.cpp.o: /root/aerost
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -266,7 +260,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge.cpp.o: /root/aerost
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -349,8 +342,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge.cpp.o: /root/aerost
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -1353,7 +1344,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge.cpp.o: /root/aerost
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -1779,7 +1769,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1787,9 +1776,7 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -1835,7 +1822,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -1902,8 +1888,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1985,7 +1969,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -2068,8 +2051,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -3072,7 +3053,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -3740,6 +3720,8 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__traits.hpp:
 
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.hpp:
 
 /usr/include/ignition/msgs8/gz/msgs/world_control.pb.h:
@@ -3898,8 +3880,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/netinet/in.h:
 
-/usr/include/x86_64-linux-gnu/bits/socket2.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
 
 /usr/include/asm-generic/sockios.h:
@@ -3948,6 +3928,8 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/ignition/msgs8/ignition/msgs/visual_v.pb.h:
 
+/usr/include/ignition/msgs8/ignition/msgs/world_reset.pb.h:
+
 /usr/include/ignition/msgs8/ignition/msgs/world_control.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/user_cmd.pb.h:
@@ -3963,6 +3945,8 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /usr/include/ignition/msgs8/ignition/msgs/test.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/tactile.pb.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/sonar.pb.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp:
 
@@ -4216,13 +4200,19 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/ignition/msgs8/ignition/msgs/pose.pb.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/actor.pb.h:
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
 
-/usr/include/ignition/math6/gz/math/SphericalCoordinates.hh:
+/usr/include/ignition/transport11/gz/transport/SubscribeOptions.hh:
 
-/usr/include/ignition/math6/gz/math/Plane.hh:
+/opt/ros/humble/include/rmw/rmw/time.h:
 
-/usr/include/ignition/math6/ignition/math/Plane.hh:
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
+
+/usr/include/google/protobuf/generated_message_reflection.h:
+
+/usr/include/ignition/transport11/gz/transport/TopicStorage.hh:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
 
 /opt/ros/humble/include/rmw/rmw/qos_profiles.h:
 
@@ -4288,11 +4278,11 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
 /opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__builder.hpp:
 
 /usr/include/signal.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
 
@@ -4352,6 +4342,8 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp:
 
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__traits.hpp:
 
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
@@ -4359,10 +4351,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /usr/include/wctype.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
-
-/usr/include/ignition/math6/ignition/math/Vector3.hh:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.hpp:
 
@@ -4452,6 +4440,10 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /opt/ros/humble/include/rcl/rcl/service.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
+
+/opt/ros/humble/include/rcl/rcl/domain_id.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp:
@@ -4522,19 +4514,11 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
-/usr/include/ignition/math6/ignition/math/SphericalCoordinates.hh:
-
-/usr/include/c++/11/bits/list.tcc:
-
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.hpp:
 
 /opt/ros/humble/include/ros_gz_bridge/ros_gz_bridge/convert/gps_msgs.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
-
-/usr/include/ignition/math6/gz/math/Line2.hh:
-
-/opt/ros/humble/include/rmw/rmw/rmw.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
@@ -4565,12 +4549,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
 /usr/include/google/protobuf/stubs/mutex.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/world_reset.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
@@ -4710,17 +4688,7 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
-
-/opt/ros/humble/include/rcl/rcl/domain_id.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/ignition/transport11/gz/transport/NetUtils.hh:
 
@@ -4732,9 +4700,13 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/c++/11/bits/functexcept.h:
 
-/usr/include/x86_64-linux-gnu/bits/confname.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+/usr/include/ignition/msgs8/ignition/msgs/annotated_axis_aligned_2d_box_v.pb.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
 
 /usr/include/ignition/math6/gz/math/Matrix3.hh:
 
@@ -4782,6 +4754,12 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/google/protobuf/generated_message_util.h:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/parameter_name.pb.h:
@@ -4798,6 +4776,8 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/c++/11/bits/nested_exception.h:
 
+/usr/include/c++/11/cwchar:
+
 /usr/include/unistd.h:
 
 /usr/include/c++/11/bits/regex_scanner.tcc:
@@ -4807,6 +4787,8 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/usr/include/c++/11/cstdint:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
 
@@ -4855,10 +4837,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp:
 
 /opt/ros/humble/include/tf2/tf2/exceptions.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/entity.pb.h:
-
-/usr/include/c++/11/bits/localefwd.h:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
@@ -4954,12 +4932,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/google/protobuf/generated_message_util.h:
-
-/usr/include/c++/11/cwchar:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/c++/11/ext/atomicity.h:
@@ -4980,6 +4952,14 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/bytes.pb.h:
@@ -4987,20 +4967,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /opt/ros/humble/include/rmw/rmw/subscription_options.h:
 
 /usr/include/c++/11/complex:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/annotated_axis_aligned_2d_box_v.pb.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
-
-/usr/include/ignition/transport11/gz/transport/SubscribeOptions.hh:
-
-/opt/ros/humble/include/rmw/rmw/time.h:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
 
 /opt/ros/humble/include/rcl/rcl/wait.h:
 
@@ -5022,21 +4988,11 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/google/protobuf/parse_context.h:
 
-/usr/include/strings.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/11/bits/postypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/boxgeom.pb.h:
 
@@ -5053,10 +5009,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /usr/include/pthread.h:
 
 /usr/include/c++/11/iostream:
-
-/usr/include/ignition/msgs8/gz/msgs/navsat.pb.h:
-
-/usr/include/c++/11/cwctype:
 
 /usr/include/ignition/msgs8/gz/msgs/empty.pb.h:
 
@@ -5100,6 +5052,12 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+
+/root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/src/gimbal_bridge/gimbal_bridge.cpp:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__builder.hpp:
 
 /usr/include/ignition/msgs8/ignition/msgs/plugin.pb.h:
@@ -5124,15 +5082,15 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h:
 
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
 /usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/socket_type.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
+
+/usr/include/c++/11/streambuf:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
@@ -5204,13 +5162,7 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp:
 
-/usr/include/c++/11/typeindex:
-
-/usr/include/ignition/msgs8/ignition/msgs/marker.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -5260,6 +5212,8 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/c++/11/tr1/special_function_util.h:
 
+/usr/include/ignition/math6/ignition/math/Plane.hh:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.hpp:
 
 /usr/include/ignition/msgs8/gz/msgs/entity_wrench.pb.h:
@@ -5302,12 +5256,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp:
 
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/MessageTypes.hh:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:
@@ -5315,8 +5263,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
 
@@ -5329,6 +5275,22 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /usr/include/ignition/msgs8/ignition/msgs/time.pb.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.hpp:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/stdint.h:
 
 /usr/include/c++/11/future:
 
@@ -5350,6 +5312,14 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
+/usr/include/c++/11/typeindex:
+
+/usr/include/ignition/msgs8/ignition/msgs/marker.pb.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
 /usr/include/c++/11/bits/stl_heap.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:
@@ -5367,28 +5337,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.hpp:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/stdint.h:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
-
-/usr/include/c++/11/streambuf:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
@@ -5476,6 +5424,8 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
@@ -5532,6 +5482,10 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/c++/11/iterator:
 
+/opt/ros/humble/include/rmw/rmw/rmw.h:
+
+/usr/include/ignition/math6/gz/math/Line2.hh:
+
 /usr/include/c++/11/iosfwd:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp:
@@ -5545,6 +5499,10 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
 /usr/include/stdc-predef.h:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
 
 /usr/include/ignition/math6/ignition/math/Pose3.hh:
 
@@ -5581,20 +5539,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__builder.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/sonar.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/PointCloudPackedUtils.hh:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
-
-/opt/ros/humble/include/rmw/rmw/event.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /opt/ros/humble/include/rcl/rcl/arguments.h:
 
@@ -5640,6 +5584,10 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
 
+/usr/include/ignition/msgs8/gz/msgs/navsat.pb.h:
+
+/usr/include/c++/11/cwctype:
+
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/eigen3/Eigen/src/Core/Stride.h:
@@ -5647,6 +5595,14 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
+
+/opt/ros/humble/include/rmw/rmw/event.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
 
@@ -5681,10 +5637,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
 
 /opt/ros/humble/include/rmw/rmw/serialized_message.h:
-
-/usr/include/c++/11/cstdint:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -5746,8 +5698,6 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h:
@@ -5790,33 +5740,19 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
-/usr/include/ignition/transport11/gz/transport/TopicStorage.hh:
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
+/usr/include/strings.h:
 
-/root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/src/gimbal_bridge/gimbal_bridge.cpp:
+/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+/usr/include/c++/11/bits/list.tcc:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+/usr/include/ignition/math6/ignition/math/SphericalCoordinates.hh:
 
-/usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
+/usr/include/c++/11/bits/exception_defines.h:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
-
-/usr/include/google/protobuf/generated_message_reflection.h:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
-
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
+/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
@@ -5961,6 +5897,8 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
@@ -6162,6 +6100,8 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
+/usr/include/ignition/math6/gz/math/SphericalCoordinates.hh:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
 /usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
@@ -6245,6 +6185,8 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /opt/ros/humble/include/ros_gz_bridge/ros_gz_bridge/convert/actuator_msgs.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
+
+/usr/include/ignition/math6/gz/math/Plane.hh:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
@@ -6796,9 +6738,15 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 
 /usr/include/ignition/msgs8/ignition/msgs/Filesystem.hh:
 
+/usr/include/ignition/msgs8/ignition/msgs/PointCloudPackedUtils.hh:
+
 /usr/include/ignition/msgs8/gz/msgs/imu.pb.h:
 
 /usr/include/ignition/math6/ignition/math/AxisAlignedBox.hh:
+
+/usr/include/c++/11/bits/localefwd.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/entity.pb.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
@@ -6863,3 +6811,15 @@ CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o: /root/a
 /usr/include/ignition/math6/ignition/math/config.hh:
 
 /usr/include/ignition/math6/ignition/math/Inertial.hh:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/ignition/math6/ignition/math/Vector3.hh:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/MessageTypes.hh:
+
+/usr/include/ignition/msgs8/ignition/msgs/actor.pb.h:

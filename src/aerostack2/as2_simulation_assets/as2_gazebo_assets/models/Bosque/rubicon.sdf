@@ -1,0 +1,11 @@
+<sdf version="1.6">
+  <model name="Bosque">
+    <static>true</static>
+
+    <include>
+      <name>Rubicon</name>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Rubicon</uri>
+    </include>
+
+  </model>
+</sdf>

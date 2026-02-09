@@ -1,1 +1,5 @@
-/root/aerostack2_ws/src/aerostack2/as2_msgs/msg/MissionEvent.msg
+# Message for trigger mission events
+
+std_msgs/Header header    # Message header
+
+string data               # (Optional) data to send with the trigger

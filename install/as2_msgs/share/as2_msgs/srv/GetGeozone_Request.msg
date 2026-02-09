@@ -1,1 +1,4 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/GetGeozone_Request.msg
+# SERVICE TYPE: GetGeoStructure
+# ------------------------------------------------------------------------------
+# This service return a geostructure list (lat, lon, alt) stored in the geozones node
+

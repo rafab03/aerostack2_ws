@@ -1,1 +1,4 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/ListControlModes_Request.msg
+# SERVICE TYPE: ListControlModes
+# ------------------------------------------------------------------------------
+# This service ask for available control modes list
+

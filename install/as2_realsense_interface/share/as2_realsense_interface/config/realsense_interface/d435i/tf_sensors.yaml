@@ -1,1 +1,18 @@
-/root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface/config/realsense_interface/d435i/tf_sensors.yaml
+/**:
+  ros__parameters:
+    imu:
+      sensor_frame: "imu"
+      x: 0.0 # meters
+      y: 0.0 # meters
+      z: 0.0 # meters
+      roll: -1.570796 # rad
+      pitch: 0.0 # rad
+      yaw: -1.570796 # rad
+    color:
+      sensor_frame: "color"
+      x: 0.0 # meters
+      y: 0.0 # meters
+      z: 0.0 # meters
+      roll: -1.570796 # rad
+      pitch: 0.0 # rad
+      yaw: -1.570796 # rad

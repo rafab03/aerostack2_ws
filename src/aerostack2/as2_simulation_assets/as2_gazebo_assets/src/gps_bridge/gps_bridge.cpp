@@ -86,10 +86,18 @@ GPSBridge::GPSBridge()
 
   // Initialize the ignition node
   ign_node_ptr_ = std::make_shared<gz::transport::Node>();
-  std::string gps_topic = "/world/" + world_name + "/model/" + name_space + "/model/" +
-    sensor_name + "/link/" + link_name + "/sensor/" + sensor_type +
-    "/navsat";
+
+std::string gps_topic =
+  "/world/" + world_name +
+  "/model/" + name_space +           // aquí: drone0
+  "/model/" + sensor_name +          // aquí: gps_d0 (modelo del payload)
+  "/link/" + link_name +             // gps
+  "/sensor/" + sensor_type +         // navsat
+  "/" + sensor_type;                 // navsat
+  
   ign_node_ptr_->Subscribe(gps_topic, this->ignitionGPSCallback);
+  RCLCPP_INFO(this->get_logger(), "Subscribing to Ign topic: %s", gps_topic.c_str());
+
   gps_pub_ = this->create_publisher<sensor_msgs::msg::NavSatFix>(
     as2_names::topics::sensor_measurements::gps, as2_names::topics::sensor_measurements::qos);
 }
@@ -120,19 +128,28 @@ void GPSBridge::ignitionGPSCallback(
   const gz::msgs::NavSat & ign_msg,
   const gz::transport::MessageInfo & msg_info)
 {
+  (void)msg_info;
+
+  // Static function: no 'this'. Use global logger.
+  RCLCPP_INFO(
+    rclcpp::get_logger("gps_bridge"),
+    "Ign NavSat received: frame='%s' lat=%.6f lon=%.6f alt=%.2f",
+    ign_msg.frame_id().c_str(),
+    ign_msg.latitude_deg(),
+    ign_msg.longitude_deg(),
+    ign_msg.altitude());
+
   sensor_msgs::msg::NavSatFix ros_msg;
 
   ros_gz_bridge::convert_gz_to_ros(ign_msg.header(), ros_msg.header);
   if (!use_sim_time_) {
-    auto time = rclcpp::Clock().now();
-    ros_msg.header.stamp = time;
+    ros_msg.header.stamp = rclcpp::Clock(RCL_ROS_TIME).now();
   }
   ros_msg.header.frame_id = GPSBridge::replace_delimiter(ign_msg.frame_id(), "::", "/");
   ros_msg.latitude = ign_msg.latitude_deg();
   ros_msg.longitude = ign_msg.longitude_deg();
   ros_msg.altitude = ign_msg.altitude();
 
-  // position_covariance is not supported in gz::msgs::NavSat.
   ros_msg.position_covariance_type = sensor_msgs::msg::NavSatFix::COVARIANCE_TYPE_UNKNOWN;
   ros_msg.status.status = sensor_msgs::msg::NavSatStatus::STATUS_FIX;
 

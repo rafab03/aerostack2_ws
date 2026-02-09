@@ -1,1 +1,11 @@
-/root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface/config/tf_device/t265.yaml
+/**:
+  ros__parameters:
+    tf_device:
+      frame_id: 'realsense_t265'
+      reference_frame: 'base_link'
+      x: -0.11 # meters
+      y: 0.00 # meters
+      z: -0.01 # meters
+      roll: 0.0 # rad
+      pitch: 0.820305 # rad
+      yaw: 3.141592 # rad

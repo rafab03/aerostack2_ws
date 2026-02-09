@@ -42,3 +42,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man3" TYPE FILE FILES
+    "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-src/src/api/nlopt.3"
+    "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-src/src/api/nlopt_minimize.3"
+    "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-src/src/api/nlopt_minimize_constrained.3"
+    )
+endif()
+

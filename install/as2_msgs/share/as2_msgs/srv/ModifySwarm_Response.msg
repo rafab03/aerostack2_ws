@@ -1,1 +1,2 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/ModifySwarm_Response.msg
+
+bool success                                    # whether the SwarmBehavior has been set or not

@@ -1,1 +1,4 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/SetPlatformStateMachineEvent_Response.msg
+
+bool success                                # whether the PSM has been set or not
+as2_msgs/PlatformStatus current_state       # PSM result of the aircraft
+# ------------------------------------------------------------------------------

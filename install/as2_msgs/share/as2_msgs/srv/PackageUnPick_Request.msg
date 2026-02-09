@@ -1,1 +1,6 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/PackageUnPick_Request.msg
+# SERVICE TYPE: PackageUnPick
+# ------------------------------------------------------------------------------
+# This service send command to start package unpick
+
+bool enable                             # Flag to enable unpick
+geometry_msgs/Twist speed_limit         # speed limit (m/s)

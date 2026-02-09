@@ -1,1 +1,12 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_generator_c/as2_msgs/msg/pose_with_id_array.h
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from as2_msgs:msg/PoseWithIDArray.idl
+// generated code does not contain a copyright notice
+
+#ifndef AS2_MSGS__MSG__POSE_WITH_ID_ARRAY_H_
+#define AS2_MSGS__MSG__POSE_WITH_ID_ARRAY_H_
+
+#include "as2_msgs/msg/detail/pose_with_id_array__struct.h"
+#include "as2_msgs/msg/detail/pose_with_id_array__functions.h"
+#include "as2_msgs/msg/detail/pose_with_id_array__type_support.h"
+
+#endif  // AS2_MSGS__MSG__POSE_WITH_ID_ARRAY_H_

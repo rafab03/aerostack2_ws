@@ -1,0 +1,23 @@
+[0.022s] Invoking command in '/root/aerostack2_ws/build/as2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/aerostack2_ws/install/rmf_demos_tasks:/root/aerostack2_ws/install/rmf_demos_panel:/root/aerostack2_ws/install/rmf_demos_fleet_adapter:/root/aerostack2_ws/install/rmf_demos_bridges:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/root/aerostack2_ws/install/as2_perception:/opt/ros/humble /usr/bin/cmake --build /root/aerostack2_ws/build/as2_msgs -- -j8 -l8
+[0.239s] [  0%] Built target as2_msgs__cpp
+[0.239s] [ 12%] Built target as2_msgs__rosidl_generator_c
+[0.240s] [ 12%] Built target ament_cmake_python_copy_as2_msgs
+[0.240s] [ 24%] Built target as2_msgs__rosidl_typesupport_cpp
+[0.240s] [ 37%] Built target as2_msgs__rosidl_typesupport_c
+[0.240s] [ 50%] Built target as2_msgs__rosidl_typesupport_introspection_c
+[0.240s] [ 63%] Built target as2_msgs__rosidl_typesupport_introspection_cpp
+[0.240s] [ 75%] Built target as2_msgs__rosidl_typesupport_fastrtps_cpp
+[0.240s] [ 88%] Built target as2_msgs__rosidl_typesupport_fastrtps_c
+[0.240s] [ 88%] Built target as2_msgs
+[0.240s] [ 88%] Built target as2_msgs__py
+[0.240s] [100%] Built target as2_msgs__rosidl_generator_py
+[0.263s] [100%] Built target as2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.264s] [100%] Built target as2_msgs__rosidl_typesupport_c__pyext
+[0.264s] [100%] Built target as2_msgs__rosidl_typesupport_introspection_c__pyext
+[0.339s] running egg_info
+[0.340s] writing as2_msgs.egg-info/PKG-INFO
+[0.340s] writing dependency_links to as2_msgs.egg-info/dependency_links.txt
+[0.340s] writing top-level names to as2_msgs.egg-info/top_level.txt
+[0.342s] reading manifest file 'as2_msgs.egg-info/SOURCES.txt'
+[0.343s] writing manifest file 'as2_msgs.egg-info/SOURCES.txt'
+[0.364s] [100%] Built target ament_cmake_python_build_as2_msgs_egg

@@ -1,1 +1,4 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/GetOrigin_Request.msg
+# SERVICE TYPE: GetOrigin
+# ------------------------------------------------------------------------------
+# This service return a origin (lat, lon, alt) if it was previously set
+

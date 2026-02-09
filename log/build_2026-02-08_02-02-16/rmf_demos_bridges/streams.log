@@ -1,0 +1,41 @@
+[5.155s] Invoking command in '/root/aerostack2_ws/src/aerostack2/rmf_demos/rmf_demos_bridges': PYTHONPATH=/root/aerostack2_ws/build/rmf_demos_bridges/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/rmf_demos_bridges/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/rmf_demos_bridges build --build-base /root/aerostack2_ws/build/rmf_demos_bridges/build install --record /root/aerostack2_ws/build/rmf_demos_bridges/install.log --single-version-externally-managed install_data
+[6.955s] running egg_info
+[6.955s] creating ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info
+[6.955s] writing ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/PKG-INFO
+[6.955s] writing dependency_links to ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/dependency_links.txt
+[6.956s] writing entry points to ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/entry_points.txt
+[6.956s] writing requirements to ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/requires.txt
+[6.956s] writing top-level names to ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/top_level.txt
+[6.956s] writing manifest file '../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[6.956s] reading manifest file '../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[6.956s] writing manifest file '../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[6.956s] running build
+[6.956s] running build_py
+[6.956s] creating /root/aerostack2_ws/build/rmf_demos_bridges/build
+[6.956s] creating /root/aerostack2_ws/build/rmf_demos_bridges/build/lib
+[6.956s] creating /root/aerostack2_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[6.956s] copying rmf_demos_bridges/__init__.py -> /root/aerostack2_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[6.956s] copying rmf_demos_bridges/fleet_socketio_bridge.py -> /root/aerostack2_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[6.957s] copying rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py -> /root/aerostack2_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[6.957s] running install
+[6.957s] running install_lib
+[6.957s] creating /root/aerostack2_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[6.957s] copying /root/aerostack2_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/__init__.py -> /root/aerostack2_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[6.957s] copying /root/aerostack2_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/fleet_socketio_bridge.py -> /root/aerostack2_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[6.957s] copying /root/aerostack2_ws/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py -> /root/aerostack2_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[6.957s] byte-compiling /root/aerostack2_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges/__init__.py to __init__.cpython-310.pyc
+[6.957s] byte-compiling /root/aerostack2_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges/fleet_socketio_bridge.py to fleet_socketio_bridge.cpython-310.pyc
+[6.957s] byte-compiling /root/aerostack2_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py to fleet_robotmanager_mqtt_bridge.cpython-310.pyc
+[6.957s] running install_data
+[6.957s] creating /root/aerostack2_ws/install/rmf_demos_bridges/share/ament_index
+[6.957s] creating /root/aerostack2_ws/install/rmf_demos_bridges/share/ament_index/resource_index
+[6.957s] creating /root/aerostack2_ws/install/rmf_demos_bridges/share/ament_index/resource_index/packages
+[6.958s] copying resource/rmf_demos_bridges -> /root/aerostack2_ws/install/rmf_demos_bridges/share/ament_index/resource_index/packages
+[6.958s] copying package.xml -> /root/aerostack2_ws/install/rmf_demos_bridges/share/rmf_demos_bridges
+[6.958s] running install_egg_info
+[6.958s] Copying ../../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info to /root/aerostack2_ws/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges-2.0.4-py3.10.egg-info
+[6.958s] running install_scripts
+[7.015s] Installing fleet_robotmanager_mqtt_bridge script to /root/aerostack2_ws/install/rmf_demos_bridges/lib/rmf_demos_bridges
+[7.015s] Installing fleet_socketio_bridge script to /root/aerostack2_ws/install/rmf_demos_bridges/lib/rmf_demos_bridges
+[7.016s] writing list of installed files to '/root/aerostack2_ws/build/rmf_demos_bridges/install.log'
+[7.120s] Invoked command in '/root/aerostack2_ws/src/aerostack2/rmf_demos/rmf_demos_bridges' returned '0': PYTHONPATH=/root/aerostack2_ws/build/rmf_demos_bridges/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/rmf_demos_bridges/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/rmf_demos_bridges build --build-base /root/aerostack2_ws/build/rmf_demos_bridges/build install --record /root/aerostack2_ws/build/rmf_demos_bridges/install.log --single-version-externally-managed install_data

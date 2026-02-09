@@ -44,6 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/glog-build/cmake_install.cmake")
   include("/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/nlopt-build/cmake_install.cmake")
 
 endif()

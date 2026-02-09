@@ -68,7 +68,7 @@ include CMakeFiles/as2_rviz_plugins_autogen.dir/progress.make
 
 CMakeFiles/as2_rviz_plugins_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/aerostack2_ws/build/as2_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target as2_rviz_plugins"
-	/usr/bin/cmake -E cmake_autogen /root/aerostack2_ws/build/as2_rviz_plugins/CMakeFiles/as2_rviz_plugins_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E cmake_autogen /root/aerostack2_ws/build/as2_rviz_plugins/CMakeFiles/as2_rviz_plugins_autogen.dir/AutogenInfo.json ""
 
 as2_rviz_plugins_autogen: CMakeFiles/as2_rviz_plugins_autogen
 as2_rviz_plugins_autogen: CMakeFiles/as2_rviz_plugins_autogen.dir/build.make

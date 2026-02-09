@@ -1,1 +1,6 @@
-/root/aerostack2_ws/src/aerostack2/as2_state_estimator/plugins/ground_truth_odometry_fuse/config/plugin_default.yaml
+/**:
+  ros__parameters:
+    odom_topic: "sensor_measurements/odom"  # Topic of the odometry
+    ground_truth_topic: "ground_truth/pose"  # Topic of the ground truth
+    mocap_topic: "/mocap/rigid_bodies"  # Topic of the rigid bodies
+    rigid_body_name: "" # Set to use rigid body instead of Ground Truth topic

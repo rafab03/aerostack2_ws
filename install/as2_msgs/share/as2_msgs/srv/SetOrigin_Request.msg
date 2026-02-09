@@ -1,1 +1,5 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/SetOrigin_Request.msg
+# SERVICE TYPE: SetOrigin
+# ------------------------------------------------------------------------------
+# This service sends a origin (lat, lon, alt) to set
+
+geographic_msgs/GeoPoint origin     # origin to set

@@ -1,1 +1,4 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/ListControlModes_Response.msg
+
+string source                   # Control modes source
+uint8[] control_modes           # Control modes list
+# ------------------------------------------------------------------------------

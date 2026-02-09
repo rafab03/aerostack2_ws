@@ -1,1 +1,3 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/SetGeozone_Response.msg
+
+bool success                # whether the geoStructure has been set or not
+# ------------------------------------------------------------------------------

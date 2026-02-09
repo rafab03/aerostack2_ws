@@ -1,0 +1,4 @@
+[  6%] Built target gtest
+[ 12%] Built target gtest_main
+[ 19%] Built target as2_names
+[ 19%] Built target ament_cmake_python_copy_as2_core

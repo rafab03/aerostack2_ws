@@ -1,1 +1,5 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/SetSpeed_Request.msg
+# SERVICE TYPE: SetSpeed
+# ------------------------------------------------------------------------------
+# This service sends a speed to set
+
+as2_msgs/Speed speed        # speed to send

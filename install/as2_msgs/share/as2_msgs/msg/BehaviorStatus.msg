@@ -1,1 +1,5 @@
-/root/aerostack2_ws/src/aerostack2/as2_msgs/msg/BehaviorStatus.msg
+uint8 IDLE    = 0
+uint8 RUNNING = 1
+uint8 PAUSED  = 2
+
+uint8 status

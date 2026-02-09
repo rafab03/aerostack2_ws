@@ -1,1 +1,4 @@
-/root/aerostack2_ws/src/aerostack2/as2_msgs/msg/PoseStampedWithID.msg
+# A Pose stamped with an string id
+
+string id                       # Identification string
+geometry_msgs/PoseStamped pose  # Pose

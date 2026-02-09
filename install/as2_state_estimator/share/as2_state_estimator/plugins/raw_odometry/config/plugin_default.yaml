@@ -1,1 +1,11 @@
-/root/aerostack2_ws/src/aerostack2/as2_state_estimator/plugins/raw_odometry/config/plugin_default.yaml
+/**:
+  ros__parameters:
+    use_gps: true  # Use GPS data
+    set_origin_on_start: true  # Set origin of the map frame with the first GPS data
+    
+    earth_to_map_height: 0.0  # Set manually height of the map frame above the earth frame
+    earth_to_map:
+      x: 0.0 # Set manually x offset of the map frame from the earth frame
+      y: 0.0 # Set manually y offset of the map frame from the earth frame
+      z: 0.0 # Set manually z offset of the map frame from the earth frame
+    set_map_to_odom: true  # Set map to odom transform

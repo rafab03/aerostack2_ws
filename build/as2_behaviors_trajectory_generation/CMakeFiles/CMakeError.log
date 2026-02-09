@@ -1,10 +1,10 @@
 Determining size of unsigned __int16 failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc4e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc4e8.dir/build.make CMakeFiles/cmTC_bc4e8.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f63f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f63f.dir/build.make CMakeFiles/cmTC_1f63f.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bc4e8.dir/HAVE___UINT16.cpp.o
-/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_bc4e8.dir/HAVE___UINT16.cpp.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp
+Building CXX object CMakeFiles/cmTC_1f63f.dir/HAVE___UINT16.cpp.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_1f63f.dir/HAVE___UINT16.cpp.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp
 /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:22: error: expected primary-expression before ‘unsigned’
    27 | #define SIZE (sizeof(unsigned __int16))
       |                      ^~~~~~~~
@@ -48,9 +48,9 @@ Building CXX object CMakeFiles/cmTC_bc4e8.dir/HAVE___UINT16.cpp.o
 /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:29:3: note: to match this ‘(’
    29 |   ('0' + ((SIZE / 10000)%10)),
       |   ^
-gmake[1]: *** [CMakeFiles/cmTC_bc4e8.dir/build.make:78: CMakeFiles/cmTC_bc4e8.dir/HAVE___UINT16.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_1f63f.dir/build.make:78: CMakeFiles/cmTC_1f63f.dir/HAVE___UINT16.cpp.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_bc4e8/fast] Error 2
+gmake: *** [Makefile:127: cmTC_1f63f/fast] Error 2
 
 
 /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:
@@ -109,14 +109,14 @@ int main(int argc, char *argv[])
 Performing C++ SOURCE FILE Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a655d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a655d.dir/build.make CMakeFiles/cmTC_a655d.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_93839/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_93839.dir/build.make CMakeFiles/cmTC_93839.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a655d.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS  -fPIE   -Wunnamed-type-template-args -o CMakeFiles/cmTC_a655d.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_93839.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS  -fPIE   -Wunnamed-type-template-args -o CMakeFiles/cmTC_93839.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command-line option '-Wunnamed-type-template-args'
-gmake[1]: *** [CMakeFiles/cmTC_a655d.dir/build.make:78: CMakeFiles/cmTC_a655d.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_93839.dir/build.make:78: CMakeFiles/cmTC_93839.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_a655d/fast] Error 2
+gmake: *** [Makefile:127: cmTC_93839/fast] Error 2
 
 
 Source file was:
@@ -124,18 +124,18 @@ int main() { return 0; }
 Determining if the pthread_threadid_np exist failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75151/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75151.dir/build.make CMakeFiles/cmTC_75151.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_96f9c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_96f9c.dir/build.make CMakeFiles/cmTC_96f9c.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_75151.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_75151.dir/CheckSymbolExists.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_96f9c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_96f9c.dir/CheckSymbolExists.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
 /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘pthread_threadid_np’ was not declared in this scope; did you mean ‘pthread_tryjoin_np’?
     8 |   return ((int*)(&pthread_threadid_np))[argc];
       |                   ^~~~~~~~~~~~~~~~~~~
       |                   pthread_tryjoin_np
-gmake[1]: *** [CMakeFiles/cmTC_75151.dir/build.make:78: CMakeFiles/cmTC_75151.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_96f9c.dir/build.make:78: CMakeFiles/cmTC_96f9c.dir/CheckSymbolExists.cxx.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_75151/fast] Error 2
+gmake: *** [Makefile:127: cmTC_96f9c/fast] Error 2
 
 
 File /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
@@ -155,34 +155,34 @@ int main(int argc, char** argv)
 Determining if the function UnDecorateSymbolName exists in the dbghelp failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c395c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c395c.dir/build.make CMakeFiles/cmTC_c395c.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81e6d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81e6d.dir/build.make CMakeFiles/cmTC_81e6d.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c395c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -fPIE -o CMakeFiles/cmTC_c395c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c395c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c395c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName CMakeFiles/cmTC_c395c.dir/CheckFunctionExists.c.o -o cmTC_c395c  -ldbghelp 
+Building C object CMakeFiles/cmTC_81e6d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -fPIE -o CMakeFiles/cmTC_81e6d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_81e6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81e6d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName CMakeFiles/cmTC_81e6d.dir/CheckFunctionExists.c.o -o cmTC_81e6d  -ldbghelp 
 /usr/bin/ld: cannot find -ldbghelp: No such file or directory
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_c395c.dir/build.make:99: cmTC_c395c] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_81e6d.dir/build.make:99: cmTC_81e6d] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_c395c/fast] Error 2
+gmake: *** [Makefile:127: cmTC_81e6d/fast] Error 2
 
 
 
 Performing C++ SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_72966/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_72966.dir/build.make CMakeFiles/cmTC_72966.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9bb7e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9bb7e.dir/build.make CMakeFiles/cmTC_9bb7e.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_72966.dir/src.cxx.o
-/usr/bin/c++ -DHAVE___DECLSPEC  -fPIE -o CMakeFiles/cmTC_72966.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_9bb7e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___DECLSPEC  -fPIE -o CMakeFiles/cmTC_9bb7e.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.cxx
 /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
     2 | __declspec(selectany) int a;
       |           ^
-gmake[1]: *** [CMakeFiles/cmTC_72966.dir/build.make:78: CMakeFiles/cmTC_72966.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_9bb7e.dir/build.make:78: CMakeFiles/cmTC_9bb7e.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_72966/fast] Error 2
+gmake: *** [Makefile:127: cmTC_9bb7e/fast] Error 2
 
 
 Source file was:
@@ -193,16 +193,16 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4f164/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4f164.dir/build.make CMakeFiles/cmTC_4f164.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ef05/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ef05.dir/build.make CMakeFiles/cmTC_3ef05.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4f164.dir/src.cxx.o
-/usr/bin/c++ -DSTL_NO_NAMESPACE  -fPIE -o CMakeFiles/cmTC_4f164.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_3ef05.dir/src.cxx.o
+/usr/bin/c++ -DSTL_NO_NAMESPACE  -fPIE -o CMakeFiles/cmTC_3ef05.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.cxx
 /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.cxx:3:1: error: ‘vector’ does not name a type
     3 | vector<int> t; int main() { }
       | ^~~~~~
-gmake[1]: *** [CMakeFiles/cmTC_4f164.dir/build.make:78: CMakeFiles/cmTC_4f164.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_3ef05.dir/build.make:78: CMakeFiles/cmTC_3ef05.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_4f164/fast] Error 2
+gmake: *** [Makefile:127: cmTC_3ef05/fast] Error 2
 
 
 Source file was:
@@ -213,16 +213,16 @@ vector<int> t; int main() { }
 Performing C++ SOURCE FILE Test HAVE_MSVC_TLS failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af80d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af80d.dir/build.make CMakeFiles/cmTC_af80d.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a7056/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a7056.dir/build.make CMakeFiles/cmTC_a7056.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_af80d.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_MSVC_TLS  -fPIE -o CMakeFiles/cmTC_af80d.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_a7056.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_MSVC_TLS  -fPIE -o CMakeFiles/cmTC_a7056.dir/src.cxx.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.cxx
 /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
     2 | __declspec(thread) int tls;
       |           ^
-gmake[1]: *** [CMakeFiles/cmTC_af80d.dir/build.make:78: CMakeFiles/cmTC_af80d.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_a7056.dir/build.make:78: CMakeFiles/cmTC_a7056.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_af80d/fast] Error 2
+gmake: *** [Makefile:127: cmTC_a7056/fast] Error 2
 
 
 Source file was:
@@ -233,10 +233,10 @@ int main() { }
 Performing C SOURCE FILE Test HAVE_THREAD_LOCAL_STORAGE failed with the following output:
 Change Dir: /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_14eec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_14eec.dir/build.make CMakeFiles/cmTC_14eec.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_324a3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_324a3.dir/build.make CMakeFiles/cmTC_324a3.dir/build
 gmake[1]: Entering directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_14eec.dir/src.c.o
-/usr/bin/cc -DHAVE_THREAD_LOCAL_STORAGE  -fPIE -o CMakeFiles/cmTC_14eec.dir/src.c.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_324a3.dir/src.c.o
+/usr/bin/cc -DHAVE_THREAD_LOCAL_STORAGE  -fPIE -o CMakeFiles/cmTC_324a3.dir/src.c.o -c /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.c
 /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.c:2:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
     2 |     __declspec(thread) int tls;
       |     ^~~~~~~~~~
@@ -251,9 +251,9 @@ Building C object CMakeFiles/cmTC_14eec.dir/src.c.o
     2 |     __declspec(thread) int tls;
       |                            ^~~
 /root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp/src.c:7: error: expected ‘{’ at end of input
-gmake[1]: *** [CMakeFiles/cmTC_14eec.dir/build.make:78: CMakeFiles/cmTC_14eec.dir/src.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_324a3.dir/build.make:78: CMakeFiles/cmTC_324a3.dir/src.c.o] Error 1
 gmake[1]: Leaving directory '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_14eec/fast] Error 2
+gmake: *** [Makefile:127: cmTC_324a3/fast] Error 2
 
 
 Source file was:

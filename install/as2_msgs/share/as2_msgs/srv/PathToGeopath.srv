@@ -1,1 +1,9 @@
-/root/aerostack2_ws/src/aerostack2/as2_msgs/srv/PathToGeopath.srv
+# SERVICE TYPE: PathToGeopath
+# ------------------------------------------------------------------------------
+# This service receives a path in LatLon and returns it transformed into local
+
+nav_msgs/Path path                  # Path (m)
+---
+bool success                        # whether the origin has been set or not
+geographic_msgs/GeoPath geo_path    # Path in lat/lon and altitude
+# ------------------------------------------------------------------------------

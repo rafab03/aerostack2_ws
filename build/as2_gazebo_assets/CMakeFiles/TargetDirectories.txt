@@ -8,7 +8,7 @@
 /root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles/acro_bridge.dir
 /root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles/set_entity_pose_bridge.dir
 /root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles/MulticopterINDIControl.dir
-/root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir
+/root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir
 /root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles/ament_cmake_python_build_as2_gazebo_assets_egg.dir
 /root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles/test.dir
 /root/aerostack2_ws/build/as2_gazebo_assets/CMakeFiles/edit_cache.dir

@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libtrajectory_generator_component.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libtrajectory_generator_component.so"
-         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/dynamic_trajectory_generator-build:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/root/aerostack2_ws/install/as2_msgs/lib:/opt/ros/humble/lib:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-build:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:"
+         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/dynamic_trajectory_generator-build:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/root/aerostack2_ws/install/as2_msgs/lib:/opt/ros/humble/lib:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/glog-build:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libtrajectory_generator_component.so")
@@ -77,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamic_trajectory_generator.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamic_trajectory_generator.so"
-         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-build:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/opt/ros/humble/lib:"
+         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-build:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/glog-build:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamic_trajectory_generator.so")
@@ -100,7 +100,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmav_trajectory_generation.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmav_trajectory_generation.so"
-         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-build:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/opt/ros/humble/lib:"
+         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/glog-build:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-build:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmav_trajectory_generation.so")
@@ -109,6 +109,34 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_trajectory_generation" TYPE DIRECTORY FILES "/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior/launch")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior" TYPE DIRECTORY FILES "/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior/config")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior_node"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_trajectory_generation" TYPE EXECUTABLE FILES "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior/generate_polynomial_trajectory_behavior_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior_node"
+         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/dynamic_trajectory_generator-build:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/root/aerostack2_ws/install/as2_msgs/lib:/opt/ros/humble/lib:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/glog-build:/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-build:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_trajectory_generation/generate_polynomial_trajectory_behavior_node")
+    endif()
+  endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

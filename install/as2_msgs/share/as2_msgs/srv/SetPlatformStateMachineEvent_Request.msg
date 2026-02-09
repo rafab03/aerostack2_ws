@@ -1,1 +1,5 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/SetPlatformStateMachineEvent_Request.msg
+# SERVICE TYPE: SetPlatformStateMachineEvent
+# ------------------------------------------------------------------------------
+# This service sets a PlatformStateMachineEvent
+
+as2_msgs/PlatformStateMachineEvent event     # event to set

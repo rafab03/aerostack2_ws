@@ -1,1 +1,3 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/DynamicLand_Response.msg
+
+bool success                        # whether it could be started or not
+# ------------------------------------------------------------------------------

@@ -1,0 +1,144 @@
+[0.012s] Invoking command in '/root/aerostack2_ws/build/as2_behaviors_path_planning': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_behaviors_path_planning
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.172s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.245s] -- Detecting CXX compiler ABI info - done
+[0.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.251s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.255s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.378s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.460s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.470s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.505s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.510s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.517s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.578s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.580s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.650s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.674s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.721s] -- Looking for pthread.h
+[0.772s] -- Looking for pthread.h - found
+[0.772s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.824s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.825s] -- Found Threads: TRUE  
+[0.863s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.886s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[0.901s] -- Found as2_core: 1.1.3 (/root/aerostack2_ws/install/as2_core/share/as2_core/cmake)
+[0.903s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[0.904s] -- Created GeographicLib::GeographicLib target from legacy variables
+[1.015s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.016s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.016s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.086s] -- Found as2_behavior: 1.1.3 (/root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake)
+[1.089s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.119s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.129s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.191s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.194s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.195s] -- Configured cppcheck include dirs: /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/include/as2_behaviors_path_planning;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/common/include;$<BUILD_INTERFACE:/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/include>
+[1.195s] -- Configured cppcheck exclude dirs and/or files: /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/README.md;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/bucketedqueue.h;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/bucketedqueue.hxx;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/dynamicvoronoi.cpp;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/dynamicvoronoi.h;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/point.h
+[1.198s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.198s] -- Configured cpplint exclude dirs and/or files: /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/README.md;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/bucketedqueue.h;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/bucketedqueue.hxx;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/dynamicvoronoi.cpp;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/dynamicvoronoi.h;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning/./plugins/voronoi/thirdparty/dynamicvoronoi/point.h
+[1.198s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.199s] -- Added test 'lint_cmake' to check CMake code style
+[1.200s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.202s] -- Added test 'uncrustify' to check C / C++ code style
+[1.202s] -- Configured uncrustify additional arguments: 
+[1.203s] -- Added test 'xmllint' to check XML markup files
+[1.204s] -- Configuring done
+[1.247s] -- Generating done
+[1.260s] -- Build files have been written to: /root/aerostack2_ws/build/as2_behaviors_path_planning
+[1.271s] Invoked command in '/root/aerostack2_ws/build/as2_behaviors_path_planning' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_behaviors_path_planning
+[1.272s] Invoking command in '/root/aerostack2_ws/build/as2_behaviors_path_planning': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_behaviors_path_planning -- -j8 -l8
+[1.309s] [  7%] [32mBuilding CXX object CMakeFiles/path_planner_component.dir/src/path_planner_behavior.cpp.o[0m
+[1.310s] [ 21%] [32m[1mLinking CXX shared library libas2_behaviors_path_planning_plugin_base.so[0m
+[1.310s] [ 21%] [32m[1mLinking CXX shared library libpath_planner_common.so[0m
+[1.378s] [ 21%] Built target as2_behaviors_path_planning_plugin_base
+[1.378s] [ 21%] Built target path_planner_common
+[1.397s] [ 28%] [32mBuilding CXX object CMakeFiles/as2_behaviors_path_planning_node.dir/src/path_planner_behavior.cpp.o[0m
+[1.398s] [ 50%] [32mBuilding CXX object CMakeFiles/as2_behaviors_path_planning_node.dir/src/path_planner_behavior_node.cpp.o[0m
+[1.398s] [ 64%] [32mBuilding CXX object plugins/voronoi/CMakeFiles/voronoi.dir/src/voronoi_searcher.cpp.o[0m
+[1.398s] [ 50%] [32mBuilding CXX object plugins/a_star/CMakeFiles/a_star.dir/src/a_star.cpp.o[0m
+[1.398s] [ 57%] [32mBuilding CXX object plugins/a_star/CMakeFiles/a_star.dir/src/a_star_searcher.cpp.o[0m
+[1.398s] [ 50%] [32mBuilding CXX object plugins/voronoi/CMakeFiles/voronoi.dir/src/voronoi.cpp.o[0m
+[1.399s] [ 71%] [32mBuilding CXX object plugins/voronoi/CMakeFiles/voronoi.dir/thirdparty/dynamicvoronoi/dynamicvoronoi.cpp.o[0m
+[17.276s] [ 78%] [32m[1mLinking CXX shared library liba_star.so[0m
+[17.482s] [ 85%] [32m[1mLinking CXX shared library libvoronoi.so[0m
+[17.565s] [ 85%] Built target a_star
+[17.696s] [ 85%] Built target voronoi
+[25.234s] [ 92%] [32m[1mLinking CXX executable as2_behaviors_path_planning_node[0m
+[25.456s] [ 92%] Built target as2_behaviors_path_planning_node
+[26.113s] [100%] [32m[1mLinking CXX shared library libpath_planner_component.so[0m
+[26.286s] [100%] Built target path_planner_component
+[26.293s] Invoked command in '/root/aerostack2_ws/build/as2_behaviors_path_planning' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_behaviors_path_planning -- -j8 -l8
+[26.294s] Invoking command in '/root/aerostack2_ws/build/as2_behaviors_path_planning': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_behaviors_path_planning
+[26.299s] -- Install configuration: "Release"
+[26.299s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include
+[26.299s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/as2_behaviors_path_planning
+[26.299s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/as2_behaviors_path_planning/path_planner_plugin_base.hpp
+[26.299s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/as2_behaviors_path_planning/path_planner_behavior.hpp
+[26.299s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/environment/library_path.sh
+[26.299s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/environment/library_path.dsv
+[26.299s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/include
+[26.299s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/include/cell_node.hpp
+[26.299s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/include/utils.hpp
+[26.299s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/include/graph_searcher.hpp
+[26.299s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/lib/libas2_behaviors_path_planning_plugin_base.so
+[26.300s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_path_planning/lib/libas2_behaviors_path_planning_plugin_base.so" to ""
+[26.300s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/lib/libpath_planner_component.so
+[26.301s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_path_planning/lib/libpath_planner_component.so" to ""
+[26.301s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/plugins.xml
+[26.301s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/launch
+[26.301s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/launch/a_star-path_planner_behavior.launch.py
+[26.302s] -- Up-to-date: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/launch
+[26.302s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/launch/voronoi-path_planner_behavior.launch.py
+[26.302s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/lib/as2_behaviors_path_planning/as2_behaviors_path_planning_node
+[26.303s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_path_planning/lib/as2_behaviors_path_planning/as2_behaviors_path_planning_node" to ""
+[26.303s] -- Up-to-date: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/launch
+[26.303s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/launch/composable_path_planner_behavior.launch.py
+[26.303s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/launch/path_planner_behavior_launch.py
+[26.303s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/config
+[26.303s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/config/behavior_default.yaml
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_path_planning
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_path_planning
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/environment/ament_prefix_path.sh
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/environment/ament_prefix_path.dsv
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/environment/path.sh
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/environment/path.dsv
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/local_setup.bash
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/local_setup.sh
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/local_setup.zsh
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/local_setup.dsv
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/package.dsv
+[26.304s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/ament_index/resource_index/packages/as2_behaviors_path_planning
+[26.305s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/ament_index/resource_index/as2_behaviors_path_planning__pluginlib__plugin/as2_behaviors_path_planning
+[26.305s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/cmake/as2_behaviors_path_planning_plugin_baseExport.cmake
+[26.305s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/cmake/as2_behaviors_path_planning_plugin_baseExport-release.cmake
+[26.305s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/ament_index/resource_index/rclcpp_components/as2_behaviors_path_planning
+[26.305s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.305s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/cmake/ament_cmake_export_libraries-extras.cmake
+[26.305s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/cmake/ament_cmake_export_targets-extras.cmake
+[26.305s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/cmake/as2_behaviors_path_planningConfig.cmake
+[26.305s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/cmake/as2_behaviors_path_planningConfig-version.cmake
+[26.305s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/share/as2_behaviors_path_planning/package.xml
+[26.305s] -- Up-to-date: /root/aerostack2_ws/install/as2_behaviors_path_planning/include
+[26.305s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/a_star.hpp
+[26.306s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/a_star_algorithm.hpp
+[26.306s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/a_star_searcher.hpp
+[26.306s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/lib/liba_star.so
+[26.307s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_path_planning/lib/liba_star.so" to ""
+[26.307s] -- Up-to-date: /root/aerostack2_ws/install/as2_behaviors_path_planning/include
+[26.307s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/voronoi.hpp
+[26.307s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/include/voronoi_searcher.hpp
+[26.307s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_path_planning/lib/libvoronoi.so
+[26.308s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_path_planning/lib/libvoronoi.so" to ""
+[26.310s] Invoked command in '/root/aerostack2_ws/build/as2_behaviors_path_planning' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_behaviors_path_planning

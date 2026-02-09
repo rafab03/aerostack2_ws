@@ -69,6 +69,24 @@ def get_node(context, *args, **kwargs) -> list:
         'arm_topic', default_value=f'/gz/{namespace}/arm')
     acro_topic = DeclareLaunchArgument(
         'acro_topic', default_value=f'/gz/{namespace}/acro')
+        
+    # --- Odom bridge: Gazebo -> ROS (/model/<ns>/odometry -> /<ns>/sensor_measurements/odom)
+    odom_bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        name='odom_bridge',
+        namespace=LaunchConfiguration('namespace'),
+        output='screen',
+        emulate_tty=True,
+        arguments=[
+            # GZ topic and types
+            f'/model/{namespace}/odometry@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
+            # Remap ROS side to sensor_measurements/odom (within the namespace)
+            '--ros-args',
+            '-r', f'/model/{namespace}/odometry:=sensor_measurements/odom',
+        ],
+        condition=LaunchConfigurationEquals('create_bridges', 'true'),
+    )
 
     return [
         cmd_vel_topic,
@@ -95,7 +113,8 @@ def get_node(context, *args, **kwargs) -> list:
                     'platform_config_file',
                     default_file=get_package_config_file())
             ]
-        )
+        ),
+        odom_bridge,
     ]
 
 

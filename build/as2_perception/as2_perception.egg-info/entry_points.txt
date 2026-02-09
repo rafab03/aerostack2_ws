@@ -1,0 +1,3 @@
+[console_scripts]
+person_detector_node = as2_perception.person_detector_node:main
+

@@ -43,10 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamic_trajectory_generator.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamic_trajectory_generator.so")
     file(RPATH_CHECK
@@ -58,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamic_trajectory_generator.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamic_trajectory_generator.so"
-         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/nlopt-build:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:"
+         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/nlopt-build:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/glog-build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamic_trajectory_generator.so")
@@ -67,6 +63,38 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking/include/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking" TYPE DIRECTORY FILES "/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking/config")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking" TYPE DIRECTORY FILES "/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking/launch")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_swarm_flocking" TYPE EXECUTABLE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node"
+         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/dynamic_trajectory_generator-build:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/root/aerostack2_ws/install/as2_msgs/lib:/opt/ros/humble/lib:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/glog-build:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/nlopt-build:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/as2_behaviors_swarm_flocking/swarm_flocking_behavior_node")
+    endif()
+  endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -81,7 +109,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libas2_behaviors_swarm_flocking.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libas2_behaviors_swarm_flocking.so"
-         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/dynamic_trajectory_generator-build:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/root/aerostack2_ws/install/as2_msgs/lib:/opt/ros/humble/lib:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/nlopt-build:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:"
+         OLD_RPATH "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/dynamic_trajectory_generator-build:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/root/aerostack2_ws/install/as2_msgs/lib:/opt/ros/humble/lib:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/glog-build:/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/_deps/nlopt-build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libas2_behaviors_swarm_flocking.so")
@@ -90,6 +118,73 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_swarm_flocking")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_swarm_flocking")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking/environment" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking/environment" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_index/share/ament_index/resource_index/packages/as2_behaviors_swarm_flocking")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking/cmake" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking/cmake" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking/cmake" TYPE FILE FILES
+    "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_core/as2_behaviors_swarm_flockingConfig.cmake"
+    "/root/aerostack2_ws/build/as2_behaviors_swarm_flocking/ament_cmake_core/as2_behaviors_swarm_flockingConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/as2_behaviors_swarm_flocking" TYPE FILE FILES "/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

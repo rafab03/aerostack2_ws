@@ -1,0 +1,201 @@
+[0.014s] Invoking command in '/root/aerostack2_ws/build/as2_behaviors_motion': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_behaviors_motion
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.194s] -- Detecting C compile features - done
+[0.198s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.276s] -- Detecting CXX compile features - done
+[0.279s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.422s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.509s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.519s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[0.563s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.589s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.594s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.602s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.663s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.666s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.689s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.728s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.731s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.744s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.746s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.753s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.762s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.771s] -- Looking for pthread.h
+[0.828s] -- Looking for pthread.h - found
+[0.828s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.887s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.888s] -- Found Threads: TRUE  
+[0.933s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.965s] -- Found as2_core: 1.1.3 (/root/aerostack2_ws/install/as2_core/share/as2_core/cmake)
+[0.967s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[0.969s] -- Created GeographicLib::GeographicLib target from legacy variables
+[1.081s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.082s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.082s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.171s] -- Found as2_behavior: 1.1.3 (/root/aerostack2_ws/install/as2_behavior/share/as2_behavior/cmake)
+[1.172s] -- Found as2_motion_reference_handlers: 1.1.3 (/root/aerostack2_ws/install/as2_motion_reference_handlers/share/as2_motion_reference_handlers/cmake)
+[1.229s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.301s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.305s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.310s] -- Configured cppcheck include dirs: /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_path_behavior/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_path_behavior/include/as2_behaviors_motion;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/go_to_behavior/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/go_to_behavior/include/as2_behaviors_motion;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/land_behavior/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/land_behavior/include/as2_behaviors_motion;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/takeoff_behavior/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/takeoff_behavior/include/as2_behaviors_motion;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_reference_behavior/include;/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/follow_reference_behavior/include/as2_behaviors_motion;$<BUILD_INTERFACE:/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion/include>
+[1.310s] -- Configured cppcheck exclude dirs and/or files: 
+[1.315s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.315s] -- Configured cpplint exclude dirs and/or files: 
+[1.316s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.317s] -- Added test 'lint_cmake' to check CMake code style
+[1.318s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.324s] -- Added test 'uncrustify' to check C / C++ code style
+[1.324s] -- Configured uncrustify additional arguments: 
+[1.325s] -- Added test 'xmllint' to check XML markup files
+[1.327s] -- Configuring done
+[1.407s] -- Generating done
+[1.441s] -- Build files have been written to: /root/aerostack2_ws/build/as2_behaviors_motion
+[1.453s] Invoked command in '/root/aerostack2_ws/build/as2_behaviors_motion' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_behaviors_motion
+[1.454s] Invoking command in '/root/aerostack2_ws/build/as2_behaviors_motion': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_behaviors_motion -- -j8 -l8
+[1.507s] [  5%] [32mBuilding CXX object CMakeFiles/follow_reference_behavior_node.dir/follow_reference_behavior/src/follow_reference_behavior.cpp.o[0m
+[1.507s] [  5%] [32mBuilding CXX object CMakeFiles/follow_path_behavior_node.dir/follow_path_behavior/src/follow_path_behavior.cpp.o[0m
+[1.508s] [  8%] [32mBuilding CXX object CMakeFiles/go_to_behavior_node.dir/go_to_behavior/src/go_to_behavior.cpp.o[0m
+[1.508s] [ 10%] [32mBuilding CXX object CMakeFiles/takeoff_behavior_node.dir/takeoff_behavior/src/takeoff_behavior.cpp.o[0m
+[1.512s] [ 13%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/follow_path_behavior/plugins/follow_path_plugin_position.cpp.o[0m
+[1.513s] [ 16%] [32mBuilding CXX object CMakeFiles/takeoff_component.dir/takeoff_behavior/src/takeoff_behavior.cpp.o[0m
+[1.513s] [ 18%] [32mBuilding CXX object CMakeFiles/land_component.dir/land_behavior/src/land_behavior.cpp.o[0m
+[1.519s] [ 21%] [32mBuilding CXX object CMakeFiles/land_behavior_node.dir/land_behavior/src/land_behavior.cpp.o[0m
+[11.756s] [ 24%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/follow_path_behavior/plugins/follow_path_plugin_trajectory.cpp.o[0m
+[24.104s] [ 27%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/go_to_behavior/plugins/go_to_plugin_position.cpp.o[0m
+[32.754s] [ 29%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/go_to_behavior/plugins/go_to_plugin_trajectory.cpp.o[0m
+[33.998s] [ 32%] [32mBuilding CXX object CMakeFiles/follow_reference_behavior_node.dir/follow_reference_behavior/src/follow_reference_behavior_node.cpp.o[0m
+[35.336s] [ 35%] [32mBuilding CXX object CMakeFiles/takeoff_behavior_node.dir/takeoff_behavior/src/takeoff_behavior_node.cpp.o[0m
+[36.750s] [ 37%] [32m[1mLinking CXX shared library libtakeoff_component.so[0m
+[37.390s] [ 37%] Built target takeoff_component
+[37.413s] [ 40%] [32mBuilding CXX object CMakeFiles/land_behavior_node.dir/land_behavior/src/land_behavior_node.cpp.o[0m
+[39.771s] [ 43%] [32m[1mLinking CXX shared library libland_component.so[0m
+[40.415s] [ 43%] Built target land_component
+[40.428s] [ 45%] [32mBuilding CXX object CMakeFiles/go_to_behavior_node.dir/go_to_behavior/src/go_to_behavior_node.cpp.o[0m
+[40.579s] [ 48%] [32mBuilding CXX object CMakeFiles/follow_path_behavior_node.dir/follow_path_behavior/src/follow_path_behavior_node.cpp.o[0m
+[42.557s] [ 51%] [32m[1mLinking CXX executable follow_reference_behavior_node[0m
+[43.107s] [ 51%] Built target follow_reference_behavior_node
+[43.120s] [ 54%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/land_behavior/plugins/land_plugin_platform.cpp.o[0m
+[43.858s] [ 56%] [32mBuilding CXX object CMakeFiles/go_to_component.dir/go_to_behavior/src/go_to_behavior.cpp.o[0m
+[44.075s] [ 59%] [32m[1mLinking CXX executable takeoff_behavior_node[0m
+[44.402s] [ 62%] [32mBuilding CXX object CMakeFiles/follow_path_component.dir/follow_path_behavior/src/follow_path_behavior.cpp.o[0m
+[44.743s] [ 62%] Built target takeoff_behavior_node
+[44.760s] [ 64%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/land_behavior/plugins/land_plugin_speed.cpp.o[0m
+[45.802s] [ 67%] [32mBuilding CXX object CMakeFiles/follow_reference_component.dir/follow_reference_behavior/src/follow_reference_behavior.cpp.o[0m
+[46.296s] [ 70%] [32m[1mLinking CXX executable land_behavior_node[0m
+[46.880s] [ 70%] Built target land_behavior_node
+[46.897s] [ 72%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/land_behavior/plugins/land_plugin_trajectory.cpp.o[0m
+[49.470s] [ 75%] [32m[1mLinking CXX executable go_to_behavior_node[0m
+[49.617s] [ 78%] [32m[1mLinking CXX executable follow_path_behavior_node[0m
+[50.206s] [ 78%] Built target follow_path_behavior_node
+[50.219s] [ 81%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/takeoff_behavior/plugins/takeoff_plugin_platform.cpp.o[0m
+[50.231s] [ 81%] Built target go_to_behavior_node
+[50.245s] [ 83%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/takeoff_behavior/plugins/takeoff_plugin_position.cpp.o[0m
+[52.377s] [ 86%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/takeoff_behavior/plugins/takeoff_plugin_speed.cpp.o[0m
+[52.898s] [ 89%] [32mBuilding CXX object CMakeFiles/as2_behaviors_motion.dir/takeoff_behavior/plugins/takeoff_plugin_trajectory.cpp.o[0m
+[61.721s] [ 91%] [32m[1mLinking CXX shared library libas2_behaviors_motion.so[0m
+[62.074s] [ 91%] Built target as2_behaviors_motion
+[70.410s] [ 94%] [32m[1mLinking CXX shared library libfollow_reference_component.so[0m
+[70.761s] [ 94%] Built target follow_reference_component
+[75.483s] [ 97%] [32m[1mLinking CXX shared library libgo_to_component.so[0m
+[75.670s] [100%] [32m[1mLinking CXX shared library libfollow_path_component.so[0m
+[75.848s] [100%] Built target go_to_component
+[76.028s] [100%] Built target follow_path_component
+[76.038s] Invoked command in '/root/aerostack2_ws/build/as2_behaviors_motion' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_behaviors_motion -- -j8 -l8
+[76.041s] Invoking command in '/root/aerostack2_ws/build/as2_behaviors_motion': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_behaviors_motion
+[76.047s] -- Install configuration: "Release"
+[76.047s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/plugins.xml
+[76.048s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libas2_behaviors_motion.so
+[76.051s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/libas2_behaviors_motion.so" to ""
+[76.051s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/library_path.sh
+[76.051s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/library_path.dsv
+[76.051s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/follow_path_behavior_node
+[76.056s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/follow_path_behavior_node" to ""
+[76.056s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include
+[76.056s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/follow_path_behavior
+[76.056s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/follow_path_behavior/follow_path_behavior.hpp
+[76.056s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/follow_path_behavior/follow_path_base.hpp
+[76.056s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/follow_path_behavior/config/
+[76.056s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/follow_path_behavior/config//config_default.yaml
+[76.057s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/go_to_behavior_node
+[76.060s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/go_to_behavior_node" to ""
+[76.060s] -- Up-to-date: /root/aerostack2_ws/install/as2_behaviors_motion/include
+[76.060s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/go_to_behavior
+[76.060s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/go_to_behavior/go_to_base.hpp
+[76.061s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/go_to_behavior/go_to_behavior.hpp
+[76.061s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/go_to_behavior/config/
+[76.061s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/go_to_behavior/config//config_default.yaml
+[76.061s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/land_behavior_node
+[76.063s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/land_behavior_node" to ""
+[76.063s] -- Up-to-date: /root/aerostack2_ws/install/as2_behaviors_motion/include
+[76.063s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/land_behavior
+[76.063s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/land_behavior/land_base.hpp
+[76.064s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/land_behavior/land_behavior.hpp
+[76.064s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/land_behavior/config/
+[76.064s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/land_behavior/config//config_default.yaml
+[76.064s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/takeoff_behavior_node
+[76.067s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/takeoff_behavior_node" to ""
+[76.067s] -- Up-to-date: /root/aerostack2_ws/install/as2_behaviors_motion/include
+[76.067s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/takeoff_behavior
+[76.067s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/takeoff_behavior/takeoff_behavior.hpp
+[76.067s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/takeoff_behavior/takeoff_base.hpp
+[76.067s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/takeoff_behavior/config/
+[76.067s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/takeoff_behavior/config//config_default.yaml
+[76.067s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/follow_reference_behavior_node
+[76.070s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/as2_behaviors_motion/follow_reference_behavior_node" to ""
+[76.070s] -- Up-to-date: /root/aerostack2_ws/install/as2_behaviors_motion/include
+[76.070s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/follow_reference_behavior
+[76.070s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/include/follow_reference_behavior/follow_reference_behavior.hpp
+[76.070s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/follow_reference_behavior/config/
+[76.070s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/follow_reference_behavior/config//config_default.yaml
+[76.071s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libtakeoff_component.so
+[76.074s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/libtakeoff_component.so" to ""
+[76.074s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libland_component.so
+[76.077s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/libland_component.so" to ""
+[76.077s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libgo_to_component.so
+[76.080s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/libgo_to_component.so" to ""
+[76.080s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libfollow_path_component.so
+[76.083s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/libfollow_path_component.so" to ""
+[76.083s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/lib/libfollow_reference_component.so
+[76.086s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behaviors_motion/lib/libfollow_reference_component.so" to ""
+[76.086s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch
+[76.086s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/land_behavior_launch.py
+[76.086s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/composable_motion_behaviors.launch.py
+[76.087s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/composable_follow_reference.launch.py
+[76.087s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/takeoff_behavior_launch.py
+[76.087s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/motion_behaviors_launch.py
+[76.088s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/follow_path_behavior_launch.py
+[76.088s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/go_to_behavior_launch.py
+[76.088s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/launch/follow_reference_behavior_launch.py
+[76.089s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/package_run_dependencies/as2_behaviors_motion
+[76.089s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/parent_prefix_path/as2_behaviors_motion
+[76.089s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/ament_prefix_path.sh
+[76.089s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/ament_prefix_path.dsv
+[76.089s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/path.sh
+[76.089s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/environment/path.dsv
+[76.090s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.bash
+[76.090s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.sh
+[76.090s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.zsh
+[76.090s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/local_setup.dsv
+[76.090s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/package.dsv
+[76.090s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/packages/as2_behaviors_motion
+[76.091s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/as2_behaviors_motion__pluginlib__plugin/as2_behaviors_motion
+[76.091s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/export_as2_behaviors_motionExport.cmake
+[76.091s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/export_as2_behaviors_motionExport-release.cmake
+[76.091s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/ament_index/resource_index/rclcpp_components/as2_behaviors_motion
+[76.091s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/ament_cmake_export_libraries-extras.cmake
+[76.091s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/ament_cmake_export_targets-extras.cmake
+[76.091s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+[76.092s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/as2_behaviors_motionConfig.cmake
+[76.092s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/cmake/as2_behaviors_motionConfig-version.cmake
+[76.092s] -- Installing: /root/aerostack2_ws/install/as2_behaviors_motion/share/as2_behaviors_motion/package.xml
+[76.094s] Invoked command in '/root/aerostack2_ws/build/as2_behaviors_motion' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_behaviors_motion

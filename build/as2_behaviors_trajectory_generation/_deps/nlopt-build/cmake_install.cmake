@@ -43,6 +43,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-build/nlopt.pc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
+    "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-src/src/api/nlopt.h"
+    "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-build/nlopt.hpp"
+    "/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-build/nlopt.f"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnlopt.so.0.11.1"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnlopt.so.0"

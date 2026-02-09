@@ -1,1 +1,1 @@
-/root/aerostack2_ws/build/as2_geozones/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/as2_geozones
+ament_cmake;rclcpp;sensor_msgs;geometry_msgs;geographic_msgs;as2_msgs;as2_core;nav_msgs;ament_lint_common;ament_lint_auto;ament_cmake_gtest

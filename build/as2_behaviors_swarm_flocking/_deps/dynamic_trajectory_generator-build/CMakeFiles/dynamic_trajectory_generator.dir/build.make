@@ -110,7 +110,7 @@ _deps/dynamic_trajectory_generator-build/libdynamic_trajectory_generator.so: _de
 _deps/dynamic_trajectory_generator-build/libdynamic_trajectory_generator.so: _deps/dynamic_trajectory_generator-build/CMakeFiles/dynamic_trajectory_generator.dir/build.make
 _deps/dynamic_trajectory_generator-build/libdynamic_trajectory_generator.so: _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so
 _deps/dynamic_trajectory_generator-build/libdynamic_trajectory_generator.so: _deps/nlopt-build/libnlopt.so.0.11.1
-_deps/dynamic_trajectory_generator-build/libdynamic_trajectory_generator.so: /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/libglog.so.0.6.0
+_deps/dynamic_trajectory_generator-build/libdynamic_trajectory_generator.so: _deps/glog-build/libglog.so.0.6.0
 _deps/dynamic_trajectory_generator-build/libdynamic_trajectory_generator.so: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 _deps/dynamic_trajectory_generator-build/libdynamic_trajectory_generator.so: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 _deps/dynamic_trajectory_generator-build/libdynamic_trajectory_generator.so: _deps/dynamic_trajectory_generator-build/CMakeFiles/dynamic_trajectory_generator.dir/link.txt

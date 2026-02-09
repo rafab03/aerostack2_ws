@@ -1,1 +1,12 @@
-/root/aerostack2_ws/src/aerostack2/as2_msgs/action/SwarmFlocking.action
+# Swarm action definition
+
+# Request
+geometry_msgs/PoseStamped   virtual_centroid    # Offset of the virtual centroid to the following frame
+as2_msgs/PoseWithID[] swarm_formation           # Pose of the drones with respect to the virtual centroid
+string[]    drones_namespace                    # Namespaces of the drones in the swarm
+---
+# Result
+bool swarm_success                              # False if failed to swarm_success
+---
+# Feedback
+geometry_msgs/Pose swarm_pose                   # Current swarm pose

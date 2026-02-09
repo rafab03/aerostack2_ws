@@ -1,0 +1,16 @@
+/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception/__init__.py
+/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception/person_detector_node.py
+/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception/__pycache__/__init__.cpython-310.pyc
+/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception/__pycache__/person_detector_node.cpython-310.pyc
+/root/aerostack2_ws/install/as2_perception/share/ament_index/resource_index/packages/as2_perception
+/root/aerostack2_ws/install/as2_perception/share/as2_perception/package.xml
+/root/aerostack2_ws/install/as2_perception/share/as2_perception/launch/multi_person_detectors.launch.py
+/root/aerostack2_ws/install/as2_perception/share/as2_perception/launch/multi_drones_debug_images.rviz
+/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception-0.0.0-py3.10.egg-info/entry_points.txt
+/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception-0.0.0-py3.10.egg-info/SOURCES.txt
+/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception-0.0.0-py3.10.egg-info/requires.txt
+/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception-0.0.0-py3.10.egg-info/dependency_links.txt
+/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception-0.0.0-py3.10.egg-info/PKG-INFO
+/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception-0.0.0-py3.10.egg-info/top_level.txt
+/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception-0.0.0-py3.10.egg-info/zip-safe
+/root/aerostack2_ws/install/as2_perception/lib/as2_perception/person_detector_node

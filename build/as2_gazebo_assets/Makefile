@@ -302,17 +302,17 @@ MulticopterINDIControl/fast:
 .PHONY : MulticopterINDIControl/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_as2_gazebo_assets
+# Target rules for targets named ament_cmake_python_copy_as2_gazebo_assets
 
 # Build rule for target.
-ament_cmake_python_symlink_as2_gazebo_assets: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_as2_gazebo_assets
-.PHONY : ament_cmake_python_symlink_as2_gazebo_assets
+ament_cmake_python_copy_as2_gazebo_assets: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_as2_gazebo_assets
+.PHONY : ament_cmake_python_copy_as2_gazebo_assets
 
 # fast build rule for target.
-ament_cmake_python_symlink_as2_gazebo_assets/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/build.make CMakeFiles/ament_cmake_python_symlink_as2_gazebo_assets.dir/build
-.PHONY : ament_cmake_python_symlink_as2_gazebo_assets/fast
+ament_cmake_python_copy_as2_gazebo_assets/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/build.make CMakeFiles/ament_cmake_python_copy_as2_gazebo_assets.dir/build
+.PHONY : ament_cmake_python_copy_as2_gazebo_assets/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_as2_gazebo_assets_egg
@@ -725,7 +725,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_as2_gazebo_assets_egg"
-	@echo "... ament_cmake_python_symlink_as2_gazebo_assets"
+	@echo "... ament_cmake_python_copy_as2_gazebo_assets"
 	@echo "... as2_gazebo_assets_uninstall"
 	@echo "... uninstall"
 	@echo "... MulticopterINDIControl"

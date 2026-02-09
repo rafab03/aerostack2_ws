@@ -1,0 +1,64 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"plugins/pid_speed_controller/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "plugins/pid_speed_controller/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"plugins/pid_speed_controller/libpid_speed_controller.so"
+			],
+			"targetId" : "pid_speed_controller::@43f9989ee3fe92c7404b",
+			"targetIndex" : 43,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "plugins/pid_speed_controller",
+		"source" : "plugins/pid_speed_controller"
+	}
+}

@@ -1,1 +1,3 @@
-/root/aerostack2_ws/src/aerostack2/as2_msgs/msg/PoseWithIDArray.msg
+# Pose with an string id array
+
+as2_msgs/PoseWithID[] poses

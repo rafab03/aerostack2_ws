@@ -1,0 +1,80 @@
+[0.007s] Invoking command in '/root/aerostack2_ws/build/as2_platform_multirotor_simulator': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_platform_multirotor_simulator -- -j8 -l8
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.044s] [  2%] Built target pid_controller
+[0.048s] [  6%] Built target gtest_main
+[0.048s] [ 10%] Built target gtest
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target pid_controller_pid_1d_gtest[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target pid_controller_saturate_output_gtest[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target pid_controller_pid_gtest[0m
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_imu_gtest[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_acro_controller_gtest[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target as2_platform_multirotor_simulator[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target as2_platform_multirotor_simulator_node[0m
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_inertial_odometry_gtest[0m
+[0.073s] [ 14%] Built target pid_controller_saturate_output_gtest
+[0.073s] [ 18%] Built target pid_controller_pid_1d_gtest
+[0.074s] [ 22%] Built target pid_controller_pid_gtest
+[0.076s] [ 26%] Built target multirotor_simulator_imu_gtest
+[0.087s] [ 30%] Built target multirotor_simulator_acro_controller_gtest
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_indi_controller_gtest[0m
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_position_controller_gtest[0m
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_trajectory_controller_gtest[0m
+[0.089s] [ 34%] Built target multirotor_simulator_inertial_odometry_gtest
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_velocity_controller_gtest[0m
+[0.096s] [ 40%] Built target as2_platform_multirotor_simulator
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_multirotor_controllers_gtest[0m
+[0.104s] [ 48%] Built target as2_platform_multirotor_simulator_node
+[0.108s] [ 52%] Built target multirotor_simulator_indi_controller_gtest
+[0.109s] [ 56%] Built target multirotor_simulator_position_controller_gtest
+[0.109s] [ 60%] Built target multirotor_simulator_trajectory_controller_gtest
+[0.109s] [ 64%] Built target multirotor_simulator_velocity_controller_gtest
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_state_gtest[0m
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_utils_gtest[0m
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_dynamics_gtest[0m
+[0.121s] [ 68%] Built target multirotor_simulator_multirotor_controllers_gtest
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_model_gtest[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_multirotor_simulator_fly_gtest[0m
+[0.126s] [35m[1mConsolidate compiler generated dependencies of target multirotor_simulator_multirotor_simulator_gtest[0m
+[0.129s] [ 72%] Built target multirotor_simulator_state_gtest
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_fly_gtest[0m
+[0.132s] [ 76%] Built target multirotor_simulator_utils_gtest
+[0.134s] [ 80%] Built target multirotor_simulator_dynamics_gtest
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest[0m
+[0.138s] [ 84%] Built target multirotor_simulator_model_gtest
+[0.139s] [ 88%] Built target multirotor_simulator_multirotor_simulator_fly_gtest
+[0.142s] [ 92%] Built target multirotor_simulator_multirotor_simulator_gtest
+[0.152s] [ 96%] Built target as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_fly_gtest
+[0.156s] [100%] Built target as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest
+[0.164s] Invoked command in '/root/aerostack2_ws/build/as2_platform_multirotor_simulator' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_platform_multirotor_simulator -- -j8 -l8
+[0.165s] Invoking command in '/root/aerostack2_ws/build/as2_platform_multirotor_simulator': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_platform_multirotor_simulator
+[0.170s] -- Install configuration: "Release"
+[0.170s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/include
+[0.170s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/include/as2_platform_multirotor_simulator
+[0.170s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/include/as2_platform_multirotor_simulator/as2_platform_multirotor_simulator.hpp
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/include/as2_platform_multirotor_simulator/as2_interface.hpp
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/lib/as2_platform_multirotor_simulator/as2_platform_multirotor_simulator_node
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/lib/libas2_platform_multirotor_simulator.a
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/launch
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/launch/as2_platform_multirotor_simulator.launch.py
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/config
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/config/control_modes.yaml
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/config/platform_config_file.yaml
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/config/uav_config.yaml
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/config/world_config.yaml
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/ament_index/resource_index/package_run_dependencies/as2_platform_multirotor_simulator
+[0.171s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/ament_index/resource_index/parent_prefix_path/as2_platform_multirotor_simulator
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/environment/ament_prefix_path.sh
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/environment/ament_prefix_path.dsv
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/environment/path.sh
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/environment/path.dsv
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/local_setup.bash
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/local_setup.sh
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/local_setup.zsh
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/local_setup.dsv
+[0.172s] -- Installing: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/package.dsv
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/ament_index/resource_index/packages/as2_platform_multirotor_simulator
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/cmake/as2_platform_multirotor_simulatorConfig.cmake
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/cmake/as2_platform_multirotor_simulatorConfig-version.cmake
+[0.172s] -- Up-to-date: /root/aerostack2_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/package.xml
+[0.174s] Invoked command in '/root/aerostack2_ws/build/as2_platform_multirotor_simulator' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_platform_multirotor_simulator

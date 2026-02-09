@@ -211,17 +211,17 @@ as2_motion_reference_handlers/fast:
 .PHONY : as2_motion_reference_handlers/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_as2_motion_reference_handlers
+# Target rules for targets named ament_cmake_python_copy_as2_motion_reference_handlers
 
 # Build rule for target.
-ament_cmake_python_symlink_as2_motion_reference_handlers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_as2_motion_reference_handlers
-.PHONY : ament_cmake_python_symlink_as2_motion_reference_handlers
+ament_cmake_python_copy_as2_motion_reference_handlers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_as2_motion_reference_handlers
+.PHONY : ament_cmake_python_copy_as2_motion_reference_handlers
 
 # fast build rule for target.
-ament_cmake_python_symlink_as2_motion_reference_handlers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_as2_motion_reference_handlers.dir/build.make CMakeFiles/ament_cmake_python_symlink_as2_motion_reference_handlers.dir/build
-.PHONY : ament_cmake_python_symlink_as2_motion_reference_handlers/fast
+ament_cmake_python_copy_as2_motion_reference_handlers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_as2_motion_reference_handlers.dir/build.make CMakeFiles/ament_cmake_python_copy_as2_motion_reference_handlers.dir/build
+.PHONY : ament_cmake_python_copy_as2_motion_reference_handlers/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_as2_motion_reference_handlers_egg
@@ -418,7 +418,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_as2_motion_reference_handlers_egg"
-	@echo "... ament_cmake_python_symlink_as2_motion_reference_handlers"
+	@echo "... ament_cmake_python_copy_as2_motion_reference_handlers"
 	@echo "... as2_motion_reference_handlers_uninstall"
 	@echo "... uninstall"
 	@echo "... as2_motion_reference_handlers"

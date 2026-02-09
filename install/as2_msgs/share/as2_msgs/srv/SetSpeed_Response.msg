@@ -1,1 +1,3 @@
-/root/aerostack2_ws/build/as2_msgs/rosidl_cmake/srv/SetSpeed_Response.msg
+
+bool success                # whether the speed has been received or not
+# ------------------------------------------------------------------------------

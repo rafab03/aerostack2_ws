@@ -1,1 +1,1 @@
-/root/aerostack2_ws/build/as2_motion_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/as2_motion_controller
+rclcpp;pluginlib;yaml-cpp;as2_core;as2_msgs;as2_motion_reference_handlers;geometry_msgs;eigen;benchmark;ament_lint_auto;ament_lint_common;ament_cmake_gtest;ament_index_cpp

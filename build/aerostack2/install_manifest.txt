@@ -1,0 +1,15 @@
+/root/aerostack2_ws/install/aerostack2/share/ament_index/resource_index/package_run_dependencies/aerostack2
+/root/aerostack2_ws/install/aerostack2/share/ament_index/resource_index/parent_prefix_path/aerostack2
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/environment/ament_prefix_path.sh
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/environment/ament_prefix_path.dsv
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/environment/path.sh
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/environment/path.dsv
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/local_setup.bash
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/local_setup.sh
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/local_setup.zsh
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/local_setup.dsv
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/package.dsv
+/root/aerostack2_ws/install/aerostack2/share/ament_index/resource_index/packages/aerostack2
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/cmake/aerostack2Config.cmake
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/cmake/aerostack2Config-version.cmake
+/root/aerostack2_ws/install/aerostack2/share/aerostack2/package.xml

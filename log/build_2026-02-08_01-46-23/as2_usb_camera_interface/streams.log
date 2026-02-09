@@ -1,0 +1,112 @@
+[0.008s] Invoking command in '/root/aerostack2_ws/build/as2_usb_camera_interface': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_usb_camera_interface
+[0.052s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.104s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.163s] -- Detecting C compile features
+[0.163s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.233s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.233s] -- Detecting CXX compile features
+[0.233s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.368s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.450s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.485s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.490s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.497s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.558s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.561s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.632s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.658s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.700s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.708s] -- Looking for pthread.h
+[0.767s] -- Looking for pthread.h - found
+[0.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.824s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.825s] -- Found Threads: TRUE  
+[0.867s] -- Found as2_core: 1.1.3 (/root/aerostack2_ws/install/as2_core/share/as2_core/cmake)
+[0.869s] -- Created yaml-cpp::yaml-cpp alias from yaml-cpp target
+[0.870s] -- Created GeographicLib::GeographicLib target from legacy variables
+[1.002s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.002s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.003s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.125s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.132s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.199s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.206s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.208s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.208s] -- Configured cppcheck include dirs: /root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface/include;/root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface/include/as2_usb_camera_interface
+[1.208s] -- Configured cppcheck exclude dirs and/or files: 
+[1.209s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.209s] -- Configured cpplint exclude dirs and/or files: 
+[1.210s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.210s] -- Added test 'lint_cmake' to check CMake code style
+[1.211s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.212s] -- Added test 'uncrustify' to check C / C++ code style
+[1.212s] -- Configured uncrustify additional arguments: 
+[1.213s] -- Added test 'xmllint' to check XML markup files
+[1.214s] -- Configuring done
+[1.243s] -- Generating done
+[1.252s] -- Build files have been written to: /root/aerostack2_ws/build/as2_usb_camera_interface
+[1.261s] Invoked command in '/root/aerostack2_ws/build/as2_usb_camera_interface' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/as2_usb_camera_interface
+[1.262s] Invoking command in '/root/aerostack2_ws/build/as2_usb_camera_interface': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_usb_camera_interface -- -j8 -l8
+[1.300s] [ 18%] [32mBuilding CXX object CMakeFiles/as2_usb_camera_interface_node.dir/src/as2_usb_camera_interface.cpp.o[0m
+[1.300s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.302s] [ 27%] [32mBuilding CXX object CMakeFiles/as2_usb_camera_interface.dir/src/as2_usb_camera_interface.cpp.o[0m
+[1.302s] [ 36%] [32mBuilding CXX object CMakeFiles/as2_usb_camera_interface_node.dir/src/as2_usb_camera_interface_node.cpp.o[0m
+[1.302s] [ 45%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.724s] [ 54%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.772s] [ 54%] Built target gtest_main
+[8.250s] [ 63%] [32m[1mLinking CXX static library libas2_usb_camera_interface.a[0m
+[8.280s] [ 63%] Built target as2_usb_camera_interface
+[8.699s] [ 72%] [32m[1mLinking CXX executable as2_usb_camera_interface_node[0m
+[9.273s] [ 72%] Built target as2_usb_camera_interface_node
+[9.451s] [ 81%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.485s] [ 81%] Built target gtest
+[9.503s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/as2_usb_camera_interface_as2_usb_camera_interface_gtest.dir/as2_usb_camera_interface_gtest.cpp.o[0m
+[14.411s] [100%] [32m[1mLinking CXX executable as2_usb_camera_interface_as2_usb_camera_interface_gtest[0m
+[14.993s] [100%] Built target as2_usb_camera_interface_as2_usb_camera_interface_gtest
+[15.003s] Invoked command in '/root/aerostack2_ws/build/as2_usb_camera_interface' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_usb_camera_interface -- -j8 -l8
+[15.005s] Invoking command in '/root/aerostack2_ws/build/as2_usb_camera_interface': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_usb_camera_interface
+[15.016s] -- Install configuration: "Release"
+[15.016s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/include
+[15.016s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/include/as2_usb_camera_interface
+[15.016s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/include/as2_usb_camera_interface/as2_usb_camera_interface.hpp
+[15.016s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/launch
+[15.016s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/launch/as2_usb_camera_interface_launch.py
+[15.016s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config
+[15.016s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/as2_usb_camera_interface
+[15.016s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/as2_usb_camera_interface/wide02_720_info.yaml
+[15.016s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/as2_usb_camera_interface/wide03_720_info.yaml
+[15.016s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/as2_usb_camera_interface/wide03_1080_info.yaml
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/as2_usb_camera_interface/camera_info.yaml
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/tf_cam
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/tf_cam/f450_arguments.yaml
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/tf_cam/sim_arguments.yaml
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/tf_cam/f330_arguments.yaml
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/config_file_default.yaml
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/config/camera_calibration_default.yaml
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/lib/as2_usb_camera_interface/as2_usb_camera_interface_node
+[15.017s] -- Set runtime path of "/root/aerostack2_ws/install/as2_usb_camera_interface/lib/as2_usb_camera_interface/as2_usb_camera_interface_node" to ""
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/lib/libas2_usb_camera_interface.a
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/ament_index/resource_index/package_run_dependencies/as2_usb_camera_interface
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/ament_index/resource_index/parent_prefix_path/as2_usb_camera_interface
+[15.017s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/environment/ament_prefix_path.sh
+[15.018s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/environment/ament_prefix_path.dsv
+[15.019s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/environment/path.sh
+[15.019s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/environment/path.dsv
+[15.019s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/local_setup.bash
+[15.019s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/local_setup.sh
+[15.019s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/local_setup.zsh
+[15.019s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/local_setup.dsv
+[15.019s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/package.dsv
+[15.020s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/ament_index/resource_index/packages/as2_usb_camera_interface
+[15.020s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/cmake/as2_usb_camera_interfaceConfig.cmake
+[15.020s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/cmake/as2_usb_camera_interfaceConfig-version.cmake
+[15.020s] -- Installing: /root/aerostack2_ws/install/as2_usb_camera_interface/share/as2_usb_camera_interface/package.xml
+[15.021s] Invoked command in '/root/aerostack2_ws/build/as2_usb_camera_interface' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_usb_camera_interface

@@ -94,7 +94,7 @@ _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/t
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/test_polynomial: _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/test_polynomial.dir/build.make
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/test_polynomial: _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/test_polynomial: _deps/nlopt-build/libnlopt.so.0.11.1
-_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/test_polynomial: /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/libglog.so.0.6.0
+_deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/test_polynomial: _deps/glog-build/libglog.so.0.6.0
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/test_polynomial: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/test_polynomial: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/test_polynomial: _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/CMakeFiles/test_polynomial.dir/link.txt

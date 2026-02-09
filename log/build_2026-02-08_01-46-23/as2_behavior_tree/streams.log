@@ -1,0 +1,113 @@
+[0.008s] Invoking command in '/root/aerostack2_ws/build/as2_behavior_tree': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_behavior_tree -- -j8 -l8
+[0.050s] [  3%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/land_emulator.dir/src/land_emulator.cpp.o[0m
+[0.051s] [  6%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/takeoff_action.cpp.o[0m
+[0.051s] [ 16%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/follow_path_emulator.dir/src/follow_path_emulator.cpp.o[0m
+[0.051s] [ 16%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/takeoff_emulator.dir/src/takeoff_emulator.cpp.o[0m
+[0.051s] [ 16%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/go_to_emulator.dir/src/go_to_emulator.cpp.o[0m
+[0.051s] [ 19%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/arm_service.cpp.o[0m
+[0.051s] [ 22%] [32mBuilding CXX object tests/node_emulators/CMakeFiles/platform_emulator.dir/src/platform_emulator.cpp.o[0m
+[0.051s] [ 25%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/offboard_service.cpp.o[0m
+[9.539s] [ 29%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/go_to_action.cpp.o[0m
+[9.953s] [ 32%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/land_action.cpp.o[0m
+[11.561s] [ 35%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/send_event.cpp.o[0m
+[12.256s] [ 38%] [32m[1mLinking CXX executable platform_emulator[0m
+[12.731s] [ 38%] Built target platform_emulator
+[12.745s] [ 41%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/echo.cpp.o[0m
+[12.776s] [ 45%] [32m[1mLinking CXX executable takeoff_emulator[0m
+[12.991s] [ 48%] [32m[1mLinking CXX executable go_to_emulator[0m
+[13.070s] [ 48%] Built target takeoff_emulator
+[13.082s] [ 51%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/set_origin.cpp.o[0m
+[13.211s] [ 54%] [32m[1mLinking CXX executable land_emulator[0m
+[13.323s] [ 54%] Built target go_to_emulator
+[13.335s] [ 58%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/get_origin.cpp.o[0m
+[13.515s] [ 58%] Built target land_emulator
+[13.541s] [ 61%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/gps_to_cartesian.cpp.o[0m
+[13.708s] [ 64%] [32m[1mLinking CXX executable follow_path_emulator[0m
+[13.991s] [ 64%] Built target follow_path_emulator
+[14.004s] [ 67%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/action/go_to_gps_action.cpp.o[0m
+[22.822s] [ 70%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/condition/is_flying_condition.cpp.o[0m
+[23.559s] [ 74%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/decorator/wait_for_event.cpp.o[0m
+[24.002s] [ 77%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree.dir/plugins/decorator/wait_for_alert.cpp.o[0m
+[36.581s] [ 80%] [32m[1mLinking CXX shared library libas2_behavior_tree.so[0m
+[36.862s] [ 80%] Built target as2_behavior_tree
+[36.877s] [ 90%] [32mBuilding CXX object CMakeFiles/as2_behavior_tree_node.dir/src/as2_behavior_tree_node.cpp.o[0m
+[36.877s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/as2_behavior_tree_port_test.dir/port_test.cpp.o[0m
+[36.877s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/as2_behavior_tree_port_pose_test.dir/port_pose_test.cpp.o[0m
+[40.363s] [ 93%] [32m[1mLinking CXX executable as2_behavior_tree_port_test[0m
+[40.429s] [ 96%] [32m[1mLinking CXX executable as2_behavior_tree_port_pose_test[0m
+[40.500s] [ 96%] Built target as2_behavior_tree_port_test
+[40.558s] [ 96%] Built target as2_behavior_tree_port_pose_test
+[47.410s] [100%] [32m[1mLinking CXX executable as2_behavior_tree_node[0m
+[47.585s] [100%] Built target as2_behavior_tree_node
+[47.592s] Invoked command in '/root/aerostack2_ws/build/as2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/aerostack2_ws/build/as2_behavior_tree -- -j8 -l8
+[47.594s] Invoking command in '/root/aerostack2_ws/build/as2_behavior_tree': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_behavior_tree
+[47.599s] -- Install configuration: "Release"
+[47.599s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/decorator
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/decorator/wait_for_alert.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/decorator/wait_for_event.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/bt_action_node.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/bt_service_node.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/set_origin.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/land_action.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/arm_service.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/go_to_action.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/echo.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/gps_to_cartesian.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/get_origin.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/go_to_gps_action.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/follow_path.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/takeoff_action.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/offboard_service.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/action/send_event.hpp
+[47.600s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/condition
+[47.601s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/condition/is_flying_condition.hpp
+[47.601s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/include/as2_behavior_tree/port_specialization.hpp
+[47.601s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/as2_behavior_tree_node
+[47.601s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/as2_behavior_tree_node" to ""
+[47.601s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/lib/libas2_behavior_tree.so
+[47.603s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behavior_tree/lib/libas2_behavior_tree.so" to ""
+[47.603s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch
+[47.603s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/behavior_trees.launch.py
+[47.603s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource
+[47.603s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/takeoff.xml
+[47.603s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/event_test.xml
+[47.603s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/test.xml
+[47.603s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/arm_test.xml
+[47.603s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/RTL_test_2.xml
+[47.603s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/follow_path_test.xml
+[47.604s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/actions.xml
+[47.604s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/basic_mission.xml
+[47.604s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/resource/event_test_2.xml
+[47.604s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/as2_behavior_tree
+[47.604s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/as2_behavior_tree
+[47.604s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/ament_prefix_path.sh
+[47.604s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/ament_prefix_path.dsv
+[47.604s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/path.sh
+[47.604s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/environment/path.dsv
+[47.604s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.bash
+[47.604s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.sh
+[47.605s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.zsh
+[47.605s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/local_setup.dsv
+[47.605s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/package.dsv
+[47.605s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/ament_index/resource_index/packages/as2_behavior_tree
+[47.605s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/cmake/as2_behavior_treeConfig.cmake
+[47.605s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/cmake/as2_behavior_treeConfig-version.cmake
+[47.605s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/package.xml
+[47.605s] -- Up-to-date: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch
+[47.606s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/all_emulator.launch.py
+[47.606s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/land_emulator.launch.py
+[47.606s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/share/as2_behavior_tree/launch/takeoff_emulator.launch.py
+[47.606s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/platform_emulator
+[47.606s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/platform_emulator" to ""
+[47.606s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/takeoff_emulator
+[47.606s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/takeoff_emulator" to ""
+[47.606s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/land_emulator
+[47.606s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/land_emulator" to ""
+[47.607s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/go_to_emulator
+[47.607s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/go_to_emulator" to ""
+[47.607s] -- Installing: /root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/follow_path_emulator
+[47.607s] -- Set runtime path of "/root/aerostack2_ws/install/as2_behavior_tree/lib/as2_behavior_tree/follow_path_emulator" to ""
+[47.609s] Invoked command in '/root/aerostack2_ws/build/as2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/aerostack2_ws/build/as2_behavior_tree

@@ -38,7 +38,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge.cpp.o: /root/aerostack2_w
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -144,11 +143,8 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge.cpp.o: /root/aerostack2_w
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -157,8 +153,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge.cpp.o: /root/aerostack2_w
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -238,8 +232,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge.cpp.o: /root/aerostack2_w
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/x86_64-linux-gnu/sys/param.h \
   /usr/include/signal.h \
   /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -265,7 +257,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge.cpp.o: /root/aerostack2_w
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -689,7 +680,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge.cpp.o: /root/aerostack2_w
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -1508,7 +1498,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -1614,11 +1603,8 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1627,8 +1613,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1708,8 +1692,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/x86_64-linux-gnu/sys/param.h \
   /usr/include/signal.h \
   /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -1735,7 +1717,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -2159,7 +2140,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -2974,6 +2954,8 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp:
@@ -3390,21 +3372,7 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /opt/ros/humble/include/tracetools/tracetools/tracetools.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
-
-/opt/ros/humble/include/rcpputils/rcpputils/time.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
-
-/opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
+/usr/include/ignition/msgs8/ignition/msgs/fluid_pressure.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/rest_post.pb.h:
 
@@ -3552,7 +3520,13 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/c++/11/atomic:
 
+/usr/include/c++/11/bits/regex_constants.h:
+
 /usr/include/c++/11/deque:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
 
@@ -3599,6 +3573,8 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/ignition/msgs8/ignition/msgs/projector.pb.h:
 
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__struct.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/altimeter_sensor.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/distortion.pb.h:
 
@@ -3710,6 +3686,8 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/c++/11/ctime:
 
+/usr/include/ignition/msgs8/ignition/msgs/entity_wrench.pb.h:
+
 /usr/include/c++/11/ratio:
 
 /usr/include/ignition/msgs8/ignition/msgs/gui.pb.h:
@@ -3728,7 +3706,13 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/google/protobuf/metadata_lite.h:
 
+/usr/include/ignition/msgs8/ignition/msgs/fuel_metadata.pb.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp:
+
 /usr/include/google/protobuf/generated_enum_util.h:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp:
 
 /usr/include/c++/11/future:
 
@@ -3850,24 +3834,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/linux/close_range.h:
 
-/usr/include/ignition/msgs8/gz/msgs/altimeter.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/camera_info.pb.h:
-
-/usr/include/x86_64-linux-gnu/sys/socket.h:
-
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.hpp:
@@ -3877,6 +3843,14 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/fluid.pb.h:
+
+/usr/include/c++/11/backward/binders.h:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__builder.hpp:
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
@@ -3893,6 +3867,12 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/sky.pb.h:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/spherical_coordinates.pb.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
 
 /usr/include/c++/11/ext/new_allocator.h:
 
@@ -3916,6 +3896,22 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/google/protobuf/extension_set.h:
 
+/root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/src/acro_bridge/acro_bridge.cpp:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/model_configuration.pb.h:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
+
+/usr/include/ignition/msgs8/ignition/msgs/parameter.pb.h:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.hpp:
+
 /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
@@ -3935,12 +3931,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/ignition/msgs8/ignition/msgs/response.pb.h:
 
 /usr/include/google/protobuf/stubs/macros.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/twist_with_covariance.pb.h:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/locale.h:
 
@@ -3982,6 +3972,36 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/google/protobuf/stubs/mutex.h:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/snprintf.h:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/config.hh:
+
+/usr/include/c++/11/iostream:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp:
+
+/opt/ros/humble/include/rcl/rcl/event.h:
+
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
@@ -3996,6 +4016,8 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/signal.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
@@ -4007,12 +4029,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/c++/11/tuple:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/contactsensor.pb.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
@@ -4026,17 +4042,21 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/11/bits/postypes.h:
+
+/usr/include/c++/11/cstdint:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/11/functional:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
 
 /usr/include/linux/errno.h:
 
@@ -4066,6 +4086,12 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/ignition/msgs8/ignition/msgs/pointcloud_packed.pb.h:
 
+/usr/include/ignition/msgs8/ignition/msgs/contactsensor.pb.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
 /usr/include/ignition/math6/gz/math/Color.hh:
 
 /usr/include/ignition/msgs8/ignition/msgs/joint_cmd.pb.h:
@@ -4075,50 +4101,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
 
 /opt/ros/humble/include/rcutils/rcutils/logging.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp:
-
-/usr/include/c++/11/bits/stl_multiset.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/google/protobuf/stubs/mutex.h:
-
-/usr/include/c++/11/tr1/bessel_function.tcc:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/snprintf.h:
-
-/usr/include/c++/11/bits/node_handle.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/config.hh:
-
-/opt/ros/humble/include/rcl/rcl/event.h:
-
-/usr/include/c++/11/iostream:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp:
-
-/usr/include/c++/11/backward/binders.h:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__builder.hpp:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.hpp:
 
 /usr/include/c++/11/bits/stl_function.h:
 
@@ -4186,6 +4168,12 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
+/usr/include/ignition/math6/gz/math/Line3.hh:
+
+/usr/include/ignition/msgs8/ignition/msgs/entity_plugin_v.pb.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
 /usr/include/c++/11/pstl/pstl_config.h:
 
 /usr/include/google/protobuf/map_type_handler.h:
@@ -4207,12 +4195,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/errno.h:
 
 /opt/ros/humble/include/rcl/rcl/allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/google/protobuf/stubs/stl_util.h:
-
-/usr/include/time.h:
 
 /usr/include/ignition/math6/gz/math/AxisAlignedBox.hh:
 
@@ -4258,6 +4240,12 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/ignition/msgs8/ignition/msgs/twist_with_covariance.pb.h:
+
 /usr/include/c++/11/ostream:
 
 /usr/include/c++/11/bits/unique_ptr.h:
@@ -4272,15 +4260,11 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/zmq.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/ignition/math6/gz/math/Line3.hh:
-
-/usr/include/ignition/msgs8/ignition/msgs/entity_plugin_v.pb.h:
-
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/11/cwchar:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -4296,6 +4280,8 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
+
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/asm-generic/sockios.h:
@@ -4304,12 +4290,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/altimeter_sensor.pb.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
-
 /usr/include/c++/11/iterator:
 
 /opt/ros/humble/include/rmw/rmw/rmw.h:
@@ -4317,6 +4297,8 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/ignition/math6/gz/math/Line2.hh:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/time.hpp:
 
 /usr/include/ignition/math6/ignition/math/config.hh:
 
@@ -4342,6 +4324,10 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/c++/11/bits/basic_string.h:
 
+/usr/include/ignition/msgs8/ignition/msgs/boxgeom.pb.h:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
 /opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__struct.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/empty.hpp:
@@ -4361,10 +4347,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/ellipsoidgeom.pb.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
 
 /usr/include/ignition/math6/gz/math/Angle.hh:
 
@@ -4452,14 +4434,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/boxgeom.pb.h:
-
 /usr/include/c++/11/bits/stl_construct.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
@@ -4479,10 +4453,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.hpp:
 
 /usr/include/c++/11/bits/functional_hash.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket_type.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/c++/11/bits/erase_if.h:
 
@@ -4534,8 +4504,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/ignition/msgs8/ignition/msgs/gps_sensor.pb.h:
 
-/usr/include/c++/11/cwchar:
-
 /usr/include/ignition/msgs8/ignition/msgs/joint_wrench.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/dataframe.pb.h:
@@ -4548,17 +4516,7 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/alloca.h:
 
-/root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/src/acro_bridge/acro_bridge.cpp:
-
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/model_configuration.pb.h:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/parameter.pb.h:
+/opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
 
 /usr/include/c++/11/bits/stl_heap.h:
 
@@ -4572,29 +4530,15 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/stdio.h:
 
-/usr/include/c++/11/bits/regex_constants.h:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
-
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/sensor_noise.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
-
-/opt/ros/humble/include/rmw/rmw/event.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
 /usr/include/c++/11/cerrno:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:
+
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
@@ -4613,6 +4557,10 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:
+
+/usr/include/google/protobuf/stubs/stl_util.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/c++/11/bits/algorithmfwd.h:
 
@@ -4644,6 +4592,18 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/ignition/msgs8/ignition/msgs/model_v.pb.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
+
+/opt/ros/humble/include/rmw/rmw/event.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/sensor_noise.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
+
 /usr/include/ignition/msgs8/gz/msgs/float.pb.h:
 
 /usr/include/google/protobuf/message.h:
@@ -4654,6 +4614,10 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/c++/11/bits/enable_special_members.h:
 
+/usr/include/ignition/msgs8/ignition/msgs/fog.pb.h:
+
+/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__builder.hpp:
+
 /usr/include/c++/11/bits/regex_scanner.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/physics.pb.h:
@@ -4663,14 +4627,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/c++/11/bits/istream.tcc:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
-
-/usr/include/c++/11/cstdint:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
-/usr/include/c++/11/bits/basic_ios.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp:
 
 /usr/include/ignition/msgs8/gz/msgs/fluid_pressure.pb.h:
 
@@ -4742,12 +4698,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
-/usr/include/google/protobuf/stubs/fastmem.h:
-
-/usr/include/string.h:
-
-/usr/include/ignition/msgs8/ignition/msgs/any.pb.h:
-
 /usr/include/ignition/msgs8/ignition/msgs/link_data.pb.h:
 
 /usr/include/c++/11/locale:
@@ -4782,6 +4732,12 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/c++/11/bits/atomic_futex.h:
 
+/usr/include/google/protobuf/stubs/fastmem.h:
+
+/usr/include/ignition/msgs8/ignition/msgs/any.pb.h:
+
+/usr/include/string.h:
+
 /usr/include/c++/11/tr1/exp_integral.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
@@ -4795,12 +4751,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/shadows.pb.h:
-
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp:
-
-/usr/include/ignition/msgs8/ignition/msgs/spherical_coordinates.pb.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
 
 /usr/include/c++/11/bits/ios_base.h:
 
@@ -4828,29 +4778,29 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/entity_wrench.pb.h:
+/usr/include/ignition/msgs8/ignition/msgs/camera_info.pb.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/fluid_pressure.pb.h:
+/usr/include/x86_64-linux-gnu/sys/socket.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/fog.pb.h:
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/opt/ros/humble/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__builder.hpp:
+/usr/include/ignition/msgs8/ignition/msgs/ellipsoidgeom.pb.h:
 
-/usr/include/ignition/msgs8/ignition/msgs/fuel_metadata.pb.h:
+/usr/include/c++/11/bits/exception_defines.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/time.h:
+
+/usr/include/ignition/msgs8/gz/msgs/altimeter.pb.h:
 
 /usr/include/google/protobuf/map_entry.h:
 
 /usr/include/google/protobuf/reflection_ops.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
-
-/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
-
-/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
 
 /usr/include/google/protobuf/map_field_inl.h:
 
@@ -5054,8 +5004,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /opt/ros/humble/include/rcl/rcl/event_callback.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
 /usr/include/ignition/msgs8/ignition/msgs/sonar.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/statistic.pb.h:
@@ -5083,8 +5031,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/ignition/msgs8/ignition/msgs/user_cmd.pb.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/world_control.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /usr/include/ignition/msgs8/ignition/msgs/world_reset.pb.h:
 
@@ -5157,8 +5103,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
 /usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket2.h:
 
 /usr/include/netinet/in.h:
 
@@ -5264,6 +5208,12 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
 
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
+
+/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
+
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
 /usr/include/ignition/msgs8/gz/msgs/quaternion.pb.h:
@@ -5356,7 +5306,13 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp:
 
+/usr/include/c++/11/bits/basic_ios.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp:
 
@@ -5431,6 +5387,8 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /opt/ros/humble/include/gps_msgs/gps_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/ignition/msgs8/gz/msgs/odometry.pb.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:
 
@@ -5800,8 +5758,6 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
 
 /usr/include/c++/11/variant:
@@ -5877,3 +5833,7 @@ CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o: /root/aerosta
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
 /opt/ros/humble/include/rmw/rmw/impl/config.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
+
+/opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h:

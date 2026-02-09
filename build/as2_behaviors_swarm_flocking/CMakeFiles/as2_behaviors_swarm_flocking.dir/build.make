@@ -126,7 +126,7 @@ libas2_behaviors_swarm_flocking.so: /opt/ros/humble/lib/libvisualization_msgs__r
 libas2_behaviors_swarm_flocking.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_py.so
 libas2_behaviors_swarm_flocking.so: /opt/ros/humble/lib/libcomponent_manager.so
 libas2_behaviors_swarm_flocking.so: _deps/dynamic_trajectory_generator-build/subpackages/mav_trajectory_generation/libmav_trajectory_generation.so
-libas2_behaviors_swarm_flocking.so: /root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib/libglog.so.0.6.0
+libas2_behaviors_swarm_flocking.so: _deps/glog-build/libglog.so.0.6.0
 libas2_behaviors_swarm_flocking.so: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 libas2_behaviors_swarm_flocking.so: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 libas2_behaviors_swarm_flocking.so: _deps/nlopt-build/libnlopt.so.0.11.1

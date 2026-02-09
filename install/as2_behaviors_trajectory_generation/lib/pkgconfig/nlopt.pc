@@ -1,1 +1,11 @@
-/root/aerostack2_ws/build/as2_behaviors_trajectory_generation/_deps/nlopt-build/nlopt.pc
+prefix=/root/aerostack2_ws/install/as2_behaviors_trajectory_generation
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: NLopt
+Description: nonlinear optimization libary
+Version: 2.7.1
+Libs: -L${libdir} -lnlopt
+Libs.private: -lm
+Cflags: -I${includedir}

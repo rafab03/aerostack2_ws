@@ -1,0 +1,44 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Image
+      Name: Drone0 Debug
+      Topic: /drone0/perception/person_debug_image
+      Reliability Policy: Best Effort
+      Queue Size: 2
+    - Class: rviz_default_plugins/Image
+      Name: Drone1 Debug
+      Topic: /drone1/perception/person_debug_image
+      Reliability Policy: Best Effort
+      Queue Size: 2
+    - Class: rviz_default_plugins/Image
+      Name: Drone2 Debug
+      Topic: /drone2/perception/person_debug_image
+      Reliability Policy: Best Effort
+      Queue Size: 2
+  Global Options:
+    Fixed Frame: world
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+    - Class: rviz_default_plugins/SetGoal
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 10
+      Pitch: 0.5
+      Yaw: 0.7
+Window Geometry:
+  Height: 900
+  Width: 1400
+  X: 50
+  Y: 50
