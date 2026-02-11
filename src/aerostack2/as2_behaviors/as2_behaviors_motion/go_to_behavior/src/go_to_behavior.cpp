@@ -94,7 +94,7 @@ GoToBehavior::GoToBehavior(const rclcpp::NodeOptions & options)
     this->~GoToBehavior();
   }
 
-  base_link_frame_id_ = as2::tf::generateTfName(this, "base_link");
+  base_link_frame_id_ = as2::tf::generateTfName(this, "base_footprint");
 
   platform_info_sub_ = this->create_subscription<as2_msgs::msg::PlatformInfo>(
     as2_names::topics::platform::info, as2_names::topics::platform::qos,

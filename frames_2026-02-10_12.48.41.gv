@@ -1,0 +1,10 @@
+digraph G {
+"drone1/gimbal1/_0/_1/_2/hd_camera1_d1/hd_camera" -> "drone1/gimbal1/_0/_1/_2/hd_camera1_d1/hd_camera/optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"drone2/hd_camera2/hd_camera" -> "drone2/hd_camera2/hd_camera/optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"drone0/gimbal0/_0/_1/_2/hd_camera1_d0/hd_camera" -> "drone0/gimbal0/_0/_1/_2/hd_camera1_d0/hd_camera/optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"drone2/gimbal2/_0/_1/_2/hd_camera1_d2/hd_camera" -> "drone2/gimbal2/_0/_1/_2/hd_camera1_d2/hd_camera/optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1770727721.762982"[ shape=plaintext ] ;
+}->"drone2/gimbal2/_0/_1/_2/hd_camera1_d2/hd_camera";
+}

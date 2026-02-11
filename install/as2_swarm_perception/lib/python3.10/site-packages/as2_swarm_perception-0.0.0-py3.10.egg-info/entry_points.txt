@@ -1,0 +1,3 @@
+[console_scripts]
+bbox_to_world_node = as2_swarm_perception.bbox_to_world_node:main
+

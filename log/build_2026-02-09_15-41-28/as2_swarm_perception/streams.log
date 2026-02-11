@@ -1,0 +1,24 @@
+[5.124s] Invoking command in '/root/aerostack2_ws/src/aerostack2/as2_swarm_perception': PYTHONPATH=/root/aerostack2_ws/build/as2_swarm_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_swarm_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_swarm_perception build --build-base /root/aerostack2_ws/build/as2_swarm_perception/build install --record /root/aerostack2_ws/build/as2_swarm_perception/install.log --single-version-externally-managed install_data
+[6.960s] running egg_info
+[6.961s] writing ../../../build/as2_swarm_perception/as2_swarm_perception.egg-info/PKG-INFO
+[6.961s] writing dependency_links to ../../../build/as2_swarm_perception/as2_swarm_perception.egg-info/dependency_links.txt
+[6.961s] writing entry points to ../../../build/as2_swarm_perception/as2_swarm_perception.egg-info/entry_points.txt
+[6.961s] writing requirements to ../../../build/as2_swarm_perception/as2_swarm_perception.egg-info/requires.txt
+[6.961s] writing top-level names to ../../../build/as2_swarm_perception/as2_swarm_perception.egg-info/top_level.txt
+[6.961s] reading manifest file '../../../build/as2_swarm_perception/as2_swarm_perception.egg-info/SOURCES.txt'
+[6.961s] writing manifest file '../../../build/as2_swarm_perception/as2_swarm_perception.egg-info/SOURCES.txt'
+[6.961s] running build
+[6.962s] running build_py
+[6.962s] copying as2_swarm_perception/bbox_to_world_node.py -> /root/aerostack2_ws/build/as2_swarm_perception/build/lib/as2_swarm_perception
+[6.963s] running install
+[6.963s] running install_lib
+[6.964s] copying /root/aerostack2_ws/build/as2_swarm_perception/build/lib/as2_swarm_perception/bbox_to_world_node.py -> /root/aerostack2_ws/install/as2_swarm_perception/lib/python3.10/site-packages/as2_swarm_perception
+[6.964s] byte-compiling /root/aerostack2_ws/install/as2_swarm_perception/lib/python3.10/site-packages/as2_swarm_perception/bbox_to_world_node.py to bbox_to_world_node.cpython-310.pyc
+[6.964s] running install_data
+[6.964s] running install_egg_info
+[6.964s] removing '/root/aerostack2_ws/install/as2_swarm_perception/lib/python3.10/site-packages/as2_swarm_perception-0.0.0-py3.10.egg-info' (and everything under it)
+[6.965s] Copying ../../../build/as2_swarm_perception/as2_swarm_perception.egg-info to /root/aerostack2_ws/install/as2_swarm_perception/lib/python3.10/site-packages/as2_swarm_perception-0.0.0-py3.10.egg-info
+[6.965s] running install_scripts
+[6.987s] Installing bbox_to_world_node script to /root/aerostack2_ws/install/as2_swarm_perception/lib/as2_swarm_perception
+[6.987s] writing list of installed files to '/root/aerostack2_ws/build/as2_swarm_perception/install.log'
+[7.032s] Invoked command in '/root/aerostack2_ws/src/aerostack2/as2_swarm_perception' returned '0': PYTHONPATH=/root/aerostack2_ws/build/as2_swarm_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_swarm_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_swarm_perception build --build-base /root/aerostack2_ws/build/as2_swarm_perception/build install --record /root/aerostack2_ws/build/as2_swarm_perception/install.log --single-version-externally-managed install_data

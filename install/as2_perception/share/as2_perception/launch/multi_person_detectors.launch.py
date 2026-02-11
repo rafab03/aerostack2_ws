@@ -20,7 +20,7 @@ def generate_launch_description():
 
     device_arg = DeclareLaunchArgument(
         'device',
-        default_value='cpu',
+        default_value='cuda:0',
         description='YOLO device: cpu or cuda:0'
     )
 

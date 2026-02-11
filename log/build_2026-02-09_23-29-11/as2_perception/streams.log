@@ -1,0 +1,21 @@
+[8.390s] Invoking command in '/root/aerostack2_ws/src/aerostack2/as2_perception': PYTHONPATH=/root/aerostack2_ws/build/as2_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_perception build --build-base /root/aerostack2_ws/build/as2_perception/build install --record /root/aerostack2_ws/build/as2_perception/install.log --single-version-externally-managed install_data
+[10.072s] running egg_info
+[10.114s] writing ../../../build/as2_perception/as2_perception.egg-info/PKG-INFO
+[10.114s] writing dependency_links to ../../../build/as2_perception/as2_perception.egg-info/dependency_links.txt
+[10.114s] writing entry points to ../../../build/as2_perception/as2_perception.egg-info/entry_points.txt
+[10.115s] writing requirements to ../../../build/as2_perception/as2_perception.egg-info/requires.txt
+[10.115s] writing top-level names to ../../../build/as2_perception/as2_perception.egg-info/top_level.txt
+[10.130s] reading manifest file '../../../build/as2_perception/as2_perception.egg-info/SOURCES.txt'
+[10.133s] writing manifest file '../../../build/as2_perception/as2_perception.egg-info/SOURCES.txt'
+[10.134s] running build
+[10.135s] running build_py
+[10.142s] running install
+[10.143s] running install_lib
+[10.166s] running install_data
+[10.166s] running install_egg_info
+[10.188s] removing '/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception-0.0.0-py3.10.egg-info' (and everything under it)
+[10.188s] Copying ../../../build/as2_perception/as2_perception.egg-info to /root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages/as2_perception-0.0.0-py3.10.egg-info
+[10.193s] running install_scripts
+[10.463s] Installing person_detector_node script to /root/aerostack2_ws/install/as2_perception/lib/as2_perception
+[10.463s] writing list of installed files to '/root/aerostack2_ws/build/as2_perception/install.log'
+[10.715s] Invoked command in '/root/aerostack2_ws/src/aerostack2/as2_perception' returned '0': PYTHONPATH=/root/aerostack2_ws/build/as2_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_perception build --build-base /root/aerostack2_ws/build/as2_perception/build install --record /root/aerostack2_ws/build/as2_perception/install.log --single-version-externally-managed install_data

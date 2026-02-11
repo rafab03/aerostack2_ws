@@ -1,0 +1,22 @@
+[4.184s] Invoking command in '/root/aerostack2_ws/src/aerostack2/as2_groundray_perception': PYTHONPATH=/root/aerostack2_ws/build/as2_groundray_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_groundray_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_groundray_perception build --build-base /root/aerostack2_ws/build/as2_groundray_perception/build install --record /root/aerostack2_ws/build/as2_groundray_perception/install.log --single-version-externally-managed install_data
+[4.951s] running egg_info
+[4.952s] writing ../../../build/as2_groundray_perception/as2_groundray_perception.egg-info/PKG-INFO
+[4.953s] writing dependency_links to ../../../build/as2_groundray_perception/as2_groundray_perception.egg-info/dependency_links.txt
+[4.953s] writing entry points to ../../../build/as2_groundray_perception/as2_groundray_perception.egg-info/entry_points.txt
+[4.953s] writing requirements to ../../../build/as2_groundray_perception/as2_groundray_perception.egg-info/requires.txt
+[4.954s] writing top-level names to ../../../build/as2_groundray_perception/as2_groundray_perception.egg-info/top_level.txt
+[4.960s] reading manifest file '../../../build/as2_groundray_perception/as2_groundray_perception.egg-info/SOURCES.txt'
+[4.972s] writing manifest file '../../../build/as2_groundray_perception/as2_groundray_perception.egg-info/SOURCES.txt'
+[4.972s] running build
+[4.972s] running build_py
+[4.975s] running install
+[4.976s] running install_lib
+[4.985s] running install_data
+[4.986s] copying launch/ray_to_ground_multi.launch.py -> /root/aerostack2_ws/install/as2_groundray_perception/share/as2_groundray_perception/launch
+[4.986s] running install_egg_info
+[4.986s] removing '/root/aerostack2_ws/install/as2_groundray_perception/lib/python3.10/site-packages/as2_groundray_perception-0.0.0-py3.10.egg-info' (and everything under it)
+[4.986s] Copying ../../../build/as2_groundray_perception/as2_groundray_perception.egg-info to /root/aerostack2_ws/install/as2_groundray_perception/lib/python3.10/site-packages/as2_groundray_perception-0.0.0-py3.10.egg-info
+[4.996s] running install_scripts
+[5.044s] Installing ray_to_ground_node script to /root/aerostack2_ws/install/as2_groundray_perception/lib/as2_groundray_perception
+[5.044s] writing list of installed files to '/root/aerostack2_ws/build/as2_groundray_perception/install.log'
+[5.107s] Invoked command in '/root/aerostack2_ws/src/aerostack2/as2_groundray_perception' returned '0': PYTHONPATH=/root/aerostack2_ws/build/as2_groundray_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_groundray_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_groundray_perception build --build-base /root/aerostack2_ws/build/as2_groundray_perception/build install --record /root/aerostack2_ws/build/as2_groundray_perception/install.log --single-version-externally-managed install_data

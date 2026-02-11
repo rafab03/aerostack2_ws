@@ -1,0 +1,24 @@
+[2.912s] Invoking command in '/root/aerostack2_ws/src/aerostack2/as2_swarm_ekf': PYTHONPATH=/root/aerostack2_ws/build/as2_swarm_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_swarm_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_swarm_ekf build --build-base /root/aerostack2_ws/build/as2_swarm_ekf/build install --record /root/aerostack2_ws/build/as2_swarm_ekf/install.log --single-version-externally-managed install_data
+[3.284s] running egg_info
+[3.285s] writing ../../../build/as2_swarm_ekf/as2_swarm_ekf.egg-info/PKG-INFO
+[3.285s] writing dependency_links to ../../../build/as2_swarm_ekf/as2_swarm_ekf.egg-info/dependency_links.txt
+[3.286s] writing entry points to ../../../build/as2_swarm_ekf/as2_swarm_ekf.egg-info/entry_points.txt
+[3.286s] writing requirements to ../../../build/as2_swarm_ekf/as2_swarm_ekf.egg-info/requires.txt
+[3.286s] writing top-level names to ../../../build/as2_swarm_ekf/as2_swarm_ekf.egg-info/top_level.txt
+[3.286s] reading manifest file '../../../build/as2_swarm_ekf/as2_swarm_ekf.egg-info/SOURCES.txt'
+[3.301s] writing manifest file '../../../build/as2_swarm_ekf/as2_swarm_ekf.egg-info/SOURCES.txt'
+[3.301s] running build
+[3.301s] running build_py
+[3.301s] copying as2_swarm_ekf/distributed_ekf_node.py -> /root/aerostack2_ws/build/as2_swarm_ekf/build/lib/as2_swarm_ekf
+[3.302s] running install
+[3.302s] running install_lib
+[3.302s] copying /root/aerostack2_ws/build/as2_swarm_ekf/build/lib/as2_swarm_ekf/distributed_ekf_node.py -> /root/aerostack2_ws/install/as2_swarm_ekf/lib/python3.10/site-packages/as2_swarm_ekf
+[3.302s] byte-compiling /root/aerostack2_ws/install/as2_swarm_ekf/lib/python3.10/site-packages/as2_swarm_ekf/distributed_ekf_node.py to distributed_ekf_node.cpython-310.pyc
+[3.302s] running install_data
+[3.302s] running install_egg_info
+[3.302s] removing '/root/aerostack2_ws/install/as2_swarm_ekf/lib/python3.10/site-packages/as2_swarm_ekf-0.0.1-py3.10.egg-info' (and everything under it)
+[3.302s] Copying ../../../build/as2_swarm_ekf/as2_swarm_ekf.egg-info to /root/aerostack2_ws/install/as2_swarm_ekf/lib/python3.10/site-packages/as2_swarm_ekf-0.0.1-py3.10.egg-info
+[3.302s] running install_scripts
+[3.355s] Installing distributed_ekf_node script to /root/aerostack2_ws/install/as2_swarm_ekf/lib/as2_swarm_ekf
+[3.355s] writing list of installed files to '/root/aerostack2_ws/build/as2_swarm_ekf/install.log'
+[3.371s] Invoked command in '/root/aerostack2_ws/src/aerostack2/as2_swarm_ekf' returned '0': PYTHONPATH=/root/aerostack2_ws/build/as2_swarm_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_swarm_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_swarm_ekf build --build-base /root/aerostack2_ws/build/as2_swarm_ekf/build install --record /root/aerostack2_ws/build/as2_swarm_ekf/install.log --single-version-externally-managed install_data

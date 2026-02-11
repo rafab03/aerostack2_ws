@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/root/aerostack2_ws/src/aerostack2/as2_groundray_perception/setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+    import distutils.core
+  File "/usr/lib/python3.10/distutils/core.py", line 16, in <module>
+    from distutils.dist import Distribution
+  File "/usr/lib/python3.10/distutils/dist.py", line 19, in <module>
+    from distutils.util import check_environ, strtobool, rfc822_escape
+  File "/usr/lib/python3.10/distutils/util.py", line 15, in <module>
+    from distutils.spawn import spawn
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 964, in get_code
+  File "<frozen importlib._bootstrap_external>", line 448, in cache_from_source
+  File "<frozen importlib._bootstrap_external>", line 128, in _path_join
+  File "<frozen importlib._bootstrap_external>", line 128, in <listcomp>
+KeyboardInterrupt

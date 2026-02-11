@@ -1,0 +1,20 @@
+[10.102s] Invoking command in '/root/aerostack2_ws/src/aerostack2/as2_project_bringup': PYTHONPATH=/root/aerostack2_ws/build/as2_project_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_project_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_project_bringup build --build-base /root/aerostack2_ws/build/as2_project_bringup/build install --record /root/aerostack2_ws/build/as2_project_bringup/install.log --single-version-externally-managed install_data
+[11.070s] running egg_info
+[11.070s] writing ../../../build/as2_project_bringup/as2_project_bringup.egg-info/PKG-INFO
+[11.071s] writing dependency_links to ../../../build/as2_project_bringup/as2_project_bringup.egg-info/dependency_links.txt
+[11.071s] writing entry points to ../../../build/as2_project_bringup/as2_project_bringup.egg-info/entry_points.txt
+[11.071s] writing requirements to ../../../build/as2_project_bringup/as2_project_bringup.egg-info/requires.txt
+[11.071s] writing top-level names to ../../../build/as2_project_bringup/as2_project_bringup.egg-info/top_level.txt
+[11.100s] reading manifest file '../../../build/as2_project_bringup/as2_project_bringup.egg-info/SOURCES.txt'
+[11.100s] writing manifest file '../../../build/as2_project_bringup/as2_project_bringup.egg-info/SOURCES.txt'
+[11.100s] running build
+[11.100s] running build_py
+[11.168s] running install
+[11.168s] running install_lib
+[11.185s] running install_data
+[11.186s] running install_egg_info
+[11.221s] removing '/root/aerostack2_ws/install/as2_project_bringup/lib/python3.10/site-packages/as2_project_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[11.221s] Copying ../../../build/as2_project_bringup/as2_project_bringup.egg-info to /root/aerostack2_ws/install/as2_project_bringup/lib/python3.10/site-packages/as2_project_bringup-0.0.0-py3.10.egg-info
+[11.221s] running install_scripts
+[11.530s] writing list of installed files to '/root/aerostack2_ws/build/as2_project_bringup/install.log'
+[11.605s] Invoked command in '/root/aerostack2_ws/src/aerostack2/as2_project_bringup' returned '0': PYTHONPATH=/root/aerostack2_ws/build/as2_project_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_project_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_project_bringup build --build-base /root/aerostack2_ws/build/as2_project_bringup/build install --record /root/aerostack2_ws/build/as2_project_bringup/install.log --single-version-externally-managed install_data

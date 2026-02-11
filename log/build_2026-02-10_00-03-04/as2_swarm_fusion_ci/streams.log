@@ -1,0 +1,24 @@
+[1.575s] Invoking command in '/root/aerostack2_ws/src/aerostack2/as2_swarm_fusion_ci': PYTHONPATH=/root/aerostack2_ws/build/as2_swarm_fusion_ci/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_swarm_fusion_ci/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_swarm_fusion_ci build --build-base /root/aerostack2_ws/build/as2_swarm_fusion_ci/build install --record /root/aerostack2_ws/build/as2_swarm_fusion_ci/install.log --single-version-externally-managed install_data
+[1.945s] running egg_info
+[1.946s] writing ../../../build/as2_swarm_fusion_ci/as2_swarm_fusion_ci.egg-info/PKG-INFO
+[1.947s] writing dependency_links to ../../../build/as2_swarm_fusion_ci/as2_swarm_fusion_ci.egg-info/dependency_links.txt
+[1.948s] writing entry points to ../../../build/as2_swarm_fusion_ci/as2_swarm_fusion_ci.egg-info/entry_points.txt
+[1.949s] writing requirements to ../../../build/as2_swarm_fusion_ci/as2_swarm_fusion_ci.egg-info/requires.txt
+[1.949s] writing top-level names to ../../../build/as2_swarm_fusion_ci/as2_swarm_fusion_ci.egg-info/top_level.txt
+[1.952s] reading manifest file '../../../build/as2_swarm_fusion_ci/as2_swarm_fusion_ci.egg-info/SOURCES.txt'
+[1.954s] writing manifest file '../../../build/as2_swarm_fusion_ci/as2_swarm_fusion_ci.egg-info/SOURCES.txt'
+[1.954s] running build
+[1.954s] running build_py
+[1.954s] copying as2_swarm_fusion_ci/swarm_ci_fusion_node.py -> /root/aerostack2_ws/build/as2_swarm_fusion_ci/build/lib/as2_swarm_fusion_ci
+[1.955s] running install
+[1.955s] running install_lib
+[1.958s] copying /root/aerostack2_ws/build/as2_swarm_fusion_ci/build/lib/as2_swarm_fusion_ci/swarm_ci_fusion_node.py -> /root/aerostack2_ws/install/as2_swarm_fusion_ci/lib/python3.10/site-packages/as2_swarm_fusion_ci
+[1.961s] byte-compiling /root/aerostack2_ws/install/as2_swarm_fusion_ci/lib/python3.10/site-packages/as2_swarm_fusion_ci/swarm_ci_fusion_node.py to swarm_ci_fusion_node.cpython-310.pyc
+[1.964s] running install_data
+[1.965s] running install_egg_info
+[1.967s] removing '/root/aerostack2_ws/install/as2_swarm_fusion_ci/lib/python3.10/site-packages/as2_swarm_fusion_ci-0.0.1-py3.10.egg-info' (and everything under it)
+[1.967s] Copying ../../../build/as2_swarm_fusion_ci/as2_swarm_fusion_ci.egg-info to /root/aerostack2_ws/install/as2_swarm_fusion_ci/lib/python3.10/site-packages/as2_swarm_fusion_ci-0.0.1-py3.10.egg-info
+[1.968s] running install_scripts
+[1.992s] Installing swarm_ci_fusion_node script to /root/aerostack2_ws/install/as2_swarm_fusion_ci/lib/as2_swarm_fusion_ci
+[1.993s] writing list of installed files to '/root/aerostack2_ws/build/as2_swarm_fusion_ci/install.log'
+[2.026s] Invoked command in '/root/aerostack2_ws/src/aerostack2/as2_swarm_fusion_ci' returned '0': PYTHONPATH=/root/aerostack2_ws/build/as2_swarm_fusion_ci/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_swarm_fusion_ci/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_swarm_fusion_ci build --build-base /root/aerostack2_ws/build/as2_swarm_fusion_ci/build install --record /root/aerostack2_ws/build/as2_swarm_fusion_ci/install.log --single-version-externally-managed install_data

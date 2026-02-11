@@ -4,8 +4,11 @@
 /root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/package.xml
 /root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/launch/04_motion_controller_3drones.launch.py
 /root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/launch/01_platform_3drones.launch.py
+/root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/launch/08_swarm_person_perception_rayground_ekf.launch.py
 /root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/launch/05_static_tf_3drones.launch.py
 /root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/launch/03_behaviors_3drones.launch.py
+/root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/launch/06_swarm_person_perception.launch.py
+/root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/launch/07_swarm_person_perception_rayground.launch.py
 /root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/launch/02_state_estimator_3drones.launch.py
 /root/aerostack2_ws/install/as2_project_bringup/lib/python3.10/site-packages/as2_project_bringup-0.0.0-py3.10.egg-info/entry_points.txt
 /root/aerostack2_ws/install/as2_project_bringup/lib/python3.10/site-packages/as2_project_bringup-0.0.0-py3.10.egg-info/SOURCES.txt

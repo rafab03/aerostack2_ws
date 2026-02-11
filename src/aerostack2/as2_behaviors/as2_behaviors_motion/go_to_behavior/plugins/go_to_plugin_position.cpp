@@ -34,6 +34,10 @@
  * @authors Rafael Perez-Segui
  */
 
+#include <cmath>
+#include <memory>
+#include <string>
+
 #include "as2_motion_reference_handlers/position_motion.hpp"
 #include "go_to_behavior/go_to_base.hpp"
 
@@ -43,6 +47,31 @@ class Plugin : public go_to_base::GoToBase
 {
 private:
   std::shared_ptr<as2::motionReferenceHandlers::PositionMotion> position_motion_handler_ = nullptr;
+
+  /// Resolve the frame we will use for pose/twist commands.
+  /// Priority:
+  ///  1) goal_.target_pose.header.frame_id (if provided and non-empty)
+  ///  2) "<namespace>/odom" (e.g., "drone0/odom") because controller_manager expects that in your setup
+  std::string resolveCommandFrame(const as2_msgs::action::GoToWaypoint::Goal & g) const
+  {
+    // If user explicitly sets frame_id, respect it
+    // (e.g., "drone0/odom", "drone0/map", etc.)
+    if (!g.target_pose.header.frame_id.empty()) {
+      return g.target_pose.header.frame_id;
+    }
+
+    // Default: <ns>/odom
+    // Node namespace is like "/drone0" -> we want "drone0/odom"
+    std::string ns = node_ptr_->get_namespace();  // e.g. "/drone0"
+    if (!ns.empty() && ns.front() == '/') {
+      ns.erase(0, 1);
+    }
+    if (ns.empty()) {
+      // Fallback (should not happen in Aerostack2 multi-robot)
+      return std::string("odom");
+    }
+    return ns + "/odom";
+  }
 
 public:
   void ownInit()
@@ -59,12 +88,18 @@ public:
     {
       return false;
     }
+
     RCLCPP_INFO(node_ptr_->get_logger(), "GoTo goal accepted");
     RCLCPP_INFO(
-      node_ptr_->get_logger(), "GoTo to position: %f, %f, %f", _goal.target_pose.point.x,
-      _goal.target_pose.point.y, _goal.target_pose.point.z);
+      node_ptr_->get_logger(), "GoTo to position: %f, %f, %f",
+      _goal.target_pose.point.x, _goal.target_pose.point.y, _goal.target_pose.point.z);
     RCLCPP_INFO(node_ptr_->get_logger(), "GoTo to speed: %f", _goal.max_speed);
     RCLCPP_INFO(node_ptr_->get_logger(), "GoTo to angle: %f", _goal.yaw.angle);
+
+    // Log the frame that will be used to command the controller (useful for debugging)
+    const std::string cmd_frame = resolveCommandFrame(_goal);
+    RCLCPP_INFO(node_ptr_->get_logger(), "GoTo command frame: %s", cmd_frame.c_str());
+
     return true;
   }
 
@@ -76,23 +111,30 @@ public:
     {
       return false;
     }
+
     RCLCPP_INFO(node_ptr_->get_logger(), "GoTo goal modified");
     RCLCPP_INFO(
-      node_ptr_->get_logger(), "GoTo to position: %f, %f, %f", _goal.target_pose.point.x,
-      _goal.target_pose.point.y, _goal.target_pose.point.z);
+      node_ptr_->get_logger(), "GoTo to position: %f, %f, %f",
+      _goal.target_pose.point.x, _goal.target_pose.point.y, _goal.target_pose.point.z);
     RCLCPP_INFO(node_ptr_->get_logger(), "GoTo to speed: %f", _goal.max_speed);
     RCLCPP_INFO(node_ptr_->get_logger(), "GoTo to angle: %f", _goal.yaw.angle);
+
+    const std::string cmd_frame = resolveCommandFrame(_goal);
+    RCLCPP_INFO(node_ptr_->get_logger(), "GoTo command frame: %s", cmd_frame.c_str());
+
     return true;
   }
 
   bool own_deactivate(const std::shared_ptr<std::string> & message) override
   {
+    (void)message;
     RCLCPP_INFO(node_ptr_->get_logger(), "Goal canceled");
     return true;
   }
 
   bool own_pause(const std::shared_ptr<std::string> & message) override
   {
+    (void)message;
     RCLCPP_INFO(node_ptr_->get_logger(), "GoTo paused");
     sendHover();
     return true;
@@ -100,6 +142,7 @@ public:
 
   bool own_resume(const std::shared_ptr<std::string> & message) override
   {
+    (void)message;
     RCLCPP_INFO(node_ptr_->get_logger(), "GoTo resumed");
     return true;
   }
@@ -107,16 +150,23 @@ public:
   void own_execution_end(const as2_behavior::ExecutionStatus & state) override
   {
     RCLCPP_INFO(node_ptr_->get_logger(), "GoTo end");
+
+    // Resolve the frame once from the (stored) goal_
+    const std::string cmd_frame = resolveCommandFrame(goal_);
+
     if (state == as2_behavior::ExecutionStatus::SUCCESS) {
       // Leave the drone in the last position
       if (position_motion_handler_->sendPositionCommandWithYawAngle(
-          "earth", goal_.target_pose.point.x, goal_.target_pose.point.y,
-          goal_.target_pose.point.z, goal_.yaw.angle, "earth", goal_.max_speed, goal_.max_speed,
-          goal_.max_speed))
+          cmd_frame,
+          goal_.target_pose.point.x, goal_.target_pose.point.y, goal_.target_pose.point.z,
+          goal_.yaw.angle,
+          cmd_frame,
+          goal_.max_speed, goal_.max_speed, goal_.max_speed))
       {
         return;
       }
     }
+
     sendHover();
     return;
   }
@@ -129,10 +179,14 @@ public:
       return as2_behavior::ExecutionStatus::SUCCESS;
     }
 
+    const std::string cmd_frame = resolveCommandFrame(goal_);
+
     if (!position_motion_handler_->sendPositionCommandWithYawAngle(
-        "earth", goal_.target_pose.point.x, goal_.target_pose.point.y,
-        goal_.target_pose.point.z, goal_.yaw.angle, "earth", goal_.max_speed, goal_.max_speed,
-        goal_.max_speed))
+        cmd_frame,
+        goal_.target_pose.point.x, goal_.target_pose.point.y, goal_.target_pose.point.z,
+        goal_.yaw.angle,
+        cmd_frame,
+        goal_.max_speed, goal_.max_speed, goal_.max_speed))
     {
       RCLCPP_ERROR(node_ptr_->get_logger(), "GOTO PLUGIN: Error sending position command");
       result_.go_to_success = false;
@@ -146,7 +200,7 @@ private:
   bool checkGoalCondition()
   {
     if (localization_flag_) {
-      if (fabs(feedback_.actual_distance_to_goal) < params_.go_to_threshold) {return true;}
+      if (std::fabs(feedback_.actual_distance_to_goal) < params_.go_to_threshold) {return true;}
     }
     return false;
   }
@@ -185,11 +239,9 @@ private:
       case as2_msgs::msg::YawMode::YAW_FROM_TOPIC:
         RCLCPP_INFO(node_ptr_->get_logger(), "Yaw mode YAW_FROM_TOPIC, not supported");
         return false;
-        break;
       default:
         RCLCPP_ERROR(node_ptr_->get_logger(), "Yaw mode %d not supported", yaw_mode);
         return false;
-        break;
     }
     return true;
   }

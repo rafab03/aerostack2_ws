@@ -42,16 +42,24 @@ namespace as2
 {
 namespace motionReferenceHandlers
 {
+
 PositionMotion::PositionMotion(as2::Node * node_ptr, const std::string & ns)
 : BasicMotionReferenceHandler(node_ptr, ns)
 {
   desired_control_mode_.yaw_mode = as2_msgs::msg::ControlMode::NONE;
   desired_control_mode_.control_mode = as2_msgs::msg::ControlMode::POSITION;
-  desired_control_mode_.reference_frame = as2_msgs::msg::ControlMode::UNDEFINED_FRAME;
+
+  // IMPORTANT:
+  // Position references in frames like "earth", "<ns>/map", "<ns>/odom" are ENU-like (local navigation frame).
+  // If reference_frame stays UNDEFINED_FRAME, the controller may ignore it or behave unpredictably.
+  desired_control_mode_.reference_frame = as2_msgs::msg::ControlMode::LOCAL_ENU_FRAME;
 }
 
 bool PositionMotion::ownSendCommand()
 {
+  // Ensure reference frame is always valid for POSITION control mode
+  desired_control_mode_.reference_frame = as2_msgs::msg::ControlMode::LOCAL_ENU_FRAME;
+
   bool send_pose = sendPoseCommand();
   bool send_twist = sendTwistCommand();
   return send_pose && send_twist;
@@ -64,9 +72,9 @@ bool PositionMotion::sendPositionCommandWithYawAngle(
   const float & z,
   const float & yaw_angle,
   const std::string & frame_id_twist,
-  const float & vx = 0.0f,
-  const float & vy = 0.0f,
-  const float & vz = 0.0f)
+  const float & vx,
+  const float & vy,
+  const float & vz)
 {
   return sendPositionCommandWithYawAngle(
     frame_id_pose, x, y, z, tf2::toMsg(tf2::Quaternion(tf2::Vector3(0, 0, 1), yaw_angle)),
@@ -80,9 +88,9 @@ bool PositionMotion::sendPositionCommandWithYawAngle(
   const float & z,
   const geometry_msgs::msg::Quaternion & q,
   const std::string & frame_id_twist,
-  const float & vx = 0.0f,
-  const float & vy = 0.0f,
-  const float & vz = 0.0f)
+  const float & vx,
+  const float & vy,
+  const float & vz)
 {
   geometry_msgs::msg::PoseStamped pose_msg;
   pose_msg.header.frame_id = frame_id_pose;
@@ -108,9 +116,21 @@ bool PositionMotion::sendPositionCommandWithYawAngle(
   const geometry_msgs::msg::PoseStamped & pose,
   const geometry_msgs::msg::TwistStamped & twist)
 {
-  if (pose.header.frame_id == "" || twist.header.frame_id == "") {
+  if (pose.header.frame_id.empty() || twist.header.frame_id.empty()) {
     RCLCPP_ERROR(node_ptr_->get_logger(), "Frame id is empty");
     return false;
+  }
+
+  // We operate in an ENU navigation frame (earth / map / odom).
+  // Set this ALWAYS to avoid UNDEFINED_FRAME in controller mode.
+  desired_control_mode_.reference_frame = as2_msgs::msg::ControlMode::LOCAL_ENU_FRAME;
+
+  // Optional sanity check: pose and twist should usually be expressed in the same frame.
+  if (pose.header.frame_id != twist.header.frame_id) {
+    RCLCPP_WARN(
+      node_ptr_->get_logger(),
+      "Pose frame_id (%s) != Twist frame_id (%s). Using pose frame as reference.",
+      pose.header.frame_id.c_str(), twist.header.frame_id.c_str());
   }
 
   desired_control_mode_.yaw_mode = as2_msgs::msg::ControlMode::YAW_ANGLE;
@@ -127,9 +147,9 @@ bool PositionMotion::sendPositionCommandWithYawSpeed(
   const float & z,
   const float & yaw_speed,
   const std::string & frame_id_twist,
-  const float & vx = 0.0f,
-  const float & vy = 0.0f,
-  const float & vz = 0.0f)
+  const float & vx,
+  const float & vy,
+  const float & vz)
 {
   geometry_msgs::msg::PoseStamped pose_msg;
   pose_msg.header.frame_id = frame_id_pose;
@@ -155,15 +175,27 @@ bool PositionMotion::sendPositionCommandWithYawSpeed(
   const geometry_msgs::msg::PoseStamped & pose,
   const geometry_msgs::msg::TwistStamped & twist)
 {
-  if (pose.header.frame_id == "" || twist.header.frame_id == "") {
+  if (pose.header.frame_id.empty() || twist.header.frame_id.empty()) {
     RCLCPP_ERROR(node_ptr_->get_logger(), "Frame id is empty");
     return false;
   }
+
+  // Same rationale as yaw angle: ensure reference frame is valid
+  desired_control_mode_.reference_frame = as2_msgs::msg::ControlMode::LOCAL_ENU_FRAME;
+
+  if (pose.header.frame_id != twist.header.frame_id) {
+    RCLCPP_WARN(
+      node_ptr_->get_logger(),
+      "Pose frame_id (%s) != Twist frame_id (%s). Using pose frame as reference.",
+      pose.header.frame_id.c_str(), twist.header.frame_id.c_str());
+  }
+
   desired_control_mode_.yaw_mode = as2_msgs::msg::ControlMode::YAW_SPEED;
   this->command_pose_msg_ = pose;
   this->command_twist_msg_ = twist;
 
   return this->ownSendCommand();
 }
+
 }    // namespace motionReferenceHandlers
 }  // namespace as2

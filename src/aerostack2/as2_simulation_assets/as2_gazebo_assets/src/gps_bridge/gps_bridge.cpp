@@ -130,15 +130,6 @@ void GPSBridge::ignitionGPSCallback(
 {
   (void)msg_info;
 
-  // Static function: no 'this'. Use global logger.
-  RCLCPP_INFO(
-    rclcpp::get_logger("gps_bridge"),
-    "Ign NavSat received: frame='%s' lat=%.6f lon=%.6f alt=%.2f",
-    ign_msg.frame_id().c_str(),
-    ign_msg.latitude_deg(),
-    ign_msg.longitude_deg(),
-    ign_msg.altitude());
-
   sensor_msgs::msg::NavSatFix ros_msg;
 
   ros_gz_bridge::convert_gz_to_ros(ign_msg.header(), ros_msg.header);

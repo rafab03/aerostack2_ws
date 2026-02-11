@@ -1,0 +1,6 @@
+source;share/as2_swarm_fusion_ci/hook/pythonpath.ps1
+source;share/as2_swarm_fusion_ci/hook/pythonpath.dsv
+source;share/as2_swarm_fusion_ci/hook/pythonpath.sh
+source;share/as2_swarm_fusion_ci/hook/ament_prefix_path.ps1
+source;share/as2_swarm_fusion_ci/hook/ament_prefix_path.dsv
+source;share/as2_swarm_fusion_ci/hook/ament_prefix_path.sh
