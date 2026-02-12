@@ -178,7 +178,7 @@ YOLO + ray-to-ground + asociador de IDs (seguimiento de múltiples personas).
 ros2 launch as2_swarm_ci_fusion_people swarm_ci_fusion_people.launch.py
 ```
 
-Fusión por método CI para múltiples personas.
+Fusión por método CI para múltiples personas (requiere paso 11).
 
 ---
 
@@ -188,7 +188,7 @@ Fusión por método CI para múltiples personas.
 ros2 launch as2_project_bringup 10_swarm_person_perception_rayground_tracking_ekf_people.launch.py
 ```
 
-Fusión EKF para múltiples personas (requiere paso 8).
+Fusión EKF para múltiples personas (requiere paso 11).
 
 
 
