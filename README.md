@@ -1,6 +1,6 @@
 # aerostack2_ws — Perception + Swarm (Docker)
 
-Este readme contiene los pasos necesarios para clonar el repositorio de Aerostack2, sobre el que se han desarrollado los paquetes necesarios para el correcto cumplimiento de los requisitos de este proyecto.
+Este readme contiene los pasos necesarios para clonar el repositorio de Aerostack2, repositorio sobre el que se han desarrollado los paquetes necesarios para el correcto cumplimiento de los requisitos de este proyecto.
 
 ---
 
