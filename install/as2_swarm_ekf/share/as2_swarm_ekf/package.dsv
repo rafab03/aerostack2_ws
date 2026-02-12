@@ -1,6 +1,0 @@
-source;share/as2_swarm_ekf/hook/pythonpath.ps1
-source;share/as2_swarm_ekf/hook/pythonpath.dsv
-source;share/as2_swarm_ekf/hook/pythonpath.sh
-source;share/as2_swarm_ekf/hook/ament_prefix_path.ps1
-source;share/as2_swarm_ekf/hook/ament_prefix_path.dsv
-source;share/as2_swarm_ekf/hook/ament_prefix_path.sh

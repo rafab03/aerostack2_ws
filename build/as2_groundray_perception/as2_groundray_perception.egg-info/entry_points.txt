@@ -1,3 +1,0 @@
-[console_scripts]
-ray_to_ground_node = as2_groundray_perception.ray_to_ground_node:main
-

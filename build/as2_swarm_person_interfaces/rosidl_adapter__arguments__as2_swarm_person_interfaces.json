@@ -1,7 +1,0 @@
-{
-  "package_name": "as2_swarm_person_interfaces",
-  "non_idl_tuples": [
-    "/root/aerostack2_ws/src/aerostack2/as2_swarm_person_interfaces:msg/TrackedPerson.msg",
-    "/root/aerostack2_ws/src/aerostack2/as2_swarm_person_interfaces:msg/TrackedPersonArray.msg"
-  ]
-}

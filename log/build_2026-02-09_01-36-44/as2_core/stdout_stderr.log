@@ -1,8 +1,0 @@
-[  6%] Built target gtest
-[ 12%] Built target gtest_main
-[ 19%] Built target as2_names
-[ 19%] Built target ament_cmake_python_copy_as2_core
-gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/as2_core.dir/all] Interrupt
-gmake[2]: *** [CMakeFiles/ament_cmake_python_build_as2_core_egg.dir/build.make:85: CMakeFiles/ament_cmake_python_build_as2_core_egg.dir/depend] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/ament_cmake_python_build_as2_core_egg.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

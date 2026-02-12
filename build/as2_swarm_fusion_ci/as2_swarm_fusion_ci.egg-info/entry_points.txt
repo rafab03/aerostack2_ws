@@ -1,3 +1,0 @@
-[console_scripts]
-swarm_ci_fusion_node = as2_swarm_fusion_ci.swarm_ci_fusion_node:main
-

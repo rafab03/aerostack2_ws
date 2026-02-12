@@ -1,4 +1,0 @@
-Invoking command in '/root/aerostack2_ws/build/gazebo_models': /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/gazebo_models -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/gazebo_models
-Invoked command in '/root/aerostack2_ws/build/gazebo_models' returned '0': /usr/bin/cmake /root/aerostack2_ws/src/aerostack2/gazebo_models -DCMAKE_INSTALL_PREFIX=/root/aerostack2_ws/install/gazebo_models
-Invoking command in '/root/aerostack2_ws/build/gazebo_models': /usr/bin/cmake --build /root/aerostack2_ws/build/gazebo_models -- -j8 -l8
-Invoked command in '/root/aerostack2_ws/build/gazebo_models' returned '2': /usr/bin/cmake --build /root/aerostack2_ws/build/gazebo_models -- -j8 -l8
