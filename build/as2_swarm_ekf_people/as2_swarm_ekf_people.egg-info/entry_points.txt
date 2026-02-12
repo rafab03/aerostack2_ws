@@ -1,0 +1,3 @@
+[console_scripts]
+distributed_ekf_people_node = as2_swarm_ekf_people.distributed_ekf_people_node:main
+

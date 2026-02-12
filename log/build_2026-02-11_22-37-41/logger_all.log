@@ -1,0 +1,1126 @@
+[1.777s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.777s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a440d905e70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a440d8935e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a440d8935e0>>, mixin_verb=('build',))
+[3.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.605s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[3.609s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[3.609s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[3.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.610s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/aerostack2_ws'
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.662s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.663s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.663s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.675s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.675s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.676s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.676s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['ignore', 'ignore_ament_install']
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'ignore'
+[3.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'ignore_ament_install'
+[3.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['colcon_pkg']
+[3.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'colcon_pkg'
+[3.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['colcon_meta']
+[3.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'colcon_meta'
+[3.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['ros']
+[3.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'ros'
+[3.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['cmake', 'python']
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'cmake'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'python'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['python_setup_py']
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'python_setup_py'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/aerostack2) by extensions ['ignore', 'ignore_ament_install']
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/aerostack2) by extension 'ignore'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/aerostack2) by extension 'ignore_ament_install'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/aerostack2) by extensions ['colcon_pkg']
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/aerostack2) by extension 'colcon_pkg'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/aerostack2) by extensions ['colcon_meta']
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/aerostack2) by extension 'colcon_meta'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/aerostack2) by extensions ['ros']
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/aerostack2) by extension 'ros'
+[3.708s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/aerostack2' with type 'ros.ament_cmake' and name 'aerostack2'
+[3.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['ignore', 'ignore_ament_install']
+[3.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'ignore'
+[3.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'ignore_ament_install'
+[3.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['colcon_pkg']
+[3.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'colcon_pkg'
+[3.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['colcon_meta']
+[3.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'colcon_meta'
+[3.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['ros']
+[3.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'ros'
+[3.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['cmake', 'python']
+[3.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'cmake'
+[3.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'python'
+[3.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['python_setup_py']
+[3.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'python_setup_py'
+[3.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[3.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_gazebo) by extension 'ignore'
+[3.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_gazebo) by extension 'ignore_ament_install'
+[3.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_gazebo) by extensions ['colcon_pkg']
+[3.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_gazebo) by extension 'colcon_pkg'
+[3.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_gazebo) by extensions ['colcon_meta']
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_gazebo) by extension 'colcon_meta'
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_gazebo) by extensions ['ros']
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_gazebo) by extension 'ros'
+[3.731s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_aerial_platforms/as2_platform_gazebo' with type 'ros.ament_cmake' and name 'as2_platform_gazebo'
+[3.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator) by extensions ['ignore', 'ignore_ament_install']
+[3.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator) by extension 'ignore'
+[3.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator) by extension 'ignore_ament_install'
+[3.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator) by extensions ['colcon_pkg']
+[3.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator) by extension 'colcon_pkg'
+[3.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator) by extensions ['colcon_meta']
+[3.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator) by extension 'colcon_meta'
+[3.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator) by extensions ['ros']
+[3.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator) by extension 'ros'
+[3.737s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator' with type 'ros.ament_cmake' and name 'as2_platform_multirotor_simulator'
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behavior_tree) by extensions ['ignore', 'ignore_ament_install']
+[3.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behavior_tree) by extension 'ignore'
+[3.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behavior_tree) by extension 'ignore_ament_install'
+[3.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behavior_tree) by extensions ['colcon_pkg']
+[3.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behavior_tree) by extension 'colcon_pkg'
+[3.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behavior_tree) by extensions ['colcon_meta']
+[3.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behavior_tree) by extension 'colcon_meta'
+[3.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behavior_tree) by extensions ['ros']
+[3.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behavior_tree) by extension 'ros'
+[3.746s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_behavior_tree' with type 'ros.ament_cmake' and name 'as2_behavior_tree'
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extensions ['ignore', 'ignore_ament_install']
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extension 'ignore'
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extension 'ignore_ament_install'
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extensions ['colcon_pkg']
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extension 'colcon_pkg'
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extensions ['colcon_meta']
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extension 'colcon_meta'
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extensions ['ros']
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extension 'ros'
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extensions ['cmake', 'python']
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extension 'cmake'
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extension 'python'
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extensions ['python_setup_py']
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors) by extension 'python_setup_py'
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behavior) by extensions ['ignore', 'ignore_ament_install']
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behavior) by extension 'ignore'
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behavior) by extension 'ignore_ament_install'
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behavior) by extensions ['colcon_pkg']
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behavior) by extension 'colcon_pkg'
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behavior) by extensions ['colcon_meta']
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behavior) by extension 'colcon_meta'
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behavior) by extensions ['ros']
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behavior) by extension 'ros'
+[3.764s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_behaviors/as2_behavior' with type 'ros.ament_cmake' and name 'as2_behavior'
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_motion) by extensions ['ignore', 'ignore_ament_install']
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_motion) by extension 'ignore'
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_motion) by extension 'ignore_ament_install'
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_motion) by extensions ['colcon_pkg']
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_motion) by extension 'colcon_pkg'
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_motion) by extensions ['colcon_meta']
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_motion) by extension 'colcon_meta'
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_motion) by extensions ['ros']
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_motion) by extension 'ros'
+[3.789s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_behaviors/as2_behaviors_motion' with type 'ros.ament_cmake' and name 'as2_behaviors_motion'
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_path_planning) by extensions ['ignore', 'ignore_ament_install']
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_path_planning) by extension 'ignore'
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_path_planning) by extension 'ignore_ament_install'
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_path_planning) by extensions ['colcon_pkg']
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_path_planning) by extension 'colcon_pkg'
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_path_planning) by extensions ['colcon_meta']
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_path_planning) by extension 'colcon_meta'
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_path_planning) by extensions ['ros']
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_path_planning) by extension 'ros'
+[3.793s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_behaviors/as2_behaviors_path_planning' with type 'ros.ament_cmake' and name 'as2_behaviors_path_planning'
+[3.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_perception) by extensions ['ignore', 'ignore_ament_install']
+[3.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_perception) by extension 'ignore'
+[3.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_perception) by extension 'ignore_ament_install'
+[3.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_perception) by extensions ['colcon_pkg']
+[3.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_perception) by extension 'colcon_pkg'
+[3.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_perception) by extensions ['colcon_meta']
+[3.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_perception) by extension 'colcon_meta'
+[3.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_perception) by extensions ['ros']
+[3.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_perception) by extension 'ros'
+[3.799s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_behaviors/as2_behaviors_perception' with type 'ros.ament_cmake' and name 'as2_behaviors_perception'
+[3.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_platform) by extensions ['ignore', 'ignore_ament_install']
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_platform) by extension 'ignore'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_platform) by extension 'ignore_ament_install'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_platform) by extensions ['colcon_pkg']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_platform) by extension 'colcon_pkg'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_platform) by extensions ['colcon_meta']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_platform) by extension 'colcon_meta'
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_platform) by extensions ['ros']
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_platform) by extension 'ros'
+[3.826s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_behaviors/as2_behaviors_platform' with type 'ros.ament_cmake' and name 'as2_behaviors_platform'
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking) by extensions ['ignore', 'ignore_ament_install']
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking) by extension 'ignore'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking) by extension 'ignore_ament_install'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking) by extensions ['colcon_pkg']
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking) by extension 'colcon_pkg'
+[3.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking) by extensions ['colcon_meta']
+[3.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking) by extension 'colcon_meta'
+[3.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking) by extensions ['ros']
+[3.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking) by extension 'ros'
+[3.833s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking' with type 'ros.ament_cmake' and name 'as2_behaviors_swarm_flocking'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation) by extensions ['ignore', 'ignore_ament_install']
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation) by extension 'ignore'
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation) by extension 'ignore_ament_install'
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation) by extensions ['colcon_pkg']
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation) by extension 'colcon_pkg'
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation) by extensions ['colcon_meta']
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation) by extension 'colcon_meta'
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation) by extensions ['ros']
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation) by extension 'ros'
+[3.856s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation' with type 'ros.ament_cmake' and name 'as2_behaviors_trajectory_generation'
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_cli) by extensions ['ignore', 'ignore_ament_install']
+[3.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_cli) by extension 'ignore'
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_cli) by extension 'ignore_ament_install'
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_cli) by extensions ['colcon_pkg']
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_cli) by extension 'colcon_pkg'
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_cli) by extensions ['colcon_meta']
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_cli) by extension 'colcon_meta'
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_cli) by extensions ['ros']
+[3.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_cli) by extension 'ros'
+[3.872s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_cli' with type 'ros.ament_cmake' and name 'as2_cli'
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_core) by extensions ['ignore', 'ignore_ament_install']
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_core) by extension 'ignore'
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_core) by extension 'ignore_ament_install'
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_core) by extensions ['colcon_pkg']
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_core) by extension 'colcon_pkg'
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_core) by extensions ['colcon_meta']
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_core) by extension 'colcon_meta'
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_core) by extensions ['ros']
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_core) by extension 'ros'
+[3.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_core' with type 'ros.ament_cmake' and name 'as2_core'
+[3.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_groundray_perception) by extensions ['ignore', 'ignore_ament_install']
+[3.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_groundray_perception) by extension 'ignore'
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_groundray_perception) by extension 'ignore_ament_install'
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_groundray_perception) by extensions ['colcon_pkg']
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_groundray_perception) by extension 'colcon_pkg'
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_groundray_perception) by extensions ['colcon_meta']
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_groundray_perception) by extension 'colcon_meta'
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_groundray_perception) by extensions ['ros']
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_groundray_perception) by extension 'ros'
+[3.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_groundray_perception' with type 'ros.ament_python' and name 'as2_groundray_perception'
+[3.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extensions ['ignore', 'ignore_ament_install']
+[3.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extension 'ignore'
+[3.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extension 'ignore_ament_install'
+[3.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extensions ['colcon_pkg']
+[3.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extension 'colcon_pkg'
+[3.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extensions ['colcon_meta']
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extension 'colcon_meta'
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extensions ['ros']
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extension 'ros'
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extensions ['cmake', 'python']
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extension 'cmake'
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extension 'python'
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extensions ['python_setup_py']
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers) by extension 'python_setup_py'
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_realsense_interface) by extensions ['ignore', 'ignore_ament_install']
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_realsense_interface) by extension 'ignore'
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_realsense_interface) by extension 'ignore_ament_install'
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_realsense_interface) by extensions ['colcon_pkg']
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_realsense_interface) by extension 'colcon_pkg'
+[3.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_realsense_interface) by extensions ['colcon_meta']
+[3.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_realsense_interface) by extension 'colcon_meta'
+[3.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_realsense_interface) by extensions ['ros']
+[3.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_realsense_interface) by extension 'ros'
+[3.974s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_hardware_drivers/as2_realsense_interface' with type 'ros.ament_cmake' and name 'as2_realsense_interface'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface) by extensions ['ignore', 'ignore_ament_install']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface) by extension 'ignore'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface) by extension 'ignore_ament_install'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface) by extensions ['colcon_pkg']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface) by extension 'colcon_pkg'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface) by extensions ['colcon_meta']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface) by extension 'colcon_meta'
+[3.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface) by extensions ['ros']
+[3.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface) by extension 'ros'
+[3.986s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface' with type 'ros.ament_cmake' and name 'as2_usb_camera_interface'
+[3.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_map_server) by extensions ['ignore', 'ignore_ament_install']
+[3.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_map_server) by extension 'ignore'
+[3.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_map_server) by extension 'ignore_ament_install'
+[3.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_map_server) by extensions ['colcon_pkg']
+[3.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_map_server) by extension 'colcon_pkg'
+[3.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_map_server) by extensions ['colcon_meta']
+[3.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_map_server) by extension 'colcon_meta'
+[3.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_map_server) by extensions ['ros']
+[3.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_map_server) by extension 'ros'
+[4.002s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_map_server' with type 'ros.ament_cmake' and name 'as2_map_server'
+[4.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_controller) by extensions ['ignore', 'ignore_ament_install']
+[4.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_controller) by extension 'ignore'
+[4.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_controller) by extension 'ignore_ament_install'
+[4.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_controller) by extensions ['colcon_pkg']
+[4.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_controller) by extension 'colcon_pkg'
+[4.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_controller) by extensions ['colcon_meta']
+[4.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_controller) by extension 'colcon_meta'
+[4.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_controller) by extensions ['ros']
+[4.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_controller) by extension 'ros'
+[4.039s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_motion_controller' with type 'ros.ament_cmake' and name 'as2_motion_controller'
+[4.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_reference_handlers) by extensions ['ignore', 'ignore_ament_install']
+[4.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_reference_handlers) by extension 'ignore'
+[4.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_reference_handlers) by extension 'ignore_ament_install'
+[4.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_reference_handlers) by extensions ['colcon_pkg']
+[4.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_reference_handlers) by extension 'colcon_pkg'
+[4.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_reference_handlers) by extensions ['colcon_meta']
+[4.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_reference_handlers) by extension 'colcon_meta'
+[4.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_reference_handlers) by extensions ['ros']
+[4.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_motion_reference_handlers) by extension 'ros'
+[4.050s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_motion_reference_handlers' with type 'ros.ament_cmake' and name 'as2_motion_reference_handlers'
+[4.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_msgs) by extension 'ignore'
+[4.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_msgs) by extension 'ignore_ament_install'
+[4.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_msgs) by extensions ['colcon_pkg']
+[4.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_msgs) by extension 'colcon_pkg'
+[4.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_msgs) by extensions ['colcon_meta']
+[4.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_msgs) by extension 'colcon_meta'
+[4.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_msgs) by extensions ['ros']
+[4.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_msgs) by extension 'ros'
+[4.054s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_msgs' with type 'ros.ament_cmake' and name 'as2_msgs'
+[4.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_perception) by extensions ['ignore', 'ignore_ament_install']
+[4.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_perception) by extension 'ignore'
+[4.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_perception) by extension 'ignore_ament_install'
+[4.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_perception) by extensions ['colcon_pkg']
+[4.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_perception) by extension 'colcon_pkg'
+[4.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_perception) by extensions ['colcon_meta']
+[4.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_perception) by extension 'colcon_meta'
+[4.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_perception) by extensions ['ros']
+[4.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_perception) by extension 'ros'
+[4.057s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_perception' with type 'ros.ament_python' and name 'as2_perception'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extension 'ignore'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extension 'ignore_ament_install'
+[4.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extensions ['colcon_pkg']
+[4.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extension 'colcon_pkg'
+[4.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extensions ['colcon_meta']
+[4.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extension 'colcon_meta'
+[4.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extensions ['ros']
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extension 'ros'
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extensions ['cmake', 'python']
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extension 'cmake'
+[4.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extension 'python'
+[4.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extensions ['python_setup_py']
+[4.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo) by extension 'python_setup_py'
+[4.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extensions ['ignore', 'ignore_ament_install']
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extension 'ignore'
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extension 'ignore_ament_install'
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extensions ['colcon_pkg']
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extension 'colcon_pkg'
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extensions ['colcon_meta']
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extension 'colcon_meta'
+[4.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extensions ['ros']
+[4.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extension 'ros'
+[4.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extensions ['cmake', 'python']
+[4.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extension 'cmake'
+[4.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extension 'python'
+[4.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extensions ['python_setup_py']
+[4.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_platform_gazebo/config) by extension 'python_setup_py'
+[4.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_project_bringup) by extensions ['ignore', 'ignore_ament_install']
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_project_bringup) by extension 'ignore'
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_project_bringup) by extension 'ignore_ament_install'
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_project_bringup) by extensions ['colcon_pkg']
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_project_bringup) by extension 'colcon_pkg'
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_project_bringup) by extensions ['colcon_meta']
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_project_bringup) by extension 'colcon_meta'
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_project_bringup) by extensions ['ros']
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_project_bringup) by extension 'ros'
+[4.071s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_project_bringup' with type 'ros.ament_python' and name 'as2_project_bringup'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_python_api) by extensions ['ignore', 'ignore_ament_install']
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_python_api) by extension 'ignore'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_python_api) by extension 'ignore_ament_install'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_python_api) by extensions ['colcon_pkg']
+[4.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_python_api) by extension 'colcon_pkg'
+[4.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_python_api) by extensions ['colcon_meta']
+[4.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_python_api) by extension 'colcon_meta'
+[4.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_python_api) by extensions ['ros']
+[4.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_python_api) by extension 'ros'
+[4.090s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_python_api' with type 'ros.ament_python' and name 'as2_python_api'
+[4.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extensions ['ignore', 'ignore_ament_install']
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extension 'ignore'
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extension 'ignore_ament_install'
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extensions ['colcon_pkg']
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extension 'colcon_pkg'
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extensions ['colcon_meta']
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extension 'colcon_meta'
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extensions ['ros']
+[4.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extension 'ros'
+[4.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extensions ['cmake', 'python']
+[4.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extension 'cmake'
+[4.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extension 'python'
+[4.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extensions ['python_setup_py']
+[4.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets) by extension 'python_setup_py'
+[4.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets/as2_gazebo_assets) by extensions ['ignore', 'ignore_ament_install']
+[4.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets/as2_gazebo_assets) by extension 'ignore'
+[4.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets/as2_gazebo_assets) by extension 'ignore_ament_install'
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets/as2_gazebo_assets) by extensions ['colcon_pkg']
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets/as2_gazebo_assets) by extension 'colcon_pkg'
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets/as2_gazebo_assets) by extensions ['colcon_meta']
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets/as2_gazebo_assets) by extension 'colcon_meta'
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets/as2_gazebo_assets) by extensions ['ros']
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_simulation_assets/as2_gazebo_assets) by extension 'ros'
+[4.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_simulation_assets/as2_gazebo_assets' with type 'ros.ament_cmake' and name 'as2_gazebo_assets'
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_state_estimator) by extensions ['ignore', 'ignore_ament_install']
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_state_estimator) by extension 'ignore'
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_state_estimator) by extension 'ignore_ament_install'
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_state_estimator) by extensions ['colcon_pkg']
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_state_estimator) by extension 'colcon_pkg'
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_state_estimator) by extensions ['colcon_meta']
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_state_estimator) by extension 'colcon_meta'
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_state_estimator) by extensions ['ros']
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_state_estimator) by extension 'ros'
+[4.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_state_estimator' with type 'ros.ament_cmake' and name 'as2_state_estimator'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ci_fusion_people) by extensions ['ignore', 'ignore_ament_install']
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ci_fusion_people) by extension 'ignore'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ci_fusion_people) by extension 'ignore_ament_install'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ci_fusion_people) by extensions ['colcon_pkg']
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ci_fusion_people) by extension 'colcon_pkg'
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ci_fusion_people) by extensions ['colcon_meta']
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ci_fusion_people) by extension 'colcon_meta'
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ci_fusion_people) by extensions ['ros']
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ci_fusion_people) by extension 'ros'
+[4.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_swarm_ci_fusion_people' with type 'ros.ament_python' and name 'as2_swarm_ci_fusion_people'
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ekf) by extensions ['ignore', 'ignore_ament_install']
+[4.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ekf) by extension 'ignore'
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ekf) by extension 'ignore_ament_install'
+[4.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ekf) by extensions ['colcon_pkg']
+[4.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ekf) by extension 'colcon_pkg'
+[4.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ekf) by extensions ['colcon_meta']
+[4.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ekf) by extension 'colcon_meta'
+[4.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ekf) by extensions ['ros']
+[4.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_ekf) by extension 'ros'
+[4.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_swarm_ekf' with type 'ros.ament_python' and name 'as2_swarm_ekf'
+[4.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_fusion_ci) by extensions ['ignore', 'ignore_ament_install']
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_fusion_ci) by extension 'ignore'
+[4.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_fusion_ci) by extension 'ignore_ament_install'
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_fusion_ci) by extensions ['colcon_pkg']
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_fusion_ci) by extension 'colcon_pkg'
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_fusion_ci) by extensions ['colcon_meta']
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_fusion_ci) by extension 'colcon_meta'
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_fusion_ci) by extensions ['ros']
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_fusion_ci) by extension 'ros'
+[4.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_swarm_fusion_ci' with type 'ros.ament_python' and name 'as2_swarm_fusion_ci'
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_perception) by extensions ['ignore', 'ignore_ament_install']
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_perception) by extension 'ignore'
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_perception) by extension 'ignore_ament_install'
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_perception) by extensions ['colcon_pkg']
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_perception) by extension 'colcon_pkg'
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_perception) by extensions ['colcon_meta']
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_perception) by extension 'colcon_meta'
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_perception) by extensions ['ros']
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_perception) by extension 'ros'
+[4.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_swarm_perception' with type 'ros.ament_python' and name 'as2_swarm_perception'
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[4.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_interfaces) by extension 'ignore'
+[4.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_interfaces) by extension 'ignore_ament_install'
+[4.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_interfaces) by extensions ['colcon_pkg']
+[4.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_interfaces) by extension 'colcon_pkg'
+[4.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_interfaces) by extensions ['colcon_meta']
+[4.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_interfaces) by extension 'colcon_meta'
+[4.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_interfaces) by extensions ['ros']
+[4.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_interfaces) by extension 'ros'
+[4.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_swarm_person_interfaces' with type 'ros.ament_cmake' and name 'as2_swarm_person_interfaces'
+[4.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_tracking) by extensions ['ignore', 'ignore_ament_install']
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_tracking) by extension 'ignore'
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_tracking) by extension 'ignore_ament_install'
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_tracking) by extensions ['colcon_pkg']
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_tracking) by extension 'colcon_pkg'
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_tracking) by extensions ['colcon_meta']
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_tracking) by extension 'colcon_meta'
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_tracking) by extensions ['ros']
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_swarm_person_tracking) by extension 'ros'
+[4.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_swarm_person_tracking' with type 'ros.ament_python' and name 'as2_swarm_person_tracking'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extension 'ignore'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extension 'ignore_ament_install'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extensions ['colcon_pkg']
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extension 'colcon_pkg'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extensions ['colcon_meta']
+[4.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extension 'colcon_meta'
+[4.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extensions ['ros']
+[4.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extension 'ros'
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extensions ['cmake', 'python']
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extension 'cmake'
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extension 'python'
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extensions ['python_setup_py']
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces) by extension 'python_setup_py'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer) by extensions ['ignore', 'ignore_ament_install']
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer) by extension 'ignore'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer) by extension 'ignore_ament_install'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer) by extensions ['colcon_pkg']
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer) by extension 'colcon_pkg'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer) by extensions ['colcon_meta']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer) by extension 'colcon_meta'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer) by extensions ['ros']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer) by extension 'ros'
+[4.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer' with type 'ros.ament_cmake' and name 'as2_alphanumeric_viewer'
+[4.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation) by extensions ['ignore', 'ignore_ament_install']
+[4.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation) by extension 'ignore'
+[4.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation) by extension 'ignore_ament_install'
+[4.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation) by extensions ['colcon_pkg']
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation) by extension 'colcon_pkg'
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation) by extensions ['colcon_meta']
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation) by extension 'colcon_meta'
+[4.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation) by extensions ['ros']
+[4.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation) by extension 'ros'
+[4.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation' with type 'ros.ament_python' and name 'as2_keyboard_teleoperation'
+[4.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extensions ['ignore', 'ignore_ament_install']
+[4.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extension 'ignore'
+[4.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extension 'ignore_ament_install'
+[4.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extensions ['colcon_pkg']
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extension 'colcon_pkg'
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extensions ['colcon_meta']
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extension 'colcon_meta'
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extensions ['ros']
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extension 'ros'
+[4.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extensions ['cmake', 'python']
+[4.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extension 'cmake'
+[4.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extension 'python'
+[4.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extensions ['python_setup_py']
+[4.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization) by extension 'python_setup_py'
+[4.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[4.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins) by extension 'ignore'
+[4.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins) by extension 'ignore_ament_install'
+[4.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins) by extensions ['colcon_pkg']
+[4.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins) by extension 'colcon_pkg'
+[4.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins) by extensions ['colcon_meta']
+[4.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins) by extension 'colcon_meta'
+[4.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins) by extensions ['ros']
+[4.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins) by extension 'ros'
+[4.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins' with type 'ros.ament_cmake' and name 'as2_rviz_plugins'
+[4.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization) by extensions ['ignore', 'ignore_ament_install']
+[4.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization) by extension 'ignore'
+[4.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization) by extension 'ignore_ament_install'
+[4.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization) by extensions ['colcon_pkg']
+[4.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization) by extension 'colcon_pkg'
+[4.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization) by extensions ['colcon_meta']
+[4.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization) by extension 'colcon_meta'
+[4.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization) by extensions ['ros']
+[4.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization) by extension 'ros'
+[4.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization' with type 'ros.ament_python' and name 'as2_visualization'
+[4.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extensions ['ignore', 'ignore_ament_install']
+[4.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extension 'ignore'
+[4.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extension 'ignore_ament_install'
+[4.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extensions ['colcon_pkg']
+[4.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extension 'colcon_pkg'
+[4.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extensions ['colcon_meta']
+[4.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extension 'colcon_meta'
+[4.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extensions ['ros']
+[4.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extension 'ros'
+[4.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extensions ['cmake', 'python']
+[4.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extension 'cmake'
+[4.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extension 'python'
+[4.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extensions ['python_setup_py']
+[4.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities) by extension 'python_setup_py'
+[4.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_external_object_to_tf) by extensions ['ignore', 'ignore_ament_install']
+[4.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_external_object_to_tf) by extension 'ignore'
+[4.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_external_object_to_tf) by extension 'ignore_ament_install'
+[4.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_external_object_to_tf) by extensions ['colcon_pkg']
+[4.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_external_object_to_tf) by extension 'colcon_pkg'
+[4.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_external_object_to_tf) by extensions ['colcon_meta']
+[4.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_external_object_to_tf) by extension 'colcon_meta'
+[4.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_external_object_to_tf) by extensions ['ros']
+[4.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_external_object_to_tf) by extension 'ros'
+[4.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_utilities/as2_external_object_to_tf' with type 'ros.ament_cmake' and name 'as2_external_object_to_tf'
+[4.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_geozones) by extensions ['ignore', 'ignore_ament_install']
+[4.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_geozones) by extension 'ignore'
+[4.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_geozones) by extension 'ignore_ament_install'
+[4.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_geozones) by extensions ['colcon_pkg']
+[4.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_geozones) by extension 'colcon_pkg'
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_geozones) by extensions ['colcon_meta']
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_geozones) by extension 'colcon_meta'
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_geozones) by extensions ['ros']
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_utilities/as2_geozones) by extension 'ros'
+[4.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_utilities/as2_geozones' with type 'ros.ament_cmake' and name 'as2_geozones'
+[4.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/build) by extensions ['ignore', 'ignore_ament_install']
+[4.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/build) by extension 'ignore'
+[4.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/build) ignored
+[4.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extensions ['ignore', 'ignore_ament_install']
+[4.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extension 'ignore'
+[4.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extension 'ignore_ament_install'
+[4.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extensions ['colcon_pkg']
+[4.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extension 'colcon_pkg'
+[4.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extensions ['colcon_meta']
+[4.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extension 'colcon_meta'
+[4.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extensions ['ros']
+[4.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extension 'ros'
+[4.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extensions ['cmake', 'python']
+[4.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extension 'cmake'
+[4.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extension 'python'
+[4.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extensions ['python_setup_py']
+[4.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker) by extension 'python_setup_py'
+[4.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extensions ['ignore', 'ignore_ament_install']
+[4.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extension 'ignore'
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extension 'ignore_ament_install'
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extensions ['colcon_pkg']
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extension 'colcon_pkg'
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extensions ['colcon_meta']
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extension 'colcon_meta'
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extensions ['ros']
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extension 'ros'
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extensions ['cmake', 'python']
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extension 'cmake'
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extension 'python'
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extensions ['python_setup_py']
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/galactic) by extension 'python_setup_py'
+[4.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extensions ['ignore', 'ignore_ament_install']
+[4.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extension 'ignore'
+[4.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extension 'ignore_ament_install'
+[4.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extensions ['colcon_pkg']
+[4.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extension 'colcon_pkg'
+[4.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extensions ['colcon_meta']
+[4.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extension 'colcon_meta'
+[4.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extensions ['ros']
+[4.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extension 'ros'
+[4.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extensions ['cmake', 'python']
+[4.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extension 'cmake'
+[4.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extension 'python'
+[4.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extensions ['python_setup_py']
+[4.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble) by extension 'python_setup_py'
+[4.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extensions ['ignore', 'ignore_ament_install']
+[4.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extension 'ignore'
+[4.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extension 'ignore_ament_install'
+[4.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extensions ['colcon_pkg']
+[4.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extension 'colcon_pkg'
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extensions ['colcon_meta']
+[4.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extension 'colcon_meta'
+[4.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extensions ['ros']
+[4.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extension 'ros'
+[4.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extensions ['cmake', 'python']
+[4.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extension 'cmake'
+[4.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extension 'python'
+[4.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extensions ['python_setup_py']
+[4.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_gzharmonic) by extension 'python_setup_py'
+[4.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extensions ['ignore', 'ignore_ament_install']
+[4.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extension 'ignore'
+[4.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extension 'ignore_ament_install'
+[4.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extensions ['colcon_pkg']
+[4.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extension 'colcon_pkg'
+[4.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extensions ['colcon_meta']
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extension 'colcon_meta'
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extensions ['ros']
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extension 'ros'
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extensions ['cmake', 'python']
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extension 'cmake'
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extension 'python'
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extensions ['python_setup_py']
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/docker/humble_vnc) by extension 'python_setup_py'
+[4.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/install) by extensions ['ignore', 'ignore_ament_install']
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/install) by extension 'ignore'
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/install) ignored
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/log) by extensions ['ignore', 'ignore_ament_install']
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/log) by extension 'ignore'
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/log) ignored
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extensions ['ignore', 'ignore_ament_install']
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extension 'ignore'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extension 'ignore_ament_install'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extensions ['colcon_pkg']
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extension 'colcon_pkg'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extensions ['colcon_meta']
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extension 'colcon_meta'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extensions ['ros']
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extension 'ros'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extensions ['cmake', 'python']
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extension 'cmake'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extension 'python'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extensions ['python_setup_py']
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags) by extension 'python_setup_py'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extensions ['ignore', 'ignore_ament_install']
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extension 'ignore'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extension 'ignore_ament_install'
+[4.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extensions ['colcon_pkg']
+[4.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extension 'colcon_pkg'
+[4.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extensions ['colcon_meta']
+[4.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extension 'colcon_meta'
+[4.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extensions ['ros']
+[4.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extension 'ros'
+[4.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extensions ['cmake', 'python']
+[4.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extension 'cmake'
+[4.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extension 'python'
+[4.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extensions ['python_setup_py']
+[4.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/rosbags/ci_eval) by extension 'python_setup_py'
+[4.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.408s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/aerostack2/as2_python_api' from colcon.pkg: {'hooks': ['share/as2_python_api/hooks/resource_paths.sh']}
+[4.551s] Level 5:colcon.colcon_core.verb:set package 'as2_cli' build argument 'cmake_args' from command line to 'None'
+[4.552s] Level 5:colcon.colcon_core.verb:set package 'as2_cli' build argument 'cmake_target' from command line to 'None'
+[4.552s] Level 5:colcon.colcon_core.verb:set package 'as2_cli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.552s] Level 5:colcon.colcon_core.verb:set package 'as2_cli' build argument 'cmake_clean_cache' from command line to 'False'
+[4.552s] Level 5:colcon.colcon_core.verb:set package 'as2_cli' build argument 'cmake_clean_first' from command line to 'False'
+[4.553s] Level 5:colcon.colcon_core.verb:set package 'as2_cli' build argument 'cmake_force_configure' from command line to 'False'
+[4.555s] Level 5:colcon.colcon_core.verb:set package 'as2_cli' build argument 'ament_cmake_args' from command line to 'None'
+[4.555s] Level 5:colcon.colcon_core.verb:set package 'as2_cli' build argument 'catkin_cmake_args' from command line to 'None'
+[4.556s] Level 5:colcon.colcon_core.verb:set package 'as2_cli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.556s] DEBUG:colcon.colcon_core.verb:Building package 'as2_cli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_cli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_cli', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_cli', 'symlink_install': False, 'test_result_base': None}
+[4.559s] Level 5:colcon.colcon_core.verb:set package 'as2_groundray_perception' build argument 'cmake_args' from command line to 'None'
+[4.560s] Level 5:colcon.colcon_core.verb:set package 'as2_groundray_perception' build argument 'cmake_target' from command line to 'None'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'as2_groundray_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'as2_groundray_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'as2_groundray_perception' build argument 'cmake_clean_first' from command line to 'False'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'as2_groundray_perception' build argument 'cmake_force_configure' from command line to 'False'
+[4.566s] Level 5:colcon.colcon_core.verb:set package 'as2_groundray_perception' build argument 'ament_cmake_args' from command line to 'None'
+[4.566s] Level 5:colcon.colcon_core.verb:set package 'as2_groundray_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[4.566s] Level 5:colcon.colcon_core.verb:set package 'as2_groundray_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.566s] DEBUG:colcon.colcon_core.verb:Building package 'as2_groundray_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_groundray_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_groundray_perception', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_groundray_perception', 'symlink_install': False, 'test_result_base': None}
+[4.567s] Level 5:colcon.colcon_core.verb:set package 'as2_msgs' build argument 'cmake_args' from command line to 'None'
+[4.567s] Level 5:colcon.colcon_core.verb:set package 'as2_msgs' build argument 'cmake_target' from command line to 'None'
+[4.567s] Level 5:colcon.colcon_core.verb:set package 'as2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.567s] Level 5:colcon.colcon_core.verb:set package 'as2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[4.567s] Level 5:colcon.colcon_core.verb:set package 'as2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[4.567s] Level 5:colcon.colcon_core.verb:set package 'as2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[4.567s] Level 5:colcon.colcon_core.verb:set package 'as2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[4.567s] Level 5:colcon.colcon_core.verb:set package 'as2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[4.568s] Level 5:colcon.colcon_core.verb:set package 'as2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.568s] DEBUG:colcon.colcon_core.verb:Building package 'as2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_msgs', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_msgs', 'symlink_install': False, 'test_result_base': None}
+[4.569s] Level 5:colcon.colcon_core.verb:set package 'as2_perception' build argument 'cmake_args' from command line to 'None'
+[4.582s] Level 5:colcon.colcon_core.verb:set package 'as2_perception' build argument 'cmake_target' from command line to 'None'
+[4.582s] Level 5:colcon.colcon_core.verb:set package 'as2_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.582s] Level 5:colcon.colcon_core.verb:set package 'as2_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[4.582s] Level 5:colcon.colcon_core.verb:set package 'as2_perception' build argument 'cmake_clean_first' from command line to 'False'
+[4.582s] Level 5:colcon.colcon_core.verb:set package 'as2_perception' build argument 'cmake_force_configure' from command line to 'False'
+[4.582s] Level 5:colcon.colcon_core.verb:set package 'as2_perception' build argument 'ament_cmake_args' from command line to 'None'
+[4.583s] Level 5:colcon.colcon_core.verb:set package 'as2_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[4.583s] Level 5:colcon.colcon_core.verb:set package 'as2_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.583s] DEBUG:colcon.colcon_core.verb:Building package 'as2_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_perception', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_perception', 'symlink_install': False, 'test_result_base': None}
+[4.583s] Level 5:colcon.colcon_core.verb:set package 'as2_project_bringup' build argument 'cmake_args' from command line to 'None'
+[4.586s] Level 5:colcon.colcon_core.verb:set package 'as2_project_bringup' build argument 'cmake_target' from command line to 'None'
+[4.586s] Level 5:colcon.colcon_core.verb:set package 'as2_project_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.586s] Level 5:colcon.colcon_core.verb:set package 'as2_project_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[4.586s] Level 5:colcon.colcon_core.verb:set package 'as2_project_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[4.586s] Level 5:colcon.colcon_core.verb:set package 'as2_project_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[4.587s] Level 5:colcon.colcon_core.verb:set package 'as2_project_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[4.587s] Level 5:colcon.colcon_core.verb:set package 'as2_project_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[4.587s] Level 5:colcon.colcon_core.verb:set package 'as2_project_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.587s] DEBUG:colcon.colcon_core.verb:Building package 'as2_project_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_project_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_project_bringup', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_project_bringup', 'symlink_install': False, 'test_result_base': None}
+[4.588s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ekf' build argument 'cmake_args' from command line to 'None'
+[4.588s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ekf' build argument 'cmake_target' from command line to 'None'
+[4.588s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ekf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.588s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ekf' build argument 'cmake_clean_cache' from command line to 'False'
+[4.588s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ekf' build argument 'cmake_clean_first' from command line to 'False'
+[4.588s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ekf' build argument 'cmake_force_configure' from command line to 'False'
+[4.588s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ekf' build argument 'ament_cmake_args' from command line to 'None'
+[4.588s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ekf' build argument 'catkin_cmake_args' from command line to 'None'
+[4.589s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ekf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.589s] DEBUG:colcon.colcon_core.verb:Building package 'as2_swarm_ekf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_swarm_ekf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_swarm_ekf', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_swarm_ekf', 'symlink_install': False, 'test_result_base': None}
+[4.589s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_fusion_ci' build argument 'cmake_args' from command line to 'None'
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_fusion_ci' build argument 'cmake_target' from command line to 'None'
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_fusion_ci' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_fusion_ci' build argument 'cmake_clean_cache' from command line to 'False'
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_fusion_ci' build argument 'cmake_clean_first' from command line to 'False'
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_fusion_ci' build argument 'cmake_force_configure' from command line to 'False'
+[4.591s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_fusion_ci' build argument 'ament_cmake_args' from command line to 'None'
+[4.591s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_fusion_ci' build argument 'catkin_cmake_args' from command line to 'None'
+[4.591s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_fusion_ci' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.591s] DEBUG:colcon.colcon_core.verb:Building package 'as2_swarm_fusion_ci' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_swarm_fusion_ci', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_swarm_fusion_ci', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_swarm_fusion_ci', 'symlink_install': False, 'test_result_base': None}
+[4.592s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_perception' build argument 'cmake_args' from command line to 'None'
+[4.592s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_perception' build argument 'cmake_target' from command line to 'None'
+[4.592s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.593s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[4.593s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_perception' build argument 'cmake_clean_first' from command line to 'False'
+[4.593s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_perception' build argument 'cmake_force_configure' from command line to 'False'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_perception' build argument 'ament_cmake_args' from command line to 'None'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.597s] DEBUG:colcon.colcon_core.verb:Building package 'as2_swarm_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_swarm_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_swarm_perception', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_swarm_perception', 'symlink_install': False, 'test_result_base': None}
+[4.598s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_interfaces' build argument 'cmake_args' from command line to 'None'
+[4.600s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_interfaces' build argument 'cmake_target' from command line to 'None'
+[4.600s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.600s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[4.600s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[4.601s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[4.601s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[4.601s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[4.601s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.601s] DEBUG:colcon.colcon_core.verb:Building package 'as2_swarm_person_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_swarm_person_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_swarm_person_interfaces', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_swarm_person_interfaces', 'symlink_install': False, 'test_result_base': None}
+[4.602s] Level 5:colcon.colcon_core.verb:set package 'as2_core' build argument 'cmake_args' from command line to 'None'
+[4.602s] Level 5:colcon.colcon_core.verb:set package 'as2_core' build argument 'cmake_target' from command line to 'None'
+[4.602s] Level 5:colcon.colcon_core.verb:set package 'as2_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.602s] Level 5:colcon.colcon_core.verb:set package 'as2_core' build argument 'cmake_clean_cache' from command line to 'False'
+[4.602s] Level 5:colcon.colcon_core.verb:set package 'as2_core' build argument 'cmake_clean_first' from command line to 'False'
+[4.602s] Level 5:colcon.colcon_core.verb:set package 'as2_core' build argument 'cmake_force_configure' from command line to 'False'
+[4.602s] Level 5:colcon.colcon_core.verb:set package 'as2_core' build argument 'ament_cmake_args' from command line to 'None'
+[4.602s] Level 5:colcon.colcon_core.verb:set package 'as2_core' build argument 'catkin_cmake_args' from command line to 'None'
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'as2_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.603s] DEBUG:colcon.colcon_core.verb:Building package 'as2_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_core', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_core', 'symlink_install': False, 'test_result_base': None}
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ci_fusion_people' build argument 'cmake_args' from command line to 'None'
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ci_fusion_people' build argument 'cmake_target' from command line to 'None'
+[4.604s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ci_fusion_people' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.604s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ci_fusion_people' build argument 'cmake_clean_cache' from command line to 'False'
+[4.607s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ci_fusion_people' build argument 'cmake_clean_first' from command line to 'False'
+[4.607s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ci_fusion_people' build argument 'cmake_force_configure' from command line to 'False'
+[4.607s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ci_fusion_people' build argument 'ament_cmake_args' from command line to 'None'
+[4.607s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ci_fusion_people' build argument 'catkin_cmake_args' from command line to 'None'
+[4.607s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_ci_fusion_people' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.608s] DEBUG:colcon.colcon_core.verb:Building package 'as2_swarm_ci_fusion_people' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_swarm_ci_fusion_people', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_swarm_ci_fusion_people', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_swarm_ci_fusion_people', 'symlink_install': False, 'test_result_base': None}
+[4.608s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_tracking' build argument 'cmake_args' from command line to 'None'
+[4.608s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_tracking' build argument 'cmake_target' from command line to 'None'
+[4.608s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'as2_swarm_person_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.609s] DEBUG:colcon.colcon_core.verb:Building package 'as2_swarm_person_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_swarm_person_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_swarm_person_tracking', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_swarm_person_tracking', 'symlink_install': False, 'test_result_base': None}
+[4.610s] Level 5:colcon.colcon_core.verb:set package 'as2_alphanumeric_viewer' build argument 'cmake_args' from command line to 'None'
+[4.612s] Level 5:colcon.colcon_core.verb:set package 'as2_alphanumeric_viewer' build argument 'cmake_target' from command line to 'None'
+[4.612s] Level 5:colcon.colcon_core.verb:set package 'as2_alphanumeric_viewer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.612s] Level 5:colcon.colcon_core.verb:set package 'as2_alphanumeric_viewer' build argument 'cmake_clean_cache' from command line to 'False'
+[4.614s] Level 5:colcon.colcon_core.verb:set package 'as2_alphanumeric_viewer' build argument 'cmake_clean_first' from command line to 'False'
+[4.614s] Level 5:colcon.colcon_core.verb:set package 'as2_alphanumeric_viewer' build argument 'cmake_force_configure' from command line to 'False'
+[4.614s] Level 5:colcon.colcon_core.verb:set package 'as2_alphanumeric_viewer' build argument 'ament_cmake_args' from command line to 'None'
+[4.614s] Level 5:colcon.colcon_core.verb:set package 'as2_alphanumeric_viewer' build argument 'catkin_cmake_args' from command line to 'None'
+[4.614s] Level 5:colcon.colcon_core.verb:set package 'as2_alphanumeric_viewer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.615s] DEBUG:colcon.colcon_core.verb:Building package 'as2_alphanumeric_viewer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_alphanumeric_viewer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_alphanumeric_viewer', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer', 'symlink_install': False, 'test_result_base': None}
+[4.615s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior' build argument 'cmake_args' from command line to 'None'
+[4.615s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior' build argument 'cmake_target' from command line to 'None'
+[4.615s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.615s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior' build argument 'cmake_clean_cache' from command line to 'False'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior' build argument 'cmake_clean_first' from command line to 'False'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior' build argument 'cmake_force_configure' from command line to 'False'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior' build argument 'ament_cmake_args' from command line to 'None'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior' build argument 'catkin_cmake_args' from command line to 'None'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.616s] DEBUG:colcon.colcon_core.verb:Building package 'as2_behavior' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_behavior', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_behavior', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behavior', 'symlink_install': False, 'test_result_base': None}
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior_tree' build argument 'cmake_args' from command line to 'None'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior_tree' build argument 'cmake_target' from command line to 'None'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior_tree' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior_tree' build argument 'cmake_clean_cache' from command line to 'False'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior_tree' build argument 'cmake_clean_first' from command line to 'False'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior_tree' build argument 'cmake_force_configure' from command line to 'False'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior_tree' build argument 'ament_cmake_args' from command line to 'None'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior_tree' build argument 'catkin_cmake_args' from command line to 'None'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'as2_behavior_tree' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.616s] DEBUG:colcon.colcon_core.verb:Building package 'as2_behavior_tree' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_behavior_tree', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_behavior_tree', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_behavior_tree', 'symlink_install': False, 'test_result_base': None}
+[4.617s] Level 5:colcon.colcon_core.verb:set package 'as2_external_object_to_tf' build argument 'cmake_args' from command line to 'None'
+[4.621s] Level 5:colcon.colcon_core.verb:set package 'as2_external_object_to_tf' build argument 'cmake_target' from command line to 'None'
+[4.621s] Level 5:colcon.colcon_core.verb:set package 'as2_external_object_to_tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.621s] Level 5:colcon.colcon_core.verb:set package 'as2_external_object_to_tf' build argument 'cmake_clean_cache' from command line to 'False'
+[4.621s] Level 5:colcon.colcon_core.verb:set package 'as2_external_object_to_tf' build argument 'cmake_clean_first' from command line to 'False'
+[4.621s] Level 5:colcon.colcon_core.verb:set package 'as2_external_object_to_tf' build argument 'cmake_force_configure' from command line to 'False'
+[4.622s] Level 5:colcon.colcon_core.verb:set package 'as2_external_object_to_tf' build argument 'ament_cmake_args' from command line to 'None'
+[4.622s] Level 5:colcon.colcon_core.verb:set package 'as2_external_object_to_tf' build argument 'catkin_cmake_args' from command line to 'None'
+[4.622s] Level 5:colcon.colcon_core.verb:set package 'as2_external_object_to_tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.622s] DEBUG:colcon.colcon_core.verb:Building package 'as2_external_object_to_tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_external_object_to_tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_external_object_to_tf', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_utilities/as2_external_object_to_tf', 'symlink_install': False, 'test_result_base': None}
+[4.623s] Level 5:colcon.colcon_core.verb:set package 'as2_gazebo_assets' build argument 'cmake_args' from command line to 'None'
+[4.623s] Level 5:colcon.colcon_core.verb:set package 'as2_gazebo_assets' build argument 'cmake_target' from command line to 'None'
+[4.627s] Level 5:colcon.colcon_core.verb:set package 'as2_gazebo_assets' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.627s] Level 5:colcon.colcon_core.verb:set package 'as2_gazebo_assets' build argument 'cmake_clean_cache' from command line to 'False'
+[4.627s] Level 5:colcon.colcon_core.verb:set package 'as2_gazebo_assets' build argument 'cmake_clean_first' from command line to 'False'
+[4.628s] Level 5:colcon.colcon_core.verb:set package 'as2_gazebo_assets' build argument 'cmake_force_configure' from command line to 'False'
+[4.628s] Level 5:colcon.colcon_core.verb:set package 'as2_gazebo_assets' build argument 'ament_cmake_args' from command line to 'None'
+[4.628s] Level 5:colcon.colcon_core.verb:set package 'as2_gazebo_assets' build argument 'catkin_cmake_args' from command line to 'None'
+[4.628s] Level 5:colcon.colcon_core.verb:set package 'as2_gazebo_assets' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.628s] DEBUG:colcon.colcon_core.verb:Building package 'as2_gazebo_assets' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_gazebo_assets', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_gazebo_assets', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets', 'symlink_install': False, 'test_result_base': None}
+[4.629s] Level 5:colcon.colcon_core.verb:set package 'as2_geozones' build argument 'cmake_args' from command line to 'None'
+[4.629s] Level 5:colcon.colcon_core.verb:set package 'as2_geozones' build argument 'cmake_target' from command line to 'None'
+[4.629s] Level 5:colcon.colcon_core.verb:set package 'as2_geozones' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.629s] Level 5:colcon.colcon_core.verb:set package 'as2_geozones' build argument 'cmake_clean_cache' from command line to 'False'
+[4.629s] Level 5:colcon.colcon_core.verb:set package 'as2_geozones' build argument 'cmake_clean_first' from command line to 'False'
+[4.630s] Level 5:colcon.colcon_core.verb:set package 'as2_geozones' build argument 'cmake_force_configure' from command line to 'False'
+[4.630s] Level 5:colcon.colcon_core.verb:set package 'as2_geozones' build argument 'ament_cmake_args' from command line to 'None'
+[4.630s] Level 5:colcon.colcon_core.verb:set package 'as2_geozones' build argument 'catkin_cmake_args' from command line to 'None'
+[4.630s] Level 5:colcon.colcon_core.verb:set package 'as2_geozones' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.630s] DEBUG:colcon.colcon_core.verb:Building package 'as2_geozones' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_geozones', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_geozones', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_utilities/as2_geozones', 'symlink_install': False, 'test_result_base': None}
+[4.631s] Level 5:colcon.colcon_core.verb:set package 'as2_map_server' build argument 'cmake_args' from command line to 'None'
+[4.631s] Level 5:colcon.colcon_core.verb:set package 'as2_map_server' build argument 'cmake_target' from command line to 'None'
+[4.631s] Level 5:colcon.colcon_core.verb:set package 'as2_map_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.631s] Level 5:colcon.colcon_core.verb:set package 'as2_map_server' build argument 'cmake_clean_cache' from command line to 'False'
+[4.631s] Level 5:colcon.colcon_core.verb:set package 'as2_map_server' build argument 'cmake_clean_first' from command line to 'False'
+[4.632s] Level 5:colcon.colcon_core.verb:set package 'as2_map_server' build argument 'cmake_force_configure' from command line to 'False'
+[4.632s] Level 5:colcon.colcon_core.verb:set package 'as2_map_server' build argument 'ament_cmake_args' from command line to 'None'
+[4.632s] Level 5:colcon.colcon_core.verb:set package 'as2_map_server' build argument 'catkin_cmake_args' from command line to 'None'
+[4.632s] Level 5:colcon.colcon_core.verb:set package 'as2_map_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.632s] DEBUG:colcon.colcon_core.verb:Building package 'as2_map_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_map_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_map_server', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_map_server', 'symlink_install': False, 'test_result_base': None}
+[4.636s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_reference_handlers' build argument 'cmake_args' from command line to 'None'
+[4.636s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_reference_handlers' build argument 'cmake_target' from command line to 'None'
+[4.636s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_reference_handlers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.636s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_reference_handlers' build argument 'cmake_clean_cache' from command line to 'False'
+[4.636s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_reference_handlers' build argument 'cmake_clean_first' from command line to 'False'
+[4.636s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_reference_handlers' build argument 'cmake_force_configure' from command line to 'False'
+[4.637s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_reference_handlers' build argument 'ament_cmake_args' from command line to 'None'
+[4.637s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_reference_handlers' build argument 'catkin_cmake_args' from command line to 'None'
+[4.637s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_reference_handlers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.637s] DEBUG:colcon.colcon_core.verb:Building package 'as2_motion_reference_handlers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_motion_reference_handlers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_motion_reference_handlers', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_motion_reference_handlers', 'symlink_install': False, 'test_result_base': None}
+[4.637s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_multirotor_simulator' build argument 'cmake_args' from command line to 'None'
+[4.642s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_multirotor_simulator' build argument 'cmake_target' from command line to 'None'
+[4.642s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_multirotor_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.642s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_multirotor_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[4.642s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_multirotor_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[4.642s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_multirotor_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[4.643s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_multirotor_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[4.643s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_multirotor_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[4.643s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_multirotor_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.643s] DEBUG:colcon.colcon_core.verb:Building package 'as2_platform_multirotor_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_platform_multirotor_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_platform_multirotor_simulator', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator', 'symlink_install': False, 'test_result_base': None}
+[4.643s] Level 5:colcon.colcon_core.verb:set package 'as2_realsense_interface' build argument 'cmake_args' from command line to 'None'
+[4.644s] Level 5:colcon.colcon_core.verb:set package 'as2_realsense_interface' build argument 'cmake_target' from command line to 'None'
+[4.644s] Level 5:colcon.colcon_core.verb:set package 'as2_realsense_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.644s] Level 5:colcon.colcon_core.verb:set package 'as2_realsense_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[4.644s] Level 5:colcon.colcon_core.verb:set package 'as2_realsense_interface' build argument 'cmake_clean_first' from command line to 'False'
+[4.644s] Level 5:colcon.colcon_core.verb:set package 'as2_realsense_interface' build argument 'cmake_force_configure' from command line to 'False'
+[4.644s] Level 5:colcon.colcon_core.verb:set package 'as2_realsense_interface' build argument 'ament_cmake_args' from command line to 'None'
+[4.644s] Level 5:colcon.colcon_core.verb:set package 'as2_realsense_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[4.644s] Level 5:colcon.colcon_core.verb:set package 'as2_realsense_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.645s] DEBUG:colcon.colcon_core.verb:Building package 'as2_realsense_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_realsense_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_realsense_interface', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface', 'symlink_install': False, 'test_result_base': None}
+[4.645s] Level 5:colcon.colcon_core.verb:set package 'as2_state_estimator' build argument 'cmake_args' from command line to 'None'
+[4.645s] Level 5:colcon.colcon_core.verb:set package 'as2_state_estimator' build argument 'cmake_target' from command line to 'None'
+[4.645s] Level 5:colcon.colcon_core.verb:set package 'as2_state_estimator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.645s] Level 5:colcon.colcon_core.verb:set package 'as2_state_estimator' build argument 'cmake_clean_cache' from command line to 'False'
+[4.646s] Level 5:colcon.colcon_core.verb:set package 'as2_state_estimator' build argument 'cmake_clean_first' from command line to 'False'
+[4.646s] Level 5:colcon.colcon_core.verb:set package 'as2_state_estimator' build argument 'cmake_force_configure' from command line to 'False'
+[4.646s] Level 5:colcon.colcon_core.verb:set package 'as2_state_estimator' build argument 'ament_cmake_args' from command line to 'None'
+[4.646s] Level 5:colcon.colcon_core.verb:set package 'as2_state_estimator' build argument 'catkin_cmake_args' from command line to 'None'
+[4.646s] Level 5:colcon.colcon_core.verb:set package 'as2_state_estimator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.646s] DEBUG:colcon.colcon_core.verb:Building package 'as2_state_estimator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_state_estimator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_state_estimator', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_state_estimator', 'symlink_install': False, 'test_result_base': None}
+[4.647s] Level 5:colcon.colcon_core.verb:set package 'as2_usb_camera_interface' build argument 'cmake_args' from command line to 'None'
+[4.647s] Level 5:colcon.colcon_core.verb:set package 'as2_usb_camera_interface' build argument 'cmake_target' from command line to 'None'
+[4.647s] Level 5:colcon.colcon_core.verb:set package 'as2_usb_camera_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.649s] Level 5:colcon.colcon_core.verb:set package 'as2_usb_camera_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[4.649s] Level 5:colcon.colcon_core.verb:set package 'as2_usb_camera_interface' build argument 'cmake_clean_first' from command line to 'False'
+[4.649s] Level 5:colcon.colcon_core.verb:set package 'as2_usb_camera_interface' build argument 'cmake_force_configure' from command line to 'False'
+[4.649s] Level 5:colcon.colcon_core.verb:set package 'as2_usb_camera_interface' build argument 'ament_cmake_args' from command line to 'None'
+[4.649s] Level 5:colcon.colcon_core.verb:set package 'as2_usb_camera_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[4.650s] Level 5:colcon.colcon_core.verb:set package 'as2_usb_camera_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.650s] DEBUG:colcon.colcon_core.verb:Building package 'as2_usb_camera_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_usb_camera_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_usb_camera_interface', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface', 'symlink_install': False, 'test_result_base': None}
+[4.650s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_motion' build argument 'cmake_args' from command line to 'None'
+[4.655s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_motion' build argument 'cmake_target' from command line to 'None'
+[4.655s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.655s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[4.655s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_motion' build argument 'cmake_clean_first' from command line to 'False'
+[4.655s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_motion' build argument 'cmake_force_configure' from command line to 'False'
+[4.656s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_motion' build argument 'ament_cmake_args' from command line to 'None'
+[4.656s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[4.656s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.656s] DEBUG:colcon.colcon_core.verb:Building package 'as2_behaviors_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_behaviors_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_behaviors_motion', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion', 'symlink_install': False, 'test_result_base': None}
+[4.656s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_path_planning' build argument 'cmake_args' from command line to 'None'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_path_planning' build argument 'cmake_target' from command line to 'None'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_path_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_path_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_path_planning' build argument 'cmake_clean_first' from command line to 'False'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_path_planning' build argument 'cmake_force_configure' from command line to 'False'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_path_planning' build argument 'ament_cmake_args' from command line to 'None'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_path_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_path_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.657s] DEBUG:colcon.colcon_core.verb:Building package 'as2_behaviors_path_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_behaviors_path_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_behaviors_path_planning', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_path_planning', 'symlink_install': False, 'test_result_base': None}
+[4.658s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_perception' build argument 'cmake_args' from command line to 'None'
+[4.658s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_perception' build argument 'cmake_target' from command line to 'None'
+[4.658s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.658s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[4.659s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_perception' build argument 'cmake_clean_first' from command line to 'False'
+[4.659s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_perception' build argument 'cmake_force_configure' from command line to 'False'
+[4.659s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_perception' build argument 'ament_cmake_args' from command line to 'None'
+[4.659s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[4.659s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.659s] DEBUG:colcon.colcon_core.verb:Building package 'as2_behaviors_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_behaviors_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_behaviors_perception', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_perception', 'symlink_install': False, 'test_result_base': None}
+[4.660s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_platform' build argument 'cmake_args' from command line to 'None'
+[4.660s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_platform' build argument 'cmake_target' from command line to 'None'
+[4.660s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_platform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.660s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_platform' build argument 'cmake_clean_cache' from command line to 'False'
+[4.660s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_platform' build argument 'cmake_clean_first' from command line to 'False'
+[4.660s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_platform' build argument 'cmake_force_configure' from command line to 'False'
+[4.661s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_platform' build argument 'ament_cmake_args' from command line to 'None'
+[4.661s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_platform' build argument 'catkin_cmake_args' from command line to 'None'
+[4.661s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_platform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.661s] DEBUG:colcon.colcon_core.verb:Building package 'as2_behaviors_platform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_behaviors_platform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_behaviors_platform', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_platform', 'symlink_install': False, 'test_result_base': None}
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_swarm_flocking' build argument 'cmake_args' from command line to 'None'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_swarm_flocking' build argument 'cmake_target' from command line to 'None'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_swarm_flocking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_swarm_flocking' build argument 'cmake_clean_cache' from command line to 'False'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_swarm_flocking' build argument 'cmake_clean_first' from command line to 'False'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_swarm_flocking' build argument 'cmake_force_configure' from command line to 'False'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_swarm_flocking' build argument 'ament_cmake_args' from command line to 'None'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_swarm_flocking' build argument 'catkin_cmake_args' from command line to 'None'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_swarm_flocking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.665s] DEBUG:colcon.colcon_core.verb:Building package 'as2_behaviors_swarm_flocking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_behaviors_swarm_flocking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_behaviors_swarm_flocking', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_swarm_flocking', 'symlink_install': False, 'test_result_base': None}
+[4.665s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_trajectory_generation' build argument 'cmake_args' from command line to 'None'
+[4.665s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_trajectory_generation' build argument 'cmake_target' from command line to 'None'
+[4.666s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_trajectory_generation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.666s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_trajectory_generation' build argument 'cmake_clean_cache' from command line to 'False'
+[4.666s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_trajectory_generation' build argument 'cmake_clean_first' from command line to 'False'
+[4.666s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_trajectory_generation' build argument 'cmake_force_configure' from command line to 'False'
+[4.666s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_trajectory_generation' build argument 'ament_cmake_args' from command line to 'None'
+[4.666s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_trajectory_generation' build argument 'catkin_cmake_args' from command line to 'None'
+[4.667s] Level 5:colcon.colcon_core.verb:set package 'as2_behaviors_trajectory_generation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.667s] DEBUG:colcon.colcon_core.verb:Building package 'as2_behaviors_trajectory_generation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_behaviors_trajectory_generation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_behaviors_trajectory_generation', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_trajectory_generation', 'symlink_install': False, 'test_result_base': None}
+[4.668s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_controller' build argument 'cmake_args' from command line to 'None'
+[4.668s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_controller' build argument 'cmake_target' from command line to 'None'
+[4.668s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.668s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[4.668s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_controller' build argument 'cmake_clean_first' from command line to 'False'
+[4.668s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_controller' build argument 'cmake_force_configure' from command line to 'False'
+[4.668s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_controller' build argument 'ament_cmake_args' from command line to 'None'
+[4.668s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[4.668s] Level 5:colcon.colcon_core.verb:set package 'as2_motion_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.668s] DEBUG:colcon.colcon_core.verb:Building package 'as2_motion_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_motion_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_motion_controller', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_motion_controller', 'symlink_install': False, 'test_result_base': None}
+[4.669s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_gazebo' build argument 'cmake_args' from command line to 'None'
+[4.669s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_gazebo' build argument 'cmake_target' from command line to 'None'
+[4.669s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.669s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[4.669s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[4.669s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[4.671s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[4.671s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[4.671s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.671s] DEBUG:colcon.colcon_core.verb:Building package 'as2_platform_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_platform_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_platform_gazebo', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_aerial_platforms/as2_platform_gazebo', 'symlink_install': False, 'test_result_base': None}
+[4.672s] Level 5:colcon.colcon_core.verb:set package 'as2_python_api' build argument 'cmake_args' from command line to 'None'
+[4.673s] Level 5:colcon.colcon_core.verb:set package 'as2_python_api' build argument 'cmake_target' from command line to 'None'
+[4.673s] Level 5:colcon.colcon_core.verb:set package 'as2_python_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.673s] Level 5:colcon.colcon_core.verb:set package 'as2_python_api' build argument 'cmake_clean_cache' from command line to 'False'
+[4.674s] Level 5:colcon.colcon_core.verb:set package 'as2_python_api' build argument 'cmake_clean_first' from command line to 'False'
+[4.674s] Level 5:colcon.colcon_core.verb:set package 'as2_python_api' build argument 'cmake_force_configure' from command line to 'False'
+[4.674s] Level 5:colcon.colcon_core.verb:set package 'as2_python_api' build argument 'ament_cmake_args' from command line to 'None'
+[4.674s] Level 5:colcon.colcon_core.verb:set package 'as2_python_api' build argument 'catkin_cmake_args' from command line to 'None'
+[4.674s] Level 5:colcon.colcon_core.verb:set package 'as2_python_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.674s] DEBUG:colcon.colcon_core.verb:Building package 'as2_python_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_python_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_python_api', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_python_api', 'symlink_install': False, 'test_result_base': None}
+[4.676s] Level 5:colcon.colcon_core.verb:set package 'as2_rviz_plugins' build argument 'cmake_args' from command line to 'None'
+[4.676s] Level 5:colcon.colcon_core.verb:set package 'as2_rviz_plugins' build argument 'cmake_target' from command line to 'None'
+[4.676s] Level 5:colcon.colcon_core.verb:set package 'as2_rviz_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.676s] Level 5:colcon.colcon_core.verb:set package 'as2_rviz_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[4.676s] Level 5:colcon.colcon_core.verb:set package 'as2_rviz_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[4.676s] Level 5:colcon.colcon_core.verb:set package 'as2_rviz_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[4.677s] Level 5:colcon.colcon_core.verb:set package 'as2_rviz_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[4.677s] Level 5:colcon.colcon_core.verb:set package 'as2_rviz_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[4.677s] Level 5:colcon.colcon_core.verb:set package 'as2_rviz_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.677s] DEBUG:colcon.colcon_core.verb:Building package 'as2_rviz_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_rviz_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_rviz_plugins', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_user_interfaces/as2_visualization/as2_rviz_plugins', 'symlink_install': False, 'test_result_base': None}
+[4.677s] Level 5:colcon.colcon_core.verb:set package 'as2_visualization' build argument 'cmake_args' from command line to 'None'
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'as2_visualization' build argument 'cmake_target' from command line to 'None'
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'as2_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'as2_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'as2_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[4.684s] Level 5:colcon.colcon_core.verb:set package 'as2_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[4.684s] Level 5:colcon.colcon_core.verb:set package 'as2_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[4.684s] Level 5:colcon.colcon_core.verb:set package 'as2_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[4.684s] Level 5:colcon.colcon_core.verb:set package 'as2_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.684s] DEBUG:colcon.colcon_core.verb:Building package 'as2_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_visualization', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization', 'symlink_install': False, 'test_result_base': None}
+[4.685s] Level 5:colcon.colcon_core.verb:set package 'as2_keyboard_teleoperation' build argument 'cmake_args' from command line to 'None'
+[4.686s] Level 5:colcon.colcon_core.verb:set package 'as2_keyboard_teleoperation' build argument 'cmake_target' from command line to 'None'
+[4.686s] Level 5:colcon.colcon_core.verb:set package 'as2_keyboard_teleoperation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.686s] Level 5:colcon.colcon_core.verb:set package 'as2_keyboard_teleoperation' build argument 'cmake_clean_cache' from command line to 'False'
+[4.686s] Level 5:colcon.colcon_core.verb:set package 'as2_keyboard_teleoperation' build argument 'cmake_clean_first' from command line to 'False'
+[4.686s] Level 5:colcon.colcon_core.verb:set package 'as2_keyboard_teleoperation' build argument 'cmake_force_configure' from command line to 'False'
+[4.687s] Level 5:colcon.colcon_core.verb:set package 'as2_keyboard_teleoperation' build argument 'ament_cmake_args' from command line to 'None'
+[4.687s] Level 5:colcon.colcon_core.verb:set package 'as2_keyboard_teleoperation' build argument 'catkin_cmake_args' from command line to 'None'
+[4.687s] Level 5:colcon.colcon_core.verb:set package 'as2_keyboard_teleoperation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.687s] DEBUG:colcon.colcon_core.verb:Building package 'as2_keyboard_teleoperation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/as2_keyboard_teleoperation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/as2_keyboard_teleoperation', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation', 'symlink_install': False, 'test_result_base': None}
+[4.688s] Level 5:colcon.colcon_core.verb:set package 'aerostack2' build argument 'cmake_args' from command line to 'None'
+[4.689s] Level 5:colcon.colcon_core.verb:set package 'aerostack2' build argument 'cmake_target' from command line to 'None'
+[4.689s] Level 5:colcon.colcon_core.verb:set package 'aerostack2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'aerostack2' build argument 'cmake_clean_cache' from command line to 'False'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'aerostack2' build argument 'cmake_clean_first' from command line to 'False'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'aerostack2' build argument 'cmake_force_configure' from command line to 'False'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'aerostack2' build argument 'ament_cmake_args' from command line to 'None'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'aerostack2' build argument 'catkin_cmake_args' from command line to 'None'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'aerostack2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.691s] DEBUG:colcon.colcon_core.verb:Building package 'aerostack2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/aerostack2_ws/build/aerostack2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/aerostack2_ws/install/aerostack2', 'merge_install': False, 'path': '/root/aerostack2_ws/src/aerostack2/aerostack2', 'symlink_install': False, 'test_result_base': None}
+[4.691s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.692s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.694s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/aerostack2_ws/src/aerostack2/as2_msgs' with build type 'ament_cmake'
+[4.697s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/aerostack2_ws/src/aerostack2/as2_msgs'
+[4.711s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.790s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/aerostack2_ws/src/aerostack2/as2_swarm_person_interfaces' with build type 'ament_cmake'
+[4.790s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/aerostack2_ws/src/aerostack2/as2_swarm_person_interfaces'
+[4.791s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.791s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.843s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/aerostack2_ws/src/aerostack2/as2_cli' with build type 'ament_cmake'
+[4.845s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/aerostack2_ws/src/aerostack2/as2_cli'
+[4.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.900s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/aerostack2_ws/src/aerostack2/as2_groundray_perception' with build type 'ament_python'
+[4.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('as2_groundray_perception', 'ament_prefix_path')
+[4.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/aerostack2_ws/install/as2_groundray_perception/share/as2_groundray_perception/hook/ament_prefix_path.ps1'
+[4.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/aerostack2_ws/install/as2_groundray_perception/share/as2_groundray_perception/hook/ament_prefix_path.dsv'
+[4.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/aerostack2_ws/install/as2_groundray_perception/share/as2_groundray_perception/hook/ament_prefix_path.sh'
+[4.909s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.956s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/aerostack2_ws/src/aerostack2/as2_perception' with build type 'ament_python'
+[4.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('as2_perception', 'ament_prefix_path')
+[4.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/aerostack2_ws/install/as2_perception/share/as2_perception/hook/ament_prefix_path.ps1'
+[4.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/aerostack2_ws/install/as2_perception/share/as2_perception/hook/ament_prefix_path.dsv'
+[4.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/aerostack2_ws/install/as2_perception/share/as2_perception/hook/ament_prefix_path.sh'
+[4.966s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.968s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.034s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/aerostack2_ws/src/aerostack2/as2_project_bringup' with build type 'ament_python'
+[5.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('as2_project_bringup', 'ament_prefix_path')
+[5.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/hook/ament_prefix_path.ps1'
+[5.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/hook/ament_prefix_path.dsv'
+[5.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/aerostack2_ws/install/as2_project_bringup/share/as2_project_bringup/hook/ament_prefix_path.sh'
+[5.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.056s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.130s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/aerostack2_ws/src/aerostack2/as2_swarm_ekf' with build type 'ament_python'
+[5.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('as2_swarm_ekf', 'ament_prefix_path')
+[5.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/aerostack2_ws/install/as2_swarm_ekf/share/as2_swarm_ekf/hook/ament_prefix_path.ps1'
+[5.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/aerostack2_ws/install/as2_swarm_ekf/share/as2_swarm_ekf/hook/ament_prefix_path.dsv'
+[5.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/aerostack2_ws/install/as2_swarm_ekf/share/as2_swarm_ekf/hook/ament_prefix_path.sh'
+[5.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.222s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/aerostack2_ws/src/aerostack2/as2_swarm_fusion_ci' with build type 'ament_python'
+[5.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('as2_swarm_fusion_ci', 'ament_prefix_path')
+[5.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/aerostack2_ws/install/as2_swarm_fusion_ci/share/as2_swarm_fusion_ci/hook/ament_prefix_path.ps1'
+[5.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/aerostack2_ws/install/as2_swarm_fusion_ci/share/as2_swarm_fusion_ci/hook/ament_prefix_path.dsv'
+[5.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/aerostack2_ws/install/as2_swarm_fusion_ci/share/as2_swarm_fusion_ci/hook/ament_prefix_path.sh'
+[5.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/aerostack2_ws/build/as2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/aerostack2_ws/install/as2_swarm_person_tracking:/root/aerostack2_ws/install/as2_swarm_ci_fusion_people:/root/aerostack2_ws/install/rmf_demos_tasks:/root/aerostack2_ws/install/rmf_demos_panel:/root/aerostack2_ws/install/rmf_demos_fleet_adapter:/root/aerostack2_ws/install/rmf_demos_dashboard_resources:/root/aerostack2_ws/install/rmf_demos_bridges:/root/aerostack2_ws/install/rmf_demos_assets:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_swarm_perception:/root/aerostack2_ws/install/as2_swarm_fusion_ci:/root/aerostack2_ws/install/as2_swarm_ekf:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/root/aerostack2_ws/install/as2_project_bringup:/root/aerostack2_ws/install/as2_perception:/root/aerostack2_ws/install/as2_groundray_perception:/opt/ros/humble /usr/bin/cmake --build /root/aerostack2_ws/build/as2_msgs -- -j8 -l8
+[5.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/aerostack2_ws/build/as2_swarm_person_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/aerostack2_ws/install/as2_swarm_person_tracking:/root/aerostack2_ws/install/as2_swarm_ci_fusion_people:/root/aerostack2_ws/install/rmf_demos_tasks:/root/aerostack2_ws/install/rmf_demos_panel:/root/aerostack2_ws/install/rmf_demos_fleet_adapter:/root/aerostack2_ws/install/rmf_demos_dashboard_resources:/root/aerostack2_ws/install/rmf_demos_bridges:/root/aerostack2_ws/install/rmf_demos_assets:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_swarm_perception:/root/aerostack2_ws/install/as2_swarm_fusion_ci:/root/aerostack2_ws/install/as2_swarm_ekf:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/root/aerostack2_ws/install/as2_project_bringup:/root/aerostack2_ws/install/as2_perception:/root/aerostack2_ws/install/as2_groundray_perception:/opt/ros/humble /usr/bin/cmake --build /root/aerostack2_ws/build/as2_swarm_person_interfaces -- -j8 -l8
+[5.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/aerostack2_ws/build/as2_cli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/aerostack2_ws/install/as2_swarm_person_tracking:/root/aerostack2_ws/install/as2_swarm_ci_fusion_people:/root/aerostack2_ws/install/rmf_demos_tasks:/root/aerostack2_ws/install/rmf_demos_panel:/root/aerostack2_ws/install/rmf_demos_fleet_adapter:/root/aerostack2_ws/install/rmf_demos_dashboard_resources:/root/aerostack2_ws/install/rmf_demos_bridges:/root/aerostack2_ws/install/rmf_demos_assets:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_swarm_perception:/root/aerostack2_ws/install/as2_swarm_fusion_ci:/root/aerostack2_ws/install/as2_swarm_ekf:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/root/aerostack2_ws/install/as2_project_bringup:/root/aerostack2_ws/install/as2_perception:/root/aerostack2_ws/install/as2_groundray_perception:/opt/ros/humble /usr/bin/cmake --build /root/aerostack2_ws/build/as2_cli -- -j8 -l8
+[6.144s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/aerostack2_ws/src/aerostack2/as2_groundray_perception'
+[6.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.123s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/aerostack2_ws/src/aerostack2/as2_perception'
+[8.123s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.123s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.577s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[9.577s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[10.575s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/aerostack2_ws/src/aerostack2/as2_swarm_ekf'
+[10.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.686s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[10.686s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.690s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.810s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.810s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.811s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.811s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.830s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[10.838s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/aerostack2_ws/install/local_setup.ps1'
+[10.862s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/aerostack2_ws/install/_local_setup_util_ps1.py'
+[10.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/aerostack2_ws/install/setup.ps1'
+[10.906s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/aerostack2_ws/install/local_setup.sh'
+[10.919s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/aerostack2_ws/install/_local_setup_util_sh.py'
+[10.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/aerostack2_ws/install/setup.sh'
+[10.935s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/aerostack2_ws/install/local_setup.bash'
+[10.936s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/aerostack2_ws/install/setup.bash'
+[10.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/aerostack2_ws/install/local_setup.zsh'
+[10.941s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/aerostack2_ws/install/setup.zsh'

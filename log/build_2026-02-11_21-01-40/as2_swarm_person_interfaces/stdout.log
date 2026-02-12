@@ -1,0 +1,220 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/aerostack2_ws/build/as2_swarm_person_interfaces
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_symlink_as2_swarm_person_interfaces
+running egg_info
+creating as2_swarm_person_interfaces.egg-info
+writing as2_swarm_person_interfaces.egg-info/PKG-INFO
+writing dependency_links to as2_swarm_person_interfaces.egg-info/dependency_links.txt
+writing top-level names to as2_swarm_person_interfaces.egg-info/top_level.txt
+writing manifest file 'as2_swarm_person_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'as2_swarm_person_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'as2_swarm_person_interfaces.egg-info/SOURCES.txt'
+[  7%] [32mBuilding C object CMakeFiles/as2_swarm_person_interfaces__rosidl_generator_c.dir/rosidl_generator_c/as2_swarm_person_interfaces/msg/detail/tracked_person__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/as2_swarm_person_interfaces__rosidl_generator_c.dir/rosidl_generator_c/as2_swarm_person_interfaces/msg/detail/tracked_person_array__functions.c.o[0m
+[ 10%] Built target as2_swarm_person_interfaces__cpp
+[ 10%] Built target ament_cmake_python_build_as2_swarm_person_interfaces_egg
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 20%] [32m[1mLinking C shared library libas2_swarm_person_interfaces__rosidl_generator_c.so[0m
+[ 20%] Built target as2_swarm_person_interfaces__rosidl_generator_c
+[ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_swarm_person_interfaces/msg/tracked_person__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/as2_swarm_person_interfaces/msg/tracked_person_array__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_swarm_person_interfaces/msg/detail/tracked_person_array__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/as2_swarm_person_interfaces/msg/detail/tracked_person__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_swarm_person_interfaces/msg/detail/dds_fastrtps/tracked_person__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/as2_swarm_person_interfaces/msg/tracked_person__type_support.cpp.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/as2_swarm_person_interfaces/msg/detail/tracked_person__type_support.c.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/as2_swarm_person_interfaces/msg/detail/tracked_person__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/as2_swarm_person_interfaces/msg/tracked_person_array__type_support.cpp.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/as2_swarm_person_interfaces/msg/detail/tracked_person_array__type_support.c.o[0m
+[ 56%] [32m[1mLinking CXX shared library libas2_swarm_person_interfaces__rosidl_typesupport_c.so[0m
+[ 58%] [32m[1mLinking C shared library libas2_swarm_person_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 58%] Built target as2_swarm_person_interfaces__rosidl_typesupport_c
+[ 61%] [32mBuilding CXX object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/as2_swarm_person_interfaces/msg/detail/tracked_person_array__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/as2_swarm_person_interfaces/msg/detail/dds_fastrtps/tracked_person_array__type_support.cpp.o[0m
+[ 64%] Built target as2_swarm_person_interfaces__rosidl_typesupport_introspection_c
+[ 66%] [32m[1mLinking CXX shared library libas2_swarm_person_interfaces__rosidl_typesupport_cpp.so[0m
+[ 66%] Built target as2_swarm_person_interfaces__rosidl_typesupport_cpp
+[ 69%] [32m[1mLinking CXX shared library libas2_swarm_person_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 69%] Built target as2_swarm_person_interfaces__rosidl_typesupport_introspection_cpp
+[ 71%] [32m[1mLinking CXX shared library libas2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 71%] Built target as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c
+[ 74%] [32m[1mLinking CXX shared library libas2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 74%] Built target as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target as2_swarm_person_interfaces
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target as2_swarm_person_interfaces__py
+[ 79%] [32mBuilding C object CMakeFiles/as2_swarm_person_interfaces__rosidl_generator_py.dir/rosidl_generator_py/as2_swarm_person_interfaces/msg/_tracked_person_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/as2_swarm_person_interfaces__rosidl_generator_py.dir/rosidl_generator_py/as2_swarm_person_interfaces/msg/_tracked_person_array_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/as2_swarm_person_interfaces/libas2_swarm_person_interfaces__rosidl_generator_py.so[0m
+[ 84%] Built target as2_swarm_person_interfaces__rosidl_generator_py
+[ 92%] [32mBuilding C object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/as2_swarm_person_interfaces/_as2_swarm_person_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/as2_swarm_person_interfaces/_as2_swarm_person_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/as2_swarm_person_interfaces/_as2_swarm_person_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/as2_swarm_person_interfaces/as2_swarm_person_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/as2_swarm_person_interfaces/as2_swarm_person_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/as2_swarm_person_interfaces/as2_swarm_person_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target as2_swarm_person_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target as2_swarm_person_interfaces__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/ament_index/resource_index/rosidl_interfaces/as2_swarm_person_interfaces
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person__functions.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person__struct.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person__type_support.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person_array__functions.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person_array__struct.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person_array__type_support.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/tracked_person.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/tracked_person_array.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/environment/library_path.sh
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/environment/library_path.dsv
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person__builder.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person__struct.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person__traits.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person__type_support.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person_array__builder.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person_array__struct.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person_array__traits.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person_array__type_support.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/tracked_person.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/tracked_person_array.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/include/as2_swarm_person_interfaces/as2_swarm_person_interfaces/msg/detail/tracked_person_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/environment/pythonpath.sh
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/environment/pythonpath.dsv
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/__init__.py
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/_as2_swarm_person_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/_as2_swarm_person_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/_as2_swarm_person_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/as2_swarm_person_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/as2_swarm_person_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/as2_swarm_person_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/libas2_swarm_person_interfaces__rosidl_generator_py.so
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/msg/__init__.py
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/msg/_tracked_person.py
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/msg/_tracked_person_array.py
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/msg/_tracked_person_array_s.c
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/msg/_tracked_person_s.c
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/as2_swarm_person_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/as2_swarm_person_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/as2_swarm_person_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/msg/TrackedPerson.idl
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/msg/TrackedPersonArray.idl
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/msg/TrackedPerson.msg
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/msg/TrackedPersonArray.msg
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/ament_index/resource_index/package_run_dependencies/as2_swarm_person_interfaces
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/ament_index/resource_index/parent_prefix_path/as2_swarm_person_interfaces
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/environment/path.sh
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/environment/path.dsv
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/local_setup.bash
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/local_setup.sh
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/local_setup.zsh
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/local_setup.dsv
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/package.dsv
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/ament_index/resource_index/packages/as2_swarm_person_interfaces
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/as2_swarm_person_interfacesConfig.cmake
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/as2_swarm_person_interfacesConfig-version.cmake
+-- Symlinking: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/package.xml
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces'...
+Compiling '/root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/__init__.py'...
+Listing '/root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/msg'...
+Compiling '/root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/msg/__init__.py'...
+Compiling '/root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/msg/_tracked_person.py'...
+Compiling '/root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages/as2_swarm_person_interfaces/msg/_tracked_person_array.py'...
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/root/aerostack2_ws/install/as2_swarm_person_interfaces/lib/libas2_swarm_person_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/export_as2_swarm_person_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/export_as2_swarm_person_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/export_as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/export_as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/as2_swarm_person_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/as2_swarm_person_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/as2_swarm_person_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/as2_swarm_person_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/export_as2_swarm_person_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/export_as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/export_as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/as2_swarm_person_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/as2_swarm_person_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/as2_swarm_person_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/as2_swarm_person_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/export_as2_swarm_person_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /root/aerostack2_ws/install/as2_swarm_person_interfaces/share/as2_swarm_person_interfaces/cmake/export_as2_swarm_person_interfaces__rosidl_generator_pyExport-noconfig.cmake

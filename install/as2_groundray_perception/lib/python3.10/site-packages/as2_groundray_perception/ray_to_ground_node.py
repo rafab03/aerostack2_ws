@@ -40,7 +40,7 @@ class RayToGroundNode(Node):
 
         # Filtros
         self.declare_parameter('min_conf', 0.35)
-        self.declare_parameter('publish_only_best', True)
+        self.declare_parameter('publish_only_best', False)
 
         # Output
         self.declare_parameter('swarm_out_topic', '/swarm/common_detections')

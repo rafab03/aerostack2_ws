@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "as2_swarm_person_interfaces__py",
+		"source" : "/root/aerostack2_ws/build/as2_swarm_person_interfaces/as2_swarm_person_interfaces__py"
+	}
+}

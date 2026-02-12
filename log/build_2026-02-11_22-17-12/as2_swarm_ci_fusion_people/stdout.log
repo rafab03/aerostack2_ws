@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info
+writing ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/PKG-INFO
+writing dependency_links to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/dependency_links.txt
+writing entry points to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/entry_points.txt
+writing requirements to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/requires.txt
+writing top-level names to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/top_level.txt
+writing manifest file '../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/SOURCES.txt'
+reading manifest file '../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/SOURCES.txt'
+writing manifest file '../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build
+creating /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib
+creating /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib/as2_swarm_ci_fusion_people
+copying as2_swarm_ci_fusion_people/__init__.py -> /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib/as2_swarm_ci_fusion_people
+copying as2_swarm_ci_fusion_people/swarm_ci_fusion_people_node.py -> /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib/as2_swarm_ci_fusion_people
+running install
+running install_lib
+creating /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people
+copying /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib/as2_swarm_ci_fusion_people/__init__.py -> /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people
+copying /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib/as2_swarm_ci_fusion_people/swarm_ci_fusion_people_node.py -> /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people
+byte-compiling /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people/swarm_ci_fusion_people_node.py to swarm_ci_fusion_people_node.cpython-310.pyc
+running install_data
+creating /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/share/ament_index
+creating /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/share/ament_index/resource_index
+creating /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/share/ament_index/resource_index/packages
+copying resource/as2_swarm_ci_fusion_people -> /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/share/ament_index/resource_index/packages
+copying package.xml -> /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/share/as2_swarm_ci_fusion_people
+running install_egg_info
+Copying ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info to /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people-0.0.0-py3.10.egg-info
+running install_scripts
+Installing swarm_ci_fusion_people_node script to /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/as2_swarm_ci_fusion_people
+writing list of installed files to '/root/aerostack2_ws/build/as2_swarm_ci_fusion_people/install.log'

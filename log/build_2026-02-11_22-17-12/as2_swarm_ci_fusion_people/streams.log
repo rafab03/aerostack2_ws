@@ -1,0 +1,37 @@
+[3.434s] Invoking command in '/root/aerostack2_ws/src/aerostack2/as2_swarm_ci_fusion_people': PYTHONPATH=/root/aerostack2_ws/build/as2_swarm_ci_fusion_people/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_swarm_ci_fusion_people build --build-base /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build install --record /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/install.log --single-version-externally-managed install_data
+[4.092s] running egg_info
+[4.092s] creating ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info
+[4.092s] writing ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/PKG-INFO
+[4.093s] writing dependency_links to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/dependency_links.txt
+[4.093s] writing entry points to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/entry_points.txt
+[4.093s] writing requirements to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/requires.txt
+[4.093s] writing top-level names to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/top_level.txt
+[4.093s] writing manifest file '../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/SOURCES.txt'
+[4.100s] reading manifest file '../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/SOURCES.txt'
+[4.101s] writing manifest file '../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/SOURCES.txt'
+[4.102s] running build
+[4.102s] running build_py
+[4.102s] creating /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build
+[4.102s] creating /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib
+[4.102s] creating /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib/as2_swarm_ci_fusion_people
+[4.113s] copying as2_swarm_ci_fusion_people/__init__.py -> /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib/as2_swarm_ci_fusion_people
+[4.113s] copying as2_swarm_ci_fusion_people/swarm_ci_fusion_people_node.py -> /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib/as2_swarm_ci_fusion_people
+[4.113s] running install
+[4.120s] running install_lib
+[4.120s] creating /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people
+[4.120s] copying /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib/as2_swarm_ci_fusion_people/__init__.py -> /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people
+[4.121s] copying /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build/lib/as2_swarm_ci_fusion_people/swarm_ci_fusion_people_node.py -> /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people
+[4.121s] byte-compiling /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people/__init__.py to __init__.cpython-310.pyc
+[4.122s] byte-compiling /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people/swarm_ci_fusion_people_node.py to swarm_ci_fusion_people_node.cpython-310.pyc
+[4.122s] running install_data
+[4.123s] creating /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/share/ament_index
+[4.123s] creating /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/share/ament_index/resource_index
+[4.123s] creating /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/share/ament_index/resource_index/packages
+[4.123s] copying resource/as2_swarm_ci_fusion_people -> /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/share/ament_index/resource_index/packages
+[4.123s] copying package.xml -> /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/share/as2_swarm_ci_fusion_people
+[4.123s] running install_egg_info
+[4.128s] Copying ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info to /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people-0.0.0-py3.10.egg-info
+[4.131s] running install_scripts
+[4.241s] Installing swarm_ci_fusion_people_node script to /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/as2_swarm_ci_fusion_people
+[4.243s] writing list of installed files to '/root/aerostack2_ws/build/as2_swarm_ci_fusion_people/install.log'
+[4.421s] Invoked command in '/root/aerostack2_ws/src/aerostack2/as2_swarm_ci_fusion_people' returned '0': PYTHONPATH=/root/aerostack2_ws/build/as2_swarm_ci_fusion_people/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_swarm_ci_fusion_people build --build-base /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build install --record /root/aerostack2_ws/build/as2_swarm_ci_fusion_people/install.log --single-version-externally-managed install_data

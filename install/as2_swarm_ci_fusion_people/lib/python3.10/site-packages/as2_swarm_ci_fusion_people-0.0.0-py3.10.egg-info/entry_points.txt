@@ -1,0 +1,3 @@
+[console_scripts]
+swarm_ci_fusion_people_node = as2_swarm_ci_fusion_people.swarm_ci_fusion_people_node:main
+

@@ -17,6 +17,8 @@ launch/05_static_tf_3drones.launch.py
 launch/06_swarm_person_perception.launch.py
 launch/07_swarm_person_perception_rayground.launch.py
 launch/08_swarm_person_perception_rayground_ekf.launch.py
+launch/09_swarm_person_perception_rayground_tracking.launch.py
+launch/10_swarm_person_perception_rayground_tracking_ekf_people.launch.py
 resource/as2_project_bringup
 test/test_copyright.py
 test/test_flake8.py

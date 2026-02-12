@@ -65,7 +65,7 @@ class DistributedEKFWindow(Node):
 
         # EKF
         self.declare_parameter('q_sigma', 0.25)
-        self.declare_parameter('external_R_inflate', 1.5)
+        self.declare_parameter('external_R_inflate', 5.0)
 
         # ---------- Logging ----------
         self.declare_parameter('debug', True)

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d6fe25dd39831f5d92e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "as2_swarm_person_interfaces__py",
+					"jsonFile" : "directory-as2_swarm_person_interfaces__py-20f160299576cf25449f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/aerostack2_ws/build/as2_swarm_person_interfaces/as2_swarm_person_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "as2_swarm_person_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_as2_swarm_person_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_as2_swarm_person_interfaces_egg-da3d30e2e47f5e1f073f.json",
+					"name" : "ament_cmake_python_build_as2_swarm_person_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_as2_swarm_person_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_as2_swarm_person_interfaces-ead949d0b24d2eecf3fa.json",
+					"name" : "ament_cmake_python_symlink_as2_swarm_person_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces-b125066bb07bfc4ebaef.json",
+					"name" : "as2_swarm_person_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__cpp-30f03be4ad45f6ac046d.json",
+					"name" : "as2_swarm_person_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "as2_swarm_person_interfaces__py::@b318d370a9d58894cdf7",
+					"jsonFile" : "target-as2_swarm_person_interfaces__py-153f3e6620221846df2e.json",
+					"name" : "as2_swarm_person_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__rosidl_generator_c-04dcf3a004e52be7f6c0.json",
+					"name" : "as2_swarm_person_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__rosidl_generator_py-ed3bec33c4735cadb2da.json",
+					"name" : "as2_swarm_person_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__rosidl_typesupport_c-712afae29b9bb1179251.json",
+					"name" : "as2_swarm_person_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__rosidl_typesupport_c__pyext-4fea458d5b4ec7853f97.json",
+					"name" : "as2_swarm_person_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__rosidl_typesupport_cpp-f31b53cd054bf8bd1bb4.json",
+					"name" : "as2_swarm_person_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c-bd2c3c7b37b877bda577.json",
+					"name" : "as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c__pyext-3e1e29c40da9a09c6cc6.json",
+					"name" : "as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cpp-cf6b551a798ca785f015.json",
+					"name" : "as2_swarm_person_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__rosidl_typesupport_introspection_c-ec19be4ca52944d45484.json",
+					"name" : "as2_swarm_person_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__rosidl_typesupport_introspection_c__pyext-ae2f594ac385dee66e08.json",
+					"name" : "as2_swarm_person_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces__rosidl_typesupport_introspection_cpp-0ead34ce7cd0928d1359.json",
+					"name" : "as2_swarm_person_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_swarm_person_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_swarm_person_interfaces_uninstall-0d3fadbf037d9da31abc.json",
+					"name" : "as2_swarm_person_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-283f6e8e28ae831eacdc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/aerostack2_ws/build/as2_swarm_person_interfaces",
+		"source" : "/root/aerostack2_ws/src/aerostack2/as2_swarm_person_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

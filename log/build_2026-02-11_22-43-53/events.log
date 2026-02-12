@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.001073] (-) JobUnselected: {'identifier': 'aerostack2'}
+[0.001194] (-) JobUnselected: {'identifier': 'as2_alphanumeric_viewer'}
+[0.001293] (-) JobUnselected: {'identifier': 'as2_behavior'}
+[0.001390] (-) JobUnselected: {'identifier': 'as2_behavior_tree'}
+[0.001485] (-) JobUnselected: {'identifier': 'as2_behaviors_motion'}
+[0.001586] (-) JobUnselected: {'identifier': 'as2_behaviors_path_planning'}
+[0.001689] (-) JobUnselected: {'identifier': 'as2_behaviors_perception'}
+[0.001784] (-) JobUnselected: {'identifier': 'as2_behaviors_platform'}
+[0.001878] (-) JobUnselected: {'identifier': 'as2_behaviors_swarm_flocking'}
+[0.001972] (-) JobUnselected: {'identifier': 'as2_behaviors_trajectory_generation'}
+[0.002067] (-) JobUnselected: {'identifier': 'as2_cli'}
+[0.002161] (-) JobUnselected: {'identifier': 'as2_core'}
+[0.002256] (-) JobUnselected: {'identifier': 'as2_external_object_to_tf'}
+[0.002350] (-) JobUnselected: {'identifier': 'as2_gazebo_assets'}
+[0.002444] (-) JobUnselected: {'identifier': 'as2_geozones'}
+[0.002538] (-) JobUnselected: {'identifier': 'as2_groundray_perception'}
+[0.002639] (-) JobUnselected: {'identifier': 'as2_keyboard_teleoperation'}
+[0.002737] (-) JobUnselected: {'identifier': 'as2_map_server'}
+[0.002832] (-) JobUnselected: {'identifier': 'as2_motion_controller'}
+[0.002927] (-) JobUnselected: {'identifier': 'as2_motion_reference_handlers'}
+[0.003021] (-) JobUnselected: {'identifier': 'as2_msgs'}
+[0.003115] (-) JobUnselected: {'identifier': 'as2_perception'}
+[0.003208] (-) JobUnselected: {'identifier': 'as2_platform_gazebo'}
+[0.003300] (-) JobUnselected: {'identifier': 'as2_platform_multirotor_simulator'}
+[0.003396] (-) JobUnselected: {'identifier': 'as2_project_bringup'}
+[0.003489] (-) JobUnselected: {'identifier': 'as2_python_api'}
+[0.003584] (-) JobUnselected: {'identifier': 'as2_realsense_interface'}
+[0.003603] (-) JobUnselected: {'identifier': 'as2_rviz_plugins'}
+[0.003619] (-) JobUnselected: {'identifier': 'as2_state_estimator'}
+[0.003639] (-) JobUnselected: {'identifier': 'as2_swarm_ekf'}
+[0.003657] (-) JobUnselected: {'identifier': 'as2_swarm_fusion_ci'}
+[0.003674] (-) JobUnselected: {'identifier': 'as2_swarm_perception'}
+[0.003690] (-) JobUnselected: {'identifier': 'as2_swarm_person_interfaces'}
+[0.003706] (-) JobUnselected: {'identifier': 'as2_swarm_person_tracking'}
+[0.003722] (-) JobUnselected: {'identifier': 'as2_usb_camera_interface'}
+[0.003739] (-) JobUnselected: {'identifier': 'as2_visualization'}
+[0.003761] (as2_swarm_ci_fusion_people) JobQueued: {'identifier': 'as2_swarm_ci_fusion_people', 'dependencies': OrderedDict([('as2_swarm_person_interfaces', '/root/aerostack2_ws/install/as2_swarm_person_interfaces')])}
+[0.004416] (as2_swarm_ci_fusion_people) JobStarted: {'identifier': 'as2_swarm_ci_fusion_people'}
+[0.100766] (-) TimerEvent: {}
+[0.226141] (-) TimerEvent: {}
+[0.326640] (-) TimerEvent: {}
+[0.427338] (-) TimerEvent: {}
+[0.528610] (-) TimerEvent: {}
+[0.629176] (-) TimerEvent: {}
+[0.735127] (-) TimerEvent: {}
+[0.835819] (-) TimerEvent: {}
+[0.936807] (-) TimerEvent: {}
+[1.039045] (-) TimerEvent: {}
+[1.142704] (-) TimerEvent: {}
+[1.243030] (-) TimerEvent: {}
+[1.343373] (-) TimerEvent: {}
+[1.448736] (-) TimerEvent: {}
+[1.551145] (-) TimerEvent: {}
+[1.653957] (-) TimerEvent: {}
+[1.757049] (-) TimerEvent: {}
+[1.861694] (-) TimerEvent: {}
+[1.962479] (-) TimerEvent: {}
+[2.063290] (-) TimerEvent: {}
+[2.163804] (-) TimerEvent: {}
+[2.267266] (-) TimerEvent: {}
+[2.367953] (-) TimerEvent: {}
+[2.470661] (-) TimerEvent: {}
+[2.572765] (-) TimerEvent: {}
+[2.674703] (-) TimerEvent: {}
+[2.777068] (-) TimerEvent: {}
+[2.880487] (-) TimerEvent: {}
+[2.982747] (-) TimerEvent: {}
+[3.098807] (-) TimerEvent: {}
+[3.207926] (-) TimerEvent: {}
+[3.308549] (-) TimerEvent: {}
+[3.412704] (-) TimerEvent: {}
+[3.518017] (-) TimerEvent: {}
+[3.623695] (-) TimerEvent: {}
+[3.724798] (-) TimerEvent: {}
+[3.826008] (-) TimerEvent: {}
+[3.926993] (-) TimerEvent: {}
+[4.027935] (-) TimerEvent: {}
+[4.131722] (-) TimerEvent: {}
+[4.239927] (-) TimerEvent: {}
+[4.343768] (-) TimerEvent: {}
+[4.445812] (-) TimerEvent: {}
+[4.546367] (-) TimerEvent: {}
+[4.647106] (-) TimerEvent: {}
+[4.753243] (-) TimerEvent: {}
+[4.854188] (-) TimerEvent: {}
+[4.962064] (-) TimerEvent: {}
+[5.063710] (-) TimerEvent: {}
+[5.165059] (-) TimerEvent: {}
+[5.218379] (as2_swarm_ci_fusion_people) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/as2_swarm_ci_fusion_people', 'build', '--build-base', '/root/aerostack2_ws/build/as2_swarm_ci_fusion_people/build', 'install', '--record', '/root/aerostack2_ws/build/as2_swarm_ci_fusion_people/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/aerostack2_ws/src/aerostack2/as2_swarm_ci_fusion_people', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': '/root/aerostack2_ws/install/as2_gazebo_assets/lib:/opt/ros/humble/lib', 'GZ_SIM_RESOURCE_PATH': '/root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds:/root/aerostack2_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models:/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models', 'HOSTNAME': 'rafa-HP-Laptop-15s-fq4xxx', 'AS2_MODULES_PATH': '/root/aerostack2_ws/install/as2_python_api/share/as2_python_api/modules', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/aerostack2_ws/install/as2_swarm_person_interfaces/lib:/root/aerostack2_ws/install/as2_state_estimator/lib:/root/aerostack2_ws/install/as2_python_api/lib:/root/aerostack2_ws/install/as2_motion_controller/lib:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation/lib:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking/lib:/root/aerostack2_ws/install/as2_behaviors_motion/lib:/root/aerostack2_ws/install/as2_motion_reference_handlers/lib:/root/aerostack2_ws/install/as2_map_server/lib:/root/aerostack2_ws/install/as2_gazebo_assets/lib:/root/aerostack2_ws/install/as2_behaviors_perception/lib:/root/aerostack2_ws/install/as2_behaviors_path_planning/lib:/root/aerostack2_ws/install/as2_behavior_tree/lib:/root/aerostack2_ws/install/as2_behavior/lib:/root/aerostack2_ws/install/as2_core/lib:/root/aerostack2_ws/install/as2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'AEROSTACK2_WORKSPACE': '/root/aerostack2_ws', 'ROS_PYTHON_VERSION': '3', 'AEROSTACK2_PATH': '/root/aerostack2_ws/src/aerostack2', 'COLCON_PREFIX_PATH': '/root/aerostack2_ws/install', 'ROS_DISTRO': 'humble', 'AEROSTACK2_PROJECTS': '/root/aerostack2_ws/src/aerostack2/projects/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'AEROSTACK2_SIMULATION_DRONE_ID': 'drone_sim__0', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/aerostack2_ws/src/aerostack2/as2_cli/:/root/aerostack2_ws/src/aerostack2/as2_cli/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/aerostack2_ws/install/as2_swarm_person_tracking:/root/aerostack2_ws/install/as2_swarm_ci_fusion_people:/root/aerostack2_ws/install/as2_swarm_person_interfaces:/root/aerostack2_ws/install/rmf_demos_gz_classic:/root/aerostack2_ws/install/rmf_demos_gz:/root/aerostack2_ws/install/rmf_demos:/root/aerostack2_ws/install/rmf_demos_tasks:/root/aerostack2_ws/install/rmf_demos_panel:/root/aerostack2_ws/install/rmf_demos_maps:/root/aerostack2_ws/install/rmf_demos_fleet_adapter:/root/aerostack2_ws/install/rmf_demos_dashboard_resources:/root/aerostack2_ws/install/rmf_demos_bridges:/root/aerostack2_ws/install/rmf_demos_assets:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_visualization:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_swarm_perception:/root/aerostack2_ws/install/as2_swarm_fusion_ci:/root/aerostack2_ws/install/as2_swarm_ekf:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_keyboard_teleoperation:/root/aerostack2_ws/install/as2_python_api:/root/aerostack2_ws/install/as2_project_bringup:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_perception:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/as2_groundray_perception:/root/aerostack2_ws/install/as2_cli:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GZ_VERSION': 'fortress', 'PWD': '/root/aerostack2_ws/build/as2_swarm_ci_fusion_people', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/aerostack2_ws/build/as2_swarm_ci_fusion_people/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_swarm_person_tracking/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_swarm_person_interfaces/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/rmf_demos_tasks/lib/python3.10/site-packages:/root/aerostack2_ws/install/rmf_demos_panel/lib/python3.10/site-packages:/root/aerostack2_ws/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:/root/aerostack2_ws/install/rmf_demos_bridges/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_visualization/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_swarm_perception/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_swarm_fusion_ci/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_swarm_ekf/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_keyboard_teleoperation/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_python_api/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_project_bringup/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_perception/lib/python3.10/site-packages:/root/aerostack2_ws/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_core/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_msgs/local/lib/python3.10/dist-packages:/root/aerostack2_ws/install/as2_groundray_perception/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/aerostack2_ws/install/as2_swarm_person_interfaces:/root/aerostack2_ws/install/rmf_demos_gz_classic:/root/aerostack2_ws/install/rmf_demos_gz:/root/aerostack2_ws/install/rmf_demos:/root/aerostack2_ws/install/rmf_demos_maps:/root/aerostack2_ws/install/aerostack2:/root/aerostack2_ws/install/as2_usb_camera_interface:/root/aerostack2_ws/install/as2_state_estimator:/root/aerostack2_ws/install/as2_rviz_plugins:/root/aerostack2_ws/install/as2_realsense_interface:/root/aerostack2_ws/install/as2_platform_multirotor_simulator:/root/aerostack2_ws/install/as2_platform_gazebo:/root/aerostack2_ws/install/as2_motion_controller:/root/aerostack2_ws/install/as2_behaviors_trajectory_generation:/root/aerostack2_ws/install/as2_behaviors_swarm_flocking:/root/aerostack2_ws/install/as2_behaviors_motion:/root/aerostack2_ws/install/as2_motion_reference_handlers:/root/aerostack2_ws/install/as2_map_server:/root/aerostack2_ws/install/as2_geozones:/root/aerostack2_ws/install/as2_gazebo_assets:/root/aerostack2_ws/install/as2_external_object_to_tf:/root/aerostack2_ws/install/as2_behaviors_platform:/root/aerostack2_ws/install/as2_behaviors_perception:/root/aerostack2_ws/install/as2_behaviors_path_planning:/root/aerostack2_ws/install/as2_behavior_tree:/root/aerostack2_ws/install/as2_behavior:/root/aerostack2_ws/install/as2_alphanumeric_viewer:/root/aerostack2_ws/install/as2_core:/root/aerostack2_ws/install/as2_msgs:/root/aerostack2_ws/install/as2_cli'}, 'shell': False}
+[5.266331] (-) TimerEvent: {}
+[5.367144] (-) TimerEvent: {}
+[5.475443] (-) TimerEvent: {}
+[5.577445] (-) TimerEvent: {}
+[5.681354] (-) TimerEvent: {}
+[5.804720] (-) TimerEvent: {}
+[5.905296] (-) TimerEvent: {}
+[6.006297] (-) TimerEvent: {}
+[6.107331] (-) TimerEvent: {}
+[6.208370] (-) TimerEvent: {}
+[6.309703] (-) TimerEvent: {}
+[6.416806] (-) TimerEvent: {}
+[6.517631] (-) TimerEvent: {}
+[6.618693] (-) TimerEvent: {}
+[6.719589] (-) TimerEvent: {}
+[6.821939] (-) TimerEvent: {}
+[6.922709] (-) TimerEvent: {}
+[7.026969] (-) TimerEvent: {}
+[7.128685] (-) TimerEvent: {}
+[7.231721] (-) TimerEvent: {}
+[7.332958] (-) TimerEvent: {}
+[7.441999] (-) TimerEvent: {}
+[7.542663] (-) TimerEvent: {}
+[7.643115] (-) TimerEvent: {}
+[7.658070] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'running egg_info\n'}
+[7.659984] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'writing ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/PKG-INFO\n'}
+[7.661002] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'writing dependency_links to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/dependency_links.txt\n'}
+[7.661539] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'writing entry points to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/entry_points.txt\n'}
+[7.662058] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'writing requirements to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/requires.txt\n'}
+[7.675006] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'writing top-level names to ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/top_level.txt\n'}
+[7.691733] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b"reading manifest file '../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/SOURCES.txt'\n"}
+[7.692380] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b"writing manifest file '../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info/SOURCES.txt'\n"}
+[7.692933] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'running build\n'}
+[7.693496] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'running build_py\n'}
+[7.698403] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'running install\n'}
+[7.699063] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'running install_lib\n'}
+[7.714703] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'running install_data\n'}
+[7.715418] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'copying launch/swarm_ci_fusion_people.launch.py -> /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/share/as2_swarm_ci_fusion_people/launch\n'}
+[7.715967] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.722356] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b"removing '/root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.723087] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'Copying ../../../build/as2_swarm_ci_fusion_people/as2_swarm_ci_fusion_people.egg-info to /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/python3.10/site-packages/as2_swarm_ci_fusion_people-0.0.0-py3.10.egg-info\n'}
+[7.736808] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'running install_scripts\n'}
+[7.744694] (-) TimerEvent: {}
+[7.847849] (-) TimerEvent: {}
+[7.863407] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b'Installing swarm_ci_fusion_people_node script to /root/aerostack2_ws/install/as2_swarm_ci_fusion_people/lib/as2_swarm_ci_fusion_people\n'}
+[7.869804] (as2_swarm_ci_fusion_people) StdoutLine: {'line': b"writing list of installed files to '/root/aerostack2_ws/build/as2_swarm_ci_fusion_people/install.log'\n"}
+[7.949714] (-) TimerEvent: {}
+[8.050065] (-) TimerEvent: {}
+[8.121226] (as2_swarm_ci_fusion_people) CommandEnded: {'returncode': 0}
+[8.150144] (-) TimerEvent: {}
+[8.159913] (as2_swarm_ci_fusion_people) JobEnded: {'identifier': 'as2_swarm_ci_fusion_people', 'rc': 0}
+[8.164032] (-) EventReactorShutdown: {}

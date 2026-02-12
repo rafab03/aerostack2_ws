@@ -1,0 +1,1 @@
+/root/aerostack2_ws/build/as2_swarm_person_interfaces/ament_cmake_environment_hooks/local_setup.zsh

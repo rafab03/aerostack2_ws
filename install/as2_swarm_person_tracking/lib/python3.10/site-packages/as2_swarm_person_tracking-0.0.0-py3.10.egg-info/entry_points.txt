@@ -1,0 +1,3 @@
+[console_scripts]
+multi_person_tracker_node = as2_swarm_person_tracking.multi_person_tracker_node:main
+
