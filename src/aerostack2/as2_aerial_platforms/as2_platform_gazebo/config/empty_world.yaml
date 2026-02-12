@@ -7,13 +7,13 @@ drones:
   - model_name: "drone0"
     model_type: "quadrotor_base"
     xyz:
-      - 0.0
+      - 2.0
       - 2.0
       - 0.3
     rpy:
       - 0
       - 0
-      - 0.0
+      - 30.0
     flight_time: 60
     payload:
 
@@ -37,7 +37,7 @@ drones:
     rpy:
       - 0
       - 0
-      - 0.0
+      - -90.0
     flight_time: 60
     payload:
 
@@ -53,13 +53,13 @@ drones:
   - model_name: "drone2"
     model_type: "quadrotor_base"
     xyz:
-      - 0.0
+      - 2.0
       - -2.0
       - 0.3
     rpy:
       - 0
       - 0
-      - 0.0
+      - 30.0
     flight_time: 60
     payload:
       - model_name: "gps_d2"
